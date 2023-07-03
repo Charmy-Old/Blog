@@ -309,9 +309,10 @@
         font-family: "Henny Penny";
         font-size: 48px;
         font-weight: 900;
+        width: fit-content;
         line-height: 180px;
         color: #26273B;
-        text-align: center;
+        margin: auto;
     }
 
     @media screen and (max-width: 991px) {

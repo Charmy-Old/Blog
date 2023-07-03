@@ -100,15 +100,6 @@
     margin: 1.25rem 0;
 }
 
-.sideProject-projectContent a {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    transition: all 0.5s ease;
-}
-
 .sideProject-projectContent a:hover {
     color: brown;
 }
@@ -184,5 +175,16 @@
 
     .article-underline {
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .sideProject-projectContent a {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: all 0.5s ease;
     }
 }

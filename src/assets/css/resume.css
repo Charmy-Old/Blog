@@ -142,15 +142,6 @@
     margin: 1.25rem 0;
 }
 
-.resume-projectContent a {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    transition: all 0.5s ease;
-}
-
 .resume-projectContent a:hover {
     color: brown;
 }
@@ -272,5 +263,18 @@
 
     .resume-projectText {
         width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 500px) {
+    .resume-projectContent a {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transition: all 0.5s ease;
     }
 }

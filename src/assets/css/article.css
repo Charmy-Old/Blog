@@ -47,15 +47,6 @@
     margin: 0 0.75rem;
 }
 
-.article-content {
-    min-height: 96px;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 .article-underline {
     width: 0;
     height: 2px;
@@ -140,4 +131,17 @@
 
 .article-top .article-title {
     font-size: 36px;
+}
+
+
+
+@media screen and (min-width: 500px) {
+    .article-content {
+        min-height: 96px;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }
