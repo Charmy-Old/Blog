@@ -1,0 +1,181 @@
+/* ========================================   文章內容   ======================================== */
+.article-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-heading h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.article-heading p {
+    align-self: flex-end;
+}
+
+.article-heading p i {
+    margin: 0 0.75rem;
+}
+
+
+.article-detailLine {
+    width: 0;
+    height: 2px;
+    margin: 0.5rem 0 1.5rem;
+    background-color: #26273B;
+    transition: all 0.5s ease;
+}
+
+.article:hover .article-detailLine {
+    width: 100%;
+}
+
+
+
+.article-detail:hover .article-detailLine {
+    width: 100%;
+}
+
+.article-detail h3 {
+    font-size: 24px;
+}
+
+.article-detail h4 {
+    font-size: 22px;
+    margin: 0.75rem 0;
+}
+
+.article-detail p {
+    /* margin: 0.5rem 0; */
+    margin: 1.5rem 0;
+}
+
+.article-detail p i {
+    color: #20B2AA;
+    margin: 0 0.75rem;
+}
+
+.article-pic {
+    /* width: 100%; */
+    margin: 1.5rem 0;
+}
+
+.article-pic img {
+    width: 100%;
+}
+
+.article-txt {
+    margin: 1.5rem 0;
+}
+
+.article-list {
+    margin: 1.5rem 0;
+}
+
+.article-list li {
+    margin: 0.5rem 0;
+}
+
+.article-table {
+    margin: 1.5rem 0;
+}
+
+.article-code {
+    margin: 1.5rem 0;
+}
+
+.article-coding {
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 15px;
+    /* margin: 1.5rem 0; */
+    padding: 1rem;
+}
+
+.article-codeResult {
+    color: #26273B;
+    background-color: #D3D3D3;
+    border-radius: 15px;
+    /* margin: 1.5rem 0; */
+    padding: 1rem;
+}
+
+.article-coding pre code {
+    line-height: 0.5;
+}
+
+.article-detail .article-coding pre code p {
+    line-height: 1;
+}
+
+.article-coding .console {
+    color: #777777;
+}
+
+.article-coding .annotation {
+    color: #777777;
+}
+
+.article-table table {
+    width: 100%;
+}
+
+.article-table table th, .article-table table td {
+    border: 2px #26273B solid;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.5rem;
+}
+
+.article-detail .article-reference {
+    color: aqua;
+    display: block;
+    margin: 0.5rem 0;
+    transition: all 0.5s ease;
+}
+
+.article-detail .article-reference:hover {
+    color: brown;
+}
+
+.article-detail .article-reference i {
+    margin: 0 0.75rem;
+}
+
+/* 768px */
+@media screen and (max-width: 1200px) {
+    .article-heading {
+        display: block;
+    }
+
+    .article-heading h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .article-detail h3 {
+        font-size: 20px;
+    }
+
+    .article-detail h4 {
+        font-size: 18px;
+    }
+
+    .article-heading p {
+        text-align: end;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .article-detailLine {
+        width: 100%;
+    }
+
+    .article-table table th, .article-table table td {
+        width: calc(100%/3);
+        border: 2px #26273B solid;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0.1rem;
+    }
+}

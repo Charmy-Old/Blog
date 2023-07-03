@@ -1,0 +1,143 @@
+.article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-icon {
+    font-size: 96px;
+    width: 25%;
+    text-align: center;
+    align-self: center;
+    transition: all 0.5s ease;
+}
+
+.article:hover .article-icon {
+    font-size: 128px;
+}
+
+.article-text {
+    width: 70%;
+    margin: 1rem 0;
+    transition: all 0.5s ease;
+}
+
+.article:hover .article-text {
+    color: #000000;
+}
+
+.article-title {
+    font-size: 20px;
+}
+
+.article-tag {
+    font-size: 15px;
+    color: #D3D3D3;
+    display: flex;
+    align-items: center;
+    margin: 0.25rem 0 0.5rem;
+    gap: 1%;
+    transition: all 0.5s ease;
+}
+
+.article:hover .article-tag {
+    color: #26273B;
+}
+
+.article-tag i {
+    margin: 0 0.75rem;
+}
+
+.article-content {
+    min-height: 96px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.article-underline {
+    width: 0;
+    height: 2px;
+    margin: 0.5rem 0;
+    background-color: #26273B;
+    transition: all 0.5s ease;
+}
+
+.article:hover .article-underline {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .article-icon {
+        font-size: 72px;
+    }
+    
+    .article:hover .article-icon {
+        font-size: 96px;
+    }
+
+    .article-title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .article {
+        display: block;
+    }
+
+    .article-icon {
+        width: 100%;
+    }
+
+    .article:hover .article-icon {
+        font-size: 72px;
+    }
+
+    .article-text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .article-underline {
+        width: 100%;
+    }
+}
+
+.select-button {
+    width: 110px;
+    font-weight: 900;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s ease;
+}
+
+.select-button:hover {
+    color: #FFFFFF;
+}
+
+.article-top {
+    display: flex;
+    justify-content: center;
+}
+
+.article-top .article-icon {
+    font-size: 48px;
+    width: fit-content;
+    margin: 0 1rem;
+}
+
+
+.article-top .article-text {
+    width: fit-content;
+    align-self: center;
+    margin: 0 1rem;
+}
+
+.article-top .article-title {
+    font-size: 36px;
+}

@@ -1,0 +1,188 @@
+.sideProject-underline {
+    width: 0;
+    height: 2px;
+    margin: 0.75rem 0;
+    background-color: #26273B;
+    transition: all 0.5s ease;
+}
+
+.sideProject:hover .sideProject-underline {
+    width: 100%;
+}
+
+.sideProject-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideProject-title h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* .sideProject-title p {
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+.sideProject-title p i {
+    margin: 0 0.75rem;
+} */
+
+.sideProject-project h3 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.sideProject-projectBlock {
+    border: 1px #26273B solid;
+    border-radius: 15px;
+    margin: 2.5rem 0;
+    padding: 1rem 0.5rem;
+}
+
+.sideProject-projectPic {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.sideProject-projectPic img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all .3s linear;
+}
+
+.sideProject-projectBlock:hover .sideProject-projectPic img {
+    overflow: hidden;
+    transform: scale(1);
+}
+
+.sideProject-projectText {
+    width: 75%;
+    margin: 2.5rem auto;
+    transition: all 0.5s ease;
+}
+
+.sideProject-projectTitle {
+    font-size: 20px;
+}
+
+.sideProject-projectTag {
+    font-size: 15px;
+    color: #D3D3D3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    gap: 1%;
+    transition: all 0.5s ease;
+}
+
+.sideProject-projectBlock:hover .sideProject-projectTag {
+    color: #26273B;
+}
+
+.sideProject-projectTag span {
+    margin: 0 0 0 auto;
+}
+
+.sideProject-projectTag p i {
+    margin: 0 0.75rem;
+}
+
+.sideProject-projectTag span i {
+    margin: 0 0.75rem;
+}
+
+.sideProject-projectContent {
+    margin: 1.25rem 0;
+}
+
+.sideProject-projectContent a {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.5s ease;
+}
+
+.sideProject-projectContent a:hover {
+    color: brown;
+}
+
+.sideProject-projectLink {
+    display: flex;
+    text-align: right;
+    margin: 1.5rem 0 0 0;
+}
+
+.sideProject-projectLink p {
+    transform: translateX(0.25rem);
+    transition: all 0.5s ease;
+}
+
+.sideProject-projectBlock:hover .sideProject-projectLink p {
+    transform: translateX(1.5rem);
+}
+
+.sideProject-projectLink:hover {
+    color: brown !important;
+}
+
+.sideProject-projectLink a {
+    margin: 0 1rem 0 0;
+    transition: all 0.5s ease;
+}
+
+.sideProject-projectLink a:hover {
+    color: brown !important;
+}
+
+.sideProject-projectBlock:hover .article-underline {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .sideProject-title h2 {
+        font-size: 24px;
+    }
+
+    .sideProject-project h3 {
+        font-size: 20px;
+    }
+
+    .sideProject-projectPic {
+        font-size: 72px;
+    }
+    
+    .sideProject-projectBlock:hover .sideProject-projectPic {
+        font-size: 96px;
+    }
+
+    .sideProject-projectTitle {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .sideProject-projectPic {
+        width: 100%;
+    }
+
+    .sideProject-projectText {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sideProject-underline {
+        width: 100%;
+    }
+
+    .article-underline {
+        width: 100%;
+    }
+}

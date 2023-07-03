@@ -1,0 +1,98 @@
+@import url(../resume.css);
+@import url(../side-project.css);
+@import url(../article.css);
+@import url(../article-detail.css);
+
+/* ========================================   通用   ======================================== */
+body {
+    font-family: 'David Libre', serif, '微軟正黑體';
+    background-color: #D3D3D3;
+    line-height: 1.5;
+}
+
+a, a:hover, a:visited, a:link, a:active {
+    color:#000;
+    text-decoration:none;
+    outline: none;
+}
+
+li i {
+    color: #20B2AA;
+    margin: 0 0.75rem;
+}
+
+pre {
+    line-height: 3.5;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+
+@media screen and (max-width: 991px) {
+    .content {
+        display: block;
+        transform: translateY(-80px);
+    }
+}
+
+main {
+    font-weight: 700;
+    width: 75%;
+    max-width: 900px;
+    margin: 0 0 0 auto;
+    padding: 0.25rem;
+    order: 2;
+}
+
+@media screen and (max-width: 991px) {
+    main {
+        width: 100%;
+        max-width: 100%;
+        padding: 1rem;
+    }
+}
+
+section {
+    background-color: #FFFFFF;
+    border: 2px #26273B solid;
+    border-radius: 10px;
+    margin-bottom: 2.5rem !important;
+    padding: 0.5rem;
+}
+
+.content {
+    color: #26273B;
+}
+
+/* ========================================   網頁卷軸   ======================================== */
+::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+  
+/* 網頁捲軸【背景】 */
+::-webkit-scrollbar-track {
+    background-color: #D3D3D3;
+}
+  
+/* 網頁捲軸【把手】 */
+::-webkit-scrollbar-thumb {
+    background-color: #26273B;
+    border-radius: 50px;
+}
+  
+/* 網頁捲軸【滑過時】 */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #FFFFFF;
+}
+
+
+
+.lorem {
+    border: 1px #26273B solid;
+}

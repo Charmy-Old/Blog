@@ -1,0 +1,276 @@
+.resume-underline {
+    width: 0;
+    height: 2px;
+    margin: 0.75rem 0;
+    background-color: #26273B;
+    transition: all 0.5s ease;
+}
+
+.resume:hover .resume-underline {
+    width: 100%;
+}
+
+.resume-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-title h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.resume-title p {
+    align-self: flex-end;
+}
+
+.resume-title p i {
+    margin: 0 0.75rem;
+}
+
+.resume-introduce h3 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.resume-education h3 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.resume-education p {
+    margin: 0.75rem 0;
+}
+
+.resume-education p span {
+    float: right;
+}
+
+.resume-education p span i {
+    margin: 0 0.75rem;
+}
+
+.resume-expertise h3 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.resume-expertiseDetail {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume-expertiseDetail span {
+    font-size: 15px;
+    width: fit-content;
+    display: block;
+    margin: 0.75rem 1.5rem 0 0;
+}
+
+.resume-expertiseDetail span i {
+    margin: 0 0.75rem 0 0;
+}
+
+.resume-project h3 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.resume-projectBlock {
+    border: 1px #26273B solid;
+    border-radius: 15px;
+    margin: 2.5rem 0;
+    padding: 1rem 0.5rem;
+}
+
+.resume-projectPic {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.resume-projectPic img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all .3s linear;
+}
+
+.resume-projectBlock:hover .resume-projectPic img {
+    overflow: hidden;
+    transform: scale(1);
+}
+
+.resume-projectText {
+    width: 75%;
+    margin: 2.5rem auto;
+    transition: all 0.5s ease;
+}
+
+.resume-projectTitle {
+    font-size: 20px;
+}
+
+.resume-projectTag {
+    font-size: 15px;
+    color: #D3D3D3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    gap: 1%;
+    transition: all 0.5s ease;
+}
+
+.resume-projectBlock:hover .resume-projectTag {
+    color: #26273B;
+}
+
+.resume-projectTag span {
+    margin: 0 0 0 auto;
+}
+
+.resume-projectTag p i {
+    margin: 0 0.75rem;
+}
+
+.resume-projectTag span i {
+    margin: 0.75rem;
+}
+
+.resume-projectContent {
+    margin: 1.25rem 0;
+}
+
+.resume-projectContent a {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.5s ease;
+}
+
+.resume-projectContent a:hover {
+    color: brown;
+}
+
+.resume-projectLink {
+    display: flex;
+    text-align: right;
+    margin: 1.5rem 0 0 0;
+}
+
+.resume-projectLink p {
+    transform: translateX(0.25rem);
+    transition: all 0.5s ease;
+}
+
+.resume-projectBlock:hover .resume-projectLink p {
+    color: brown !important;
+    transform: translateX(1.5rem);
+}
+
+
+.resume-projectLink:hover {
+    color: brown !important;
+}
+
+.resume-projectLink a {
+    margin: 0 1rem 0 0;
+    transition: all 0.5s ease;
+}
+
+.resume-projectLink a:hover {
+    color: brown !important;
+}
+
+
+
+
+/* .resume-projectLink span {
+    display: block;
+    transform: translateX(0);
+    transition: all 0.5s ease;
+}
+
+.resume-projectLink:hover .resume-projectLink span {
+    transform: translateX(1rem);
+    color: #D3D3D3;
+} */
+
+.resume-experience h3 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.resume-job {
+    margin: 2rem 0;
+}
+
+.resume-jobTitle {
+    margin: 1.75rem 0;
+}
+
+.resume-jobTitle h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.resume-jobTitle h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.resume-jobContent {
+    margin: 1.75rem 0;
+}
+
+.resume-jobProject {
+    margin: 1.25rem 0;
+}
+
+.resume-projectBlock:hover .article-underline {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .resume-title {
+        display: block;
+    }
+    
+    .resume-title h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .resume-title p {
+        text-align: end;
+    }
+
+    .resume-introduce h3 {
+        font-size: 20px;
+    }
+
+    .resume-projectPic {
+        font-size: 72px;
+    }
+    
+    .resume-projectBlock:hover .resume-projectPic {
+        font-size: 96px;
+    }
+
+    .resume-projectTitle {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .resume-projectPic {
+        width: 100%;
+    }
+
+    .resume-projectText {
+        width: 100%;
+    }
+}
