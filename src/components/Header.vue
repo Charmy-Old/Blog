@@ -318,6 +318,8 @@
         .title {
             font-size: 36px;
             line-height: 80px;
+            position: relative;
+            z-index: 10000;
             transform: translateY(-80px);
         }
     }
