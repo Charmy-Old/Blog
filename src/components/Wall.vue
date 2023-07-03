@@ -107,7 +107,6 @@
     }
 
     .resumeProfile a img {
-        width: 70%;
         text-align: center;
         transform: scale(1);
         transition: all .3s linear;
@@ -137,10 +136,6 @@
 
     .resumeProfile {
         width: 40%;
-    }
-
-    .resumeProfile a img {
-        width: 100%;
     }
 
     .resumeName {
