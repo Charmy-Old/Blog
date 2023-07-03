@@ -72,20 +72,18 @@
                     <h3>作品：</h3>
                     <div class="resume-underline"></div>
 
-                    <!-- Pangolin Clothing -->
+                    <!-- BLOG -->
                     <div class="resume-projectBlock">
                         <div class="resume-projectText">
-                            <div class="resume-projectTitle">Pangolin Clothing</div>
+                            <div class="resume-projectTitle">個人 BLOG</div>
                             <div class="resume-projectTag">
                                 <p>使用技術：</p>
                                 <p><i class="fa-solid fa-tag"></i>HTML</p>
                                 <p><i class="fa-solid fa-tag"></i>CSS</p>
                                 <p><i class="fa-solid fa-tag"></i>JavaScript</p>
                                 <p><i class="fa-solid fa-tag"></i>Vue</p>
-                                <p><i class="fa-solid fa-tag"></i>PHP</p>
-                                <p><i class="fa-solid fa-tag"></i>PostgreSQL</p>
                                 <span>
-                                    <i class="fa-sharp fa-solid fa-calendar-days"></i>2023/05~進行中
+                                    <i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06~進行中
                                 </span>
                             </div>
                             <div class="article-underline"></div>
@@ -97,6 +95,35 @@
                             </div>
                             <div class="resume-projectLink">
                                 <a href="https://pangolin-clothing.onrender.com/">前往網站</a>
+                                <p>→</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pangolin Clothing -->
+                    <div class="resume-projectBlock">
+                        <div class="resume-projectText">
+                            <div class="resume-projectTitle">Pangolin Clothing 網站練習</div>
+                            <div class="resume-projectTag">
+                                <p>使用技術：</p>
+                                <p><i class="fa-solid fa-tag"></i>HTML</p>
+                                <p><i class="fa-solid fa-tag"></i>CSS</p>
+                                <p><i class="fa-solid fa-tag"></i>JavaScript</p>
+                                <p><i class="fa-solid fa-tag"></i>Vue</p>
+                                <p><i class="fa-solid fa-tag"></i>PHP</p>
+                                <p><i class="fa-solid fa-tag"></i>PostgreSQL</p>
+                                <span>
+                                    <i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06~進行中
+                                </span>
+                            </div>
+                            <div class="article-underline"></div>
+                            <div class="resume-projectContent">
+                                <p>Vue-CLI 進行BLOG撰寫，其中使用Vue composition api方式撰寫，部屬至GitHub後使用render取得網址。</p>
+                                <p>除了自我介紹，會整理一些前端文章等等，並持續思考該如何使網站更加豐富</p>
+                                <p>GitHub：<a href="https://github.com/Charmying/blog">https://github.com/Charmying/blog</a></p>
+                            </div>
+                            <div class="resume-projectLink">
+                                <a href="https://charmying-blog.onrender.com/">前往網站</a>
                                 <p>→</p>
                             </div>
                         </div>
