@@ -41,6 +41,8 @@
                         <div class="article-underline"></div>
                         <div class="article-content">
                             <p>HTML &lt;table&gt; 標籤 (tag) 用來建立表格，也就是用來呈現二維的資料表資訊。</p>
+                            <p>&lt;table&gt; 標籤做為表格的容器 (container)，裡面有不同用途的標籤像是 &lt;tr&gt;, &lt;td&gt; 組成一個完整的表格。</p>
+                            <p>&lt;table&gt;中的標籤按照以下順序，組成一個表格：</p>
                         </div>
                     </div>
                 </a>

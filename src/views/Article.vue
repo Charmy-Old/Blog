@@ -152,8 +152,8 @@
                             <p>在現代的網站中，使用他人開放原始碼的套件輔助開發已經是稀鬆平常的事情，無論是透過套件加速堆砌產品，或是在開發環境中加上協助工程師的各式工具，只需要稍加設定，一個專案便能輕易加載了成千上萬的外部程式；但如此方便的機制，究竟是怎麼實現的呢？</p>
                             <p>npm 即為 Node Package Manager 的縮寫，開發者可以透過 Node 隨附的 npm cli，進行套件的安裝及管理。</p>
                             <p>在程式開發的領域中，有許多開發者會開發好用的 JavaScript 工具，分享給大家使用。像是多數人熟知的 jQuery, Express, Vue, React 等等，實際上還有更多更多的工具包可以使用。為了把這些工具都統整在一個地方，讓開發者方便搜尋和使用，於是就有了 Node 套件管理器。</p>
-                        <p>例如在專案資料夾的終端機中輸入 npm install express，npm 便會自動從 Registry 中尋找 express 這個非常熱門的 Node.js Web Server 框架，取得最新版本，下載到專案中的 node_modules 資料夾中。</p>
-                        <p>然而在專案中，不可能每次都透過開發者自行指定套件安裝，不但無法管理，也很沒有效率；開發者可以透過專案中的 package.json，羅列出專案需要哪些套件，之後安裝時只需要 npm install，npm 便會自動依照 package.json 的內容下載套件。</p>
+                            <p>例如在專案資料夾的終端機中輸入 npm install express，npm 便會自動從 Registry 中尋找 express 這個非常熱門的 Node.js Web Server 框架，取得最新版本，下載到專案中的 node_modules 資料夾中。</p>
+                            <p>然而在專案中，不可能每次都透過開發者自行指定套件安裝，不但無法管理，也很沒有效率；開發者可以透過專案中的 package.json，羅列出專案需要哪些套件，之後安裝時只需要 npm install，npm 便會自動依照 package.json 的內容下載套件。</p>
                         </div>
                     </div>
                 </a>
@@ -220,6 +220,8 @@
                         <div class="article-underline"></div>
                         <div class="article-content">
                             <p>HTML &lt;table&gt; 標籤 (tag) 用來建立表格，也就是用來呈現二維的資料表資訊。</p>
+                            <p>&lt;table&gt; 標籤做為表格的容器 (container)，裡面有不同用途的標籤像是 &lt;tr&gt;, &lt;td&gt; 組成一個完整的表格。</p>
+                            <p>&lt;table&gt;中的標籤按照以下順序，組成一個表格：</p>
                         </div>
                     </div>
                 </a>
