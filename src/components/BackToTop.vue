@@ -6,7 +6,7 @@
     justify-content: center;   
     align-items: center;   
     position: fixed;
-    bottom: 40px;
+    bottom: 100px;
     right: 40px;
     z-index: 9999;
     border-radius: 50%;

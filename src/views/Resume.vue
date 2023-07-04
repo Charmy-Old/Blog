@@ -88,13 +88,15 @@
                             </div>
                             <div class="article-underline"></div>
                             <div class="resume-projectContent">
-                                <p>Vue-CLI 進行網站練習，其中使用Vue composition api方式撰寫，登入功能使用PHP fetch PostgreSQL完成，部屬至GitHub後使用render取得網址。</p>
-                                <p>帳號密碼為charmy000@gmail.com和charmy000或Johnny000@gmail.com和Johnny000</p>
-                                <p>商品內頁和加入會員及忘記密碼功能等尚未完成</p>
-                                <p>GitHub：<a href="https://github.com/Charmying/pangolin-clothing">https://github.com/Charmying/pangolin-clothing</a></p>
+                                <p>Vue-CLI 進行BLOG撰寫，其中使用Vue composition api方式撰寫，部屬至GitHub後使用render取得網址。</p>
+                                <p>除了自我介紹，會整理一些前端文章等等，並持續思考該如何使網站更加豐富</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://pangolin-clothing.onrender.com/">前往網站</a>
+                                <a href="https://github.com/Charmying/blog">Pangolin Clothing 網站練習 GitHub</a>
+                                <p>→</p>
+                            </div>
+                            <div class="resume-projectLink">
+                                <a href="https://charmying-blog.onrender.com/">前往網站</a>
                                 <p>→</p>
                             </div>
                         </div>
@@ -118,12 +120,16 @@
                             </div>
                             <div class="article-underline"></div>
                             <div class="resume-projectContent">
-                                <p>Vue-CLI 進行BLOG撰寫，其中使用Vue composition api方式撰寫，部屬至GitHub後使用render取得網址。</p>
-                                <p>除了自我介紹，會整理一些前端文章等等，並持續思考該如何使網站更加豐富</p>
-                                <p>GitHub：<a href="https://github.com/Charmying/blog">https://github.com/Charmying/blog</a></p>
+                                <p>Vue-CLI 進行網站練習，其中使用Vue composition api方式撰寫，登入功能使用PHP fetch PostgreSQL完成，部屬至GitHub後使用render取得網址。</p>
+                                <p>帳號密碼為charmy000@gmail.com和charmy000或Johnny000@gmail.com和Johnny000</p>
+                                <p>商品內頁和加入會員及忘記密碼功能等尚未完成</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://charmying-blog.onrender.com/">前往網站</a>
+                                <a href="https://github.com/Charmying/pangolin-clothing">Pangolin Clothing 網站練習 GitHub</a>
+                                <p>→</p>
+                            </div>
+                            <div class="resume-projectLink">
+                                <a href="https://pangolin-clothing.onrender.com/">前往網站</a>
                                 <p>→</p>
                             </div>
                         </div>
@@ -145,8 +151,14 @@
                             <div class="article-underline"></div>
                             <div class="resume-projectContent">
                                 <p>用vue composition api 完成簡易工程計算機功能</p>
-                                <p>GitHub<a href="https://github.com/Charmying/Engineering-Calculator">https://github.com/Charmying/Engineering-Calculator</a></p>
-                                <p>CodePen<a href="https://codepen.io/Charmy_ing/pen/yLQBLMw">https://codepen.io/Charmy_ing/pen/yLQBLMw</a></p>
+                            </div>
+                            <div class="resume-projectLink">
+                                <a href="https://github.com/Charmying/Engineering-Calculator">工程計算機 GitHub</a>
+                                <p>→</p>
+                            </div>
+                            <div class="resume-projectLink">
+                                <a href="https://codepen.io/Charmy_ing/pen/yLQBLMw">工程計算機 CodePen</a>
+                                <p>→</p>
                             </div>
                             <div class="resume-projectLink">
                                 <a href="https://charmying.github.io/Engineering-Calculator/">前往網站</a>
@@ -171,14 +183,19 @@
                             <div class="article-underline"></div>
                             <div class="resume-projectContent">
                                 <p>HTML CSS JavaScript 寫出備忘錄，備忘錄輸入時需填入日期及時間並存入LocalStorage，時間到時會彈窗提醒。</p>
-                                <p>GitHub<a href="https://github.com/Charmying/Todo-List">https://github.com/Charmying/Todo-List</a></p>
-                                <p>CodePen<a href="https://codepen.io/Charmy_ing/pen/RwBeNRz">https://codepen.io/Charmy_ing/pen/RwBeNRz</a></p>
+                            </div>
+                            <div class="resume-projectLink">
+                                <a href="https://github.com/Charmying/Todo-List/">備忘錄 GitHub</a>
+                                <p>→</p>
+                            </div>
+                            <div class="resume-projectLink">
+                                <a href="https://codepen.io/Charmy_ing/pen/RwBeNRz">備忘錄 CodePen</a>
+                                <p>→</p>
                             </div>
                             <div class="resume-projectLink">
                                 <a href="https://charmying.github.io/Todo-List/">前往網站</a>
                                 <p>→</p>
                             </div>
-                            
                         </div>
                     </div>
 
@@ -204,7 +221,10 @@
                                 <p>負責項目：</p>
                                 <p>網站前台：會員登入、註冊、忘記密碼和無尾熊小遊戲</p>
                                 <p>網站後台：管理員的登入註冊。</p>
-                                <p>簡報：<a href="https://docs.google.com/presentation/d/1giVj9XMnIGM1W-MYBEiZptxHv5_XzvwndlYpAEPF1S8/edit#slide=id.gcf542d467f_0_0">https://docs.google.com/presentation/d/1giVj9XMnIGM1W-MYBEiZptxHv5_XzvwndlYpAEPF1S8/edit#slide=id.gcf542d467f_0_0</a></p>
+                            </div>
+                            <div class="resume-projectLink">
+                                <a href="https://docs.google.com/presentation/d/1giVj9XMnIGM1W-MYBEiZptxHv5_XzvwndlYpAEPF1S8/edit#slide=id.gcf542d467f_0_0">團體專題簡報</a>
+                                <p>→</p>
                             </div>
                             <div class="resume-projectLink">
                                 <a href="https://tibamef2e.com/cgd103/g1/">前往網站</a>
@@ -231,54 +251,17 @@
                             <div class="article-underline"></div>
                             <div class="resume-projectContent">
                                 <p>從專題主題發想開始，到視覺設計及用Figma完成WireFrame及Mockup完成網頁設計，再使用HTML CSS JavaScript 和 jQuery 完成作品。</p>
-                                <p>GitHub<a href="https://github.com/Charmying/Pangolin-Phonecase">https://github.com/Charmying/Pangolin-Phonecase</a></p>
+                            </div>
+                            <div class="resume-projectLink">
+                                <a href="https://github.com/Charmying/Pangolin-Phonecase">個人專題 GitHub</a>
+                                <p>→</p>
                             </div>
                             <div class="resume-projectLink">
                                 <a href="https://charmying.github.io/Pangolin-Phonecase/">前往網站</a>
                                 <p>→</p>
                             </div>
-                            
                         </div>
                     </div>
-
-                    <!-- 雲端上班 -->
-                    <!-- <div class="resume-projectBlock">
-                        <div class="resume-projectText">
-                            <div class="resume-projectTitle">雲端數位科技有限公司</div>
-                            <div class="resume-projectTag">
-                                <p>使用技術：</p>
-                                <p><i class="fa-solid fa-tag"></i>HTML</p>
-                                <p><i class="fa-solid fa-tag"></i>CSS</p>
-                                <p><i class="fa-solid fa-tag"></i>JavaScript</p>
-                                <p><i class="fa-solid fa-tag"></i>jQuery</p>
-                                <span>
-                                    <i class="fa-sharp fa-solid fa-calendar-days"></i>2022/09~2022/10
-                                </span>
-                            </div>
-                            <div class="article-underline"></div>
-                            <div class="resume-projectContent">
-                                <p>悠遊卡股份有限公司</p>
-                                <p>負責頁面：永續專區、投資人專區</p>
-                                <p>測試網站：<a href="http://test.m000231.24241872.tw/sustainableOperators">http://test.m000231.24241872.tw/sustainableOperators</a></p>
-                                <p>正式網站：<a href="https://www.easycard.com.tw/sustainableOperators">https://www.easycard.com.tw/sustainableOperators</a></p>
-                            </div>
-                            <div class="resume-projectContent">
-                                <p>寶鋪建設股份有限公司</p>
-                                <p>負責頁面：地圖檢視</p>
-                                <p>測試網站：<a href="http://html.m000381.24241872.tw/map">http://html.m000381.24241872.tw/map</a></p>
-                                <p>正式網站：<a href="https://www.baopu.com.tw/maps">https://www.baopu.com.tw/maps</a></p>
-                            </div>
-                            <div class="resume-projectContent">
-                                <p>凱薩衛浴股份有限公司</p>
-                                <p>負責頁面：經銷商招募</p>
-                                <p>測試網站：<a href="http://html.m000351.24241872.tw/dealer-recruitment">http://html.m000351.24241872.tw/dealer-recruitment</a></p>
-                                <p>正式網站：<a href="https://www.caesar.com.tw/page/dealer-recruitment">https://www.caesar.com.tw/page/dealer-recruitment</a></p>
-                            </div>
-                            <div class="resume-projectContent">
-                                <p>還有幫穎崴科技、建準吊扇等上市上櫃公司進行網頁的調整處理。</p>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </section>
 
@@ -298,20 +281,38 @@
                             <div class="resume-jobProject">
                                 <p>悠遊卡股份有限公司</p>
                                 <p>負責頁面：永續專區、投資人專區</p>
-                                <p>測試網站：http://test.m000231.24241872.tw/sustainableOperators</p>
-                                <p>正式網站：https://www.easycard.com.tw/sustainableOperators</p>
+                                <div class="resume-jobLink">
+                                    <a href="http://test.m000231.24241872.tw/sustainableOperators">測試網站</a>
+                                    <p>→</p>
+                                </div>
+                                <div class="resume-jobLink">
+                                    <a href="https://www.easycard.com.tw/sustainableOperators">正式網站</a>
+                                    <p>→</p>
+                                </div>
                             </div>
                             <div class="resume-jobProject">
                                 <p>寶鋪建設股份有限公司</p>
                                 <p>負責頁面：地圖檢視</p>
-                                <p>測試網站：http://html.m000381.24241872.tw/map</p>
-                                <p>正式網站：https://www.baopu.com.tw/maps</p>
+                                <div class="resume-jobLink">
+                                    <a href="http://html.m000381.24241872.tw/map">測試網站</a>
+                                    <p>→</p>
+                                </div>
+                                <div class="resume-jobLink">
+                                    <a href="https://www.baopu.com.tw/maps">正式網站</a>
+                                    <p>→</p>
+                                </div>
                             </div>
                             <div class="resume-jobProject">
                                 <p>凱薩衛浴股份有限公司</p>
                                 <p>負責頁面：經銷商招募</p>
-                                <p>測試網站：http://html.m000351.24241872.tw/dealer-recruitment</p>
-                                <p>正式網站：https://www.caesar.com.tw/page/dealer-recruitment</p>
+                                <div class="resume-jobLink">
+                                    <a href="http://html.m000351.24241872.tw/dealer-recruitment">測試網站</a>
+                                    <p>→</p>
+                                </div>
+                                <div class="resume-jobLink">
+                                    <a href="https://www.caesar.com.tw/page/dealer-recruitment">正式網站</a>
+                                    <p>→</p>
+                                </div>
                             </div>
                             <div class="resume-jobProject">
                                 <p>還有幫穎崴科技、建準吊扇等上市上櫃公司進行網頁的調整處理。</p>

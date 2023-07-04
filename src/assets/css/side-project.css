@@ -111,12 +111,12 @@
 }
 
 .sideProject-projectLink p {
-    transform: translateX(0.25rem);
+    transform: translate(-0.5rem, -0.09rem);
     transition: all 0.5s ease;
 }
 
 .sideProject-projectBlock:hover .sideProject-projectLink p {
-    transform: translateX(1.5rem);
+    transform: translate(0.5rem, -0.09rem);
 }
 
 .sideProject-projectLink:hover {

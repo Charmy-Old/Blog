@@ -39,7 +39,7 @@
 }
 
 .resume-education p {
-    margin: 0.75rem 0;
+    margin: 2rem 0;
 }
 
 .resume-education p span {
@@ -142,6 +142,10 @@
     margin: 1.25rem 0;
 }
 
+.resume-projectContent p {
+    margin: 0.75rem 0;
+}
+
 .resume-projectContent a:hover {
     color: brown;
 }
@@ -153,13 +157,13 @@
 }
 
 .resume-projectLink p {
-    transform: translateX(0.25rem);
+    transform: translate(-0.5rem, -0.09rem);
     transition: all 0.5s ease;
 }
 
 .resume-projectBlock:hover .resume-projectLink p {
     color: brown !important;
-    transform: translateX(1.5rem);
+    transform: translate(0.5rem, -0.09rem);
 }
 
 
@@ -221,6 +225,41 @@
     margin: 1.25rem 0;
 }
 
+.resume-jobProject p {
+    margin: 0.05rem 0;
+}
+
+.resume-jobLink {
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.resume-jobLink:hover {
+    color: brown !important;
+}
+
+.resume-jobLink a:hover {
+    color: brown !important;
+}
+
+.resume-jobLink p {
+    position: relative;
+    transform: translateY(-3.2px);
+    animation: resume-job-arrow 1s infinite;
+}
+
+@keyframes resume-job-arrow {
+    0% {
+        left: 1.5%;
+    }
+    50% {
+        left: 3%;
+    }
+    100% {
+        left: 1.5%;
+    }
+}
+
 .resume-projectBlock:hover .article-underline {
     width: 100%;
 }
@@ -266,6 +305,11 @@
     }
 }
 
+@media screen and (max-width: 499px) {
+    .resume-underline {
+        width: 100%;
+    }
+}
 
 
 @media screen and (min-width: 500px) {
