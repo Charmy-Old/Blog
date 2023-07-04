@@ -14,7 +14,7 @@
                 </div>
             </section>
 
-            <section class="all vue">
+            <section>
                 <a href="VUE_LifeCycle" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-vuejs"></i>

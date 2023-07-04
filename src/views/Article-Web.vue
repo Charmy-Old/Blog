@@ -14,7 +14,7 @@
                 </div>
             </section>
 
-            <section class="all web">
+            <section>
                 <a href="WEB_MVC-vs-MVVM" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -31,7 +31,7 @@
                 </a>
             </section>
 
-            <section class="all web">
+            <section>
                 <a href="WEB_api-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -48,7 +48,7 @@
                 </a>
             </section>
 
-            <section class="all web">
+            <section>
                 <a href="WEB_npm-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -65,7 +65,7 @@
                 </a>
             </section>
 
-            <section class="all web">
+            <section>
                 <a href="WEB_cdn-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>

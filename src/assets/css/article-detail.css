@@ -88,7 +88,7 @@
     color: #FFFFFF;
     background-color: #000000;
     border-radius: 15px;
-    /* margin: 1.5rem 0; */
+    margin: 1.5rem 0;
     padding: 1rem;
 }
 
@@ -128,7 +128,8 @@
 }
 
 .article-detail .article-reference {
-    color: aqua;
+    width: fit-content;
+    color: #777777;
     display: block;
     margin: 0.5rem 0;
     transition: all 0.5s ease;

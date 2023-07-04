@@ -92,11 +92,11 @@
                                 <p>除了自我介紹，會整理一些前端文章等等，並持續思考該如何使網站更加豐富</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://github.com/Charmying/blog">Pangolin Clothing 網站練習 GitHub</a>
+                                <a href="https://github.com/Charmying/blog" target="_blank">Pangolin Clothing 網站練習 GitHub</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://charmying-blog.onrender.com/">前往網站</a>
+                                <a href="https://charmying-blog.onrender.com/" target="_blank">前往網站</a>
                                 <p>→</p>
                             </div>
                         </div>
@@ -125,11 +125,11 @@
                                 <p>商品內頁和加入會員及忘記密碼功能等尚未完成</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://github.com/Charmying/pangolin-clothing">Pangolin Clothing 網站練習 GitHub</a>
+                                <a href="https://github.com/Charmying/pangolin-clothing" target="_blank">Pangolin Clothing 網站練習 GitHub</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://pangolin-clothing.onrender.com/">前往網站</a>
+                                <a href="https://pangolin-clothing.onrender.com/" target="_blank">前往網站</a>
                                 <p>→</p>
                             </div>
                         </div>
@@ -153,15 +153,15 @@
                                 <p>用vue composition api 完成簡易工程計算機功能</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://github.com/Charmying/Engineering-Calculator">工程計算機 GitHub</a>
+                                <a href="https://github.com/Charmying/Engineering-Calculator" target="_blank">工程計算機 GitHub</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://codepen.io/Charmy_ing/pen/yLQBLMw">工程計算機 CodePen</a>
+                                <a href="https://codepen.io/Charmy_ing/pen/yLQBLMw" target="_blank">工程計算機 CodePen</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://charmying.github.io/Engineering-Calculator/">前往網站</a>
+                                <a href="https://charmying.github.io/Engineering-Calculator/" target="_blank">前往網站</a>
                                 <p>→</p>
                             </div>
                         </div>
@@ -185,15 +185,15 @@
                                 <p>HTML CSS JavaScript 寫出備忘錄，備忘錄輸入時需填入日期及時間並存入LocalStorage，時間到時會彈窗提醒。</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://github.com/Charmying/Todo-List/">備忘錄 GitHub</a>
+                                <a href="https://github.com/Charmying/Todo-List/" target="_blank">備忘錄 GitHub</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://codepen.io/Charmy_ing/pen/RwBeNRz">備忘錄 CodePen</a>
+                                <a href="https://codepen.io/Charmy_ing/pen/RwBeNRz" target="_blank">備忘錄 CodePen</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://charmying.github.io/Todo-List/">前往網站</a>
+                                <a href="https://charmying.github.io/Todo-List/" target="_blank">前往網站</a>
                                 <p>→</p>
                             </div>
                         </div>
@@ -223,11 +223,11 @@
                                 <p>網站後台：管理員的登入註冊。</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://docs.google.com/presentation/d/1giVj9XMnIGM1W-MYBEiZptxHv5_XzvwndlYpAEPF1S8/edit#slide=id.gcf542d467f_0_0">團體專題簡報</a>
+                                <a href="https://docs.google.com/presentation/d/1giVj9XMnIGM1W-MYBEiZptxHv5_XzvwndlYpAEPF1S8/edit#slide=id.gcf542d467f_0_0" target="_blank">團體專題簡報</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://tibamef2e.com/cgd103/g1/">前往網站</a>
+                                <a href="https://tibamef2e.com/cgd103/g1/" target="_blank">前往網站</a>
                                 <p>→</p>
                             </div>
                             
@@ -253,11 +253,11 @@
                                 <p>從專題主題發想開始，到視覺設計及用Figma完成WireFrame及Mockup完成網頁設計，再使用HTML CSS JavaScript 和 jQuery 完成作品。</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://github.com/Charmying/Pangolin-Phonecase">個人專題 GitHub</a>
+                                <a href="https://github.com/Charmying/Pangolin-Phonecase" target="_blank">個人專題 GitHub</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://charmying.github.io/Pangolin-Phonecase/">前往網站</a>
+                                <a href="https://charmying.github.io/Pangolin-Phonecase/" target="_blank">前往網站</a>
                                 <p>→</p>
                             </div>
                         </div>
@@ -282,11 +282,11 @@
                                 <p>悠遊卡股份有限公司</p>
                                 <p>負責頁面：永續專區、投資人專區</p>
                                 <div class="resume-jobLink">
-                                    <a href="http://test.m000231.24241872.tw/sustainableOperators">測試網站</a>
+                                    <a href="http://test.m000231.24241872.tw/sustainableOperators" target="_blank">測試網站</a>
                                     <p>→</p>
                                 </div>
                                 <div class="resume-jobLink">
-                                    <a href="https://www.easycard.com.tw/sustainableOperators">正式網站</a>
+                                    <a href="https://www.easycard.com.tw/sustainableOperators" target="_blank">正式網站</a>
                                     <p>→</p>
                                 </div>
                             </div>
@@ -294,11 +294,11 @@
                                 <p>寶鋪建設股份有限公司</p>
                                 <p>負責頁面：地圖檢視</p>
                                 <div class="resume-jobLink">
-                                    <a href="http://html.m000381.24241872.tw/map">測試網站</a>
+                                    <a href="http://html.m000381.24241872.tw/map" target="_blank">測試網站</a>
                                     <p>→</p>
                                 </div>
                                 <div class="resume-jobLink">
-                                    <a href="https://www.baopu.com.tw/maps">正式網站</a>
+                                    <a href="https://www.baopu.com.tw/maps" target="_blank">正式網站</a>
                                     <p>→</p>
                                 </div>
                             </div>
@@ -306,11 +306,11 @@
                                 <p>凱薩衛浴股份有限公司</p>
                                 <p>負責頁面：經銷商招募</p>
                                 <div class="resume-jobLink">
-                                    <a href="http://html.m000351.24241872.tw/dealer-recruitment">測試網站</a>
+                                    <a href="http://html.m000351.24241872.tw/dealer-recruitment" target="_blank">測試網站</a>
                                     <p>→</p>
                                 </div>
                                 <div class="resume-jobLink">
-                                    <a href="https://www.caesar.com.tw/page/dealer-recruitment">正式網站</a>
+                                    <a href="https://www.caesar.com.tw/page/dealer-recruitment" target="_blank">正式網站</a>
                                     <p>→</p>
                                 </div>
                             </div>

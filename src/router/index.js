@@ -116,6 +116,13 @@ const routes = [
         name: 'VUE_LifeCycle',
         component: () => import('../views/VUE_LifeCycle.vue')
     },
+
+    // 技術合併 文章
+    {
+        path: '/CODE_Limit-Line-Width',
+        name: 'CODE_Limit-Line-Width',
+        component: () => import('../views/CODE_Limit-Line-Width.vue')
+    },
 ]
 
 

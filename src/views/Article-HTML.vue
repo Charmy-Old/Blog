@@ -14,7 +14,7 @@
                 </div>
             </section>
 
-            <section class="all html">
+            <section>
                 <a href="HTML_codeTag" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-html5"></i>
@@ -30,7 +30,7 @@
                 </a>
             </section>
 
-            <section class="all html">
+            <section>
                 <a href="HTML_tableTag" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-html5"></i>

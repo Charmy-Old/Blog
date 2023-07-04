@@ -14,7 +14,25 @@
                 </div>
             </section>
 
-            <section class="all css">
+            <section>
+                <a href="CODE_Limit-Line-Width" class="article">
+                    <div class="article-icon">
+                        <i class="fa-solid fa-file-code"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">限制內容字數寬度或行數</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>CSS<i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-05</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>限制內容字數寬度或行數，超過顯示刪節號…</p>
+                            <p>透過 CSS 來限制字數寬度或行數做法，可以將長篇的文章進行截斷，並且結尾以...方式呈現在版面上，對排版來說是相當好用的方式。</p>
+                            <p>但display: -webkit-box;語法在某些瀏覽器不支援，所以建議使用JavaScript寫法。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+            
+            <section>
                 <a href="CSS_nth-child" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-css3-alt"></i>
