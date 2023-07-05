@@ -92,7 +92,7 @@
                                 <p>除了自我介紹，會整理一些前端文章等等，並持續思考該如何使網站更加豐富</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://github.com/Charmying/blog" target="_blank">Pangolin Clothing 網站練習 GitHub</a>
+                                <a href="https://github.com/Charmying/blog" target="_blank">GitHub</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
@@ -125,7 +125,7 @@
                                 <p>商品內頁和加入會員及忘記密碼功能等尚未完成</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://github.com/Charmying/pangolin-clothing" target="_blank">Pangolin Clothing 網站練習 GitHub</a>
+                                <a href="https://github.com/Charmying/pangolin-clothing" target="_blank">GitHub</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
@@ -153,11 +153,11 @@
                                 <p>用vue composition api 完成簡易工程計算機功能</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://github.com/Charmying/Engineering-Calculator" target="_blank">工程計算機 GitHub</a>
+                                <a href="https://github.com/Charmying/Engineering-Calculator" target="_blank">GitHub</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://codepen.io/Charmy_ing/pen/yLQBLMw" target="_blank">工程計算機 CodePen</a>
+                                <a href="https://codepen.io/Charmy_ing/pen/yLQBLMw" target="_blank">CodePen</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
@@ -185,11 +185,11 @@
                                 <p>HTML CSS JavaScript 寫出備忘錄，備忘錄輸入時需填入日期及時間並存入LocalStorage，時間到時會彈窗提醒。</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://github.com/Charmying/Todo-List/" target="_blank">備忘錄 GitHub</a>
+                                <a href="https://github.com/Charmying/Todo-List/" target="_blank">GitHub</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://codepen.io/Charmy_ing/pen/RwBeNRz" target="_blank">備忘錄 CodePen</a>
+                                <a href="https://codepen.io/Charmy_ing/pen/RwBeNRz" target="_blank">CodePen</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
@@ -253,7 +253,7 @@
                                 <p>從專題主題發想開始，到視覺設計及用Figma完成WireFrame及Mockup完成網頁設計，再使用HTML CSS JavaScript 和 jQuery 完成作品。</p>
                             </div>
                             <div class="resume-projectLink">
-                                <a href="https://github.com/Charmying/Pangolin-Phonecase" target="_blank">個人專題 GitHub</a>
+                                <a href="https://github.com/Charmying/Pangolin-Phonecase" target="_blank">GitHub</a>
                                 <p>→</p>
                             </div>
                             <div class="resume-projectLink">
