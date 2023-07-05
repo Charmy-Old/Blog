@@ -11,7 +11,7 @@ body {
 }
 
 a, a:hover, a:visited, a:link, a:active {
-    color:#000;
+    color:#26273B;
     text-decoration:none;
     outline: none;
     transition: all 0.5s ease;
