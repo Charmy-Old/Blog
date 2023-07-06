@@ -1,6 +1,4 @@
 <template>
-    <!-- <p>Section Count: {{ sectionCount }}</p> -->
-
     <section class="d-none">
         <div class="container text-center">
             <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6">
@@ -11,7 +9,7 @@
                 <div>
                     <button class="select-button" data-filter="web">Web</button>
                 </div>
-
+                
                 <div>
                     <button class="select-button" data-filter="html">HTML</button>
                 </div>
@@ -239,20 +237,16 @@
             </div>
         </a>
     </section>
-
 </template>
 <script>
-    import { ref, onMounted, provide } from 'vue';
+    import { onMounted } from 'vue';
     export default {
-        name: 'MyComponent',
         setup() {
-            const sectionCount = ref(0);
-
             onMounted(() => {
                 function selectArticle() {
                     const buttons = document.querySelectorAll(".select-button");
                     const cards = document.querySelectorAll(".all");
-             
+                    
                     function filter(category, items) {
                         items.forEach((item) => {
                             const isItemFiltered = !item.classList.contains(category);
@@ -264,7 +258,7 @@
                             }
                         });
                     }
-             
+                    
                     buttons.forEach((button) => {
                         button.addEventListener("click", () => {
                             const currentCategory = button.dataset.filter;
@@ -273,18 +267,9 @@
                         });
                     });
                 }
+          
                 selectArticle();
-
-                const sections = document.querySelectorAll('section');
-                sectionCount.value = sections.length;
             })
-
-            provide('sectionCount', sectionCount); // 提供数据给子组件
-
-            return {
-                sectionCount
-            };
-
         }
     };
 </script>
