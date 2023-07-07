@@ -58,6 +58,11 @@ const routes = [
 
     // Web 文章
     {
+        path: '/WEB_HTTP-vs-HTTPS',
+        name: 'WEB_HTTP-vs-HTTPS',
+        component: () => import('../views/WEB_HTTP-vs-HTTPS.vue')
+    },
+    {
         path: '/WEB_MVC-vs-MVVM',
         name: 'WEB_MVC-vs-MVVM',
         component: () => import('../views/WEB_MVC-vs-MVVM.vue')

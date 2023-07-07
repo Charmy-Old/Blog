@@ -45,6 +45,13 @@
     margin: 0.75rem 0;
 }
 
+.article-detail h5 {
+    font-size: 20px;
+    margin: 0.75rem 0;
+}
+
+
+
 .article-detail p {
     /* margin: 0.5rem 0; */
     margin: 1.5rem 0;
@@ -66,6 +73,10 @@
 
 .article-txt {
     margin: 1.5rem 0;
+}
+
+.article-txt h4 i {
+    margin: 0 0.75rem;
 }
 
 .article-list {
@@ -160,6 +171,10 @@
 
     .article-detail h4 {
         font-size: 18px;
+    }
+
+    .article-detail h5 {
+        font-size: 17px;
     }
 
     .article-heading p {
