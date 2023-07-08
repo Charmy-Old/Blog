@@ -59,15 +59,6 @@
     width: 100%;
 }
 
-.article-content {
-    min-height: 48px;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 @media screen and (max-width: 768px) {
     .article-icon {
         font-size: 72px;
@@ -145,8 +136,13 @@
 
 
 
-@media screen and (max-width: 499px) {
+@media screen and (min-width: 500px) {
     .article-content {
-        -webkit-line-clamp: 2;
+        min-height: 96px;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }

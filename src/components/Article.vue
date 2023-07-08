@@ -48,22 +48,6 @@
     </section>
 
     <section class="all web">
-        <a href="WEB_SSL-and-TLS" class="article">
-            <div class="article-icon">
-                <i class="fa-sharp fa-solid fa-desktop"></i>
-            </div>
-            <div class="article-text">
-                <div class="article-title">SSL和TLS是什麼？</div>
-                <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-08</div>
-                <div class="article-underline"></div>
-                <div class="article-content">
-                    <p>SSL（Secure Sockets Layer）是一種用於保護網絡通信的加密協議。它提供了安全的數據傳輸和身份驗證機制，用於保護在互聯網上傳輸的敏感信息。</p>
-                </div>
-            </div>
-        </a>
-    </section>
-
-    <section class="all web">
         <a href="WEB_HTTP-vs-HTTPS" class="article">
             <div class="article-icon">
                 <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -301,27 +285,6 @@
                 }
           
                 selectArticle();
-
-
-
-
-
-
-
-                window.addEventListener("article-content", function() {
-                    adjustContainerHeight();
-                });
-
-                function adjustContainerHeight() {
-                    const container = document.querySelector(".article-content");
-                    const lineHeight = parseInt(getComputedStyle(article-content).lineHeight);
-                    const maxLines = parseInt(getComputedStyle(article-content).webkitLineClamp);
-                    const containerHeight = lineHeight * maxLines;
-                    container.style.maxHeight = containerHeight + 'px';
-                }
-
-                adjustContainerHeight();
-
             })
         }
     };
