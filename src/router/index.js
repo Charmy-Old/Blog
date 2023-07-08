@@ -58,14 +58,9 @@ const routes = [
 
     // Web 文章
     {
-        path: '/WEB_HTTP-vs-HTTPS',
-        name: 'WEB_HTTP-vs-HTTPS',
-        component: () => import('../views/WEB_HTTP-vs-HTTPS.vue')
-    },
-    {
-        path: '/WEB_MVC-vs-MVVM',
-        name: 'WEB_MVC-vs-MVVM',
-        component: () => import('../views/WEB_MVC-vs-MVVM.vue')
+        path: '/WEB_cdn-introduce',
+        name: 'WEB_cdn-introduce',
+        component: () => import('../views/WEB_cdn-introduce.vue')
     },
     {
         path: '/WEB_npm-introduce',
@@ -73,21 +68,36 @@ const routes = [
         component: () => import('../views/WEB_npm-introduce.vue')
     },
     {
-        path: '/WEB_cdn-introduce',
-        name: 'WEB_cdn-introduce',
-        component: () => import('../views/WEB_cdn-introduce.vue')
+        path: '/WEB_api-introduce',
+        name: 'WEB_api-introduce',
+        component: () => import('../views/WEB_api-introduce.vue')
+    },
+    {
+        path: '/WEB_MVC-vs-MVVM',
+        name: 'WEB_MVC-vs-MVVM',
+        component: () => import('../views/WEB_MVC-vs-MVVM.vue')
+    },
+    {
+        path: '/WEB_HTTP-vs-HTTPS',
+        name: 'WEB_HTTP-vs-HTTPS',
+        component: () => import('../views/WEB_HTTP-vs-HTTPS.vue')
+    },
+    {
+        path: '/WEB_SSL-and-TLS',
+        name: 'WEB_SSL-and-TLS',
+        component: () => import('../views/WEB_SSL-and-TLS.vue')
     },
 
     // HTML 文章
     {
-        path: '/HTML_codeTag',
-        name: 'HTML_codeTag',
-        component: () => import('../views/HTML_codeTag.vue')
-    },
-    {
         path: '/HTML_tableTag',
         name: 'HTML_tableTag',
         component: () => import('../views/HTML_tableTag.vue')
+    },
+    {
+        path: '/HTML_codeTag',
+        name: 'HTML_codeTag',
+        component: () => import('../views/HTML_codeTag.vue')
     },
 
     // CSS 文章
@@ -99,21 +109,15 @@ const routes = [
 
     // JS 文章
     {
-        path: '/JS_Cookie-vs-LocalStorage-vs-SessionStorage',
-        name: 'JS_Cookie-vs-LocalStorage-vs-SessionStorage',
-        component: () => import('../views/JS_Cookie-vs-LocalStorage-vs-SessionStorage.vue')
-    },
-    {
         path: '/JS_map-vs-forEach',
         name: 'JS_map-vs-forEach',
         component: () => import('../views/JS_map-vs-forEach.vue')
     },
     {
-        path: '/WEB_api-introduce',
-        name: 'WEB_api-introduce',
-        component: () => import('../views/WEB_api-introduce.vue')
+        path: '/JS_Cookie-vs-LocalStorage-vs-SessionStorage',
+        name: 'JS_Cookie-vs-LocalStorage-vs-SessionStorage',
+        component: () => import('../views/JS_Cookie-vs-LocalStorage-vs-SessionStorage.vue')
     },
-
 
     // Vue 文章
     {

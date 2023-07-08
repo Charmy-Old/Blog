@@ -139,12 +139,15 @@ window.onload = C.handleOnload;
             </section>
 
             <section>
-                <div class="article-list">
-                    <h4>總結</h4>
-                    <ul>
-                        <li><i class="fa-solid fa-check"></i>MVC是較早的模式，用於分離數據、界面和控制邏輯。多注重在於"全端"商業邏輯與資料庫的分離上。而View發展越來複雜之後，為了更方便的管理"前端資料"與UI互動，以及複用component，才出現MVVM。</li>
-                        <li><i class="fa-solid fa-check"></i>MVVM是一種演化自MVC的模式，引入了ViewModel的概念，實現了更好的分離和可維護性。它在現代前端開發中得到廣泛應用。</li>
-                    </ul>
+                <div class="article-detail">
+                    <h3>總結</h3>
+                    <div class="article-detailLine"></div>
+                    <div class="article-list">
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>MVC是較早的模式，用於分離數據、界面和控制邏輯。多注重在於"全端"商業邏輯與資料庫的分離上。而View發展越來複雜之後，為了更方便的管理"前端資料"與UI互動，以及複用component，才出現MVVM。</li>
+                            <li><i class="fa-solid fa-check"></i>MVVM是一種演化自MVC的模式，引入了ViewModel的概念，實現了更好的分離和可維護性。它在現代前端開發中得到廣泛應用。</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
 
