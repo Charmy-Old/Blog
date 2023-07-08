@@ -301,6 +301,27 @@
                 }
           
                 selectArticle();
+
+
+
+
+
+
+
+                window.addEventListener("article-content", function() {
+                    adjustContainerHeight();
+                });
+
+                function adjustContainerHeight() {
+                    const container = document.querySelector(".article-content");
+                    const lineHeight = parseInt(getComputedStyle(article-content).lineHeight);
+                    const maxLines = parseInt(getComputedStyle(article-content).webkitLineClamp);
+                    const containerHeight = lineHeight * maxLines;
+                    container.style.maxHeight = containerHeight + 'px';
+                }
+
+                adjustContainerHeight();
+
             })
         }
     };
