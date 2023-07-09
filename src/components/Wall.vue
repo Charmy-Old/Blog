@@ -165,8 +165,12 @@
 
 </style>
 <template>
-    <div class="wall">
 
+    <div class="d-none">
+        <ArticleList />
+    </div>
+
+    <div class="wall">
         <div class="resume">
             <section class="resumeTitle">
                 <div class="resumeProfile">
@@ -185,12 +189,12 @@
 
         <div class="wall-article-project">
             <section class="wall-article">
-                <div class="wall-tag"><a href="Article"><i class="fa-solid fa-tag"></i>全部標籤</a></div>
-                <div class="wall-tag"><a href="Article-Web">Web</a></div>
-                <div class="wall-tag"><a href="Article-HTML">HTML</a></div>
-                <div class="wall-tag"><a href="Article-CSS">CSS</a></div>
-                <div class="wall-tag"><a href="Article-JavaScript">JavaScript</a></div>
-                <div class="wall-tag"><a href="Article-Vue">Vue</a></div>
+                <div class="wall-tag"><a href="Article"><i class="fa-solid fa-tag"></i>All Tags ({{ allArticleCount }})</a></div>
+                <div class="wall-tag"><a href="Article-Web">Web ({{ webArticleCount }})</a></div>
+                <div class="wall-tag"><a href="Article-HTML">HTML ({{ htmlArticleCount }})</a></div>
+                <div class="wall-tag"><a href="Article-CSS">CSS ({{ cssArticleCount }})</a></div>
+                <div class="wall-tag"><a href="Article-JavaScript">JavaScript ({{ jsArticleCount }})</a></div>
+                <div class="wall-tag"><a href="Article-Vue">Vue ({{ vueArticleCount }})</a></div>
             </section>
 
             <section class="wall-project">
@@ -213,7 +217,97 @@
     </div>
 </template>
 <script>
-    export default {
-        setup() {}
+import sharedData from "@/assets/js/sharedData";
+import ArticleList from "@/components/ArticleList.vue";
+import { ref, onMounted, computed } from "vue";
+export default {
+    components: {
+        ArticleList,
+    },
+    setup() {
+        // 算全部文章
+        const allArticleCount = ref(0);
+        onMounted(() => {
+            CountallArticle();
+        });
+        const CountallArticle = () => {
+            const Countall = document.querySelectorAll(".ALL");
+            allArticleCount.value = Countall.length;
+            // 更新全局變量
+            sharedData.allArticleCount = allArticleCount.value;
+        };
+
+        // 算 web 文章
+        const webArticleCount = ref(0);
+        onMounted(() => {
+            CountwebArticle();
+        });
+        const CountwebArticle = () => {
+            const Countweb = document.querySelectorAll(".WEB");
+            webArticleCount.value = Countweb.length;
+            sharedData.webArticleCount = webArticleCount.value;
+        };
+
+        // 算 html 文章
+        const htmlArticleCount = ref(0);
+        onMounted(() => {
+            CounthtmlArticle();
+        });
+        const CounthtmlArticle = () => {
+            const Counthtml = document.querySelectorAll(".HTML");
+            htmlArticleCount.value = Counthtml.length;
+            sharedData.htmlArticleCount = htmlArticleCount.value;
+        };
+
+        // 算 css 文章
+        const cssArticleCount = ref(0);
+        onMounted(() => {
+            CountcssArticle();
+        });
+        const CountcssArticle = () => {
+            const Countcss = document.querySelectorAll(".CSS");
+            cssArticleCount.value = Countcss.length;
+            sharedData.cssArticleCount = cssArticleCount.value;
+        };
+
+        // 算 js 文章
+        const jsArticleCount = ref(0);
+        onMounted(() => {
+            CountjsArticle();
+        });
+        const CountjsArticle = () => {
+            const Countjs = document.querySelectorAll(".JS");
+            jsArticleCount.value = Countjs.length;
+            sharedData.jsArticleCount = jsArticleCount.value;
+        };
+
+        // 算 vue 文章
+        const vueArticleCount = ref(0);
+        onMounted(() => {
+            CountvueArticle();
+        });
+        const CountvueArticle = () => {
+            const Countvue = document.querySelectorAll(".VUE");
+            vueArticleCount.value = Countvue.length;
+            sharedData.vueArticleCount = vueArticleCount.value;
+        };
+
+    // 用 computed 抓全局變量
+    const Countall = computed(() => sharedData.allArticleCount);
+    const Countweb = computed(() => sharedData.webArticleCount);
+    const Counthtml = computed(() => sharedData.htmlArticleCount);
+    const Countcss = computed(() => sharedData.cssArticleCount);
+    const Countjs = computed(() => sharedData.jsArticleCount);
+    const Countvue = computed(() => sharedData.vueArticleCount);
+
+    return {
+        allArticleCount: Countall,
+        webArticleCount: Countweb,
+        htmlArticleCount: Counthtml,
+        cssArticleCount: Countcss,
+        jsArticleCount: Countjs,
+        vueArticleCount: Countvue,
     };
+  },
+};
 </script>

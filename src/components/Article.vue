@@ -28,7 +28,7 @@
             </div>
         </div>
     </section>
-
+    
     <!-- 置頂貼文 -->
     <section class="all">
         <a href="Programming-Language" class="article">
@@ -42,6 +42,23 @@
                 <div class="article-content">
                     <p>雖然程式語言學習的領域是學無止境的，但是若不先找到目標而先專攻一個方向，很難培養出自己的一套學習方式及方向的！</p>
                     <p>如果清楚了學習的目的及方向，接著我們就要選擇學習哪一種程式語言；以下是簡單的整理，讓新手、入門的程式語言自學者，能快速有個方向：</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all web">
+        <a href="WEB_SSL-and-TLS" class="article">
+            <div class="article-icon">
+                <i class="fa-sharp fa-solid fa-desktop"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">SSL和TLS是什麼？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-08</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>SSL（Secure Sockets Layer）是一種用於保護網絡通信的加密協議。它提供了安全的數據傳輸和身份驗證機制，用於保護在互聯網上傳輸的敏感信息。</p>
+                    <p>SSL使用了非對稱加密（公鑰加密）和對稱加密的組合來實現安全通信。它的主要目標是確保數據的機密性（加密數據以防止被未授權的人讀取）、完整性（確保數據在傳輸過程中不被修改）、身份驗證（確認通信方的身份）和可用性（確保通信的可靠性和連接的正確性）。</p>
                 </div>
             </div>
         </a>
@@ -285,7 +302,7 @@
                 }
           
                 selectArticle();
-            })
+            });
         }
     };
 </script>
