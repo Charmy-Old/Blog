@@ -120,7 +120,7 @@
                             </div>
                             <div class="article-underline"></div>
                             <div class="resume-projectContent">
-                                <p>Vue-CLI 進行網站練習，其中使用Vue composition api方式撰寫，登入功能使用PHP fetch PostgreSQL完成，部屬至GitHub後使用render取得網址。</p>
+                                <p>Vue-CLI 進行網站練習，其中使用Vue composition api方式撰寫，登入功能使用fetch PHP連上PostgreSQL完成，部屬至GitHub後使用render取得網址。</p>
                                 <p>帳號密碼為charmy000@gmail.com和charmy000或Johnny000@gmail.com和Johnny000</p>
                                 <p>商品內頁和加入會員及忘記密碼功能等尚未完成</p>
                             </div>
