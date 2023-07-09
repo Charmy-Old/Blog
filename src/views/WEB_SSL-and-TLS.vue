@@ -5,7 +5,7 @@
 
             <section>
                 <div class="article-heading">
-                    <h2 class="article-heading">SSL和TLS是什麼？</h2>
+                    <h2 class="article-heading">什麼是 SSL和TLS？</h2>
                     <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-08</p>
                 </div>
             </section>
@@ -75,8 +75,15 @@
                             <li>4、支持性：由於SSL存在安全漏洞和弱點，許多瀏覽器和服務器已經停止支持舊版SSL，並只支持較新的TLS版本。因此，為了確保最佳的安全性和相容性，建議使用最新版本的TLS。</li>
                         </ol>
                     </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="article-detail">
+                    <h3>總結</h3>
+                    <div class="article-detailLine"></div>
                     <div class="article-txt">
-                        <p>總結來說，TLS是SSL的後續版本，它引入了安全性和性能改進。儘管這兩個術語在現實中經常互換使用，但TLS 1.2和TLS 1.3被廣泛接受為更安全和推薦使用的版本。</p>
+                        <p>TLS是SSL的後續版本，它引入了安全性和性能改進。儘管這兩個術語在現實中經常互換使用，但TLS 1.2和TLS 1.3被廣泛接受為更安全和推薦使用的版本。</p>
                     </div>
                 </div>
             </section>

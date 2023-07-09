@@ -114,11 +114,14 @@ expected output：undefined
 
             <section>
                 <div class="article-detail">
-                    <h4>總結</h4>
-                    <ul>
-                        <li><i class="fa-solid fa-check"></i>map()方法會分配內存空間存儲新數組並返回，map 不修改調用它的原數組本身（當然可以在 callback 執行時改變原數組）。</li>
-                        <li><i class="fa-solid fa-check"></i>forEach()方法不會返回執行結果，而是undefined。forEach() 被調用時，不會改變原數組，也就是調用它的數組（盡管 callback 函數在被調用時可能會改變原數組）。</li>
-                    </ul>
+                    <h3>總結</h3>
+                    <div class="article-detailLine"></div>
+                    <div class="article-list">
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>map()方法會分配內存空間存儲新數組並返回，map 不修改調用它的原數組本身（當然可以在 callback 執行時改變原數組）。</li>
+                            <li><i class="fa-solid fa-check"></i>forEach()方法不會返回執行結果，而是undefined。forEach() 被調用時，不會改變原數組，也就是調用它的數組（盡管 callback 函數在被調用時可能會改變原數組）。</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
 

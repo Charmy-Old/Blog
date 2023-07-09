@@ -5,7 +5,7 @@
 
             <section>
                 <div class="article-heading">
-                    <h2 class="article-heading">NPM是什麼？了解 node套件管理工具 npm install</h2>
+                    <h2 class="article-heading">什麼是 NPM？了解 node套件管理工具 npm install</h2>
                     <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</p>
                 </div>
             </section>

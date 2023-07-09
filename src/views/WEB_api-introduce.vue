@@ -5,7 +5,7 @@
 
             <section>
                 <div class="article-heading">
-                    <h2 class="article-heading">API 到底是什麼？</h2>
+                    <h2 class="article-heading">什麼是 API？</h2>
                     <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</p>
                 </div>
             </section>
