@@ -128,6 +128,11 @@ const routes = [
         name: 'JS_Cookie-vs-LocalStorage-vs-SessionStorage',
         component: () => import('../views/JS_Cookie-vs-LocalStorage-vs-SessionStorage.vue')
     },
+    {
+        path: '/JS_var-vs-let-vs-const',
+        name: 'JS_var-vs-let-vs-const',
+        component: () => import('../views/JS_var-vs-let-vs-const.vue')
+    },
 
     // Vue 文章
     {

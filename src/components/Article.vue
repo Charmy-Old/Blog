@@ -47,6 +47,23 @@
         </a>
     </section>
 
+    <section class="all javascript">
+        <a href="JS_var-vs-let-vs-const" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">var V.S. let V.S. const</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>CSS<i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-11</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>在 JavaScript 中，var、let 和 const 是用於宣告變數的保留字，在 JavaScript 早期只有 var，直到 ES2015 (ES6) 時才加入了 let 與 const</p>
+                    <p>var 與 let / const ，主要有幾項差異：</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all web">
         <a href="WEB_RESTfulAPI-introduce" class="article">
             <div class="article-icon">
