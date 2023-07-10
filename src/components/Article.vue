@@ -48,6 +48,22 @@
     </section>
 
     <section class="all web">
+        <a href="WEB_RESTfulAPI-introduce" class="article">
+            <div class="article-icon">
+                <i class="fa-sharp fa-solid fa-desktop"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 RESTful API？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-11</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>RESTful API 是一種能讓兩個電腦系統用來安全地透過網際網路交換資訊的介面。大多數商業應用程式必須與其它內部和第三方應用程式溝通，以執行各種任務。舉例來說，為了產生每月薪資單，您的內部帳戶系統必須與您客戶的銀行系統共用資料，以自動化提供薪資單的過程，並且與內部出勤卡應用程式進行通訊。多種 RESTful API 支援此類資訊交換，因為它們遵守安全、可靠、且有效率的通訊標準。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all web">
         <a href="WEB_TCP-IP" class="article">
             <div class="article-icon">
                 <i class="fa-sharp fa-solid fa-desktop"></i>

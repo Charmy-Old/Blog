@@ -92,6 +92,11 @@ const routes = [
         name: 'WEB_TCP-IP',
         component: () => import('../views/WEB_TCP-IP.vue')
     },
+    {
+        path: '/WEB_RESTfulAPI-introduce',
+        name: 'WEB_RESTfulAPI-introduce',
+        component: () => import('../views/WEB_RESTfulAPI-introduce.vue')
+    },
 
     // HTML 文章
     {

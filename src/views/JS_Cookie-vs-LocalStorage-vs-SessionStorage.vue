@@ -128,7 +128,7 @@
                     <h3>參考資料</h3>
                     <div class="article-detailLine"></div>
                     <div class="article-txt">
-                        <a class="article-reference" href="https://medium.com/@bebebobohaha/cookie-localstorage-sessionstorage-%E5%B7%AE%E7%95%B0-9e1d5df3dd7f" target="_blank"><i class="fa-solid fa-pen-to-square"></i>Peggy Chan - [JavaScript] Cookie、LocalStorage、SessionStorage 差異</a>
+                        <a class="article-reference" href="https://medium.com/@bebebobohaha/cookie-localstorage-sessionstorage-%E5%B7%AE%E7%95%B0-9e1d5df3dd7f" target="_blank"><i class="fa-solid fa-pen-to-square"></i>Medium(Written by Peggy Chan) - [JavaScript] Cookie、LocalStorage、SessionStorage 差異</a>
                     </div>
                 </div>
             </section>

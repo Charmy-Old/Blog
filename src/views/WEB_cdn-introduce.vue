@@ -83,9 +83,6 @@
                             <li><i class="fa-solid fa-check"></i>CDN 也能最佳化連線再利用並啟用TLS假起動，以加速使用 TLS/SSL憑證的網站。</li>
                         </ul>
                     </div>
-                    <div class="article-txt d-none">
-                        <a href="https://www.cloudflare.com/zh-tw/learning/cdn/performance/">探索CDN協助網站更快載入的所有方式</a>
-                    </div>
                 </div>
             </section>
 
@@ -102,9 +99,6 @@
                             <li><i class="fa-solid fa-check"></i>即使其中一個或多個CDN伺服器由於硬體故障而離線，智慧容錯移轉也能提供不中斷的服務；容錯移轉可將流量重新分散到其他作業中的伺服器。</li>
                             <li><i class="fa-solid fa-check"></i>若整個資料中心發生技術問題，Anycast 路由傳送會將流量傳輸至另一個可用的資料中心，以確保所有用戶都能繼續訪問網站。</li>
                         </ul>
-                    </div>
-                    <div class="article-txt d-none">
-                        <a href="https://www.cloudflare.com/zh-tw/learning/cdn/cdn-load-balance-reliability/">進一步瞭解CDN如何協助網站保持連線</a>
                     </div>
                 </div>
             </section>
@@ -135,6 +129,8 @@
                     <div class="article-detailLine"></div>
                     <div class="article-txt">
                         <a class="article-reference" href="https://www.cloudflare.com/zh-tw/learning/cdn/what-is-a-cdn/" target="_blank"><i class="fa-solid fa-pen-to-square"></i>Cloudflare - 什麼是 CDN？| CDN 的工作原理是什麼？</a>
+                        <a class="article-reference" href="https://www.cloudflare.com/zh-tw/learning/cdn/cdn-load-balance-reliability/" target="_blank">Cloudflare - 進一步瞭解CDN如何協助網站保持連線</a>
+                        <a class="article-reference" href="https://www.cloudflare.com/zh-tw/learning/cdn/performance/" target="_blank">Cloudflare - 探索CDN協助網站更快載入的所有方式</a>
                     </div>
                 </div>
             </section>
