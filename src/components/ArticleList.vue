@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL JS">
+        <div class="article-title">slice() V.S. splice() V.S. split()</div>
+    </section>
+
+    <section class="ALL JS">
         <div class="article-title">delete V.S. splice</div>
     </section>
 

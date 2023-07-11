@@ -138,6 +138,11 @@ const routes = [
         name: 'JS_delete-vs-splice',
         component: () => import('../views/JS_delete-vs-splice.vue')
     },
+    {
+        path: '/JS_slice-vs-splice-vs-split',
+        name: 'JS_slice-vs-splice-vs-split',
+        component: () => import('../views/JS_slice-vs-splice-vs-split.vue')
+    },
 
 
     // Vue 文章

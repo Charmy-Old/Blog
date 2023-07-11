@@ -32,7 +32,7 @@
                     <div class="article-txt">
                         <p>顯示結果：</p>
                     </div>
-                    <div class="article-codeResult">
+                    <div class="article-codeNote">
 <pre>
 Regular text. This is code. Regular text.
 </pre>
@@ -55,7 +55,7 @@ Regular text. This is code. Regular text.
                     <div class="article-txt">
                         <p>顯示結果：</p>
                     </div>
-                    <div class="article-codeResult">
+                    <div class="article-codeNote">
 <pre>
 p {
     color: #333;

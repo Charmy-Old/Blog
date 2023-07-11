@@ -108,7 +108,7 @@
                     <div class="article-txt">
                         <p>顯示結果：</p>
                     </div>
-                    <div class="article-codeResult">
+                    <div class="article-codeNote">
                         <div class="article-table">
                             <table>
                                 <thead>

@@ -48,6 +48,23 @@
     </section>
 
     <section class="all javascript">
+        <a href="JS_slice-vs-splice-vs-split" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">slice() V.S. splice() V.S. split()</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>CSS<i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-11</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>slice() V.S. splice() V.S. split()</p>
+                    <p>Slice、Splice、Split 是處理 陣列 或 字串 常見的方法。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all javascript">
         <a href="JS_delete-vs-splice" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-square-js"></i>
