@@ -48,6 +48,24 @@
     </section>
 
     <section class="all javascript">
+        <a href="JS_delete-vs-splice" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">delete V.S. splice</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>CSS<i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-11</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>在 JavaScript 中，delete 和 splice 為刪除組數索引值的方法。</p>
+                    <p>使用 delete 刪除數組中的元素時，該元素的值會變為 empty，但是數組的長度不會改變</p>
+                    <p>使用 splice 方法刪除數組中的元素時，數組的長度會相應地減少。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all javascript">
         <a href="JS_var-vs-let-vs-const" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-square-js"></i>

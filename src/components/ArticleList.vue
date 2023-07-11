@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL JS">
+        <div class="article-title">delete V.S. splice</div>
+    </section>
+
+    <section class="ALL JS">
         <div class="article-title">var V.S. let V.S. const</div>
     </section>
 

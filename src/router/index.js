@@ -133,6 +133,12 @@ const routes = [
         name: 'JS_var-vs-let-vs-const',
         component: () => import('../views/JS_var-vs-let-vs-const.vue')
     },
+    {
+        path: '/JS_delete-vs-splice',
+        name: 'JS_delete-vs-splice',
+        component: () => import('../views/JS_delete-vs-splice.vue')
+    },
+
 
     // Vue 文章
     {
