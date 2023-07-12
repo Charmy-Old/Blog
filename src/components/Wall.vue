@@ -23,13 +23,13 @@
 
 .resumeProfile a img {
     width: 100%;
-    transform: scale(1);
+    transform: scale(1.1);
     transition: all .3s linear;
 }
 
 .resumeProfile a img:hover {
     overflow: hidden;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .resumeName {
