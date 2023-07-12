@@ -2,7 +2,7 @@
     <Header />
     <div class="content">
         <main>
-            <Article />
+            <Article2 />
             <HomePageList />
         </main>
         <Wall />
@@ -13,7 +13,7 @@
     import Header from "@/components/Header.vue";
     import Wall from "@/components/Wall.vue";
     import BackToTop from "@/components/BackToTop.vue";
-    import Article from "@/components/Article.vue";
+    import Article2 from "@/components/Article2.vue";
     import HomePageList from "@/components/HomePageList.vue";
 
     
@@ -22,7 +22,7 @@
             Header,
             Wall,
             BackToTop,
-            Article,
+            Article2,
             HomePageList,
             // Footer,
         },

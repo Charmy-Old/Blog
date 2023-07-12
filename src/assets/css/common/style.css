@@ -45,7 +45,7 @@ main {
     font-weight: 700;
     width: 75%;
     max-width: 900px;
-    margin: 0 0 0 auto;
+    margin: 0 0 5rem auto;
     padding: 0.25rem;
     order: 2;
 }

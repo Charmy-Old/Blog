@@ -332,7 +332,6 @@
     }
 
 </style>
-
 <template>
     <header>
         <input type="checkbox" name="" id="header-menu-switch">
@@ -375,7 +374,6 @@
         </div>
     </header>
 </template>
-
 <script>
 import { ref, onMounted } from 'vue'
     export default {

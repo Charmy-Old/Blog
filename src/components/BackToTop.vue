@@ -39,15 +39,22 @@
     transform: translateY(-15%);
 }
 
+@media screen and (max-width: 499px) {
+    .back-to-top-arrow {
+        transform: translateY(0);
+    }
+
+    .back-to-top {
+        bottom: -20px;
+    }
+}
 
 </style>
-
 <template>
     <div class="back-to-top hide" @click="BackToTop">
         <div class=""><p class="back-to-top-arrow">↑</p></div>
     </div>
 </template>
-
 <script>
     import { onMounted } from 'vue';
     export default {
