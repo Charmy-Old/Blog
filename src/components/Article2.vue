@@ -30,6 +30,25 @@
     </section>
 
     <section class="all javascript">
+        <a href="JS_Cookie-vs-LocalStorage-vs-SessionStorage" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">Cookie V.S. LocalStorage V.S. SessionStorage</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>Cookie、LocalStorage、SessionStorage 差異</p>
+                    <p>Cookie：可設定失效時間。 預設是關閉瀏覽器後失效</p>
+                    <p>LocalStorage：不會過期，除非手動清除</p>
+                    <p>SessionStorage：每次分頁或瀏覽器關掉後就會清除</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all javascript">
         <a href="JS_map-vs-forEach" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-square-js"></i>
@@ -182,6 +201,7 @@
             </div>
         </a>
     </section>
+    
 </template>
 <script>
     import { onMounted } from 'vue';

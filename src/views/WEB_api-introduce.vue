@@ -12,7 +12,7 @@
 
             <section>
                 <div class="article-detail">
-                    <h3>API 到底是什麼？ 用白話文帶你認識</h3>
+                    <h3>API 到底是什麼？</h3>
                     <div class="article-detailLine"></div>
                     <div class="article-txt">
                         <p>當你上Google搜尋 API，你會看到它解釋為 應用程式介面，也就是Application Programming Interface 的縮寫，扮演應用程式和應用程式之間的橋樑。</p>

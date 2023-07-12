@@ -47,6 +47,23 @@
         </a>
     </section>
 
+    <section class="all css">
+        <a href="CSS_box-sizing" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 CSS box-sizing？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>CSS<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-12</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>CSS 的 box-sizing 是一個屬性，用於控制元素的寬度和高度的計算方式。它決定了指定的寬度和高度是否包括元素的邊距(margin)、內邊距(padding)和邊框(border)。</p>
+                    <p>box-sizing 屬性可以有兩個值：content-box (默認值)、border-box</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all javascript">
         <a href="JS_slice-vs-splice-vs-split" class="article">
             <div class="article-icon">
@@ -178,25 +195,6 @@
                     <p>限制內容字數寬度或行數，超過顯示刪節號…</p>
                     <p>透過 CSS 來限制字數寬度或行數做法，可以將長篇的文章進行截斷，並且結尾以...方式呈現在版面上，對排版來說是相當好用的方式。</p>
                     <p>但display: -webkit-box;語法在某些瀏覽器不支援，所以建議使用JavaScript寫法。</p>
-                </div>
-            </div>
-        </a>
-    </section>
-
-    <section class="all javascript">
-        <a href="JS_Cookie-vs-LocalStorage-vs-SessionStorage" class="article">
-            <div class="article-icon">
-                <i class="fa-brands fa-square-js"></i>
-            </div>
-            <div class="article-text">
-                <div class="article-title">Cookie V.S. LocalStorage V.S. SessionStorage</div>
-                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</div>
-                <div class="article-underline"></div>
-                <div class="article-content">
-                    <p>Cookie、LocalStorage、SessionStorage 差異</p>
-                    <p>Cookie：可設定失效時間。 預設是關閉瀏覽器後失效</p>
-                    <p>LocalStorage：不會過期，除非手動清除</p>
-                    <p>SessionStorage：每次分頁或瀏覽器關掉後就會清除</p>
                 </div>
             </div>
         </a>

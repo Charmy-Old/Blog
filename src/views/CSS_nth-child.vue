@@ -13,10 +13,10 @@
                     <h3>:nth-child</h3>
                     <div class="article-detailLine"></div>
                     <div class="article-txt">
-                        <p>CSS3 新增的選取器中，大概就屬:nth-child(n)功能最猛了，:nth-child(n)不僅可以不靠class或是ID來選取網頁項目外，還解決了網頁中清單資料規律性選取的問題，:nth-child(n)尤其對於表格資料的呈現上，真的是方便太多了</p>
+                        <p>CSS3 新增的選取器中，大概就屬:nth-child(n)功能最猛了，:nth-child(n)不僅可以不靠class或是ID來選取網頁項目外，還解決了網頁中清單資料規律性選取的問題，:nth-child(n)尤其對於表格資料的呈現上更加方便。</p>
                     </div>
                     <div class="article-list">
-                        <ol>
+                        <ul>
                             <li><i class="fa-solid fa-check"></i>:nth-child(n)<br>表示選擇列表中的第n個標簽。</li>
                             <li><i class="fa-solid fa-check"></i>:nth-child(2n-1)<br>表示選擇列表中的奇數標簽。</li>
                             <li><i class="fa-solid fa-check"></i>:nth-child(odd)<br>表示選擇列表中的奇數標簽。</li>
@@ -27,7 +27,7 @@
                             <li><i class="fa-solid fa-check"></i>:nth-last-child(3)<br>表示選擇列表中的倒數第3個標簽。</li>
                             <li><i class="fa-solid fa-check"></i>:first-child<br>表示選擇列表中的第一個標簽。</li>
                             <li><i class="fa-solid fa-check"></i>:last-child<br>表示選擇列表中的最後一個標簽。</li>
-                        </ol>
+                        </ul>
                     </div>
                 </div>
             </section>

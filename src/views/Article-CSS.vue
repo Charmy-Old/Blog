@@ -14,6 +14,23 @@
                 </div>
             </section>
 
+            <section class="all css">
+                <a href="CSS_box-sizing" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 CSS box-sizing？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>CSS<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-12</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>CSS 的 box-sizing 是一個屬性，用於控制元素的寬度和高度的計算方式。它決定了指定的寬度和高度是否包括元素的邊距(margin)、內邊距(padding)和邊框(border)。</p>
+                            <p>box-sizing 屬性可以有兩個值：content-box (默認值)、border-box</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
             <section>
                 <a href="CODE_Limit-Line-Width" class="article">
                     <div class="article-icon">

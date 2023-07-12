@@ -121,6 +121,11 @@ const routes = [
         name: 'CSS_nth-child',
         component: () => import('../views/CSS_nth-child.vue')
     },
+    {
+        path: '/CSS_box-sizing',
+        name: 'CSS_box-sizing',
+        component: () => import('../views/CSS_box-sizing.vue')
+    },
 
     // JS 文章
     {
