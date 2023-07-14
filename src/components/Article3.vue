@@ -30,6 +30,22 @@
     </section>
 
     <section class="all html">
+        <a href="HTML_codeTag" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">HTML &lt;code&gt; 顯示程式碼內容</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>HTML<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>&lt;code&gt; 標籤 (tag) 用來顯示電腦程式碼 (computer code) 內容，而瀏覽器預設會以 monospace 等寬字型 (fixed-width font) 來顯示 &lt;code&gt; 中的內容。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+    
+    <section class="all html">
         <a href="HTML_tableTag" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-html5"></i>

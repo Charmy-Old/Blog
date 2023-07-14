@@ -48,6 +48,21 @@
     </section>
 
     <section class="all javascript">
+        <a href="JS_Asynchronous" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">JavaScript 的非同步 (Asynchronous)</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-15</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                <p>JavaScript 是屬於同步的程式語言，因此一次僅能做一件事情，但遇到非同步的事件時，就會將非同步的事件移動到程式碼的最後方，等到所有的原始碼運行完以後才會執行非同步的事件。</p></div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all javascript">
         <a href="JS_AJAX" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-square-js"></i>
@@ -182,24 +197,6 @@
             </div>
         </a>
     </section>
-
-    <section class="all web">
-        <a href="WEB_HTTP-vs-HTTPS" class="article">
-            <div class="article-icon">
-                <i class="fa-sharp fa-solid fa-desktop"></i>
-            </div>
-            <div class="article-text">
-                <div class="article-title">HTTP V.S. HTTPS</div>
-                <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-08</div>
-                <div class="article-underline"></div>
-                <div class="article-content">
-                    <p>超文字傳輸通訊協定 (HTTP) 是全球資訊網的基礎，用於透過超文字連結載入網頁。HTTP 是一種應用程式層通訊協定，用於在聯網裝置之間傳輸資訊，並在網路通訊協定堆疊的其他層上執行。透過 HTTP 的典型流程涉及用戶端機器向伺服器發出請求，然後伺服器傳送回應訊息。</p>
-                </div>
-            </div>
-        </a>
-    </section>
-
-
 
 </template>
 <script>

@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL JS">
+        <div class="article-title">JavaScript 的非同步 (Asynchronous)</div>
+    </section>
+
+    <section class="ALL JS">
         <div class="article-title">什麼是 AJAX？</div>
     </section>
 

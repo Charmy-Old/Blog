@@ -163,6 +163,11 @@ const routes = [
         name: 'JS_AJAX',
         component: () => import('../views/JS_AJAX.vue')
     },
+    {
+        path: '/JS_Asynchronous',
+        name: 'JS_Asynchronous',
+        component: () => import('../views/JS_Asynchronous.vue')
+    },
 
 
     // Vue 文章
