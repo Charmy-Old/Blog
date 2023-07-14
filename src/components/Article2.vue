@@ -29,6 +29,24 @@
         </div>
     </section>
 
+    <section class="all css javascript">
+        <a href="CODE_Limit-Line-Width" class="article">
+            <div class="article-icon">
+                <i class="fa-solid fa-file-code"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">限制內容字數寬度或行數</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>CSS<i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-05</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>限制內容字數寬度或行數，超過顯示刪節號…</p>
+                    <p>透過 CSS 來限制字數寬度或行數做法，可以將長篇的文章進行截斷，並且結尾以...方式呈現在版面上，對排版來說是相當好用的方式。</p>
+                    <p>但display: -webkit-box;語法在某些瀏覽器不支援，所以建議使用JavaScript寫法。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all javascript">
         <a href="JS_Cookie-vs-LocalStorage-vs-SessionStorage" class="article">
             <div class="article-icon">
@@ -179,24 +197,6 @@
                 <div class="article-underline"></div>
                 <div class="article-content">
                     <p>&lt;code&gt; 標籤 (tag) 用來顯示電腦程式碼 (computer code) 內容，而瀏覽器預設會以 monospace 等寬字型 (fixed-width font) 來顯示 &lt;code&gt; 中的內容。</p>
-                </div>
-            </div>
-        </a>
-    </section>
-
-    <section class="all html">
-        <a href="HTML_tableTag" class="article">
-            <div class="article-icon">
-                <i class="fa-brands fa-html5"></i>
-            </div>
-            <div class="article-text">
-                <div class="article-title">HTML 表格 (table)</div>
-                <div class="article-tag"><i class="fa-solid fa-tag"></i>HTML<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</div>
-                <div class="article-underline"></div>
-                <div class="article-content">
-                    <p>HTML &lt;table&gt; 標籤 (tag) 用來建立表格，也就是用來呈現二維的資料表資訊。</p>
-                    <p>&lt;table&gt; 標籤做為表格的容器 (container)，裡面有不同用途的標籤像是 &lt;tr&gt;, &lt;td&gt; 組成一個完整的表格。</p>
-                    <p>&lt;table&gt;中的標籤按照以下順序，組成一個表格：</p>
                 </div>
             </div>
         </a>

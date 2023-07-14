@@ -12,6 +12,11 @@ const routes = [
         component: () => import('../views/Home2.vue')
     },
     {
+        path: '/Home3',
+        name: 'Home3',
+        component: () => import('../views/Home3.vue')
+    },
+    {
         path: '/Resume',
         name: 'Resume',
         component: () => import('../views/Resume.vue')
@@ -152,6 +157,11 @@ const routes = [
         path: '/JS_slice-vs-splice-vs-split',
         name: 'JS_slice-vs-splice-vs-split',
         component: () => import('../views/JS_slice-vs-splice-vs-split.vue')
+    },
+    {
+        path: '/JS_AJAX',
+        name: 'JS_AJAX',
+        component: () => import('../views/JS_AJAX.vue')
     },
 
 

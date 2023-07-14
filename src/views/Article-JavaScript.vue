@@ -15,13 +15,30 @@
             </section>
 
             <section class="all javascript">
+                <a href="JS_AJAX" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 AJAX？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-14</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>AJAX(Asynchronous JavaScript and XML) 指的是一套綜合了多項技術的瀏覽器端網頁開發技術。</p>
+                            <p>傳統的Web應用允許使用者端填寫表單 (form)，當送出表單時就向網頁伺服器傳送一個請求。伺服器接收並處理傳來的表單，然後送回一個新的網頁，但這個做法浪費了許多頻寬，因為在前後兩個頁面中的大部分HTML碼往往是相同的。由於每次應用的溝通都需要向伺服器傳送請求，應用的回應時間依賴於伺服器的回應時間。這導致了使用者介面的回應比本機應用慢得多。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section class="all javascript">
                 <a href="JS_slice-vs-splice-vs-split" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
                     </div>
                     <div class="article-text">
                         <div class="article-title">slice() V.S. splice() V.S. split()</div>
-                        <div class="article-tag"><i class="fa-solid fa-tag"></i>CSS<i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-11</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-11</div>
                         <div class="article-underline"></div>
                         <div class="article-content">
                             <p>slice() V.S. splice() V.S. split()</p>
@@ -38,7 +55,7 @@
                     </div>
                     <div class="article-text">
                         <div class="article-title">delete V.S. splice</div>
-                        <div class="article-tag"><i class="fa-solid fa-tag"></i>CSS<i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-11</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-11</div>
                         <div class="article-underline"></div>
                         <div class="article-content">
                             <p>在 JavaScript 中，delete 和 splice 為刪除組數索引值的方法。</p>
@@ -56,7 +73,7 @@
                     </div>
                     <div class="article-text">
                         <div class="article-title">var V.S. let V.S. const</div>
-                        <div class="article-tag"><i class="fa-solid fa-tag"></i>CSS<i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-11</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-11</div>
                         <div class="article-underline"></div>
                         <div class="article-content">
                             <p>在 JavaScript 中，var、let 和 const 是用於宣告變數的保留字，在 JavaScript 早期只有 var，直到 ES2015 (ES6) 時才加入了 let 與 const</p>
