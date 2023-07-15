@@ -35,6 +35,7 @@
 
             <Article1 />
             <Article2 />
+            <Article3 />
 
         </main>
         <Wall />
@@ -47,6 +48,7 @@
     import BackToTop from "@/components/BackToTop.vue";
     import Article1 from "@/components/Article1.vue";
     import Article2 from "@/components/Article2.vue";
+    import Article3 from "@/components/Article3.vue";
     import { onMounted } from 'vue';
     export default {
         components: {
@@ -55,6 +57,7 @@
             BackToTop,
             Article1,
             Article2,
+            Article3,
             // Footer,
         },
         setup() {
