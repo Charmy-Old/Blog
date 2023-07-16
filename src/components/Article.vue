@@ -407,7 +407,6 @@
 
 </template>
 <script>
-    // import { eventBus } from '../main.js';
     import { onMounted } from 'vue';
     export default {
         setup() {
@@ -441,5 +440,4 @@
             });
         }
     };
-    // eventBus.$emit('checkIfShow', true);
 </script>
