@@ -4,8 +4,8 @@
         <main>
             <section>
                 <div class="article-heading">
-                    <h2 class="article-heading">CSS選取標簽元素</h2>
-                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</p>
+                    <h2 class="article-heading">CSS 選取標簽元素</h2>
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-17</p>
                 </div>
             </section>
             <section>
@@ -17,16 +17,26 @@
                     </div>
                     <div class="article-list">
                         <ul>
-                            <li><i class="fa-solid fa-check"></i>:nth-child(n)<br>表示選擇列表中的第n個標簽。</li>
-                            <li><i class="fa-solid fa-check"></i>:nth-child(2n-1)<br>表示選擇列表中的奇數標簽。</li>
-                            <li><i class="fa-solid fa-check"></i>:nth-child(odd)<br>表示選擇列表中的奇數標簽。</li>
-                            <li><i class="fa-solid fa-check"></i>:nth-child(2n)<br>表示選擇列表中的偶數標簽。</li>
-                            <li><i class="fa-solid fa-check"></i>:nth-child(even)<br>表示選擇列表中的偶數標簽。</li>
-                            <li><i class="fa-solid fa-check"></i>:nth-child(n+3)<br>表示選擇列表中的標簽從第3個開始到最後。</li>
-                            <li><i class="fa-solid fa-check"></i>:nth-child(-n+3)<br>表示選擇列表中的標簽從0到3，即小於3的標簽。</li>
-                            <li><i class="fa-solid fa-check"></i>:nth-last-child(3)<br>表示選擇列表中的倒數第3個標簽。</li>
-                            <li><i class="fa-solid fa-check"></i>:first-child<br>表示選擇列表中的第一個標簽。</li>
-                            <li><i class="fa-solid fa-check"></i>:last-child<br>表示選擇列表中的最後一個標簽。</li>
+                            <li><i class="fa-solid fa-check"></i>:nth-child(n)<br>表示選擇的第n個標簽。</li>
+                            <li><i class="fa-solid fa-check"></i>:nth-child(2n-1)<br>表示選擇的奇數標簽。</li>
+                            <li><i class="fa-solid fa-check"></i>:nth-child(odd)<br>表示選擇的奇數標簽。</li>
+                            <li><i class="fa-solid fa-check"></i>:nth-child(2n)<br>表示選擇的偶數標簽。</li>
+                            <li><i class="fa-solid fa-check"></i>:nth-child(even)<br>表示選擇的偶數標簽。</li>
+                            <li><i class="fa-solid fa-check"></i>:nth-child(n+3)<br>表示選擇的標簽從第3個開始到最後。</li>
+                            <li><i class="fa-solid fa-check"></i>:nth-child(-n+3)<br>表示選擇的標簽從0到3，即小於3的標簽。</li>
+                            <li><i class="fa-solid fa-check"></i>:nth-last-child(3)<br>表示選擇的倒數第3個標簽。</li>
+                            <li><i class="fa-solid fa-check"></i>:first-child<br>表示選擇的第一個標簽。</li>
+                            <li><i class="fa-solid fa-check"></i>:last-child<br>表示選擇的最後一個標簽。</li>
+                        </ul>
+                    </div>
+                    <div class="article-txt">
+                        <h4>:nth-child 的進階用法</h4>
+                    </div>
+                    <div class="article-list">
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>:nth-child(-n+10)<br>表示選擇的前10個標簽。</li>
+                            <li><i class="fa-solid fa-check"></i>:nth-child(n+11):nth-child(-n+20)<br>表示選擇第11~20個標簽。</li>
+                            <li><i class="fa-solid fa-check"></i>:not(:nth-child(n+11):nth-child(-n+20))<br>表示選擇第11~20個以外的標簽。</li>
                         </ul>
                     </div>
                 </div>

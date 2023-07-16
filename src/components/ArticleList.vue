@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL CSS">
+        <div class="article-title">CSS選取第一個、最後一個、偶數、奇數、第n個標簽元素</div>
+    </section>
+    
     <section class="ALL JS">
         <div class="article-title">JavaScript 的非同步 (Asynchronous)</div>
     </section>
@@ -74,10 +78,6 @@
 
     <section class="ALL WEB">
         <div class="article-title">什麼是 CDN？| CDN 的工作原理是什麼？</div>
-    </section>
-
-    <section class="ALL CSS">
-        <div class="article-title">CSS選取第一個、最後一個、偶數、奇數、第n個標簽元素</div>
     </section>
 
     <section class="ALL HTML">
