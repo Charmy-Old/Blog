@@ -2,7 +2,9 @@
     <Header />
     <div class="content">
         <main>
-            <Article1 />
+            <div class="allArticle">
+                <Article />
+            </div>
             <HomePageList />
         </main>
         <Wall />
@@ -13,7 +15,7 @@
     import Header from "@/components/Header.vue";
     import Wall from "@/components/Wall.vue";
     import BackToTop from "@/components/BackToTop.vue";
-    import Article1 from "@/components/Article1.vue";
+    import Article from "@/components/Article.vue";
     import HomePageList from "@/components/HomePageList.vue";
 
     
@@ -22,10 +24,16 @@
             Header,
             Wall,
             BackToTop,
-            Article1,
+            Article,
             HomePageList,
             // Footer,
         },
         setup() {}
     };
 </script>
+
+<style>
+    .all:nth-child(n+12) {
+        display: none;
+    }
+</style>

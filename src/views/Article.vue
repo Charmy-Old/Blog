@@ -33,9 +33,7 @@
                 </div>
             </section>
 
-            <Article1 />
-            <Article2 />
-            <Article3 />
+            <Article />
 
         </main>
         <Wall />
@@ -46,18 +44,14 @@
     import Header from "@/components/Header.vue";
     import Wall from "@/components/Wall.vue";
     import BackToTop from "@/components/BackToTop.vue";
-    import Article1 from "@/components/Article1.vue";
-    import Article2 from "@/components/Article2.vue";
-    import Article3 from "@/components/Article3.vue";
+    import Article from "@/components/Article.vue";
     import { onMounted } from 'vue';
     export default {
         components: {
             Header,
             Wall,
             BackToTop,
-            Article1,
-            Article2,
-            Article3,
+            Article,
             // Footer,
         },
         setup() {
