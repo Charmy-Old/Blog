@@ -181,11 +181,11 @@ function fetchData() {
     return new Promise(function(resolve, reject) {
         // 模擬非同步操作
         setTimeout(function() {
-            const data = '這是從伺服器獲取的數據';
+            const data = "這是從伺服器獲取的數據";
             if (data) {
                 resolve(data); // 完成狀態
             } else {
-                reject('無法獲取數據'); // 拒絕狀態
+                reject("無法獲取數據"); // 拒絕狀態
             }
         }, 2000);
     });
@@ -228,7 +228,7 @@ fetchData()
 <pre>
 async function getData() {
     try {
-        const response = await fetch('https://api.example.com/data');
+        const response = await fetch("https://api.example.com/data");
         const data = await response.json();
         console.log(data);
     } catch (error) {

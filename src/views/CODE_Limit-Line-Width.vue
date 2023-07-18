@@ -120,16 +120,16 @@ adjustLinkWidth();
 <pre>
 /* JS */
 
-window.addEventListener('verticalJS', function() {
+window.addEventListener("verticalJS", function() {
     adjustContainerHeight();
 });
 
 function adjustContainerHeight() {
-    const container = document.querySelector('.verticalJS');
+    const container = document.querySelector(".verticalJS");
     const lineHeight = parseInt(getComputedStyle(verticalJS).lineHeight);
     const maxLines = parseInt(getComputedStyle(verticalJS).webkitLineClamp);
     const containerHeight = lineHeight * maxLines;
-    container.style.maxHeight = containerHeight + 'px';
+    container.style.maxHeight = containerHeight + "px";
 }
     
 adjustContainerHeight();

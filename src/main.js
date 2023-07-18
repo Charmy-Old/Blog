@@ -1,16 +1,16 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
+import { createApp } from "vue"
+import App from "./App.vue"
+import router from "./router"
+import store from "./store"
 
 // jQuery
-import $ from 'jquery';
+import $ from "jquery";
 window.$ = $;
 
 // Bootstrap JS
-import 'bootstrap';
+import "bootstrap";
 
-createApp(App).use(store).use(router).mount('#app')
+createApp(App).use(store).use(router).mount("#app")
 
 router.afterEach((to, from, next) => {
 	window.scrollTo(0, 0);
@@ -23,4 +23,4 @@ router.afterEach((to, from, next) => {
 // 	// AllArticleCount: 0,
 // };
   
-// app.mount('#app');
+// app.mount("#app");

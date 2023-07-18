@@ -134,8 +134,6 @@
     font-size: 36px;
 }
 
-
-
 @media screen and (min-width: 500px) {
     .article-content {
         min-height: 96px;
@@ -144,5 +142,12 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .article-content {
+        max-height: 48px;
+        overflow: hidden;
     }
 }

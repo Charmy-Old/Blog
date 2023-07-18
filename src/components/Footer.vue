@@ -7,7 +7,7 @@
     </footer>
 </template>
 <script>
-    import {} from 'vue';
+    import {} from "vue";
     export default {
         setup() {},
 

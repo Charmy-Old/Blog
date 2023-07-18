@@ -45,7 +45,7 @@
     import Wall from "@/components/Wall.vue";
     import BackToTop from "@/components/BackToTop.vue";
     import Article from "@/components/Article.vue";
-    import { onMounted } from 'vue';
+    import { onMounted } from "vue";
     export default {
         components: {
             Header,

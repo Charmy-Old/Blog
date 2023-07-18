@@ -157,7 +157,7 @@
     import Header from "@/components/Header.vue";
     import Wall from "@/components/Wall.vue";
     import BackToTop from "@/components/BackToTop.vue";
-    import { onMounted } from 'vue';
+    import { onMounted } from "vue";
     export default {
         components: {
             Header,

@@ -163,6 +163,31 @@
     }
 }
 
+
+.wall-weather h2 {
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0.5rem 0;
+    padding: 0 0.25rem;
+}
+
+.select-area {
+    font-weight: 900;
+    width: 100%;
+    color: #26273B;
+    margin: 0.5rem 0 0.75rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.showWeather {
+    line-height: 2;
+    padding: 0 0.25rem;
+}
+
+
 </style>
 <template>
 
@@ -186,6 +211,26 @@
                 <p>中原大學土木工程學系畢業，緯育TiBaMe的前端工程師就業養成班並完成個人專題與團體專題後成功結業。現職雲端數位有限公司前端工程師助理。</p>
             </section>
         </div>
+
+        <section class="wall-weather">
+            <div v-cloak>
+                <h2>天氣查詢</h2>
+                <select class="select-area" v-model="locationName">
+                    <option value="" selected disabled>選擇區域</option>
+                    <option v-for="weatherData of weatherDatas" :key="weatherData.locationName" :value="weatherData.locationName">
+                        {{ weatherData.locationName }}
+                    </option>
+                </select>
+                <div class="showWeather" v-for="weatherData of weatherDatas" :key="weatherData.locationName" v-show="locationName === weatherData.locationName">
+                    <!-- <p>{{ locationName }}</p> -->
+                    <p>天氣狀況：</p>
+                    <p> {{ weatherData.weatherElement[0].time[0].parameter.parameterName }} </p>
+                    <p>最高溫度：{{ weatherData.weatherElement[4].time[0].parameter.parameterName }} ℃</p>
+                    <p>最低溫度：{{ weatherData.weatherElement[2].time[0].parameter.parameterName }} ℃</p>
+                    <p>降雨機率：{{ weatherData.weatherElement[1].time[0].parameter.parameterName }} ％</p>
+                </div>
+            </div>
+        </section>
 
         <div class="wall-article-project">
             <section class="wall-article">
@@ -219,7 +264,7 @@
 <script>
 import sharedData from "@/assets/js/sharedData";
 import ArticleList from "@/components/ArticleList.vue";
-import { ref, onMounted, computed } from "vue";
+import { defineComponent, ref, onMounted, computed } from "vue";
 export default {
     components: {
         ArticleList,
@@ -292,22 +337,46 @@ export default {
             sharedData.vueArticleCount = vueArticleCount.value;
         };
 
-    // 用 computed 抓全局變量
-    const Countall = computed(() => sharedData.allArticleCount);
-    const Countweb = computed(() => sharedData.webArticleCount);
-    const Counthtml = computed(() => sharedData.htmlArticleCount);
-    const Countcss = computed(() => sharedData.cssArticleCount);
-    const Countjs = computed(() => sharedData.jsArticleCount);
-    const Countvue = computed(() => sharedData.vueArticleCount);
+        // 用 computed 抓全局變量
+        const Countall = computed(() => sharedData.allArticleCount);
+        const Countweb = computed(() => sharedData.webArticleCount);
+        const Counthtml = computed(() => sharedData.htmlArticleCount);
+        const Countcss = computed(() => sharedData.cssArticleCount);
+        const Countjs = computed(() => sharedData.jsArticleCount);
+        const Countvue = computed(() => sharedData.vueArticleCount);
 
-    return {
-        allArticleCount: Countall,
-        webArticleCount: Countweb,
-        htmlArticleCount: Counthtml,
-        cssArticleCount: Countcss,
-        jsArticleCount: Countjs,
-        vueArticleCount: Countvue,
-    };
-  },
+        // 天氣 api
+        const weatherDatas = ref([]);
+        const locationName = ref("");
+        const getWeather = () => {
+            fetch(
+                "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-AB74CE7B-2CF2-4D40-A61C-6F5D05C0DEB6&format=JSON&sort=time"
+            )
+            .then((res) => res.json())
+            .then((json) => {
+                weatherDatas.value = json.records.location;
+            })
+            .catch((error) => {
+                alert("系統異常，請稍後再試");
+            });
+        };
+        onMounted(() => {
+            getWeather();
+        });
+
+        return {
+            // 文章數量計算
+            allArticleCount: Countall,
+            webArticleCount: Countweb,
+            htmlArticleCount: Counthtml,
+            cssArticleCount: Countcss,
+            jsArticleCount: Countjs,
+            vueArticleCount: Countvue,
+            // 天氣 api
+            weatherDatas,
+            locationName,
+            getWeather
+        };
+    },
 };
 </script>
