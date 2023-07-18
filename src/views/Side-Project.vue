@@ -35,7 +35,6 @@
                             <div class="sideProject-projectContent">
                                 <p>Vue-CLI 進行BLOG撰寫，其中使用Vue composition api方式撰寫，部屬至GitHub後使用render取得網址。</p>
                                 <p>除了自我介紹，會整理一些前端文章等等，並持續思考該如何使網站更加豐富</p>
-                                <p>商品內頁和加入會員及忘記密碼功能等尚未完成</p>
                             </div>
                             <div class="sideProject-projectLink">
                                 <a href="https://github.com/Charmying/blog" target="_blank">GitHub</a>
