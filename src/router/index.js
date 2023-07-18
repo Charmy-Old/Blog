@@ -183,6 +183,11 @@ const routes = [
         name: 'CODE_Limit-Line-Width',
         component: () => import('../views/CODE_Limit-Line-Width.vue')
     },
+    {
+        path: '/CODE_BOM-vs-DOM',
+        name: 'CODE_BOM-vs-DOM',
+        component: () => import('../views/CODE_BOM-vs-DOM.vue')
+    },
 ]
 
 

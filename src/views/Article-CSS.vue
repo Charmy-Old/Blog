@@ -30,7 +30,7 @@
                 </a>
             </section>
 
-            <section class="all css">
+            <section>
                 <a href="CSS_box-sizing" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-css3-alt"></i>

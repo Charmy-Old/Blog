@@ -166,7 +166,7 @@ for (var i = 0; i &lt; 3; i++) {
                         <p>至於 let 則是「 區塊作用域 」每次 i 都會被紀錄在創造出來的區域中，更精確地說，是每次迭代都會建立一個新的環境（context），而這個環境會紀錄當下的變數 i 值，不會覆蓋掉上一個環境裡面的變數值，因此可以產生多個 i 值</p>
                     </div>
                     <div class="article-pic">
-                        <img src="../assets/images/article-js/var-let-const.png" alt="">
+                        <img src="../assets/images/article-js/var-let-const.webp" alt="">
                     </div>
                     <div class="article-list">
                         <ul>

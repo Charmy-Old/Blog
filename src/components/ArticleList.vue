@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL HTML JS">
+        <div class="article-title">BOM V.S. DOM</div>
+    </section>
+
     <section class="ALL CSS">
         <div class="article-title">CSS選取第一個、最後一個、偶數、奇數、第n個標簽元素</div>
     </section>

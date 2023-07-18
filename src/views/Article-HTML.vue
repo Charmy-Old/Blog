@@ -15,6 +15,24 @@
             </section>
 
             <section>
+                <a href="CODE_BOM-vs-DOM" class="article">
+                    <div class="article-icon">
+                        <i class="fa-solid fa-file-code"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">BOM V.S. DOM</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>HTML<i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-19</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>BOM：JavaScript 和『瀏覽器』溝通的窗口，不涉及網頁內容；DOM：JavaScript 用來控制『網頁』的節點與內容的標準</p>
+                            <p>『BOM』完全依賴瀏覽器廠商實作本身沒有標準規範，『DOM』有 W3C 所制定的標準來規範。</p>
+                            <p>DOM 最重要的就是觀念，為了不讓網頁在渲染的過程中過度的 重畫頁面(Repaint) 甚至是 重構頁面(Reflow) 而讓網頁效能變差，在 DOM 的操作上可要非常小心，而 DOM 也可以說是網頁的核心。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section>
                 <a href="HTML_codeTag" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-html5"></i>
