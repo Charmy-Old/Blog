@@ -62,7 +62,7 @@ console.log(name);
     let name = "Charmy";
 }
 console.log(name);
-// ReferenceError: corgiName is not defined
+// ReferenceError: name is not defined
 </pre>
                         </div>
                     </div>
@@ -142,7 +142,7 @@ for (var i = 0; i &lt; 3; i++) {
                     </div>
                     <div class="article-txt">
                         <p>首先來看第一點，當進入 for 迴圈時，宣告變數 var i = 0 ，並開始條件判斷，當 i &lt; 3 時， i + 1，執行完後，接著需要等待 0.1 秒的時間，才會進行 setTimeout() 內的 function() { console.log( i ) ; }。</p>
-                        <p>而 JavaScript 是「異步/非同步」語言，因此在等待執行 function() { console.log( i ) ; } 前的這 0.1 秒內，會先執行完已經能執行的 for 迴圈。</p>
+                        <p>而 JavaScript 是非同步(異步)語言，因此在等待執行 function() { console.log( i ) ; } 前的這 0.1 秒內，會先執行完已經能執行的 for 迴圈。</p>
                         <p>所以現在能理解第一點的結論： function 中，console.log( i ) 的執行時間點會在 for 迴圈執行完畢之後。</p>
                     </div>
                     <div class="article-code">
