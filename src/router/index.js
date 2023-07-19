@@ -107,6 +107,11 @@ const routes = [
         name: 'WEB_RESTfulAPI-introduce',
         component: () => import('../views/WEB_RESTfulAPI-introduce.vue')
     },
+    {
+        path: '/WEB_web-noun',
+        name: 'WEB_web-noun',
+        component: () => import('../views/WEB_web-noun.vue')
+    },
 
     // HTML 文章
     {

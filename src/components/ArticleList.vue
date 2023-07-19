@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL WEB">
+        <div class="article-title">淺談網頁技術名詞</div>
+    </section>
+
     <section class="ALL HTML JS">
         <div class="article-title">BOM V.S. DOM</div>
     </section>

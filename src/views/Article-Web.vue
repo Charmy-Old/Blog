@@ -15,6 +15,24 @@
             </section>
 
             <section>
+                <a href="WEB_web-noun" class="article">
+                    <div class="article-icon">
+                        <i class="fa-sharp fa-solid fa-desktop"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">淺談網頁技術名詞</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-19</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>為了增進使用者體驗，前端愈來愈複雜，現在就讓我們一起搞懂網頁技術名詞。</p>
+                            <p>MVC：一種設計模式，目的是將雜亂的程式碼分開以好維護。原理是將任何與資料有關的操作都放到一個叫做 Model 的地方、所有跟顯示畫面有關的東西都放到 View，並在 View 裡面用一個 template 來放入資料。</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section>
                 <a href="WEB_RESTfulAPI-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>

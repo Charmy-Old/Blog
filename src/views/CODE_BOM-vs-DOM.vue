@@ -100,11 +100,6 @@ window.onresize = function(){
                 </div>
             </section>
 
-
-
-
-
-
             <section>
                 <div class="article-detail">
                     <h3>DOM (Document Object Model)</h3>
