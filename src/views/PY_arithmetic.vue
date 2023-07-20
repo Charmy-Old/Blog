@@ -35,9 +35,9 @@ else:
                     <div class="article-detailLine"></div>
                     <div class="article-coding">
 <pre>
-n1 = int(input("請輸入第一個數字："))
+n1 = float(input("請輸入第一個數字："))
 calculate = input("請輸入運算：+ or - or * or /：")
-n2 = int(input("請輸入第二個數字："))
+n2 = float(input("請輸入第二個數字："))
 if calculate == "+":
     print("Ans：", n1 + n2)
 elif calculate == "-":
