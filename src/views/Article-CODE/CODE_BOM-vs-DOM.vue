@@ -23,7 +23,7 @@
                         <p>BOM，是 JavaScript 與瀏覽器溝通的橋樑，JavaScript 可以透過 BOM 對瀏覽器進行各種操作，包含開啟及關閉視窗、改變視窗大小、計時器、取得位址之類的。</p>
                     </div>
                     <div class="article-pic">
-                        <img src="../assets/images/article-js/BOM.webp" alt="">
+                        <img src="../../assets/images/article-js/BOM.webp" alt="">
                     </div>
                     <div class="article-txt">
                         <p>BOM 的核心是 window 物件，而 window 物件提供的特性主要為 document、location、navigator、screen、history 以及 frames。</p>
@@ -111,7 +111,7 @@ window.onresize = function(){
                         <p>DOM 是一個將 HTML 文件以樹狀的結構來表示的模型，而組合起來的樹狀圖，稱為「DOM Tree」。</p>
                     </div>
                     <div class="article-pic">
-                        <img src="../assets/images/article-js/DOM-Tree.webp" alt="">
+                        <img src="../../assets/images/article-js/DOM-Tree.webp" alt="">
                     </div>
                     <div class="article-txt">
                         <h4>為何需要 DOM</h4>
@@ -120,7 +120,7 @@ window.onresize = function(){
                         <p>既然上面都提到 DOM 會形成一個樹狀結構，而樹狀結構最重要的就是各個節點(node)。</p>
                     </div>
                     <div class="article-pic">
-                        <img src="../assets/images/article-js/DOM-node.webp" alt="">
+                        <img src="../../assets/images/article-js/DOM-node.webp" alt="">
                     </div>
                     <div class="article-txt">
                         <h4>範例</h4>
@@ -141,7 +141,7 @@ window.onresize = function(){
                         <p>首先是最一開始的 document，往下開始遇到 &lt;html&gt; 這個 element，這個 &lt;html&gt; 包含了 &lt;head&gt; 以及 &lt;body&gt; 這兩個 element ，其中 &lt;head&gt; 這個 element 包含了 &lt;title&gt; 這個 element 而 &lt;title&gt; 的 text 為 example，再來是 &lt;body&gt; 這個 element 包含了 &lt;h1&gt; 這個 element 而 &lt;h1&gt; 的 text 為 Hello World attribute 為 class。</p>
                     </div>
                     <div class="article-pic">
-                        <img src="../assets/images/article-js/DOM-example.webp" alt="">
+                        <img src="../../assets/images/article-js/DOM-example.webp" alt="">
                     </div>
                     <div class="article-txt">
                         <h4>DOM 遍歷</h4>

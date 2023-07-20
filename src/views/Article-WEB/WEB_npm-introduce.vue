@@ -63,7 +63,7 @@
                         <p>注意到了嗎？前述執行的過程中，即使在 npm 有快取的情況下，仍然不會使用同一份檔案，而是複製一份套件到 node_modules 中；也因為這樣的特性，加上套件依賴套件再依賴套件的層層相依，node_modules 非常容易莫名的塞好塞滿，長成誇張的容量黑洞。</p>
                     </div>
                     <div class="article-pic">
-                        <img src="../assets/images/article-web/web-npm.webp" alt="">
+                        <img src="../../assets/images/article-web/web-npm.webp" alt="">
                     </div>
                     <div class="article-txt">
                         <p>除此之外，層層相依同時也帶來了風險，開發者很容易在不知情中安裝了有風險，甚至含有惡意程式的套件，從去年的 getcookies、Event-Stream，到前幾個月的 bb-builder，甚至是熱門的工具庫套件 lodash 先前都有資安風險，例子不勝枚舉。</p>

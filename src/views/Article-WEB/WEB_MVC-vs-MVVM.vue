@@ -31,7 +31,7 @@
                         <p>運作方式是View(透過model)呈現資料給與user，user 透過controller觸發事件，Model接收事件調整DB，調整完畢後再通知(e.g. 觀察者模式)View更新頁面呈現。</p>
                     </div>
                     <div class="article-pic">
-                        <img src="../assets/images/article-web/web-mvc.svg" alt="">
+                        <img src="../../assets/images/article-web/web-mvc.svg" alt="">
                     </div>
                     <div class="article-coding">
 <pre>
@@ -108,7 +108,7 @@ window.onload = C.handleOnload;
                     <div class="article-txt">
                         <h4>最主要差異為用資料驅動view的更新，當資料異動時，去更新view</h4>
                     </div>
-                    <div class="article-pic"><img src="../assets/images/article-web/web-mvvm.png" alt=""></div>
+                    <div class="article-pic"><img src="../../assets/images/article-web/web-mvvm.png" alt=""></div>
                     <div class="article-txt">
                         <h4>通常多用於與UI較相關的 前端 部分</h4>
                     </div>

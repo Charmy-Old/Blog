@@ -15,7 +15,7 @@
                     <h3>生命週期與 Hooks function</h3>
                     <div class="article-detailLine"></div>
                     <div class="article-pic">
-                        <img src="../assets/images/article-vue/vue-lifecycle.png" alt="">
+                        <img src="../../assets/images/article-vue/vue-lifecycle.png" alt="">
                     </div>
                     <div class="article-table">
                         <table>

@@ -40,7 +40,7 @@
                         <p>Google Chrome 網路索引標籤中的 HTTP 請求標頭範例：</p>
                     </div>
                     <div class="article-pic">
-                        <img src="../assets/images/article-web/http-request-headers.webp" alt="">
+                        <img src="../../assets/images/article-web/http-request-headers.webp" alt="">
                     </div>
                     <div class="article-txt">
                         <h4>HTTP 請求主體中包含什麼內容？</h4>
@@ -78,7 +78,7 @@
                         <p>Google Chrome 網路索引標籤中的 HTTP 回應標頭範例：</p>
                     </div>
                     <div class="article-pic">
-                        <img src="../assets/images/article-web/http-response-headers.webp" alt="">
+                        <img src="../../assets/images/article-web/http-response-headers.webp" alt="">
                     </div>
                     <div class="article-txt">
                         <h4>HTTP 回應主體中包含什麼內容？</h4>
@@ -100,7 +100,7 @@
                         <p>任何網站（尤其是需要登入憑證的網站）都應使用 HTTPS。在現代的 Web 瀏覽器中（例如 Chrome），未使用 HTTPS 的網站會以不同的方式標記。請留意 URL 列中的綠色鎖頭，這表示網頁安全無虞。Web 瀏覽器相當嚴正看待 HTTPS；</p>
                     </div>
                     <div class="article-pic">
-                        <img src="../assets/images/article-web/https-not-secure.webp" alt="">
+                        <img src="../../assets/images/article-web/https-not-secure.webp" alt="">
                     </div>
                     <div class="article-txt">
                         <h4>HTTPS 如何運作？</h4>

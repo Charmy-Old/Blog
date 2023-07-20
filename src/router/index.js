@@ -29,197 +29,197 @@ const routes = [
     {
         path: '/Article',
         name: 'Article',
-        component: () => import('../views/Article.vue')
+        component: () => import('../views/Article/Article.vue')
     },
 
     // 分類文章頁面
     {
         path: '/Article-Web',
         name: 'Article-Web',
-        component: () => import('../views/Article-Web.vue')
+        component: () => import('../views/Article/Article-Web.vue')
     },
     {
         path: '/Article-HTML',
         name: 'Article-HTML',
-        component: () => import('../views/Article-HTML.vue')
+        component: () => import('../views/Article/Article-HTML.vue')
     },
     {
         path: '/Article-CSS',
         name: 'Article-CSS',
-        component: () => import('../views/Article-CSS.vue')
+        component: () => import('../views/Article/Article-CSS.vue')
     },
     {
         path: '/Article-JavaScript',
         name: 'Article-JavaScript',
-        component: () => import('../views/Article-JavaScript.vue')
+        component: () => import('../views/Article/Article-JavaScript.vue')
     },
     {
         path: '/Article-Vue',
         name: 'Article-Vue',
-        component: () => import('../views/Article-Vue.vue')
+        component: () => import('../views/Article/Article-Vue.vue')
     },
     {
         path: '/Article-Database',
         name: 'Article-Database',
-        component: () => import('../views/Article-Database.vue')
+        component: () => import('../views/Article/Article-Database.vue')
     },
     {
         path: '/Article-Python',
         name: 'Article-Python',
-        component: () => import('../views/Article-Python.vue')
+        component: () => import('../views/Article/Article-Python.vue')
     },
 
     // 置頂 文章
     {
         path: '/Programming-Language',
         name: 'Programming-Language',
-        component: () => import('../views/Programming-Language.vue')
+        component: () => import('../views/Article-Programming/Programming-Language.vue')
     },
 
     // Web 文章
     {
         path: '/WEB_cdn-introduce',
         name: 'WEB_cdn-introduce',
-        component: () => import('../views/WEB_cdn-introduce.vue')
+        component: () => import('../views/Article-WEB/WEB_cdn-introduce.vue')
     },
     {
         path: '/WEB_npm-introduce',
         name: 'WEB_npm-introduce',
-        component: () => import('../views/WEB_npm-introduce.vue')
+        component: () => import('../views/Article-WEB/WEB_npm-introduce.vue')
     },
     {
         path: '/WEB_api-introduce',
         name: 'WEB_api-introduce',
-        component: () => import('../views/WEB_api-introduce.vue')
+        component: () => import('../views/Article-WEB/WEB_api-introduce.vue')
     },
     {
         path: '/WEB_MVC-vs-MVVM',
         name: 'WEB_MVC-vs-MVVM',
-        component: () => import('../views/WEB_MVC-vs-MVVM.vue')
+        component: () => import('../views/Article-WEB/WEB_MVC-vs-MVVM.vue')
     },
     {
         path: '/WEB_HTTP-vs-HTTPS',
         name: 'WEB_HTTP-vs-HTTPS',
-        component: () => import('../views/WEB_HTTP-vs-HTTPS.vue')
+        component: () => import('../views/Article-WEB/WEB_HTTP-vs-HTTPS.vue')
     },
     {
         path: '/WEB_SSL-and-TLS',
         name: 'WEB_SSL-and-TLS',
-        component: () => import('../views/WEB_SSL-and-TLS.vue')
+        component: () => import('../views/Article-WEB/WEB_SSL-and-TLS.vue')
     },
     {
         path: '/WEB_TCP-IP',
         name: 'WEB_TCP-IP',
-        component: () => import('../views/WEB_TCP-IP.vue')
+        component: () => import('../views/Article-WEB/WEB_TCP-IP.vue')
     },
     {
         path: '/WEB_RESTfulAPI-introduce',
         name: 'WEB_RESTfulAPI-introduce',
-        component: () => import('../views/WEB_RESTfulAPI-introduce.vue')
+        component: () => import('../views/Article-WEB/WEB_RESTfulAPI-introduce.vue')
     },
     {
         path: '/WEB_web-noun',
         name: 'WEB_web-noun',
-        component: () => import('../views/WEB_web-noun.vue')
+        component: () => import('../views/Article-WEB/WEB_web-noun.vue')
     },
 
     // HTML 文章
     {
         path: '/HTML_tableTag',
         name: 'HTML_tableTag',
-        component: () => import('../views/HTML_tableTag.vue')
+        component: () => import('../views/Article-HTML/HTML_tableTag.vue')
     },
     {
         path: '/HTML_codeTag',
         name: 'HTML_codeTag',
-        component: () => import('../views/HTML_codeTag.vue')
+        component: () => import('../views/Article-HTML/HTML_codeTag.vue')
     },
 
     // CSS 文章
     {
         path: '/CSS_nth-child',
         name: 'CSS_nth-child',
-        component: () => import('../views/CSS_nth-child.vue')
+        component: () => import('../views/Article-CSS/CSS_nth-child.vue')
     },
     {
         path: '/CSS_box-sizing',
         name: 'CSS_box-sizing',
-        component: () => import('../views/CSS_box-sizing.vue')
+        component: () => import('../views/Article-CSS/CSS_box-sizing.vue')
     },
 
     // JS 文章
     {
         path: '/JS_map-vs-forEach',
         name: 'JS_map-vs-forEach',
-        component: () => import('../views/JS_map-vs-forEach.vue')
+        component: () => import('../views/Article-JavaScript/JS_map-vs-forEach.vue')
     },
     {
         path: '/JS_Cookie-vs-LocalStorage-vs-SessionStorage',
         name: 'JS_Cookie-vs-LocalStorage-vs-SessionStorage',
-        component: () => import('../views/JS_Cookie-vs-LocalStorage-vs-SessionStorage.vue')
+        component: () => import('../views/Article-JavaScript/JS_Cookie-vs-LocalStorage-vs-SessionStorage.vue')
     },
     {
         path: '/JS_var-vs-let-vs-const',
         name: 'JS_var-vs-let-vs-const',
-        component: () => import('../views/JS_var-vs-let-vs-const.vue')
+        component: () => import('../views/Article-JavaScript/JS_var-vs-let-vs-const.vue')
     },
     {
         path: '/JS_delete-vs-splice',
         name: 'JS_delete-vs-splice',
-        component: () => import('../views/JS_delete-vs-splice.vue')
+        component: () => import('../views/Article-JavaScript/JS_delete-vs-splice.vue')
     },
     {
         path: '/JS_slice-vs-splice-vs-split',
         name: 'JS_slice-vs-splice-vs-split',
-        component: () => import('../views/JS_slice-vs-splice-vs-split.vue')
+        component: () => import('../views/Article-JavaScript/JS_slice-vs-splice-vs-split.vue')
     },
     {
         path: '/JS_AJAX',
         name: 'JS_AJAX',
-        component: () => import('../views/JS_AJAX.vue')
+        component: () => import('../views/Article-JavaScript/JS_AJAX.vue')
     },
     {
         path: '/JS_Asynchronous',
         name: 'JS_Asynchronous',
-        component: () => import('../views/JS_Asynchronous.vue')
+        component: () => import('../views/Article-JavaScript/JS_Asynchronous.vue')
     },
 
     // Vue 文章
     {
         path: '/VUE_LifeCycle',
         name: 'VUE_LifeCycle',
-        component: () => import('../views/VUE_LifeCycle.vue')
+        component: () => import('../views/Article-Vue/VUE_LifeCycle.vue')
     },
 
     // Database 文章
     {
         path: '/DB_CRUD',
         name: 'DB_CRUD',
-        component: () => import('../views/DB_CRUD.vue')
+        component: () => import('../views/Article-Database/DB_CRUD.vue')
     },
 
     // Python 文章
     {
         path: '/PY_arithmetic',
         name: 'PY_arithmetic',
-        component: () => import('../views/PY_arithmetic.vue')
+        component: () => import('../views/Article-Python/PY_arithmetic.vue')
     },
     {
         path: '/PY_loop',
         name: 'PY_loop',
-        component: () => import('../views/PY_loop.vue')
+        component: () => import('../views/Article-Python/PY_loop.vue')
     },
 
     // 技術合併 文章
     {
         path: '/CODE_Limit-Line-Width',
         name: 'CODE_Limit-Line-Width',
-        component: () => import('../views/CODE_Limit-Line-Width.vue')
+        component: () => import('../views/Article-CODE/CODE_Limit-Line-Width.vue')
     },
     {
         path: '/CODE_BOM-vs-DOM',
         name: 'CODE_BOM-vs-DOM',
-        component: () => import('../views/CODE_BOM-vs-DOM.vue')
+        component: () => import('../views/Article-CODE/CODE_BOM-vs-DOM.vue')
     },
     
 ]
