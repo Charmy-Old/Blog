@@ -55,6 +55,24 @@
         </a>
     </section>
 
+    <section class="all vue">
+        <a href="VUE_syntax" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-vuejs"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">Vue 模板語法</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Vue<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-21</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>Vue.js 使用了基於 HTML 的模板語法，允許開發者聲明式地將 DOM 綁定至底層 Vue 實例的數據。</p>
+                    <p>Vue.js 的核心是一個允許你采用簡潔的模板語法來聲明式的將數據渲染進 DOM。</p>
+                    <p>結合響應系統，在應用狀態改變時， Vue 能夠智能地計算出重新渲染組件的最小代價並應用到 DOM 操作上。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all python">
         <a href="PY_loop" class="article">
             <div class="article-icon">

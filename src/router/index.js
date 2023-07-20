@@ -190,6 +190,11 @@ const routes = [
         name: 'VUE_LifeCycle',
         component: () => import('../views/Article-Vue/VUE_LifeCycle.vue')
     },
+    {
+        path: '/VUE_syntax',
+        name: 'VUE_syntax',
+        component: () => import('../views/Article-Vue/VUE_syntax.vue')
+    },
 
     // Database 文章
     {
