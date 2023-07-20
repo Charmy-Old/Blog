@@ -130,7 +130,7 @@ expected output：undefined
                     <h3>參考資料</h3>
                     <div class="article-detailLine"></div>
                     <div class="article-txt">
-                        <a class="article-reference" href="" target="_blank"><i class="fa-solid fa-pen-to-square"></i>suwu150 - map()和forEach()的區別和理解</a>
+                        <a class="article-reference" href="https://blog.csdn.net/suwu150/article/details/111590409" target="_blank"><i class="fa-solid fa-pen-to-square"></i>suwu150 - map()和forEach()的區別和理解</a>
                     </div>
                 </div>
             </section>

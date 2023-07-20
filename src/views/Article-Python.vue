@@ -15,13 +15,30 @@
             </section>
 
             <section>
+                <a href="PY_loop" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">迴圈基礎 & 迴圈控制</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Python<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-20</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>while 迴圈和 for 迴圈的基礎應用</p>
+                            <p>break、、continue和else的範例</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section>
                 <a href="PY_arithmetic" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-python"></i>
                     </div>
                     <div class="article-text">
                         <div class="article-title">if 判斷式和簡易的四則運算</div>
-                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-20</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Python<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-20</div>
                         <div class="article-underline"></div>
                         <div class="article-content">
                             <p>Python的 if 判斷式和用 if 判斷式完成最簡易的四則運算</p>

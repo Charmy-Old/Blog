@@ -204,6 +204,11 @@ const routes = [
         name: 'PY_arithmetic',
         component: () => import('../views/PY_arithmetic.vue')
     },
+    {
+        path: '/PY_loop',
+        name: 'PY_loop',
+        component: () => import('../views/PY_loop.vue')
+    },
 
     // 技術合併 文章
     {

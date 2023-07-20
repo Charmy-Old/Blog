@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL PYTHON">
+        <div class="article-title">迴圈基礎 & 迴圈控制</div>
+    </section>
+
+    <section class="ALL PYTHON">
         <div class="article-title">if 判斷式和簡易的四則運算</div>
     </section>
 

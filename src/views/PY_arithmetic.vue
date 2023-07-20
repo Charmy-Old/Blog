@@ -53,6 +53,16 @@ else:
                 </div>
             </section>
 
+            <section>
+                <div class="article-detail">
+                    <h3>參考資料</h3>
+                    <div class="article-detailLine"></div>
+                    <div class="article-txt">
+                        <a class="article-reference" href="https://www.youtube.com/playlist?list=PL-g0fdC5RMboYEyt6QS2iLb_1m7QcgfHk" target="_blank"><i class="fa-solid fa-pen-to-square"></i>彭彭的課程 - Python 入門教學課程</a>
+                    </div>
+                </div>
+            </section>
+
         </main>
         <Wall />
         <BackToTop />
