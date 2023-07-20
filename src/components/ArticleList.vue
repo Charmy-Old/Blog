@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL DB">
+        <div class="article-title">什麼是 CRUD？</div>
+    </section>
+
     <section class="ALL WEB">
         <div class="article-title">淺談網頁技術名詞</div>
     </section>
@@ -137,6 +141,13 @@
                 vueArticleCount.value = Countvue.length;
             };
 
+            // 算 database 文章
+            const databaseArticleCount = ref(0);
+            const CountdatabaseArticle = () => {
+                const Countdatabase = document.querySelectorAll(".DB");
+                databaseArticleCount.value = Countdatabase.length;
+            };
+
             onMounted(() => {
                 CountallArticle();
                 CountwebArticle();
@@ -144,6 +155,7 @@
                 CountcssArticle();
                 CountjsArticle();
                 CountvueArticle();
+                CountdatabaseArticle();
             });
 
             return {
@@ -153,6 +165,7 @@
                 cssArticleCount,
                 jsArticleCount,
                 vueArticleCount,
+                databaseArticleCount,
             };
         }
     };

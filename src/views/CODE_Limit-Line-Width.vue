@@ -28,7 +28,6 @@
 }
 </pre>
                     </div>
-
                     <div class="article-txt">
                         <p>限制最多三行：</p>
                     </div>

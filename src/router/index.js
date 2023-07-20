@@ -58,6 +58,11 @@ const routes = [
         name: 'Article-Vue',
         component: () => import('../views/Article-Vue.vue')
     },
+    {
+        path: '/Article-Database',
+        name: 'Article-Database',
+        component: () => import('../views/Article-Database.vue')
+    },
 
     // 置頂 文章
     {
@@ -174,12 +179,18 @@ const routes = [
         component: () => import('../views/JS_Asynchronous.vue')
     },
 
-
     // Vue 文章
     {
         path: '/VUE_LifeCycle',
         name: 'VUE_LifeCycle',
         component: () => import('../views/VUE_LifeCycle.vue')
+    },
+
+    // Database 文章
+    {
+        path: '/DB_CRUD',
+        name: 'DB_CRUD',
+        component: () => import('../views/DB_CRUD.vue')
     },
 
     // 技術合併 文章
@@ -193,6 +204,7 @@ const routes = [
         name: 'CODE_BOM-vs-DOM',
         component: () => import('../views/CODE_BOM-vs-DOM.vue')
     },
+    
 ]
 
 
