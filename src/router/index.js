@@ -63,6 +63,11 @@ const routes = [
         name: 'Article-Database',
         component: () => import('../views/Article-Database.vue')
     },
+    {
+        path: '/Article-Python',
+        name: 'Article-Python',
+        component: () => import('../views/Article-Python.vue')
+    },
 
     // 置頂 文章
     {
@@ -191,6 +196,13 @@ const routes = [
         path: '/DB_CRUD',
         name: 'DB_CRUD',
         component: () => import('../views/DB_CRUD.vue')
+    },
+
+    // Python 文章
+    {
+        path: '/PY_arithmetic',
+        name: 'PY_arithmetic',
+        component: () => import('../views/PY_arithmetic.vue')
     },
 
     // 技術合併 文章

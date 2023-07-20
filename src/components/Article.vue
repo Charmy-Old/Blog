@@ -29,6 +29,10 @@
                 <div>
                     <button class="select-button" data-filter="database">Database</button>
                 </div>
+
+                <div>
+                    <button class="select-button" data-filter="python">Python</button>
+                </div>
             </div>
         </div>
     </section>
@@ -46,6 +50,22 @@
                 <div class="article-content">
                     <p>雖然程式語言學習的領域是學無止境的，但是若不先找到目標而先專攻一個方向，很難培養出自己的一套學習方式及方向的！</p>
                     <p>如果清楚了學習的目的及方向，接著我們就要選擇學習哪一種程式語言；以下是簡單的整理，讓新手、入門的程式語言自學者，能快速有個方向：</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all python">
+        <a href="PY_arithmetic" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-python"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">if 判斷式和簡易的四則運算</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-20</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>Python的 if 判斷式和用 if 判斷式完成最簡易的四則運算</p>
                 </div>
             </div>
         </a>

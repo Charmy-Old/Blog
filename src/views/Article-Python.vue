@@ -4,44 +4,31 @@
         <main>
             
             <section>
-                <div class="container text-center">
-                    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6">
-                        <div>
-                            <button class="select-button" data-filter="all">All</button>
-                        </div>
-                            
-                        <div>
-                            <button class="select-button" data-filter="web">Web</button>
-                        </div>
-
-                        <div>
-                            <button class="select-button" data-filter="html">HTML</button>
-                        </div>
-                            
-                        <div>
-                            <button class="select-button" data-filter="css">CSS</button>
-                        </div>
-                            
-                        <div>
-                            <button class="select-button" data-filter="javascript">JavaScript</button>
-                        </div>
-                            
-                        <div>
-                            <button class="select-button" data-filter="vue">Vue</button>
-                        </div>
-
-                        <div>
-                            <button class="select-button" data-filter="database">Database</button>
-                        </div>
-
-                        <div>
-                            <button class="select-button" data-filter="python">Python</button>
-                        </div>
+                <div class="article-top">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">Python</div>
                     </div>
                 </div>
             </section>
 
-            <Article />
+            <section>
+                <a href="PY_arithmetic" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">if 判斷式和簡易的四則運算</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-20</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>Python的 if 判斷式和用 if 判斷式完成最簡易的四則運算</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
 
         </main>
         <Wall />
@@ -52,14 +39,12 @@
     import Header from "@/components/Header.vue";
     import Wall from "@/components/Wall.vue";
     import BackToTop from "@/components/BackToTop.vue";
-    import Article from "@/components/Article.vue";
     import { onMounted } from "vue";
     export default {
         components: {
             Header,
             Wall,
             BackToTop,
-            Article,
             // Footer,
         },
         setup() {

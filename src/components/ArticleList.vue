@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL PYTHON">
+        <div class="article-title">if 判斷式和簡易的四則運算</div>
+    </section>
+
     <section class="ALL DB">
         <div class="article-title">什麼是 CRUD？</div>
     </section>
@@ -148,6 +152,13 @@
                 databaseArticleCount.value = Countdatabase.length;
             };
 
+            // 算 python 文章
+            const pythonArticleCount = ref(0);
+            const CountpythonArticle = () => {
+                const Countpython = document.querySelectorAll(".PYTHON");
+                pythonArticleCount.value = Countpython.length;
+            };
+
             onMounted(() => {
                 CountallArticle();
                 CountwebArticle();
@@ -156,6 +167,7 @@
                 CountjsArticle();
                 CountvueArticle();
                 CountdatabaseArticle();
+                CountpythonArticle();
             });
 
             return {
@@ -166,6 +178,7 @@
                 jsArticleCount,
                 vueArticleCount,
                 databaseArticleCount,
+                pythonArticleCount,
             };
         }
     };
