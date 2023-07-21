@@ -58,7 +58,7 @@
     font-weight: 900;
     width: fit-content;
     margin: 1.5rem auto;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .wall-tag:first-child {
@@ -70,7 +70,7 @@
 }
 
 .wall-tag a:hover {
-    color: brown !important;
+    color: #C0C0C0 !important;
 }
 
 .wall-tag a i {
@@ -174,7 +174,8 @@
 .select-area {
     font-weight: 900;
     width: 100%;
-    color: #26273B;
+    color: #222223;
+    background-color: #FFFAFA;
     margin: 0.5rem 0 0.75rem;
     border: none;
     outline: none;

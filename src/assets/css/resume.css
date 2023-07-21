@@ -2,8 +2,8 @@
     width: 0;
     height: 2px;
     margin: 0.75rem 0;
-    background-color: #26273B;
-    transition: all 0.5s ease;
+    background-color: #222223;
+    transition: all 0.5s linear;
 }
 
 .resume:hover .resume-underline {
@@ -87,7 +87,7 @@
     width: 75%;
     margin: auto;
     overflow: hidden;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .resume-projectPic img {
@@ -104,7 +104,7 @@
 .resume-projectText {
     width: 75%;
     margin: 2.5rem auto;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .resume-projectTitle {
@@ -113,17 +113,17 @@
 
 .resume-projectTag {
     font-size: 15px;
-    color: #D3D3D3;
+    color: #C0C0C0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin: 0.5rem 0.5rem 0.5rem 0;
     gap: 1%;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .resume-projectBlock:hover .resume-projectTag {
-    color: #26273B;
+    color: #222223;
 }
 
 .resume-projectTag span {
@@ -147,7 +147,7 @@
 }
 
 .resume-projectContent a:hover {
-    color: brown;
+    color: #C0C0C0;
 }
 
 .resume-projectLink {
@@ -158,26 +158,26 @@
 
 .resume-projectLink p {
     transform: translate(-0.5rem, -0.09rem);
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .resume-projectBlock:hover .resume-projectLink p {
-    color: brown !important;
+    color: #C0C0C0 !important;
     transform: translate(0.5rem, -0.09rem);
 }
 
 
 .resume-projectLink:hover {
-    color: brown !important;
+    color: #C0C0C0 !important;
 }
 
 .resume-projectLink a {
     margin: 0 1rem 0 0;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .resume-projectLink a:hover {
-    color: brown !important;
+    color: #C0C0C0 !important;
 }
 
 
@@ -186,7 +186,7 @@
 /* .resume-projectLink span {
     display: block;
     transform: translateX(0);
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .resume-projectLink:hover .resume-projectLink span {
@@ -231,15 +231,15 @@
 
 .resume-jobLink {
     display: flex;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .resume-jobLink:hover {
-    color: brown !important;
+    color: #C0C0C0 !important;
 }
 
 .resume-jobLink a:hover {
-    color: brown !important;
+    color: #C0C0C0 !important;
 }
 
 .resume-jobLink p {
@@ -319,6 +319,6 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
-        transition: all 0.5s ease;
+        transition: all 0.5s linear;
     }
 }

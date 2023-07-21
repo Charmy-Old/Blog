@@ -8,7 +8,7 @@
     width: 25%;
     text-align: center;
     align-self: center;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .article:hover .article-icon {
@@ -18,11 +18,11 @@
 .article-text {
     width: 70%;
     margin: 1rem 0;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .article:hover .article-text {
-    color: #000000;
+    color: #222223;
 }
 
 .article-title {
@@ -31,16 +31,16 @@
 
 .article-tag {
     font-size: 15px;
-    color: #D3D3D3;
+    color: #C0C0C0;
     display: flex;
     align-items: center;
     margin: 0.25rem 0 0.5rem;
     gap: 1%;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .article:hover .article-tag {
-    color: #26273B;
+    color: #222223;
 }
 
 .article-tag i {
@@ -51,8 +51,8 @@
     width: 0;
     height: 2px;
     margin: 0.5rem 0;
-    background-color: #26273B;
-    transition: all 0.5s ease;
+    background-color: #222223;
+    transition: all 0.5s linear;
 }
 
 .article:hover .article-underline {
@@ -100,16 +100,17 @@
 .select-button {
     width: 110px;
     font-weight: 900;
-    color:#26273B !important;
-    background-color: #D3D3D3;
+    color: #FFFAFA !important;
+    background-color: #222223;
     border-radius: 10px;
     margin: 0.5rem 0;
     padding: 0.5rem 1rem;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .select-button:hover {
-    color: #FFFFFF !important;
+    color: #222223 !important;
+    background-color: #C0C0C0;
 }
 
 .article-top {

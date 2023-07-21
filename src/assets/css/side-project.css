@@ -2,8 +2,8 @@
     width: 0;
     height: 2px;
     margin: 0.75rem 0;
-    background-color: #26273B;
-    transition: all 0.5s ease;
+    background-color: #222223;
+    transition: all 0.5s linear;
 }
 
 .sideProject:hover .sideProject-underline {
@@ -20,14 +20,13 @@
     font-weight: 900;
 }
 
-/* .sideProject-title p {
-    font-size: 20px;
+.sideProject-title p {
     align-self: flex-end;
 }
 
 .sideProject-title p i {
     margin: 0 0.75rem;
-} */
+}
 
 .sideProject-project h3 {
     font-size: 24px;
@@ -45,7 +44,7 @@
     width: 75%;
     margin: auto;
     overflow: hidden;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .sideProject-projectPic img {
@@ -62,7 +61,7 @@
 .sideProject-projectText {
     width: 75%;
     margin: 2.5rem auto;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .sideProject-projectTitle {
@@ -71,17 +70,17 @@
 
 .sideProject-projectTag {
     font-size: 15px;
-    color: #D3D3D3;
+    color: #C0C0C0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin: 0.5rem 0.5rem 0.5rem 0;
     gap: 1%;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .sideProject-projectBlock:hover .sideProject-projectTag {
-    color: #26273B;
+    color: #222223;
 }
 
 .sideProject-projectTag span {
@@ -101,7 +100,7 @@
 }
 
 .sideProject-projectContent a:hover {
-    color: brown;
+    color: #C0C0C0;
 }
 
 .sideProject-projectLink {
@@ -112,7 +111,7 @@
 
 .sideProject-projectLink p {
     transform: translate(-0.5rem, -0.09rem);
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .sideProject-projectBlock:hover .sideProject-projectLink p {
@@ -120,16 +119,16 @@
 }
 
 .sideProject-projectLink:hover {
-    color: brown !important;
+    color: #C0C0C0 !important;
 }
 
 .sideProject-projectLink a {
     margin: 0 1rem 0 0;
-    transition: all 0.5s ease;
+    transition: all 0.5s linear;
 }
 
 .sideProject-projectLink a:hover {
-    color: brown !important;
+    color: #C0C0C0 !important;
 }
 
 .sideProject-projectBlock:hover .article-underline {
@@ -137,8 +136,17 @@
 }
 
 @media screen and (max-width: 768px) {
+    .sideProject-title {
+        display: block;
+    }
+
     .sideProject-title h2 {
         font-size: 24px;
+        text-align: center;
+    }
+
+    .sideProject-title p {
+        text-align: right;
     }
 
     .sideProject-project h3 {
@@ -185,6 +193,6 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
-        transition: all 0.5s ease;
+        transition: all 0.5s linear;
     }
 }

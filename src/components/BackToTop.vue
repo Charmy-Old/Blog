@@ -10,7 +10,7 @@
     right: 40px;
     z-index: 9999;
     border-radius: 50%;
-    background-color: #26273B;
+    background-color: #FFFAFA;
     cursor: pointer;
     transform: translateY(0%);
     transition: all 0.5s linear;
@@ -30,7 +30,7 @@
     height: 100%;
     text-align: center;
     font-size: 28px;
-    color: #FFFFFF;
+    color: #222223;
     transform: translateY(15%);
     transition: all 0.25s linear;
 }

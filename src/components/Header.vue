@@ -19,8 +19,8 @@
     }
     
     .header-hb {
-            display: none;
-        }
+        display: none;
+    }
     
     .header-nav {
         width: fit-content;
@@ -36,12 +36,12 @@
         font-weight: 900;
         display: block;
         padding: 0rem 1.5rem;
-        color: #26273B;
-        transition: all 0.5s ease;
+        color: #FFFAFA;
+        transition: all 0.5s linear;
     }
     
     .header-list a:hover {
-        color: #FFFFFF;
+        color: #C0C0C0;
     }
     
     .header-underline {
@@ -49,7 +49,7 @@
         height: 1px;
         display: none;
         margin: 0.5rem auto 1rem;
-        background-color: #26273B;
+        background-color: #FFFAFA;
     }
     
     @media screen and (max-width: 991px) {
@@ -64,6 +64,7 @@
             align-self: center;
             margin-left: auto;
             position: relative;
+            cursor: pointer;
         }
     
         .header-hb-line {
@@ -73,7 +74,7 @@
             position: absolute;
             right: 0;
             left: 0;
-            background-color: #26273B; /* 線 */
+            background-color: #FFFAFA; /* 線 */
             opacity: 1;
             transform: rotate(0deg);
         }
@@ -276,7 +277,7 @@
             left: -100%;
             /* background-image: url("../assets/images/background.webp");
             background-size: cover; */
-            background-color: #D3D3D3;
+            background-color: #222223;
             opacity: 0;
             transition: opacity 1s 0s,
                         left    0s 1s;
@@ -297,7 +298,7 @@
             width: 0%;
             display: block;
             margin: 0 0 0.5rem;
-            transition: all 1s ease;
+            transition: all 1s linear;
         }
 
         .header-list:hover .header-underline {
@@ -311,8 +312,17 @@
         font-weight: 900;
         width: fit-content;
         line-height: 180px;
-        color: #26273B;
+        /* color: #26273B; */
         margin: auto;
+    }
+
+    .title h1 a {
+        color: #FFFAFA;
+        letter-spacing: 0.2rem;
+    }
+
+    .title h1 a:hover {
+        color: #C0C0C0;
     }
 
     @media screen and (max-width: 991px) {
@@ -328,6 +338,18 @@
     @media screen and (max-width: 575px) {
         .title {
             font-size: 24px;
+        }
+    }
+
+    @media screen and (max-width: 380px) {
+        .title h1 a {
+            letter-spacing: 0.1rem;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        .title {
+            margin: 0 5rem 0 1.5rem;
         }
     }
 

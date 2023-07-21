@@ -7,7 +7,7 @@
             <section>
                 <div class="sideProject sideProject-title">
                     <h2>Side Project</h2> 
-                    <!-- <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</p> -->
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</p>
                 </div>
             </section>
 

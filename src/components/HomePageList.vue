@@ -18,8 +18,8 @@
         width: 35px;
         height: 35px;
         line-height: 31px;
-        color: #26273B;
-        background-color: #FFFFFF;
+        color: #222223;
+        background-color: #FFFAFA;
         border: 2px #26273B solid;
         border-radius: 50%;
         display: block;
@@ -29,8 +29,8 @@
     }
 
     .pageList li a:hover {
-        color: #FFFFFF;
-        background-color: #26273B;
+        color: #FFFAFA;
+        background-color: #222223;
     }
 
 
