@@ -1,0 +1,59 @@
+.reference-underline {
+    width: 0;
+    height: 2px;
+    margin: 0.75rem 0;
+    background-color: #222223;
+    transition: all 0.5s linear;
+}
+
+.reference:hover .reference-underline {
+    width: 100%;
+}
+
+.reference-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reference-title h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.reference-title p {
+    align-self: flex-end;
+}
+
+.reference-title p i {
+    margin: 0 0.75rem;
+}
+
+.reference-block h3 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 768px) {
+    .reference-title {
+        display: block;
+    }
+    
+    .reference-title h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .reference-title p {
+        text-align: end;
+    }
+
+    .reference-block h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 499px) {
+    .reference-underline {
+        width: 100%;
+    }
+}

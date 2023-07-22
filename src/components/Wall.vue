@@ -167,6 +167,7 @@
 .wall-weather h2 {
     font-size: 18px;
     font-weight: 900;
+    text-align: center;
     margin: 0.5rem 0;
     padding: 0 0.25rem;
 }
@@ -176,6 +177,7 @@
     width: 100%;
     color: #222223;
     background-color: #FFFAFA;
+    text-align: center;
     margin: 0.5rem 0 0.75rem;
     border: none;
     outline: none;
@@ -185,6 +187,7 @@
 
 .showWeather {
     line-height: 2;
+    text-align: center;
     padding: 0 0.25rem;
 }
 
@@ -224,8 +227,7 @@
                 </select>
                 <div class="showWeather" v-for="weatherData of weatherDatas" :key="weatherData.locationName" v-show="locationName === weatherData.locationName">
                     <!-- <p>{{ locationName }}</p> -->
-                    <p>天氣狀況：</p>
-                    <p> {{ weatherData.weatherElement[0].time[0].parameter.parameterName }} </p>
+                    <p>天氣狀況：{{ weatherData.weatherElement[0].time[0].parameter.parameterName }}</p>
                     <p>最高溫度：{{ weatherData.weatherElement[4].time[0].parameter.parameterName }} ℃</p>
                     <p>最低溫度：{{ weatherData.weatherElement[2].time[0].parameter.parameterName }} ℃</p>
                     <p>降雨機率：{{ weatherData.weatherElement[1].time[0].parameter.parameterName }} ％</p>

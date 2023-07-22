@@ -13,7 +13,7 @@
             <!-- 簡介 -->
             <section>
                 <div class="resume resume-introduce">
-                    <h3>簡介：</h3>
+                    <h3>簡介</h3>
                     <div class="resume-underline"></div>
                     <p>我是曾韋翰，中原大學土木工程學系畢業。讀書時發現土木領域與興趣並不相符，在尋找興趣的過程中無意間在youtube上看見彭彭的python大數據的影片，進而慢慢接觸程式的領域。摸索過程中在udemy上接觸到JavaScript後對網頁前端產生興趣，進而參加緯育TiBaMe的前端工程師就業養成班並完成個人專題與團體專題後成功結業。現於雲端數位有限公司任職前端工程師助理，平常休閒時間學習前端的相關知識。</p>
                 </div>
@@ -21,7 +21,7 @@
             <!-- 學歷 -->
             <section>
                 <div class="resume resume-education">
-                    <h3>學歷：</h3>
+                    <h3>學歷</h3>
                     <div class="resume-underline"></div>
                     <p>緯育TiBaMe的前端工程師就業養成班 結業<span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/01</span></p>
                     <p>中原大學土木工程學系 畢業<span><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/05</span></p>
@@ -30,7 +30,7 @@
             <!-- 專長 -->
             <section>
                 <div class="resume resume-expertise">
-                    <h3>專長：</h3>
+                    <h3>專長</h3>
                     <div class="resume-underline"></div>
                     <p class="resume-expertiseTitle">網頁前端技術</p>
                     <p class="resume-expertiseDetail">
@@ -69,7 +69,7 @@
             <!-- 作品 -->
             <section>
                 <div class="resume resume-project">
-                    <h3>作品：</h3>
+                    <h3>作品</h3>
                     <div class="resume-underline"></div>
 
                     <!-- BLOG -->
@@ -267,7 +267,7 @@
 
             <section>
                 <div class="resume resume-experience">
-                    <h3>經歷：</h3>
+                    <h3>經歷</h3>
                     <div class="resume-underline"></div>
                     <!-- 雲端數位 -->
                     <div class="resume-job">

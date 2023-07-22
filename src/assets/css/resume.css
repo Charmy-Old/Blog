@@ -280,6 +280,22 @@
 
     .resume-introduce h3 {
         font-size: 20px;
+        text-align: center;
+    }
+
+    .resume-education h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .resume-expertise h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .resume-project h3 {
+        font-size: 20px;
+        text-align: center;
     }
 
     .resume-projectPic {

@@ -27,6 +27,11 @@ const routes = [
         component: () => import('../views/Side-Project.vue')
     },
     {
+        path: '/Reference',
+        name: 'Reference',
+        component: () => import('../views/Reference.vue')
+    },
+    {
         path: '/Article',
         name: 'Article',
         component: () => import('../views/Article/Article.vue')
