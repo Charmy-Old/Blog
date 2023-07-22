@@ -10,6 +10,10 @@
     width: 100%;
 }
 
+.reference {
+    font-weight: 900;
+}
+
 .reference-title {
     display: flex;
     justify-content: space-between;
@@ -31,6 +35,10 @@
 .reference-block h3 {
     font-size: 24px;
     font-weight: 900;
+}
+
+.reference-link {
+    margin: 1rem 0;
 }
 
 @media screen and (max-width: 768px) {
