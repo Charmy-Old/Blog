@@ -193,6 +193,11 @@ const routes = [
         name: 'JS_shallowCopy-vs-deepCopy',
         component: () => import('../views/Article-JavaScript/JS_shallowCopy-vs-deepCopy.vue')
     },
+    {
+        path: '/JS_byValue-vs-byReference',
+        name: 'JS_byValue-vs-byReference',
+        component: () => import('../views/Article-JavaScript/JS_byValue-vs-byReference.vue')
+    },
 
     // Vue 文章
     {

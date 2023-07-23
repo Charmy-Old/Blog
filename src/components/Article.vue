@@ -56,6 +56,22 @@
     </section>
 
     <section class="all javascript">
+        <a href="JS_byValue-vs-byReference" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">By Value V.S. By Reference</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-24</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>當談到 JavaScript 中的參數傳遞方式時，有兩種不同的方法：「按值傳遞」和「按引用傳遞」。這兩者之間的主要差異在於傳遞參數時，參數的值或引用如何被複製和傳遞的。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all javascript">
         <a href="JS_shallowCopy-vs-deepCopy" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-square-js"></i>

@@ -14,7 +14,7 @@
             <!-- 作品 -->
             <section>
                 <div class="sideProject sideProject-project">
-                    <h3>作品：</h3>
+                    <h3>作品</h3>
                     <div class="sideProject-underline"></div>
 
                     <!-- BLOG -->
