@@ -30,7 +30,7 @@
     };
 </script>
 
-<style>
+<style scoped>
     .all:not(:nth-child(n+22):nth-child(-n+32)) {
         display: none;
     }

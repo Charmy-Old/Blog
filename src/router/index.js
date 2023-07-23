@@ -188,6 +188,11 @@ const routes = [
         name: 'JS_Asynchronous',
         component: () => import('../views/Article-JavaScript/JS_Asynchronous.vue')
     },
+    {
+        path: '/JS_shallowCopy-vs-deepCopy',
+        name: 'JS_shallowCopy-vs-deepCopy',
+        component: () => import('../views/Article-JavaScript/JS_shallowCopy-vs-deepCopy.vue')
+    },
 
     // Vue 文章
     {

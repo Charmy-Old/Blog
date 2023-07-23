@@ -15,6 +15,23 @@
             </section>
 
             <section>
+                <a href="JS_shallowCopy-vs-deepCopy" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">淺拷貝(Shallow Copy) V.S. 深拷貝(Deep Copy)</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-23</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>淺拷貝：共用同一個記憶體空間</p>
+                            <p>深拷貝：兩個不同的記憶體空間</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section>
                 <a href="CODE_BOM-vs-DOM" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-file-code"></i>

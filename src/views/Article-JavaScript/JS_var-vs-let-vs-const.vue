@@ -97,8 +97,8 @@ function callNum() {
   console.log(num);
 }
 
-callName(); // Charmy
-callNum(); // 123
+callName();   // Charmy
+callNum();   // 123
 </pre>
                         </div>
                     </div>

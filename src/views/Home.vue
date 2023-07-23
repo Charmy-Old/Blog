@@ -32,7 +32,7 @@
     };
 </script>
 
-<style>
+<style scoped>
     .all:nth-child(n+12) {
         display: none;
     }

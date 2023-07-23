@@ -72,6 +72,12 @@
 }
 
 .article-txt h4 i {
+    color: aqua;
+    margin: 0 0.75rem;
+}
+
+.article-txt h5 i {
+    color: aqua;
     margin: 0 0.75rem;
 }
 

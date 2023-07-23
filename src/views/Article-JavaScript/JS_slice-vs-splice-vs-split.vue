@@ -39,10 +39,10 @@ let arr2 = arr.slice(2);
 let arr3 = arr.slice(1, 3);
 let arr4 = arr.slice(-1);
 
-console.log(arr2) // [3, 4, 5]
-console.log(arr3) // [2, 3]
-console.log(arr4) // [5]
-console.log(arr) // [1, 2, 3, 4, 5]
+console.log(arr2)   // [3, 4, 5]
+console.log(arr3)   // [2, 3]
+console.log(arr4)   // [5]
+console.log(arr)   // [1, 2, 3, 4, 5]
 </pre>
                         </div>
                     </div>
@@ -74,16 +74,16 @@ console.log(arr) // [1, 2, 3, 4, 5]
                     </div>
                     <div class="article-codeNote">
 <pre>
-arr.splice(起始點, 要刪掉的個數, 要插入的值) // 插入一個或多個值
-arr.splice(起始點, 要刪掉的個數) // 刪除中間的值
+arr.splice(起始點, 要刪掉的個數, 要插入的值)   // 插入一個或多個值
+arr.splice(起始點, 要刪掉的個數)   // 刪除中間的值
 </pre>
                     </div>
                     <div class="article-code">
                         <div class="article-coding">
 <pre>
 let arr = [0, 1, 2, 3, 4]
-arr.splice(2, 0, 99) // 在陣列 2 的位子，刪掉 0 個，插入數字 99。
-console.log(arr) // [0, 1, 99, 2, 3, 4]
+arr.splice(2, 0, 99)   // 在陣列 2 的位子，刪掉 0 個，插入數字 99。
+console.log(arr)   // [0, 1, 99, 2, 3, 4]
 </pre>
                         </div>
                     </div>
@@ -91,8 +91,8 @@ console.log(arr) // [0, 1, 99, 2, 3, 4]
                         <div class="article-coding">
 <pre>
 let arr = [0, 1, 2, 3, 4]
-arr.splice(2, 2) // 在陣列 2 的位子，刪掉 2 個。
-console.log(arr) // [0, 1, 4]
+arr.splice(2, 2)   // 在陣列 2 的位子，刪掉 2 個。
+console.log(arr)   // [0, 1, 4]
 </pre>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ console.log(arr) // [0, 1, 4]
 <pre>
 let arr = [0, 1, 2, 3, 4]
 let deletedNumbers = arr.splice(2, 2)
-console.log(deletedNumbers) // [2, 3]
+console.log(deletedNumbers)   // [2, 3]
 </pre>
                         </div>
                     </div>
@@ -139,9 +139,9 @@ let NewArray1 = str.split(",")
 let NewArray2 = str.split("")
 let NewArray3 = str.split(",", 2)
 
-console.log(NewArray1) // ["Hello", " Charmy", " 哈囉]
-console.log(NewArray2) // [ "H", "e", "l",  "l", "o", ",", " ",  "C",  "h", "a", "r",  "m", "y", ",", " ", "哈", "囉" ]
-console.log(NewArray3) // [ "Hello", " Charmy" ]
+console.log(NewArray1)   // ["Hello", " Charmy", " 哈囉]
+console.log(NewArray2)   // [ "H", "e", "l",  "l", "o", ",", " ",  "C",  "h", "a", "r",  "m", "y", ",", " ", "哈", "囉" ]
+console.log(NewArray3)   // [ "Hello", " Charmy" ]
 </pre>
                         </div>
                     </div>

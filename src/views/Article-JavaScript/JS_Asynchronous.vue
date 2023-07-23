@@ -27,7 +27,7 @@ function asyncOperation(callback) {
     setTimeout(function() {
         // 模擬完成操作後呼叫 CallBack Function
         callback("操作完成");
-    }, 2000); // 假設操作需要2秒完成
+    }, 2000);   // 假設操作需要2秒完成
 }
   
 // 呼叫非同步函數
@@ -44,7 +44,7 @@ console.log("繼續執行其他操作");
 // Console.log 的結果
 開始操作
 繼續執行其他操作
-操作結果: 操作完成 // 2秒後才顯示
+操作結果: 操作完成   // 2秒後才顯示
 </pre>
                     </div>
                     <div class="article-txt">
@@ -142,9 +142,9 @@ doSomething(function(result1) {
                         <div class="article-coding">
 <pre>
 const p = new Promise();
-p.then(); // Promise 回傳正確
-p.catch(); // Promise 回傳失敗
-p.finally(); // 非同步執行完畢(無論是否正確完成)
+p.then();   // Promise 回傳正確
+p.catch();   // Promise 回傳失敗
+p.finally();   // 非同步執行完畢(無論是否正確完成)
 </pre>
                         </div>
                     </div>
@@ -155,8 +155,8 @@ p.finally(); // 非同步執行完畢(無論是否正確完成)
                         <div class="article-coding">
 <pre>
 new Promise(function(resolve, reject) { 
-    resolve(); // 正確完成的回傳方法
-    reject(); // 失敗的回傳方法
+    resolve();   // 正確完成的回傳方法
+    reject();   // 失敗的回傳方法
 });
 </pre>
                         </div>
@@ -183,9 +183,9 @@ function fetchData() {
         setTimeout(function() {
             const data = "這是從伺服器獲取的數據";
             if (data) {
-                resolve(data); // 完成狀態
+                resolve(data);   // 完成狀態
             } else {
-                reject("無法獲取數據"); // 拒絕狀態
+                reject("無法獲取數據");   // 拒絕狀態
             }
         }, 2000);
     });
@@ -194,10 +194,10 @@ function fetchData() {
 // 使用Promise
 fetchData()
 .then(function(result) {
-    console.log(result); // 數據成功獲取時執行
+    console.log(result);   // 數據成功獲取時執行
 })
 .catch(function(error) {
-    console.log(error); // 異常處理，數據獲取失敗時執行
+    console.log(error);   // 異常處理，數據獲取失敗時執行
 });
 </pre>
                         </div>

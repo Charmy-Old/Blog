@@ -22,8 +22,8 @@
 <pre>
 let arr = [1, 2, 3, 4];
 delete arr[2];
-console.log(arr);  // [1, 2, empty, 4]
-console.log(arr.length);  // 4
+console.log(arr);   // [1, 2, empty, 4]
+console.log(arr.length);   // 4
 </pre>
                     </div>
                 </div>
@@ -41,8 +41,8 @@ console.log(arr.length);  // 4
 <pre>
 let arr = [1, 2, 3, 4];
 arr.splice(2, 1);
-console.log(arr); // [1, 2, 4]
-console.log(arr.length); // 3
+console.log(arr);   // [1, 2, 4]
+console.log(arr.length);   // 3
 </pre>
                     </div>
                 </div>
