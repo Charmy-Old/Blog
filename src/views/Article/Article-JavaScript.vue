@@ -15,6 +15,39 @@
             </section>
 
             <section>
+                <a href="JS_BubblingEvents-vs-CapturingEvents" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">事件捕獲(Capturing Events) V.S. 冒泡事件(Bubbling Events)</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-25</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>在 JavaScript 中，事件處理涉及兩個主要階段：事件捕獲(Capturing Events)和冒泡事件(Bubbling Events)。這兩個階段描述了事件在 DOM Tree 中傳播的方式，允許在事件發生時捕獲或處理。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+            
+            <section>
+                <a href="JS_OOP" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">JavaScript 的物件導向</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-25</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>物件導向是一種程式設計典範，將程式的結構和邏輯組織成一個個獨立的物件，每個物件都有自己的屬性和方法。物件導向程式設計(Object-Oriented Programming，簡稱 OOP)的主要目的是模擬現實世界中的事物和其相互之間的關係，使得程式更易於理解、維護和擴展。</p>
+                            <p>當談論 JavaScript 的物件導向時，通常是指 ES6(ECMAScript 2015)引入的新特性，在 JavaScript 中，物件是鍵值對的集合，其中鍵是屬性名稱，值是屬性的數值或函數。物件的屬性可以是基本數據類型(例如數字、字符串等)或其他物件，而屬性的函數稱為方法，用於操作該物件的屬性或執行特定的功能。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section>
                 <a href="JS_byValue-vs-byReference" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>

@@ -14,7 +14,7 @@
 }
 
 .article-heading p i {
-    margin: 0 0.75rem;
+    margin: 0 0.75rem 0 0;
 }
 
 
@@ -54,7 +54,7 @@
 
 .article-detail p i {
     color: aqua;
-    margin: 0 0.75rem;
+    margin: 0 0.75rem 0 0;
 }
 
 .article-pic {
@@ -73,12 +73,12 @@
 
 .article-txt h4 i {
     color: aqua;
-    margin: 0 0.75rem;
+    margin: 0 0.75rem 0 0;
 }
 
 .article-txt h5 i {
     color: aqua;
-    margin: 0 0.75rem;
+    margin: 0 0.75rem 0 0;
 }
 
 .article-txt a {
@@ -186,7 +186,7 @@
 }
 
 .article-detail .article-reference i {
-    margin: 0 0.75rem;
+    margin: 0 0.75rem 0 0;
 }
 
 .article-list ul ul {

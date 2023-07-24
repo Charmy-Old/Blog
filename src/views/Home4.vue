@@ -31,7 +31,7 @@
 </script>
 
 <style>
-    .all:not(:nth-child(n+22):nth-child(-n+31)) {
+    .all:not(:nth-child(n+32):nth-child(-n+41)) {
         display: none;
     }
 </style>

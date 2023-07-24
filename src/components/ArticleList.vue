@@ -5,6 +5,14 @@
     </section>
 
     <section class="ALL JS">
+        <div class="article-title">事件捕獲(Capturing Events) V.S. 冒泡事件(Bubbling Events)</div>
+    </section>
+    
+    <section class="ALL JS">
+        <div class="article-title">JavaScript 的物件導向</div>
+    </section>
+
+    <section class="ALL JS">
         <div class="article-title">By Value V.S. By Reference</div>
     </section>
 

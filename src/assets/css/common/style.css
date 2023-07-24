@@ -20,7 +20,7 @@ a, a:hover, a:visited, a:link, a:active {
 
 li i {
     color: aqua;
-    margin: 0 0.75rem;
+    margin: 0 0.75rem 0 0;
 }
 
 pre {

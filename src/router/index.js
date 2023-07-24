@@ -17,6 +17,11 @@ const routes = [
         component: () => import('../views/Home3.vue')
     },
     {
+        path: '/Home4',
+        name: 'Home4',
+        component: () => import('../views/Home4.vue')
+    },
+    {
         path: '/Resume',
         name: 'Resume',
         component: () => import('../views/Resume.vue')
@@ -197,6 +202,16 @@ const routes = [
         path: '/JS_byValue-vs-byReference',
         name: 'JS_byValue-vs-byReference',
         component: () => import('../views/Article-JavaScript/JS_byValue-vs-byReference.vue')
+    },
+    {
+        path: '/JS_OOP',
+        name: 'JS_OOP',
+        component: () => import('../views/Article-JavaScript/JS_OOP.vue')
+    },
+    {
+        path: '/JS_BubblingEvents-vs-CapturingEvents',
+        name: 'JS_BubblingEvents-vs-CapturingEvents',
+        component: () => import('../views/Article-JavaScript/JS_BubblingEvents-vs-CapturingEvents.vue')
     },
 
     // Vue 文章

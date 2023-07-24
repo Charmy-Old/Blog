@@ -21,6 +21,7 @@
                     <div class="reference-link"><a href="https://blog.zjzhang.org/post/Nextjs-13-update-App-router-and-React-Server-Component?fbclid=IwAR3RiPniV2RLihV4PiBWLe23jXsf8g6C2wF5TyJZYNp-peAd_wt0QO4-A6c_aem_Afl8tmcbpFHeqI7VP6TANCbiNhqSl2JMc7wblgd0LIBEm5Y99E8AUadQa99ARFn4sj0&mibextid=S66gvF">Zhe-Jia's Blog</a></div>
                     <div class="reference-link"><a href="https://stackoverflow.com/">stackoverflow</a></div>
                     <div class="reference-link"><a href="https://codelove.tw/">CodeLove 愛寫扣論壇</a></div>
+                    <div class="reference-link"><a href="https://hackmd.io/@MhZhtPVfTHanTVVP-3Ov6A/H1b8LVTRu/%2FCgLRMTf5S26kJxR705rGxw">洋蔥筆記</a></div>
                 </div>
             </section>
 
