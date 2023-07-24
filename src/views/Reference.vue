@@ -15,13 +15,13 @@
                 <div class="reference reference-block">
                     <h3>部落格 & 論壇</h3>
                     <div class="reference-underline"></div>
-                    <div class="reference-link"><a href="https://www.casper.tw/">卡斯伯的 Blog</a></div>
-                    <div class="reference-link"><a href="https://blog.niclin.tw/">Nic Lin's Blog 喜歡在地上滾的工程師</a></div>
-                    <div class="reference-link"><a href="https://book.vue.tw/menu.html">重新認識 Vue.js | Kuro Hsu</a></div>
-                    <div class="reference-link"><a href="https://blog.zjzhang.org/post/Nextjs-13-update-App-router-and-React-Server-Component?fbclid=IwAR3RiPniV2RLihV4PiBWLe23jXsf8g6C2wF5TyJZYNp-peAd_wt0QO4-A6c_aem_Afl8tmcbpFHeqI7VP6TANCbiNhqSl2JMc7wblgd0LIBEm5Y99E8AUadQa99ARFn4sj0&mibextid=S66gvF">Zhe-Jia's Blog</a></div>
-                    <div class="reference-link"><a href="https://stackoverflow.com/">stackoverflow</a></div>
-                    <div class="reference-link"><a href="https://codelove.tw/">CodeLove 愛寫扣論壇</a></div>
-                    <div class="reference-link"><a href="https://hackmd.io/@MhZhtPVfTHanTVVP-3Ov6A/H1b8LVTRu/%2FCgLRMTf5S26kJxR705rGxw">洋蔥筆記</a></div>
+                    <div class="reference-link"><a href="https://www.casper.tw/" target="_blank">卡斯伯的 Blog</a></div>
+                    <div class="reference-link"><a href="https://blog.niclin.tw/" target="_blank">Nic Lin's Blog 喜歡在地上滾的工程師</a></div>
+                    <div class="reference-link"><a href="https://book.vue.tw/menu.html" target="_blank">重新認識 Vue.js | Kuro Hsu</a></div>
+                    <div class="reference-link"><a href="https://blog.zjzhang.org/post/Nextjs-13-update-App-router-and-React-Server-Component?fbclid=IwAR3RiPniV2RLihV4PiBWLe23jXsf8g6C2wF5TyJZYNp-peAd_wt0QO4-A6c_aem_Afl8tmcbpFHeqI7VP6TANCbiNhqSl2JMc7wblgd0LIBEm5Y99E8AUadQa99ARFn4sj0&mibextid=S66gvF" target="_blank">Zhe-Jia's Blog</a></div>
+                    <div class="reference-link"><a href="https://stackoverflow.com/" target="_blank">stackoverflow</a></div>
+                    <div class="reference-link"><a href="https://codelove.tw/" target="_blank">CodeLove 愛寫扣論壇</a></div>
+                    <div class="reference-link"><a href="https://hackmd.io/@MhZhtPVfTHanTVVP-3Ov6A/H1b8LVTRu/%2FCgLRMTf5S26kJxR705rGxw" target="_blank">洋蔥筆記</a></div>
                 </div>
             </section>
 
@@ -29,13 +29,13 @@
                 <div class="reference reference-block">
                     <h3>文章</h3>
                     <div class="reference-underline"></div>
-                    <div class="reference-link"><a href="https://backlog.com/git-tutorial/tw/">連猴子都能懂的Git入門指南</a></div>
+                    <div class="reference-link"><a href="https://backlog.com/git-tutorial/tw/" target="_blank">連猴子都能懂的Git入門指南</a></div>
                     <div class="reference-link"><a href="https://www.wibibi.com/info.php?tid=CSS3_animation_%E5%8B%95%E7%95%AB%E5%B1%AC%E6%80%A7" target="_blank">CSS3 animation 動畫屬性</a></div>
-                    <div class="reference-link"><a href="https://www.programfarmer.com/articles/2021/javascript-shallow-copy-deep-copy">JS 中的淺拷貝 (Shallow copy) 與深拷貝 (Deep copy) 原理與實作</a></div>
-                    <div class="reference-link"><a href="https://medium.com/i-am-mike/%E9%87%8D%E6%A7%8B%E5%80%92%E6%95%B8%E7%AC%AC29%E5%A4%A9-vue2-option-api%E8%BD%89%E6%8F%9B-vue3-composition-api-7bceff5eeb18">[重構倒數第29天] — Vue2 Option API轉換 Vue3 Composition API</a></div>
-                    <div class="reference-link"><a href="https://juejin.cn/post/7234034799660630074">前端工程化-自动生成vue页面</a></div>
-                    <div class="reference-link"><a href="http://cc.cust.edu.tw/~ccchen/doc/db_03.pdf">ER Model 實體關係圖</a></div>
-                    <div class="reference-link"><a href="https://www.omniwaresoft.com.tw/product-news/docker-news/docker-introduction/">Docker 是什麼？Docker 基本觀念介紹與容器和虛擬機的比較</a></div>
+                    <div class="reference-link"><a href="https://www.programfarmer.com/articles/2021/javascript-shallow-copy-deep-copy" target="_blank">JS 中的淺拷貝 (Shallow copy) 與深拷貝 (Deep copy) 原理與實作</a></div>
+                    <div class="reference-link"><a href="https://medium.com/i-am-mike/%E9%87%8D%E6%A7%8B%E5%80%92%E6%95%B8%E7%AC%AC29%E5%A4%A9-vue2-option-api%E8%BD%89%E6%8F%9B-vue3-composition-api-7bceff5eeb18" target="_blank">[重構倒數第29天] — Vue2 Option API轉換 Vue3 Composition API</a></div>
+                    <div class="reference-link"><a href="https://juejin.cn/post/7234034799660630074" target="_blank">前端工程化-自动生成vue页面</a></div>
+                    <div class="reference-link"><a href="http://cc.cust.edu.tw/~ccchen/doc/db_03.pdf" target="_blank">ER Model 實體關係圖</a></div>
+                    <div class="reference-link"><a href="https://www.omniwaresoft.com.tw/product-news/docker-news/docker-introduction/" target="_blank">Docker 是什麼？Docker 基本觀念介紹與容器和虛擬機的比較</a></div>
                 </div>
             </section>
 
@@ -74,8 +74,8 @@
                     <h4>工具：</h4>
                     <div class="reference-link"><a href="https://releases.jquery.com/jquery/#jquery-all-1.x" target="_blank">jQuery Core – All Versions | jQuery CDN</a></div>
                     <div class="reference-link"><a href="https://properprogramming.com/tools/converters/jquery-to-javascript-converter/" target="_blank">jQuery convert to JavaScript</a></div>
-                    <div class="reference-link"><a href="https://michalsnik.github.io/aos/">AOS</a></div>
-                    <div class="reference-link"><a href="https://www.emailjs.com/">EmailJS</a></div>
+                    <div class="reference-link"><a href="https://michalsnik.github.io/aos/" target="_blank">AOS</a></div>
+                    <div class="reference-link"><a href="https://www.emailjs.com/" target="_blank">EmailJS</a></div>
                 </div>
             </section>
             
@@ -188,14 +188,14 @@
                 <div class="reference reference-block">
                     <h3>設計作品</h3>
                     <div class="reference-underline"></div>
-                    <div class="reference-link"><a href="https://webdesignclip.com/">Web Design Clip | Webデザインギャラリー・クリップ集</a></div>
-                    <div class="reference-link"><a href="https://www.awwwards.com/">Awwwards - Website Awards - Best Web Design Trends</a></div>
-                    <div class="reference-link"><a href="https://codyhouse.co/ds/components?free=true">Components | CodyHouse</a></div>
-                    <div class="reference-link"><a href="https://challenge.thef2e.com/works">The F2E - 前端修練精神時光屋 | 作品列表</a></div>
-                    <div class="reference-link"><a href="https://www2.panasonic.biz/jp/dsr/index/">電気設備BOX | Panasonic</a></div>
-                    <div class="reference-link"><a href="https://dogstudio.co/">DOGSTUDIO</a></div>
-                    <div class="reference-link"><a href="https://www.dextall.com/">DEXTALL</a></div>
-                    <div class="reference-link"><a href="https://www.david-hckh.com/">david-hckh</a></div>
+                    <div class="reference-link"><a href="https://webdesignclip.com/" target="_blank">Web Design Clip | Webデザインギャラリー・クリップ集</a></div>
+                    <div class="reference-link"><a href="https://www.awwwards.com/" target="_blank">Awwwards - Website Awards - Best Web Design Trends</a></div>
+                    <div class="reference-link"><a href="https://codyhouse.co/ds/components?free=true" target="_blank">Components | CodyHouse</a></div>
+                    <div class="reference-link"><a href="https://challenge.thef2e.com/works" target="_blank">The F2E - 前端修練精神時光屋 | 作品列表</a></div>
+                    <div class="reference-link"><a href="https://www2.panasonic.biz/jp/dsr/index/" target="_blank">電気設備BOX | Panasonic</a></div>
+                    <div class="reference-link"><a href="https://dogstudio.co/" target="_blank">DOGSTUDIO</a></div>
+                    <div class="reference-link"><a href="https://www.dextall.com/" target="_blank">DEXTALL</a></div>
+                    <div class="reference-link"><a href="https://www.david-hckh.com/" target="_blank">david-hckh</a></div>
                 </div>
             </section>
 
@@ -203,12 +203,12 @@
                 <div class="reference reference-block">
                     <h3>Codepen</h3>
                     <div class="reference-underline"></div>
-                    <div class="reference-link"><a href="https://codepen.io/trending">CodePen</a></div>
-                    <div class="reference-link"><a href="https://codepen.io/yachen/pen/gOwzmVo?editors=1100">scroll-behavior</a></div>
-                    <div class="reference-link"><a href="https://codepen.io/RayPan/pen/aEPNaM">JavaScript - 滑鼠滾輪水平滾動</a></div>
-                    <div class="reference-link"><a href="https://codepen.io/chris22smith/pen/pymBWL">All Form Elements</a></div>
-                    <div class="reference-link"><a href="https://codepen.io/chriscoyier/pen/kKozBP">Light Javascript Table Filter</a></div>
-                    <div class="reference-link"><a href="https://codepen.io/frank890417/pen/eWgPry?editors=1111">Taiwan///Weather Map</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/trending" target="_blank">CodePen</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/yachen/pen/gOwzmVo?editors=1100" target="_blank">scroll-behavior</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/RayPan/pen/aEPNaM" target="_blank">JavaScript - 滑鼠滾輪水平滾動</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/chris22smith/pen/pymBWL" target="_blank">All Form Elements</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/chriscoyier/pen/kKozBP" target="_blank">Light Javascript Table Filter</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/frank890417/pen/eWgPry?editors=1111" target="_blank">Taiwan///Weather Map</a></div>
                 </div>
             </section>
 
@@ -216,7 +216,7 @@
                 <div class="reference reference-block">
                     <h3>參考</h3>
                     <div class="reference-underline"></div>
-                    <div class="reference-link"><a href="https://www.astralweb.com.tw/pure-css-drop-down-menu/">純CSS的下拉式選單</a></div>
+                    <div class="reference-link"><a href="https://www.astralweb.com.tw/pure-css-drop-down-menu/" target="_blank">純CSS的下拉式選單</a></div>
                 </div>
             </section>
 
@@ -224,10 +224,10 @@
                 <div class="reference reference-block">
                     <h3>API</h3>
                     <div class="reference-underline"></div>
-                    <div class="reference-link"><a href="https://opendata.cwb.gov.tw/index?fbclid=IwAR2aXOHSyA2ViqWgIAt6JZhn-tcZ50rhS7mNI0DC4iw5uQSnRjJwBmFDegE">氣象資料開放平臺</a></div>
+                    <div class="reference-link"><a href="https://opendata.cwb.gov.tw/index?fbclid=IwAR2aXOHSyA2ViqWgIAt6JZhn-tcZ50rhS7mNI0DC4iw5uQSnRjJwBmFDegE" target="_blank">氣象資料開放平臺</a></div>
                     
-                    <div class="reference-link"><a href="https://codelove.tw/@howtomakeaturn/post/1ayR0q">JavaScript 系列八：第6課 ── 天氣查詢應用程式</a></div>
-                    <div class="reference-link"><a href="https://api.nasa.gov/">NASA Open APIs</a></div>
+                    <div class="reference-link"><a href="https://codelove.tw/@howtomakeaturn/post/1ayR0q" target="_blank">JavaScript 系列八：第6課 ── 天氣查詢應用程式</a></div>
+                    <div class="reference-link"><a href="https://api.nasa.gov/" target="_blank">NASA Open APIs</a></div>
                 </div>
             </section>
             
@@ -235,8 +235,8 @@
                 <div class="reference reference-block">
                     <h3>工具</h3>
                     <div class="reference-underline"></div>
-                    <div class="reference-link"><a href="https://www.figma.com/">Figma</a></div>
-                    <div class="reference-link"><a href="https://www.aconvert.com/tw/image/png-to-webp/">PNG轉WEBP - 在線轉換圖像文件</a></div>
+                    <div class="reference-link"><a href="https://www.figma.com/" target="_blank">Figma</a></div>
+                    <div class="reference-link"><a href="https://www.aconvert.com/tw/image/png-to-webp/" target="_blank">PNG轉WEBP - 在線轉換圖像文件</a></div>
                 </div>
             </section>
 
