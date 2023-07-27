@@ -31,8 +31,7 @@ arr.slice(開始位置, 結束位置-不包含)
 str.slice(開始位置, 結束位置-不包含)
 </pre>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 let arr = [1, 2, 3, 4, 5];
 let arr2 = arr.slice(2);
@@ -44,7 +43,6 @@ console.log(arr3)   // [2, 3]
 console.log(arr4)   // [5]
 console.log(arr)   // [1, 2, 3, 4, 5]
 </pre>
-                        </div>
                     </div>
                     <div class="article-list">
                         <ul>
@@ -78,35 +76,29 @@ arr.splice(起始點, 要刪掉的個數, 要插入的值)   // 插入一個或�
 arr.splice(起始點, 要刪掉的個數)   // 刪除中間的值
 </pre>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 let arr = [0, 1, 2, 3, 4]
 arr.splice(2, 0, 99)   // 在陣列 2 的位子，刪掉 0 個，插入數字 99。
 console.log(arr)   // [0, 1, 99, 2, 3, 4]
 </pre>
-                        </div>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 let arr = [0, 1, 2, 3, 4]
 arr.splice(2, 2)   // 在陣列 2 的位子，刪掉 2 個。
 console.log(arr)   // [0, 1, 4]
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>使用 splice 取值時，也可以運用另一個變數來接住回傳值（陣列），以便後續應用：</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 let arr = [0, 1, 2, 3, 4]
 let deletedNumbers = arr.splice(2, 2)
 console.log(deletedNumbers)   // [2, 3]
 </pre>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -131,8 +123,7 @@ console.log(deletedNumbers)   // [2, 3]
 str.split(分隔符, 限制的數量)
 </pre>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 let str = "Hello, Charmy, 哈囉"
 let NewArray1 = str.split(",")
@@ -143,7 +134,6 @@ console.log(NewArray1)   // ["Hello", " Charmy", " 哈囉]
 console.log(NewArray2)   // [ "H", "e", "l",  "l", "o", ",", " ",  "C",  "h", "a", "r",  "m", "y", ",", " ", "哈", "囉" ]
 console.log(NewArray3)   // [ "Hello", " Charmy" ]
 </pre>
-                        </div>
                     </div>
                     <div class="article-list">
                         <ul>

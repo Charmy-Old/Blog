@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL JS">
+        <div class="article-title">什麼是 閉包(Closure)？</div>
+    </section>
+
+    <section class="ALL JS">
         <div class="article-title">事件捕獲(Capturing Events) V.S. 冒泡事件(Bubbling Events)</div>
     </section>
     

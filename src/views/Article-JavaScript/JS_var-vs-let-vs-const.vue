@@ -42,8 +42,7 @@
                     <div class="article-txt">
                         <p><i class="fa-sharp fa-solid fa-asterisk"></i>{ }大括號範圍代表區塊 </p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 // 「var」不受區塊限制，區塊外變數存取成功
 {
@@ -52,10 +51,8 @@
 console.log(name);
 // Charmy
 </pre>
-                        </div>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 // 「let」會受區塊限制，區塊外變數存取失敗
 {
@@ -64,13 +61,11 @@ console.log(name);
 console.log(name);
 // ReferenceError: name is not defined
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>雖然 var 不受區塊限制，但會受到函式範圍限制，如下:</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 // 「var」 受函式限制，函式外變數存取失敗
 function callName() {
@@ -79,10 +74,8 @@ function callName() {
 console.log(name);
 // ReferenceError: name is not defined
 </pre>
-                        </div>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 // 即使用 var 宣告相同的變數名稱 name，但因為「 函式作用域 」，所以不會讓同名變數衝突
 // 將 name 命名為 Chamy，之後用 callName() 呼叫
@@ -100,7 +93,6 @@ function callNum() {
 callName();   // Charmy
 callNum();   // 123
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>限定作用域範圍有兩個好處：</p>
@@ -118,8 +110,7 @@ callNum();   // 123
                 <div class="article-detail">
                     <h3>var 與 let ，for 迴圈的綁定（bind）差異</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 // 用 for 迴圈執行五次，每隔 0.1 秒會印出 i
 for (var i = 0; i &lt; 3; i++) {
@@ -129,7 +120,6 @@ for (var i = 0; i &lt; 3; i++) {
 }
 // 3 3 3
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>為什麼結果不是 0 1 2 而是 3 3 3，正與宣告變數語法 var / let 有關。要解釋這個問題，要分成兩點討論：</p>
@@ -145,8 +135,7 @@ for (var i = 0; i &lt; 3; i++) {
                         <p>而 JavaScript 是非同步(異步)語言，因此在等待執行 function() { console.log( i ) ; } 前的這 0.1 秒內，會先執行完已經能執行的 for 迴圈。</p>
                         <p>所以現在能理解第一點的結論： function 中，console.log( i ) 的執行時間點會在 for 迴圈執行完畢之後。</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 // 因為非同步與延遲時間，所以會先執行完 for 迴圈後，才執行 function
 for (var i = 0; i &lt; 3; i++) {
@@ -157,7 +146,6 @@ for (var i = 0; i &lt; 3; i++) {
 }
 // 3 3 3
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>目前為止所提的第一點，其實與 var 和 let 的差異是沒關係的，只是說明非同步和時間點的狀況。接著進入到第二點，console.log(i) 的值是怎麼來的，這就與 var 和 let 的差異有關了。</p>
@@ -177,8 +165,7 @@ for (var i = 0; i &lt; 3; i++) {
                     <div class="article-txt">
                         <p>就實作而言，雖然僅有 var 的情況下也可以用「立即呼叫執行函式 IIFE」處理這樣的狀況，但較為複雜且不直覺，改用 let 後，就能簡單處理。</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 // 將 var i 改為 let i 後，輕易解決問題
 for (let i = 0; i &lt; 3; i++) {
@@ -188,10 +175,8 @@ for (let i = 0; i &lt; 3; i++) {
 }
 // 0 1 2
 </pre>
-                        </div>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 // 不改 var i 的情況下，以 IIFE 相對複雜且不直覺
 for (var i = 0; i &lt; 3; i++) {
@@ -203,7 +188,6 @@ for (var i = 0; i &lt; 3; i++) {
 }
 // 0 1 2
 </pre>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -212,20 +196,17 @@ for (var i = 0; i &lt; 3; i++) {
                 <div class="article-detail">
                     <h3>var 的提升(hoist)與 let / const 不同</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 console.log(i);
 var i = 5;
 // undefined
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>印出undefined ，即是代表：雖然我們看不見，但其實在 console.log(i) 之前，i 就已經被宣告了，只是尚未賦值。</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 // 由於 var 直接變量提升，所以上面程式碼等同下面程式碼
 console.log(i);
@@ -237,13 +218,11 @@ console.log(i);
 i = 5;
 // undefined
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>這其中是因為 var 有著「提升(hoisting)」的特性，其實不僅是 var ，function 也有這個特性。以 var 宣告變數而言，「 變數提升 」簡而言之是：在執行任何程式碼前，會把變數放進記憶體中，這樣的特點是，可以在程式碼宣告該變數之前使用它。</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 // 因為 hoisting，所以可以在宣告變數前，就預先使用變數，所以可以寫完後一起宣告
 i = 2;
@@ -253,13 +232,11 @@ var i;
 var n;
 // 5
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>在這樣的情況下，只需要有賦值就不會出錯，即使尚未宣告變數也不會出錯。</p>
                         <p>這樣會造成什麼問題？當養成了「 後宣告 」的習慣，如果最後忘了用 var 宣告呢？並不會出錯，只是變數會跑到全域中，變成全域變數，可能造成些 bug，像是：</p>
                     </div>
-                    <div class="article-code">
                         <div class="article-coding">
 <pre>
 // 函式中沒有用 var 宣告，導致污染到全域
@@ -272,13 +249,11 @@ addFunc(50);
 console.log(x);
 // 150，預期應該要是 1，但函式中的 x 跑出來了
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>而在 let 中呢，相對的 hoisting 是較安全的（ let 還是有 hoisting，只是情況不同，可以搜尋關鍵字 TDZ ），所以 習慣用 let 的開發者，通常會先宣告變數，而不會習慣先運算變數後宣告的情況，藉此降低開發出錯的機率 。</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 // 先使用變數，後宣告會直接「出錯」，更嚴謹的養成先宣告後使用
 console.log(i);
@@ -289,7 +264,6 @@ console.log(i);
 let i;
 // ReferenceError
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>這樣的使用方式除了降低錯誤外，也相對直覺。</p>
@@ -301,8 +275,7 @@ let i;
                 <div class="article-detail">
                     <h3>var 允許重複宣告，let / const 會出錯</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 var name = "Charmy";
 var name = "Charmying";
@@ -319,7 +292,6 @@ const name = "Charmying";
 console.log(name);
 //SyntaxError: Identifier "name" has already been declared
 </pre>
-                        </div>
                     </div>
                 </div>
             </section>

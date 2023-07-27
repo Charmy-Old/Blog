@@ -213,6 +213,11 @@ const routes = [
         name: 'JS_BubblingEvents-vs-CapturingEvents',
         component: () => import('../views/Article-JavaScript/JS_BubblingEvents-vs-CapturingEvents.vue')
     },
+    {
+        path: '/JS_closure',
+        name: 'JS_closure',
+        component: () => import('../views/Article-JavaScript/JS_closure.vue')
+    },
 
     // Vue 文章
     {

@@ -19,8 +19,7 @@
                         <p>JavaScript 是屬於同步的程式語言，因此一次僅能做一件事情，但遇到非同步的事件時，就會將非同步的事件移動到程式碼的最後方，等到所有的原始碼運行完以後才會執行非同步的事件。</p>
                         <p>以下是 JavaScript 的非同步範例：</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 // 假設有一個非同步函數，它會模擬一個耗時的操作
 function asyncOperation(callback) {
@@ -37,7 +36,6 @@ asyncOperation(function(result) {
 });
 console.log("繼續執行其他操作");
 </pre>
-                        </div>
                     </div>
                     <div class="article-codeNote">
 <pre>
@@ -50,8 +48,7 @@ console.log("繼續執行其他操作");
                     <div class="article-txt">
                         <p>範例中，asyncOperation 函數模擬了一個耗時的操作，使用 setTimeout 函數模擬了2秒的延遲。該函數接受一個 CallBack Function作為參數，並在操作完成後呼叫該 CallBack Function。</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 console.log("開始");
 
@@ -61,7 +58,6 @@ setTimeout(() => {
 
 console.log("結束");
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p> console 的出現順序</p>
@@ -89,8 +85,7 @@ console.log("結束");
                         <p>當有多個非同步操作需要按照特定順序執行或其中一個操作的結果取決於另一個操作的結果時，就會導致 Callback Functions 的嵌套，形成 Callback Hell。</p>
                         <p>以下是一個 Callback Hell 的示例：</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 doSomething(function(result1) {
     doSomethingElse(result1, function(result2) {
@@ -100,7 +95,6 @@ doSomething(function(result1) {
     });
 });
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>上述範例中，每個非同步操作的完成都需要等待前一個非同步操作的結果，並且為每個操作定義了一個 Callback Functions 。由於這些 Callback Functions 被嵌套在彼此之中，程式碼變得非常難以閱讀和維護。</p>>
@@ -138,28 +132,24 @@ doSomething(function(result1) {
                         <p>Promise 建構函式 new 出的物件，則可以使用其中的原型方法 (在 prototype 內)，其中就包含 then、catch、finally，這些方法則必須在新產生的物件下才能呼叫。</p>
                         <p>透過 new Promise() 的方式建立 p 物件，此時 p 就能使用 Promise 的原型方法</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 const p = new Promise();
 p.then();   // Promise 回傳正確
 p.catch();   // Promise 回傳失敗
 p.finally();   // 非同步執行完畢(無論是否正確完成)
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>除此之外，Promise 建構函式建立同時，必須傳入一個函式作為參數（executor function），此函式的參數包含 resolve, reject，這兩個方法分別代表成功與失敗的回傳結果，特別注意這兩個僅能回傳其中之一，回傳後表示此 Promise 事件結束。</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 new Promise(function(resolve, reject) { 
     resolve();   // 正確完成的回傳方法
     reject();   // 失敗的回傳方法
 });
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <h5>狀態</h5>
@@ -174,8 +164,7 @@ new Promise(function(resolve, reject) {
                     <div class="article-txt">
                         <p>Promise 的簡單例子：</p>
                     </div>
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 function fetchData() {
     return new Promise(function(resolve, reject) {
@@ -200,7 +189,6 @@ fetchData()
     console.log(error);   // 異常處理，數據獲取失敗時執行
 });
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <p>上述範例中，fetchData 函數返回一個 Promise 物件。該 Promise 對象代表了一個非同步操作，使用 setTimeout 模擬了一個2秒後返回數據的情況。</p>
@@ -222,9 +210,7 @@ fetchData()
                         <p>在使用 async/await 時，需要在一個函數前面添加 async 關鍵字來定義一個非同步函數。在非同步函數內部，你可以使用 await 關鍵字來等待一個 Promise 對象的解決。這樣做會暫停當前函數的執行，直到Promise被解決（resolved）並返回結果。</p>
                         <p>async/await 基本範例：</p>
                     </div>
-
-                    <div class="article-code">
-                        <div class="article-coding">
+                    <div class="article-coding">
 <pre>
 async function getData() {
     try {
@@ -237,7 +223,6 @@ async function getData() {
 }
 getData();
 </pre>
-                        </div>
                     </div>
                     <div class="article-txt">
                         <h4>在上面的範例中，getData函數是一個非同步函數。在函數體內，使用 await 關鍵字等待fetch函數返回的 Promise 對象。一旦 Promise 對象解決，它會將響應轉換為 JSON 數據並存儲在 data 變量中</h4>

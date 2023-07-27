@@ -75,11 +75,11 @@ expected output：undefined
                 <div class="article-detail">
                     <h3>差異點</h3>
                     <div class="article-detailLine"></div>
-
-                    <div class="article-code">
+                    <div class="article-txt">
                         <h4>map()</h4>
                         <p>有返回值，可以return出來一個length和原數組一致的數組(內容可能包含undefined、null等)</p>
-                        <div class="article-coding">
+                    </div>
+                    <div class="article-coding">
 <pre>
 const array = [12, 24, 27, 23, 26];
 const res = array.map((item, index, input) => {
@@ -90,13 +90,12 @@ expected output：[12, 24, 27, 23, 26]
 console.log(res)
 expected output：[120, 240, 270, 230, 260]
 </pre>
-                        </div>
                     </div>
-
-                    <div class="article-code">
+                    <div class="article-txt">
                         <h4>forEach()</h4>
                         <p>沒有返回值，返回結果為undefined</p>
-                        <div class="article-coding">
+                    </div>
+                    <div class="article-coding">
 <pre>
 const array = [12, 24, 27, 23, 26];
 const res = array.forEach((item, index, input) => {
@@ -107,7 +106,6 @@ expected output：[12, 24, 27, 23, 26]
 console.log(res)
 expected output：undefined
 </pre>
-                        </div>
                     </div>
                 </div>
             </section>
