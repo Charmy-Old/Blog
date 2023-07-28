@@ -55,6 +55,23 @@
         </a>
     </section>
 
+    <section class="all vue">
+        <a href="VUE_createVUEcli" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-vuejs"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">如何建立 Vue-CLI？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Vue<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-29</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>在安裝 Vue CLI 之前，必須先安裝 Node.js，可直接至 Node.js 的官網下載並安裝</p>
+                    <p>Vue CLI 4.x 需要 Node.js v8.9 或更高版本，可在 Terminal 或 cmd 中使用 node -v 查看版本</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all javascript">
         <a href="JS_closure" class="article">
             <div class="article-icon">

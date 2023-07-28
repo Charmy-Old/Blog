@@ -230,6 +230,11 @@ const routes = [
         name: 'VUE_syntax',
         component: () => import('../views/Article-Vue/VUE_syntax.vue')
     },
+    {
+        path: '/VUE_createVUEcli',
+        name: 'VUE_createVUEcli',
+        component: () => import('../views/Article-Vue/VUE_createVUEcli.vue')
+    },
 
     // Database 文章
     {
