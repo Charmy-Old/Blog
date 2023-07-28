@@ -131,6 +131,8 @@
 } */
 
 .article-coding {
+    font-family: "Source Code Pro";
+    font-weight: 700;
     color: #FFFFFF;
     background-color: #000000;
     border-radius: 15px;

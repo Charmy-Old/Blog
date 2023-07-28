@@ -235,6 +235,11 @@ const routes = [
         name: 'VUE_createVUEcli',
         component: () => import('../views/Article-Vue/VUE_createVUEcli.vue')
     },
+    {
+        path: '/VUE_eventBus',
+        name: 'VUE_eventBus',
+        component: () => import('../views/Article-Vue/VUE_eventBus.vue')
+    },
 
     // Database 文章
     {

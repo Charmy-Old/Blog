@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL VUE">
+        <div class="article-title">什麼是 Event Bus？</div>
+    </section>
+
+    <section class="ALL VUE">
         <div class="article-title">如何建立 Vue-CLI？</div>
     </section>
 

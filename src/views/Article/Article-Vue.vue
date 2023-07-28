@@ -15,6 +15,23 @@
             </section>
 
             <section>
+                <a href="VUE_eventBus" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-vuejs"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 Event Bus？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Vue<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-29</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>Vue.js Event Bus 是一種事件機制，可用於在不同組件之間進行通信。可以將事件發佈到一個中央實例，並在需要時從其他組件中訂閱這些事件。這種方式可以有效地解耦不同組件之間的邏輯，使其更易於維護和擴展。</p>
+                            <p>在 Vue.js 中，可以使用一個簡單的 Vue 實例作為事件中心，並通過 $emit、$on、$off 等方法來進行事件的發佈、訂閱和取消訂閱。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section>
                 <a href="VUE_createVUEcli" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-vuejs"></i>
