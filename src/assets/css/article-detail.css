@@ -58,7 +58,6 @@
 }
 
 .article-pic {
-    /* width: 100%; */
     margin: 1.5rem 0;
 }
 
@@ -126,12 +125,8 @@
     overflow-x: auto;
 }
 
-/* .article-code {
-    margin: 1.5rem 0;
-} */
-
 .article-coding {
-    font-family: "Source Code Pro";
+    font-family: "JetBrains Mono";
     font-weight: 700;
     color: #FFFFFF;
     background-color: #000000;
@@ -155,14 +150,6 @@
 .article-detail .article-coding pre code p {
     line-height: 1;
 }
-
-/* .article-coding .console {
-    color: #777777;
-}
-
-.article-coding .annotation {
-    color: #777777;
-} */
 
 .article-table table {
     width: 100%;

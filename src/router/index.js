@@ -218,6 +218,11 @@ const routes = [
         name: 'JS_closure',
         component: () => import('../views/Article-JavaScript/JS_closure.vue')
     },
+    {
+        path: '/JS_sort',
+        name: 'JS_sort',
+        component: () => import('../views/Article-JavaScript/JS_sort.vue')
+    },
 
     // Vue 文章
     {

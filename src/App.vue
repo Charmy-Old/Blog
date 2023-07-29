@@ -4,7 +4,7 @@
 
 <style lang="scss">
     @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap"); /* font */
-    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,700&display=swap');
     @import "./assets/css/common/reset.css";
     @import "./assets/css/common/style.css";
 </style>

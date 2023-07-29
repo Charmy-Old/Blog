@@ -55,6 +55,22 @@
         </a>
     </section>
 
+    <section class="all javascript">
+        <a href="JS_sort" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">陣列中的物件資料選取與排序</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-30</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>2023/07/26 面試時遇到的題目，是關於 JavaScript 中，const 一個變數後，在裡面賦予一個 array 後再其中包含了 Object，在進行 key value 的選取與排序，以下題目有做些許的改變。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all vue">
         <a href="VUE_eventBus" class="article">
             <div class="article-icon">
