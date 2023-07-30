@@ -60,7 +60,7 @@
                         <p>這些網際網路交換點(IXPs)是不同網際網路提供商連接的主要位置，以便彼此提供對來自其不同網路的流量的訪問。連線到這些高速且高度互連的位置後，CDN提供者就能夠以高速資料傳遞過程來減少成本和傳輸時間。</p>
                     </div>
                     <div class="article-pic">
-                        <img src="../../assets/images/article-web/web-cdn.png" alt="">
+                        <img src="../../assets/images/article-web/cdn.webp" alt="">
                     </div>
                     <div class="article-txt">
                         <p>除了在IXP中放置伺服器，CDN還對標準用戶端/伺服器資料傳輸進行了諸多優化。CDN將資料中心放置在全球的戰略位置，增強安全性，並設計成可承受各種類型的故障和網際網路擁塞。</p>

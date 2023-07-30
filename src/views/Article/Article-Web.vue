@@ -15,6 +15,23 @@
             </section>
 
             <section>
+                <a href="WEB_OWASP-introduce" class="article">
+                    <div class="article-icon">
+                        <i class="fa-sharp fa-solid fa-desktop"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 OWASP？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-31</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>開放式 Web 應用程式安全性專案 (OWASP) 是致力於 Web 應用程式安全性的國際非營利組織。OWASP 的核心原則之一是，他們的所有資料都免費提供並且可以在其網站上輕鬆存取，這使得任何人都能夠改善自己的 Web 應用程式安全性。他們提供的材料包括文件、工具、影片和論壇。也許他們最著名的專案是 OWASP Top 10。</p>
+                            <p>簡單的說就是推動世界軟體的安全性。OWASP 也歸納出容易攻擊的弱點並彙整為十大資安問題、排名、防範措施。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section>
                 <a href="WEB_web-noun" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>

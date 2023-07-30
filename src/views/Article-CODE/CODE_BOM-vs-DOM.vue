@@ -203,10 +203,10 @@ window.onresize = function(){
                     <div class="article-detailLine"></div>
                     <div class="article-txt">
                         <a class="article-reference" href="https://hsuchihting.github.io/javascript/20201108/2987667911/" target="_blank"><i class="fa-solid fa-pen-to-square"></i>TimCodingBlog - JS 筆記 - 認識 BOM</a>
-                        <a class="article-reference" href="https://medium.com/%E9%A6%AC%E6%A0%BC%E8%95%BE%E7%89%B9%E7%9A%84%E5%86%92%E9%9A%AA%E8%80%85%E6%97%A5%E8%AA%8C/js-bom-%E7%AD%86%E8%A8%98-6dedea7155ea" target="_blank"><i class="fa-solid fa-pen-to-square"></i>Medium(馬格蕾特的樹洞) - [JS] 瀏覽器物件模型 (BOM) 筆記</a>
+                        <a class="article-reference" href="https://medium.com/%E9%A6%AC%E6%A0%BC%E8%95%BE%E7%89%B9%E7%9A%84%E5%86%92%E9%9A%AA%E8%80%85%E6%97%A5%E8%AA%8C/js-bom-%E7%AD%86%E8%A8%98-6dedea7155ea" target="_blank"><i class="fa-solid fa-pen-to-square"></i>Medium(Written by 馬格蕾特的樹洞) - [JS] 瀏覽器物件模型 (BOM) 筆記</a>
                         <a class="article-reference" href="https://hsuchihting.github.io/javascript/20200615/1316819935/" target="_blank"><i class="fa-solid fa-pen-to-square"></i>TimCodingBlog - JS 筆記 - 認識 DOM 文件物件模型</a>
                         <a class="article-reference" href="https://ithelp.ithome.com.tw/articles/10202689" target="_blank"><i class="fa-solid fa-pen-to-square"></i>iT邦幫忙(陳奕帆 Andy Chen) - Day03-深入理解網頁架構：DOM</a>
-                        <a class="article-reference" href="https://hsuchihting.github.io/javascript/20201108/2987667911/" target="_blank"><i class="fa-solid fa-pen-to-square"></i>Medium(ck100pro) - 瀏覽器的物件模型：Bom vs Dom</a>
+                        <a class="article-reference" href="https://hsuchihting.github.io/javascript/20201108/2987667911/" target="_blank"><i class="fa-solid fa-pen-to-square"></i>Medium(Written by ck100pro) - 瀏覽器的物件模型：Bom vs Dom</a>
                     </div>
                 </div>
             </section>

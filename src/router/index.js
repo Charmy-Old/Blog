@@ -132,6 +132,11 @@ const routes = [
         name: 'WEB_web-noun',
         component: () => import('../views/Article-WEB/WEB_web-noun.vue')
     },
+    {
+        path: '/WEB_OWASP-introduce',
+        name: 'WEB_OWASP-introduce',
+        component: () => import('../views/Article-WEB/WEB_OWASP-introduce.vue')
+    },
 
     // HTML 文章
     {

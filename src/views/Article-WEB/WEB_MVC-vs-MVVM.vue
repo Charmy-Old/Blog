@@ -108,7 +108,7 @@ window.onload = C.handleOnload;
                     <div class="article-txt">
                         <h4>最主要差異為用資料驅動view的更新，當資料異動時，去更新view</h4>
                     </div>
-                    <div class="article-pic"><img src="../../assets/images/article-web/web-mvvm.png" alt=""></div>
+                    <div class="article-pic"><img src="../../assets/images/article-web/MVVMPattern.webp" alt=""></div>
                     <div class="article-txt">
                         <h4>通常多用於與UI較相關的 前端 部分</h4>
                     </div>
