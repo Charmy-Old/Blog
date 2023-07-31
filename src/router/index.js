@@ -228,7 +228,11 @@ const routes = [
         name: 'JS_sort',
         component: () => import('../views/Article-JavaScript/JS_sort.vue')
     },
-
+    {
+        path: '/JS_destructuring-assignment',
+        name: 'JS_destructuring-assignment',
+        component: () => import('../views/Article-JavaScript/JS_destructuring-assignment.vue')
+    },
     // Vue 文章
     {
         path: '/VUE_LifeCycle',

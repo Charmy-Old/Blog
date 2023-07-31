@@ -55,6 +55,23 @@
         </a>
     </section>
 
+    <section class="all javascript">
+        <a href="JS_destructuring-assignment" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 解構賦值(Destructuring Assignment)？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-01</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>解構賦值是 JavaScript 在 ES6(ECMAScript 2015)引入的功能，這可以從陣列或物件中提取值，並將這些值賦給對應的變數。這使得從複雜的資料結構中取得資料變得更簡潔方便。</p>
+                    <p>解構賦值可以用於陣列和物件，並且可以在變數宣告和賦值語句中使用。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all web">
         <a href="WEB_OWASP-introduce" class="article">
             <div class="article-icon">
