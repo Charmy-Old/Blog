@@ -17,6 +17,7 @@
                     <div class="reference-underline"></div>
                     <div class="reference-link"><a href="https://www.casper.tw/" target="_blank">卡斯伯的 Blog</a></div>
                     <div class="reference-link"><a href="https://blog.niclin.tw/" target="_blank">Nic Lin's Blog 喜歡在地上滾的工程師</a></div>
+                    <div class="reference-link"><a href="https://penghuachen.github.io/" target="_blank">PH 前端修煉記錄</a></div>
                     <div class="reference-link"><a href="https://book.vue.tw/menu.html" target="_blank">重新認識 Vue.js | Kuro Hsu</a></div>
                     <div class="reference-link"><a href="https://blog.zjzhang.org/post/Nextjs-13-update-App-router-and-React-Server-Component?fbclid=IwAR3RiPniV2RLihV4PiBWLe23jXsf8g6C2wF5TyJZYNp-peAd_wt0QO4-A6c_aem_Afl8tmcbpFHeqI7VP6TANCbiNhqSl2JMc7wblgd0LIBEm5Y99E8AUadQa99ARFn4sj0&mibextid=S66gvF" target="_blank">Zhe-Jia's Blog</a></div>
                     <div class="reference-link"><a href="https://stackoverflow.com/" target="_blank">stackoverflow</a></div>
