@@ -12,7 +12,7 @@
 
             <section>
                 <div class="article-detail">
-                    <h3>By Value V.S. By Reference 簡介</h3>
+                    <h3>By Value 和 By Reference 簡介</h3>
                     <div class="article-detailLine"></div>
                     <div class="article-txt">
                         <p>當談到 JavaScript 中的參數傳遞方式時，有兩種不同的方法：「按值傳遞」和「按引用傳遞」。這兩者之間的主要差異在於傳遞參數時，參數的值或引用如何被複製和傳遞的。</p>

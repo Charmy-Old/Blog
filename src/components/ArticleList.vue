@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL JS">
+        <div class="article-title">setTimeout V.S. setInterval</div>
+    </section>
+
+    <section class="ALL JS">
         <div class="article-title">什麼是 解構賦值(Destructuring Assignment)？</div>
     </section>
 

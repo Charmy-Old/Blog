@@ -233,6 +233,11 @@ const routes = [
         name: 'JS_destructuring-assignment',
         component: () => import('../views/Article-JavaScript/JS_destructuring-assignment.vue')
     },
+    {
+        path: '/JS_setTimeout-vs-setInterval',
+        name: 'JS_setTimeout-vs-setInterval',
+        component: () => import('../views/Article-JavaScript/JS_setTimeout-vs-setInterval.vue')
+    },
     // Vue 文章
     {
         path: '/VUE_LifeCycle',

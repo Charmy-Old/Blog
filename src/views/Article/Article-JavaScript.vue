@@ -15,6 +15,22 @@
             </section>
 
             <section>
+                <a href="JS_setTimeout-vs-setInterval" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">setTimeout V.S. setInterval</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-01</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>setTimeout 和 setInterval 都是 JavaScript 中用於執行延遲或重複執行程式碼的方法，它們的差異在於執行的次數和頻率。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section>
                 <a href="JS_destructuring-assignment" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
