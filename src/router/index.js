@@ -238,6 +238,11 @@ const routes = [
         name: 'JS_setTimeout-vs-setInterval',
         component: () => import('../views/Article-JavaScript/JS_setTimeout-vs-setInterval.vue')
     },
+    {
+        path: '/JS_setAttribute-vs-getAttribute',
+        name: 'JS_setAttribute-vs-getAttribute',
+        component: () => import('../views/Article-JavaScript/JS_setAttribute-vs-getAttribute.vue')
+    },
     // Vue 文章
     {
         path: '/VUE_LifeCycle',

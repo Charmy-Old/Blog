@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL JS">
+        <div class="article-title">setAttribute V.S. getAttribute</div>
+    </section>
+
+    <section class="ALL JS">
         <div class="article-title">setTimeout V.S. setInterval</div>
     </section>
 

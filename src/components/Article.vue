@@ -56,6 +56,22 @@
     </section>
 
     <section class="all javascript">
+        <a href="JS_setAttribute-vs-getAttribute" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">setAttribute V.S. getAttribute</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-02</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>setAttribute 和 getAttribute 是用於操作 HTML 元素屬性的兩種不同方法。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all javascript">
         <a href="JS_setTimeout-vs-setInterval" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-square-js"></i>
