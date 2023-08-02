@@ -114,7 +114,7 @@ const attributeValue = element.getAttribute(attributeName);
 </pre>
                     </div>
                     <div class="article-txt">
-                        <p>用 getAttribute 方法獲取了 class 屬性的值，並將其賦值給 classValue 變量，然後輸出到 console</p>
+                        <p>用 getAttribute 方法獲取了 class 屬性的值，並將其賦值給 classValue 變數，然後輸出到 console</p>
                     </div>
                 </div>
             </section>

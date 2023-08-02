@@ -48,6 +48,7 @@
         <li><a href="/Home2">2</a></li>
         <li><a href="/Home3">3</a></li>
         <li><a href="/Home4">4</a></li>
+        <li><a href="/Home5">5</a></li>
     </ul>
 </template>
 <script>

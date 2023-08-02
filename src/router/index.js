@@ -22,6 +22,11 @@ const routes = [
         component: () => import('../views/Home4.vue')
     },
     {
+        path: '/Home5',
+        name: 'Home5',
+        component: () => import('../views/Home5.vue')
+    },
+    {
         path: '/Resume',
         name: 'Resume',
         component: () => import('../views/Resume.vue')
@@ -242,6 +247,11 @@ const routes = [
         path: '/JS_setAttribute-vs-getAttribute',
         name: 'JS_setAttribute-vs-getAttribute',
         component: () => import('../views/Article-JavaScript/JS_setAttribute-vs-getAttribute.vue')
+    },
+    {
+        path: '/JS_undefined-vs-undeclared-vs-null',
+        name: 'JS_undefined-vs-undeclared-vs-null',
+        component: () => import('../views/Article-JavaScript/JS_undefined-vs-undeclared-vs-null.vue')
     },
     // Vue 文章
     {

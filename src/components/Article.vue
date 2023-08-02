@@ -56,6 +56,22 @@
     </section>
 
     <section class="all javascript">
+        <a href="JS_undefined-vs-undeclared-vs-null" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">undefined V.S. undeclared V.S. null</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-02</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>在 JavaScript 中，undefined、undeclared 和 null 是三個與變數相關的概念。這些概念代表了不同的情況和值。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all javascript">
         <a href="JS_setAttribute-vs-getAttribute" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-square-js"></i>
@@ -182,7 +198,7 @@
                 <div class="article-underline"></div>
                 <div class="article-content">
                     <p>閉包(Closure)是 JavaScript 中一個重要的概念，涉及函式的作用域和變數的保存。在理解閉包之前，需要先了解 JavaScript 中的作用域和函式定義。</p>
-                    <p>作用域是一個定義了變數可見性和生存期的區域。在 JavaScript 中，有全域作用域和區域(函式)作用域兩種。當在一個函式內聲明一個變數時，只能在該函式內部訪問，這就是區域作用域。</p>
+                    <p>作用域是一個定義了變數可見性和生存期的區域。在 JavaScript 中，有全域作用域和區域(函式)作用域兩種。當在一個函式內宣告一個變數時，只能在該函式內部訪問，這就是區域作用域。</p>
                     <p>函式定義了程式碼塊，並且可以在程式碼中重複使用。在 JavaScript 中，函式是第一類對象，這意味著可以像其他值一樣被賦值給變數、作為參數傳遞給函式和從函式中返回。這就可以在函式中定義其他函式。</p>
                     <p>閉包是指當一個函式(稱為內部函式)可以訪問其外部函式(稱為外部函式)的變數，即使外部函式已經結束執行，這些變數仍然存在並且保留在內存中。換句話說，內部函式「捕捉」了外部函式的作用域，形成了一個閉包，這樣就可以在以後的執行中使用這些變數。</p>
                 </div>

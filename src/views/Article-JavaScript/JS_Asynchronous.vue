@@ -225,7 +225,7 @@ getData();
 </pre>
                     </div>
                     <div class="article-txt">
-                        <h4>在上面的範例中，getData函數是一個非同步函數。在函數體內，使用 await 關鍵字等待fetch函數返回的 Promise 對象。一旦 Promise 對象解決，它會將響應轉換為 JSON 數據並存儲在 data 變量中</h4>
+                        <h4>在上面的範例中，getData函數是一個非同步函數。在函數體內，使用 await 關鍵字等待fetch函數返回的 Promise 對象。一旦 Promise 對象解決，它會將響應轉換為 JSON 數據並存儲在 data 變數中</h4>
                         <p>await 關鍵字只能在非同步函數內部使用。它可以用於等待 Promise 對象的解決，也可以用於等待其他異步操作，如調用另一個非同步函數。</p>
                         <p>使用 async/await 可以更清晰地表達異步操作的流程，避免了Callback Hell的問題，並使錯誤處理更加方便。</p>
                     </div>

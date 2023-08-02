@@ -44,7 +44,7 @@
                         <ul>
                             <li><i class="fa-solid fa-check"></i><a href="javascript:;">Postman</a> – Postman是一個很受歡迎的API開發環境。它允許你輕鬆傳送API請求和查看回應。</li>
                             <li><i class="fa-solid fa-check"></i><a href="javascript:;">Insomnia</a> – 與Postman類似，Insomnia是一個GUI平台，用於測試和開發API。它允許你導入/導出數據、保存環境、使用插件等。</li>
-                            <li><i class="fa-solid fa-check"></i><a href="javascript:;">Paw</a> – Paw是一個全功能的API開發工具，適用於Mac。它提供了一個乾淨的界面來傳送請求、保存API、查看文件、使用變量/腳本等功能。</li>
+                            <li><i class="fa-solid fa-check"></i><a href="javascript:;">Paw</a> – Paw是一個全功能的API開發工具，適用於Mac。它提供了一個乾淨的界面來傳送請求、保存API、查看文件、使用變數/腳本等功能。</li>
                             <li><i class="fa-solid fa-check"></i><a href="javascript:;">rapidapi</a> – rapidapi平台允許你找到和連接數千個API。它處理身份驗證、快取、監控等。你可以按類別瀏覽API，或搜尋要在應用程序中使用的特定API。</li>
                             <li><i class="fa-solid fa-check"></i><a href="javascript:;">Mockable</a> – Mockable是一個API模擬伺服器。它允許你輕鬆創建自定義的API回應(模擬)，所以你可以在API實際準備就緒之前開發和測試你的應用程序。</li>
                         </ul>

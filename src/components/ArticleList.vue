@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL JS">
+        <div class="article-title">undefined V.S. undeclared V.S. null</div>
+    </section>
+
+    <section class="ALL JS">
         <div class="article-title">setAttribute V.S. getAttribute</div>
     </section>
 

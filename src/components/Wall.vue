@@ -284,7 +284,7 @@ export default {
         const CountallArticle = () => {
             const Countall = document.querySelectorAll(".ALL");
             allArticleCount.value = Countall.length;
-            // 更新全局變量
+            // 更新全局變數
             sharedData.allArticleCount = allArticleCount.value;
         };
 
@@ -365,7 +365,7 @@ export default {
             sharedData.pythonArticleCount = pythonArticleCount.value;
         };
 
-        // 用 computed 抓全局變量
+        // 用 computed 抓全局變數
         const Countall = computed(() => sharedData.allArticleCount);
         const Countweb = computed(() => sharedData.webArticleCount);
         const Counthtml = computed(() => sharedData.htmlArticleCount);

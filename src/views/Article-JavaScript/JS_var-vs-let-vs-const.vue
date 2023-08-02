@@ -208,7 +208,7 @@ var i = 5;
                     </div>
                     <div class="article-coding">
 <pre>
-// 由於 var 直接變量提升，所以上面程式碼等同下面程式碼
+// 由於 var 直接變數提升，所以上面程式碼等同下面程式碼
 console.log(i);
 var i = 5;
 // undefined
