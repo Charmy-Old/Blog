@@ -81,6 +81,33 @@
     margin: 0 0.75rem;
 }
 
+.wall-weather h2 {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0.5rem 0;
+    padding: 0 0.25rem;
+}
+
+.select-area {
+    font-weight: 900;
+    width: 100%;
+    color: #222223;
+    background-color: #FFFAFA;
+    text-align: center;
+    margin: 0.5rem 0 0.75rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.showWeather {
+    line-height: 2;
+    text-align: center;
+    padding: 0 0.25rem;
+}
+
 @media (max-width: 991px) {
     .wall {
         width: 100%;
@@ -125,7 +152,6 @@
     .wall-article, .wall-project {
         width: 49%;
     }
-
 }
 
 @media (max-width: 575px) {
@@ -151,6 +177,9 @@
         width: 100%;
     }
     
+    .wall-weather-search {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (max-width: 500px) {
@@ -162,35 +191,6 @@
         width: 100%;
     }
 }
-
-
-.wall-weather h2 {
-    font-size: 18px;
-    font-weight: 900;
-    text-align: center;
-    margin: 0.5rem 0;
-    padding: 0 0.25rem;
-}
-
-.select-area {
-    font-weight: 900;
-    width: 100%;
-    color: #222223;
-    background-color: #FFFAFA;
-    text-align: center;
-    margin: 0.5rem 0 0.75rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: all .3s linear;
-}
-
-.showWeather {
-    line-height: 2;
-    text-align: center;
-    padding: 0 0.25rem;
-}
-
 
 </style>
 <template>
@@ -216,6 +216,7 @@
             </section>
         </div>
 
+        <!-- <div class="wall-weather-search"> -->
         <section class="wall-weather">
             <div v-cloak>
                 <h2>天氣查詢</h2>
@@ -270,7 +271,7 @@
 <script>
 import sharedData from "@/assets/js/sharedData";
 import ArticleList from "@/components/ArticleList.vue";
-import { defineComponent, ref, onMounted, computed } from "vue";
+import { defineComponent, ref, reactive, onMounted, computed } from "vue";
 export default {
     components: {
         ArticleList,
@@ -407,7 +408,7 @@ export default {
             // 天氣 api
             weatherDatas,
             locationName,
-            getWeather
+            getWeather,
         };
     },
 };

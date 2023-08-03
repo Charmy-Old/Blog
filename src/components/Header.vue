@@ -30,6 +30,10 @@
     .header-nav > ul {
         display: flex;
     }
+
+    .header-list {
+        align-self: center;
+    }
     
     .header-list a {
         font-size: 18px;
@@ -353,6 +357,101 @@
         }
     }
 
+    .header-search {
+        line-height: 30px;
+        padding: 0rem 1.5rem;
+    }
+
+    .header-search-input {
+        color: #FFFAFA;
+        border: 1px #FFFAFA solid;
+        padding: 0 0.25rem;
+    }
+
+    .header-search-button {
+        color: #FFFAFA;
+        border: 1px #FFFAFA solid;
+        padding:  0rem 1rem;
+        transition: all 0.5s linear;
+    }
+
+    .header-search-button:hover {
+        color: #222223;
+        background-color: #FFFAFA;
+    }
+
+    .header-search-lightbox {
+        width: 100%;
+        height: 100%;
+        line-height: 2;
+        color: #FFFFFF;
+        background-color: #222223;;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        opacity: 0.95;
+        overflow: auto;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99999;
+    }
+
+    .header-search-lightbox div:nth-child(n+2) {
+        margin-top: 1.5rem;
+    }
+
+    .header-search-lightbox div:last-child {
+        margin-bottom: 5rem;
+    }
+
+    .header-search-lightboxSearch {
+        width: fit-content;
+        margin: 7.5rem 0 1.5rem 0;
+    }
+
+    .header-search-lightboxButton {
+        line-height: 25px;
+        color: #FFFAFA;
+        display: block;
+        border: 1px #FFFAFA solid;
+        margin-left: auto;
+        padding:  0rem 0.5rem;
+        transform: translate(35px,-5px);
+        transition: all 0.5s linear;
+    }
+    
+    .header-search-lightboxInput {
+        width: 300px;
+        line-height: 40px;
+        color: #FFFAFA;
+        border: 1px #FFFAFA solid;
+        padding: 0 0.25rem;
+    }
+
+    .header-search-lightboxButton i {
+        color: #FFFAFA;
+        margin: auto;
+        transition: all 0.5s linear;
+    }
+
+    @media screen and (max-width: 991px) {
+        .header-search {
+            margin: 1.5rem 0;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .header-search-lightbox div:nth-child(n+2) a {
+            font-size: 16px;
+        }
+    }
+
+    .header-search-lightbox div:nth-child(n+2) {
+        margin-top: 1rem;
+    }
 </style>
 <template>
     <header>
@@ -387,6 +486,24 @@
                             </a>
                             <span class="header-underline"></span>
                         </li>
+                        <li class="header-list">
+                            <div v-if="!showLightbox" class="header-search">
+                                <input class="header-search-input" v-model="state.searchInput" type="text" placeholder="Search Article">
+                                <button class="header-search-button" @click="search, showLightbox = true">Search</button>
+                            </div>
+                            <div v-if="showLightbox" class="header-search-lightbox">
+                                <div class="header-search-lightboxSearch">
+                                    <button class="header-search-lightboxButton" @click="closeLightbox"><i class="fa-solid fa-x"></i></button>
+                                    <input class="header-search-lightboxInput" v-model="state.searchInput" type="text" placeholder="Search Article">
+                                </div>
+
+                            
+                                <div v-for="content in filteredDivContentList" :key="content">
+                                     <a :href="content.url" target="_blank">{{ content.text }}</a>
+                                </div>
+                            </div>
+                            <span class="header-underline"></span>
+                        </li>
                         <li class="header-list d-none">
                             <a href="Reference">
                                 <p>Reference</p>
@@ -403,11 +520,11 @@
     </header>
 </template>
 <script>
-import { ref, onMounted } from "vue"
+import { ref, reactive, onMounted, computed } from "vue"
     export default {
         setup() {
+            // Title 逐一呈現
             const Title = ref("");
-
             const showTitle = () => {
                 const originalText = "Charmying Blog";
                 let index = 0;
@@ -419,14 +536,84 @@ import { ref, onMounted } from "vue"
                     }
                 }, 250) // 控制每個字出現的時間間隔，單位為毫秒
             }
-
             onMounted(() => {
                 showTitle();
             })
 
+            // 搜尋文章 for 迴圈跑全部文章
+            const state = reactive({
+                searchInput: '',
+                divContentList: [
+                    { text: "【程式入門】該如何開始自學寫程式", url: "/Programming-Language" },
+                    { text: "undefined V.S. undeclared V.S. null", url: "/JS_undefined-vs-undeclared-vs-null" },
+                    { text: "setAttribute V.S. getAttribute", url: "/JS_setAttribute-vs-getAttribute" },
+                    { text: "setTimeout V.S. setInterval", url: "/JS_setTimeout-vs-setInterval" },
+                    { text: "什麼是 解構賦值(Destructuring Assignment)？", url: "/JS_destructuring-assignment" },
+                    { text: "什麼是 OWASP？", url: "/WEB_OWASP-introduce" },
+                    { text: "陣列中的物件資料選取與排序", url: "/JS_sort" },
+                    { text: "什麼是 Event Bus？", url: "/VUE_eventBus" },
+                    { text: "如何建立 Vue-CLI？", url: "/VUE_createVUEcli" },
+                    { text: "什麼是 閉包(Closure)？", url: "/JS_closure" },
+                    { text: "事件捕獲(Capturing Events) V.S. 冒泡事件(Bubbling Events)", url: "/JS_BubblingEvents-vs-CapturingEvents" },
+                    { text: "JavaScript 的物件導向", url: "/JS_OOP" },
+                    { text: "By Value V.S. By Reference", url: "/JS_byValue-vs-byReference" },
+                    { text: "淺拷貝(Shallow Copy) V.S. 深拷貝(Deep Copy)", url: "/JS_shallowCopy-vs-deepCopy" },
+                    { text: "Vue 模板語法", url: "/VUE_syntax" },
+                    { text: "迴圈基礎 & 迴圈控制", url: "/PY_loop" },
+                    { text: "if 判斷式和簡易的四則運算", url: "/PY_arithmetic" },
+                    { text: "什麼是 CRUD？", url: "/DB_CRUD" },
+                    { text: "淺談網頁技術名詞", url: "/WEB_web-noun" },
+                    { text: "BOM V.S. DOM", url: "/CODE_BOM-vs-DOM" },
+                    { text: "CSS 選取第一個、最後一個、偶數、奇數、第n個標簽元素", url: "/CSS_nth-child" },
+                    { text: "JavaScript 的非同步 (Asynchronous)", url: "JS_Asynchronous" },
+                    { text: "什麼是 AJAX？", url: "/JS_AJAX" },
+                    { text: "什麼是 CSS box-sizing？", url: "/CSS_box-sizing" },
+                    { text: "slice() V.S. splice() V.S. split()", url: "/JS_slice-vs-splice-vs-split" },
+                    { text: "delete V.S. splice", url: "/JS_delete-vs-splice" },
+                    { text: "var V.S. let V.S. const", url: "/JS_var-vs-let-vs-const" },
+                    { text: "什麼是 RESTful API？", url: "/WEB_RESTfulAPI-introduce" },
+                    { text: "什麼是 TCP/IP？", url: "/WEB_TCP-IP" },
+                    { text: "什麼是 SSL和TLS？", url: "/WEB_SSL-and-TLS" },
+                    { text: "HTTP V.S. HTTPS", url: "/WEB_HTTP-vs-HTTPS" },
+                    { text: "限制內容字數寬度或行數", url: "/CODE_Limit-Line-Width" },
+                    { text: "Cookie V.S. LocalStorage V.S. SessionStorage", url: "/JS_Cookie-vs-LocalStorage-vs-SessionStorage" },
+                    { text: "map() V.S. forEach()", url: "/JS_map-vs-forEach" },
+                    { text: "MVC V.S. MVVM", url: "/WEB_MVC-vs-MVVM" },
+                    { text: "元件的生命週期與更新機制", url: "/VUE_LifeCycle" },
+                    { text: "什麼是 API？", url: "/WEB_api-introduce" },
+                    { text: "什麼是 NPM？了解 node套件管理工具 npm install", url: "/WEB_npm-introduce" },
+                    { text: "什麼是 CDN？| CDN 的工作原理是什麼？", url: "/WEB_cdn-introduce" },
+                    { text: "HTML <code> 顯示程式碼內容", url: "/HTML_codeTag" },
+                    { text: "HTML 表格 (table)", url: "/HTML_tableTag" },
+                ],
+            });
+            const filteredDivContentList = computed(() => {
+                if (state.searchInput) {
+                    const searchKeyword = state.searchInput.toLowerCase();
+                    return state.divContentList.filter(content =>
+                        content.text.toLowerCase().includes(searchKeyword)
+                    );
+                } else {
+                    return state.divContentList;
+                }
+            });
+            const showLightbox = ref(false);
+            // const search = () => {
+            //   // Perform search logic here
+            // };
+            const closeLightbox = () => {
+              showLightbox.value = false;
+            };
+
             return {
+                // Title 逐一呈現
                 Title,
                 showTitle,
+                // 搜尋文章
+                state,
+                filteredDivContentList,
+                showLightbox,
+                closeLightbox,
             };
         }
     };
