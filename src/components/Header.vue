@@ -446,6 +446,7 @@
     @media screen and (max-width: 768px) {
         .header-search-lightbox div:nth-child(n+2) a {
             font-size: 16px;
+            text-align: center;
         }
     }
 
