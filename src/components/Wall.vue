@@ -244,6 +244,7 @@
                 <div class="wall-tag"><a href="Article-CSS">CSS ({{ cssArticleCount }})</a></div>
                 <div class="wall-tag"><a href="Article-JavaScript">JavaScript ({{ jsArticleCount }})</a></div>
                 <div class="wall-tag"><a href="Article-Vue">Vue ({{ vueArticleCount }})</a></div>
+                <div class="wall-tag"><a href="Article-React">React ({{ reactArticleCount }})</a></div>
                 <div class="wall-tag"><a href="Article-Database">Database ({{ databaseArticleCount }})</a></div>
                 <div class="wall-tag"><a href="Article-Python">Python ({{ pythonArticleCount }})</a></div>
             </section>
@@ -344,6 +345,17 @@ export default {
             sharedData.vueArticleCount = vueArticleCount.value;
         };
 
+        // 算 react 文章
+        const reactArticleCount = ref(0);
+        onMounted(() => {
+            CountreactArticle();
+        });
+        const CountreactArticle = () => {
+            const Countreact = document.querySelectorAll(".REACT");
+            reactArticleCount.value = Countreact.length;
+            sharedData.reactArticleCount = reactArticleCount.value;
+        };
+
         // 算 database 文章
         const databaseArticleCount = ref(0);
         onMounted(() => {
@@ -373,6 +385,7 @@ export default {
         const Countcss = computed(() => sharedData.cssArticleCount);
         const Countjs = computed(() => sharedData.jsArticleCount);
         const Countvue = computed(() => sharedData.vueArticleCount);
+        const Countreact = computed(() => sharedData.reactArticleCount);
         const Countdatabase = computed(() => sharedData.databaseArticleCount);
         const Countpython = computed(() => sharedData.pythonArticleCount);
 
@@ -403,6 +416,7 @@ export default {
             cssArticleCount: Countcss,
             jsArticleCount: Countjs,
             vueArticleCount: Countvue,
+            reactArticleCount: Countreact,
             databaseArticleCount: Countdatabase,
             pythonArticleCount: Countpython,
             // 天氣 api
@@ -412,4 +426,6 @@ export default {
         };
     },
 };
+
+
 </script>

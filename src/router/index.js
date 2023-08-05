@@ -74,6 +74,11 @@ const routes = [
         component: () => import('../views/Article/Article-Vue.vue')
     },
     {
+        path: '/Article-React',
+        name: 'Article-React',
+        component: () => import('../views/Article/Article-React.vue')
+    },
+    {
         path: '/Article-Database',
         name: 'Article-Database',
         component: () => import('../views/Article/Article-Database.vue')
@@ -253,6 +258,7 @@ const routes = [
         name: 'JS_undefined-vs-undeclared-vs-null',
         component: () => import('../views/Article-JavaScript/JS_undefined-vs-undeclared-vs-null.vue')
     },
+
     // Vue 文章
     {
         path: '/VUE_LifeCycle',
@@ -274,7 +280,7 @@ const routes = [
         name: 'VUE_eventBus',
         component: () => import('../views/Article-Vue/VUE_eventBus.vue')
     },
-
+    
     // Database 文章
     {
         path: '/DB_CRUD',
@@ -305,7 +311,11 @@ const routes = [
         name: 'CODE_BOM-vs-DOM',
         component: () => import('../views/Article-CODE/CODE_BOM-vs-DOM.vue')
     },
-    
+    {
+        path: '/CODE_props',
+        name: 'CODE_props',
+        component: () => import('../views/Article-CODE/CODE_props.vue')
+    },   
 ]
 
 

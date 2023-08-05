@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL JS VUE REACT">
+        <div class="article-title">什麼是 props？</div>
+    </section>
+
     <section class="ALL JS">
         <div class="article-title">undefined V.S. undeclared V.S. null</div>
     </section>
@@ -198,11 +202,19 @@
                 const Countjs = document.querySelectorAll("JS");
                 jsArticleCount.value = Countjs.length;
             };
+
             // 算 vue 文章
             const vueArticleCount = ref(0);
             const CountvueArticle = () => {
                 const Countvue = document.querySelectorAll(".VUE");
                 vueArticleCount.value = Countvue.length;
+            };
+
+            // 算 react 文章
+            const reactArticleCount = ref(0);
+            const CountreactArticle = () => {
+                const Countreact = document.querySelectorAll(".REACT");
+                reactArticleCount.value = Countreact.length;
             };
 
             // 算 database 文章
@@ -226,6 +238,7 @@
                 CountcssArticle();
                 CountjsArticle();
                 CountvueArticle();
+                CountreactArticle();
                 CountdatabaseArticle();
                 CountpythonArticle();
             });
@@ -237,6 +250,7 @@
                 cssArticleCount,
                 jsArticleCount,
                 vueArticleCount,
+                reactArticleCount,
                 databaseArticleCount,
                 pythonArticleCount,
             };

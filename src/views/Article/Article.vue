@@ -31,6 +31,10 @@
                         </div>
 
                         <div>
+                            <button class="select-button" data-filter="react">React</button>
+                        </div>
+
+                        <div>
                             <button class="select-button" data-filter="database">Database</button>
                         </div>
 

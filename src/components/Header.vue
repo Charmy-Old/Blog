@@ -506,7 +506,7 @@
 
                             
                                 <div v-for="content in filteredDivContentList" :key="content">
-                                     <a :href="content.url" target="_blank">{{ content.text }}</a>
+                                     <a :href="content.url">{{ content.text }}</a>
                                 </div>
                             </div>
                             <span class="header-underline"></span>
@@ -552,6 +552,7 @@ import { ref, reactive, onMounted, computed } from "vue"
                 searchInput: '',
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "/Programming-Language" },
+                    { text: "什麼是 props？", url: "CODE_props" },
                     { text: "undefined V.S. undeclared V.S. null", url: "/JS_undefined-vs-undeclared-vs-null" },
                     { text: "setAttribute V.S. getAttribute", url: "/JS_setAttribute-vs-getAttribute" },
                     { text: "setTimeout V.S. setInterval", url: "/JS_setTimeout-vs-setInterval" },
