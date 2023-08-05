@@ -416,7 +416,7 @@
         line-height: 25px;
         color: #FFFAFA;
         display: block;
-        border: 1px #FFFAFA solid;
+        /* border: 1px #FFFAFA solid; */
         margin-left: auto;
         padding:  0rem 0.5rem;
         transform: translate(35px,-5px);
@@ -437,6 +437,10 @@
         transition: all 0.5s linear;
     }
 
+    .header-search-lightbox div:nth-child(n+2) {
+        margin-top: 1rem;
+    }
+
     @media screen and (max-width: 991px) {
         .header-search {
             margin: 1.5rem 0;
@@ -450,8 +454,10 @@
         }
     }
 
-    .header-search-lightbox div:nth-child(n+2) {
-        margin-top: 1rem;
+    @media screen and (max-width: 499px) {
+        .header-search-lightboxButton {
+            transform: translate(0,-10px);
+        }
     }
 </style>
 <template>

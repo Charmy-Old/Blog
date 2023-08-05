@@ -40,12 +40,16 @@
 }
 
 @media screen and (max-width: 499px) {
-    .back-to-top-arrow {
-        transform: translateY(0);
+    .back-to-top {
+        box-shadow: 0 0 15px #000000;
     }
 
-    .back-to-top {
-        bottom: -20px;
+    .back-to-top:hover {
+        box-shadow: 0 0 15px #000000;
+    }
+
+    .back-to-top-arrow {
+        transform: translateY(0);
     }
 }
 

@@ -165,8 +165,8 @@ console.log(object2.a)   // {a: 1}
 
         </main>
         <Wall />
-        <BackToTop />
     </div>
+    <BackToTop />
 </template>
 <script>
     import Header from "@/components/Header.vue";

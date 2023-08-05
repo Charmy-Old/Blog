@@ -184,8 +184,8 @@ ITM0IRyiEhVpa6VnKyExMiEgNveroyWBPlgGyfkflYjDaaFf/Kn3bo3OfghBPDWo6AfSHlNtL8N7ITEw
 
         </main>
         <Wall />
-        <BackToTop />
     </div>
+    <BackToTop />
 </template>
 <script>
     import Header from "@/components/Header.vue";

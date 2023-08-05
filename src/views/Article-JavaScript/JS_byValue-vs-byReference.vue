@@ -75,8 +75,8 @@ console.log(newArray);   // 輸出 [1, 2, 3, 4]，原始陣列被修改
 
         </main>
         <Wall />
-        <BackToTop />
     </div>
+    <BackToTop />
 </template>
 <script>
     import Header from "@/components/Header.vue";

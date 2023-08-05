@@ -278,22 +278,10 @@ console.log(sortedData);   // 排序後的陣列
                 </div>
             </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
         </main>
         <Wall />
-        <BackToTop />
     </div>
+    <BackToTop />
 </template>
 <script>
     import Header from "@/components/Header.vue";

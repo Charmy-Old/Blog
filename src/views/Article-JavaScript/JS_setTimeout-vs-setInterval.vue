@@ -111,8 +111,8 @@ Interval message: 5   // 第 1 秒結束出現，計數達到 5 時停止
 
         </main>
         <Wall />
-        <BackToTop />
     </div>
+    <BackToTop />
 </template>
 <script>
     import Header from "@/components/Header.vue";

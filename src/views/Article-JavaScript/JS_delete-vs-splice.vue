@@ -63,8 +63,8 @@ console.log(arr.length);   // 3
 
         </main>
         <Wall />
-        <BackToTop />
     </div>
+    <BackToTop />
 </template>
 <script>
     import Header from "@/components/Header.vue";

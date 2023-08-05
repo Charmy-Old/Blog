@@ -101,8 +101,8 @@ console.log(gender);   // Male (使用預設值)
 
         </main>
         <Wall />
-        <BackToTop />
     </div>
+    <BackToTop />
 </template>
 <script>
     import Header from "@/components/Header.vue";
