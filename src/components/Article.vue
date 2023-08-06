@@ -59,6 +59,23 @@
         </a>
     </section>
 
+    <section class="all web">
+        <a href="WEB_Proxy-introduce" class="article">
+            <div class="article-icon">
+                <i class="fa-sharp fa-solid fa-desktop"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 Proxy？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-06</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>在電腦和網路中，「Proxy」(代理伺服器)是指一種位於使用者與目標伺服器之間的中間伺服器，用於處理使用者與目標伺服器之間的資料傳輸。代理伺服器可以用來幫助用戶匿名瀏覽網路、提高網路安全性、加速網頁載入速度，以及控制或監視網路流量。</p>
+                    <p>代理伺服器的運作方式是這樣的：當在瀏覽網頁或使用網路應用時，請求會先被送到代理伺服器，然後代理伺服器再轉送請求到目標伺服器。反之亦然，目標伺服器的回應會先送到代理伺服器，然後再轉送到設備上。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all javascript vue react">
         <a href="CODE_props" class="article">
             <div class="article-icon">

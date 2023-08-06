@@ -8,7 +8,7 @@
     position: fixed;
     bottom: 40px;
     right: 40px;
-    z-index: 9999;
+    z-index: 999;
     border-radius: 50%;
     background-color: #FFFAFA;
     cursor: pointer;

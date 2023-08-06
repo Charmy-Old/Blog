@@ -147,6 +147,11 @@ const routes = [
         name: 'WEB_OWASP-introduce',
         component: () => import('../views/Article-WEB/WEB_OWASP-introduce.vue')
     },
+    {
+        path: '/WEB_Proxy-introduce',
+        name: 'WEB_Proxy-introduce',
+        component: () => import('../views/Article-WEB/WEB_Proxy-introduce.vue')
+    },
 
     // HTML 文章
     {
