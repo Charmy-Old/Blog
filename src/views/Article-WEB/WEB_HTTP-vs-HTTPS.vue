@@ -185,18 +185,20 @@ ITM0IRyiEhVpa6VnKyExMiEgNveroyWBPlgGyfkflYjDaaFf/Kn3bo3OfghBPDWo6AfSHlNtL8N7ITEw
         </main>
         <Wall />
     </div>
+    <pageRate />
     <BackToTop />
 </template>
 <script>
     import Header from "@/components/Header.vue";
     import Wall from "@/components/Wall.vue";
     import BackToTop from "@/components/BackToTop.vue";
-    
+    import pageRate from "@/components/pageRate.vue";
     export default {
         components: {
             Header,
             Wall,
             BackToTop,
+            pageRate,
             // Footer,
         },
         setup() {}

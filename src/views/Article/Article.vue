@@ -49,6 +49,7 @@
         </main>
         <Wall />
     </div>
+    <pageRate />
     <BackToTop />
 </template>
 <script>
@@ -56,6 +57,7 @@
     import Wall from "@/components/Wall.vue";
     import BackToTop from "@/components/BackToTop.vue";
     import Article from "@/components/Article.vue";
+    import pageRate from "@/components/pageRate.vue";
     import { onMounted } from "vue";
     export default {
         components: {
@@ -63,6 +65,7 @@
             Wall,
             BackToTop,
             Article,
+            pageRate,
             // Footer,
         },
         setup() {

@@ -7,6 +7,7 @@
         </main>
         <Wall />
     </div>
+    <pageRate />
     <BackToTop />
 </template>
 <script>
@@ -15,7 +16,7 @@
     import BackToTop from "@/components/BackToTop.vue";
     import Article from "@/components/Article.vue";
     import HomePageList from "@/components/HomePageList.vue";
-
+    import pageRate from "@/components/pageRate.vue";
     export default {
         components: {
             Header,
@@ -23,6 +24,7 @@
             BackToTop,
             Article,
             HomePageList,
+            pageRate,
             // Footer,
         },
         setup() {}

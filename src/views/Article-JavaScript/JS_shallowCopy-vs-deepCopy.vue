@@ -166,18 +166,20 @@ console.log(object2.a)   // {a: 1}
         </main>
         <Wall />
     </div>
+    <pageRate />
     <BackToTop />
 </template>
 <script>
     import Header from "@/components/Header.vue";
     import Wall from "@/components/Wall.vue";
     import BackToTop from "@/components/BackToTop.vue";
-    
+    import pageRate from "@/components/pageRate.vue";
     export default {
         components: {
             Header,
             Wall,
             BackToTop,
+            pageRate,
             // Footer,
         },
         setup() {}

@@ -112,18 +112,20 @@ Interval message: 5   // 第 1 秒結束出現，計數達到 5 時停止
         </main>
         <Wall />
     </div>
+    <pageRate />
     <BackToTop />
 </template>
 <script>
     import Header from "@/components/Header.vue";
     import Wall from "@/components/Wall.vue";
     import BackToTop from "@/components/BackToTop.vue";
-    
+    import pageRate from "@/components/pageRate.vue";
     export default {
         components: {
             Header,
             Wall,
             BackToTop,
+            pageRate,
             // Footer,
         },
         setup() {}
