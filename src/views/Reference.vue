@@ -7,7 +7,7 @@
             <section>
                 <div class="reference reference-title">
                     <h2>Reference</h2> 
-                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-07</p>
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-08</p>
                 </div>
             </section>
 
@@ -21,6 +21,7 @@
                     <div class="reference-link"><a href="https://blog.zjzhang.org/post/Nextjs-13-update-App-router-and-React-Server-Component?fbclid=IwAR3RiPniV2RLihV4PiBWLe23jXsf8g6C2wF5TyJZYNp-peAd_wt0QO4-A6c_aem_Afl8tmcbpFHeqI7VP6TANCbiNhqSl2JMc7wblgd0LIBEm5Y99E8AUadQa99ARFn4sj0&mibextid=S66gvF" target="_blank">Zhe-Jia's Blog</a></div>
                     <div class="reference-link"><a href="https://book.vue.tw/menu.html" target="_blank">重新認識 Vue.js | Kuro Hsu</a></div>
                     <div class="reference-link"><a href="https://hackmd.io/@MhZhtPVfTHanTVVP-3Ov6A/H1b8LVTRu/%2FCgLRMTf5S26kJxR705rGxw" target="_blank">洋蔥筆記</a></div>
+                    <div class="reference-link"><a href="https://pjchender.dev/" target="_blank">PJCHENder</a></div>
                 </div>
             </section>
 
@@ -193,9 +194,20 @@
                     <div class="reference-link"><a href="https://codepen.io/chris22smith/pen/pymBWL" target="_blank">All Form Elements</a></div>
                     <div class="reference-link"><a href="https://codepen.io/chriscoyier/pen/kKozBP" target="_blank">Light Javascript Table Filter</a></div>
                     <div class="reference-link"><a href="https://codepen.io/frank890417/pen/eWgPry?editors=1111" target="_blank">Taiwan///Weather Map</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/suez/pen/ZEqxBb" target="_blank">One page scroll navigation with css transforms</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/jh3y/pen/LYgjpYZ" target="_blank">Night && Day Toggle ☀️/🌙 [Completed It!]</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/myacode/pen/PoqQQNM" target="_blank"><i class="fa-solid fa-exclamation"></i>Neumorphic Elements</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/uiswarup/pen/dyoyLOp" target="_blank">404 error page</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/ktsn/pen/wrxymV" target="_blank">Simple Page Transition</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/NiklasKnaack/pen/RwqeGQr" target="_blank">Starfield/Warpdrive Particles</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/whitep4nth3r/pen/VwEqrQL" target="_blank"><i class="fa-solid fa-exclamation"></i>The Ultimate Theme Toggle™️</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/alemesa/pen/YNrBqr" target="_blank">Vue Background Color</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/quinlo/pen/eQrRMM" target="_blank">Sheets API Specials Menu</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/ste-vg/pen/ppLQNW" target="_blank">Tower Blocks</a></div>
+                    <div class="reference-link"><a href="https://codepen.io/jmkhsutp/pen/oNWPzxx" target="_blank">8/10 (二) － 撈出想要的 JSON 資料</a></div>
                 </div>
             </section>
-
+            
             <section>
                 <div class="reference reference-block">
                     <h3><i class="fa-solid fa-asterisk"></i>CSS 參考</h3>

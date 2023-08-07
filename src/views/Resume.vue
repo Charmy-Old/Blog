@@ -42,6 +42,7 @@
                         <span><i class="fa-solid fa-keyboard"></i>jQuery</span>
                         <span><i class="fa-solid fa-keyboard"></i>AJAX</span>
                         <span><i class="fa-solid fa-keyboard"></i>Web APIs</span>
+                        <span><i class="fa-solid fa-keyboard"></i>Pug</span>
                         <span><i class="fa-solid fa-keyboard"></i>SCSS</span>
                         <span><i class="fa-solid fa-keyboard"></i>Webpack</span>
                         <span><i class="fa-solid fa-keyboard"></i>Vue.js前端框架</span> 
