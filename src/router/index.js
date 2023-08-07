@@ -152,6 +152,11 @@ const routes = [
         name: 'WEB_Proxy-introduce',
         component: () => import('../views/Article-WEB/WEB_Proxy-introduce.vue')
     },
+    {
+        path: '/WEB_CORS-introduce',
+        name: 'WEB_CORS-introduce',
+        component: () => import('../views/Article-WEB/WEB_CORS-introduce.vue')
+    },
 
     // HTML 文章
     {

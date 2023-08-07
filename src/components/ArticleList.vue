@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL WEB">
+        <div class="article-title">什麼是 CORS？</div>
+    </section>
+
+    <section class="ALL WEB">
         <div class="article-title">什麼是 Proxy？</div>
     </section>
 

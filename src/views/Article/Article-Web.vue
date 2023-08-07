@@ -15,6 +15,22 @@
             </section>
 
             <section>
+                <a href="WEB_CORS-introduce" class="article">
+                    <div class="article-icon">
+                        <i class="fa-sharp fa-solid fa-desktop"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 CORS？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-07</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>CORS(跨來源資源共用)是一種瀏覽器安全性機制，用於控制網頁應用程式在不同來源之間進行資源共用的方式。在網頁開發中，當一個網頁應用程式(域A)嘗試從另一個來源的網頁(域B)請求資源(例如 API 請求或嵌入的內容)，瀏覽器會實施 CORS 政策來確保安全性，以防止惡意攻擊和跨站點請求偽造(CSRF)等風險。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section>
                 <a href="WEB_Proxy-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
