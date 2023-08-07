@@ -60,8 +60,13 @@
         text-align: center;
     }
 }
+
 @media screen and (max-width: 499px) {
     .reference-underline {
         width: 100%;
     }
+}
+
+.reference-block i {
+    margin: 0 1rem 0 0;
 }
