@@ -7,7 +7,7 @@
             <section>
                 <div class="resume resume-title">
                     <h2>Resume</h2> 
-                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</p>
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-08</p>
                 </div>
             </section>
             <!-- 簡介 -->
