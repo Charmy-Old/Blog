@@ -268,6 +268,11 @@ const routes = [
         name: 'JS_undefined-vs-undeclared-vs-null',
         component: () => import('../views/Article-JavaScript/JS_undefined-vs-undeclared-vs-null.vue')
     },
+    {
+        path: '/JS_RegularExpression',
+        name: 'JS_RegularExpression',
+        component: () => import('../views/Article-JavaScript/JS_RegularExpression.vue')
+    },
 
     // Vue 文章
     {

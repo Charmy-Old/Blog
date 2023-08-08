@@ -58,6 +58,22 @@
             </div>
         </a>
     </section>
+
+    <section class="all javascript">
+        <a href="JS_RegularExpression" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">JavaScript 的正規表達式 (Regular Expression)</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-09</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>正規表達式(Regular Expression，簡稱為 RegExp 或 RegEx)是一種強大的文本處理工具，用於搜尋、匹配和替換文字模式。在 JavaScript 中，可以使用RegExp物件來創建和操作正規表達式</p>
+                </div>
+            </div>
+        </a>
+    </section>
     
     <section class="all web">
         <a href="WEB_CORS-introduce" class="article">
