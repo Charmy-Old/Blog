@@ -273,6 +273,11 @@ const routes = [
         name: 'JS_RegularExpression',
         component: () => import('../views/Article-JavaScript/JS_RegularExpression.vue')
     },
+    {
+        path: '/JS_stack-vs-queue',
+        name: 'JS_stack-vs-queue',
+        component: () => import('../views/Article-JavaScript/JS_stack-vs-queue.vue')
+    },
 
     // Vue 文章
     {

@@ -552,6 +552,7 @@ import { ref, reactive, onMounted, computed } from "vue"
                 searchInput: '',
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "/Programming-Language" },
+                    { text: "stack(堆疊) V.S. queue(佇列)", url: "/JS_stack-vs-queue" },
                     { text: "JavaScript 的正規表達式 (Regular Expression)", url: "/JS_RegularExpression" },
                     { text: "什麼是 CORS？", url: "/WEB_CORS-introduce" },
                     { text: "什麼是 Proxy？", url: "/WEB_Proxy-introduce" },

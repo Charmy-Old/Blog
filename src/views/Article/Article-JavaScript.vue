@@ -15,6 +15,22 @@
             </section>
 
             <section>
+                <a href="JS_stack-vs-queue" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">stack(堆疊) V.S. queue(佇列)</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-09</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>在 JavaScript 中，stack(堆疊)和 queue(佇列)是兩種常見的資料結構，用於管理資料的儲存和訪問方式。兩者在如何處理和存取資料方面有著不同的特點</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section>
                 <a href="JS_RegularExpression" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
