@@ -68,7 +68,7 @@
         font-size: 72px;
     }
     
-    .article:hover .article-icon {
+    .article:hover  {
         font-size: 96px;
     }
 
@@ -100,12 +100,6 @@
 
     .article-tag {
         justify-content: center;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .article-underline {
-        width: 100%;
     }
 }
 
@@ -159,16 +153,31 @@
 }
 
 @media screen and (max-width: 499px) {
+    .article-icon {
+        font-size: 32px;
+    }
+
+    .article-title {
+        font-size: 15px;
+    }
+
+    .article-tag {
+        font-size: 12px;
+    }
+
+    .article-underline {
+        width: 100%;
+    }
+
     .article-content {
+        font-size: 14px;
         max-height: 24px;
         overflow: hidden;
     }
 }
 
 @media screen and (max-width: 399px) {
-    .article-tag {
-        font-size: 14px;
-    }
+
 }
 
 @media screen and (max-width: 350px) {
