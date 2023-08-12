@@ -6,7 +6,7 @@
 
 /* ========================================   通用   ======================================== */
 body {
-    font-family: 'David Libre', serif, '微軟正黑體';
+    font-family: "JetBrains Mono", monospace, serif, "微軟正黑體";
     background-color: #222223;
     line-height: 1.5;
 }
@@ -39,7 +39,7 @@ li i {
 }
 
 pre {
-    line-height: 3.5;
+    line-height: 2;
 }
 
 .content {

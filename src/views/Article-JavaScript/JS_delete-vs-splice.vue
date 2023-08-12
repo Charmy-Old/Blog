@@ -11,14 +11,14 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>delete</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4>定義</h4>
                         <p>delete 是用於刪除數組中指定索引位置的元素或對象屬性的操作符。當你使用 delete 刪除數組中的元素時，該元素的值會變為 empty，但是數組的長度不會改變。這意味著刪除元素後，數組的索引位置會保持不變，只是對應索引位置的值變為了 empty。</p>
                     </div>
-                    <div class="article-coding">
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 let arr = [1, 2, 3, 4];
 delete arr[2];
@@ -30,14 +30,14 @@ console.log(arr.length);   // 4
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>splice</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4>定義</h4>
                         <p>splice 是一個數組方法，用於在指定索引位置修改數組內容，可以刪除、替換或插入新的元素。splice 方法接受三個參數：起始索引、刪除的元素個數和要插入的元素（可選）。通過 splice 方法刪除數組中的元素時，數組的長度會相應地減少。</p>
                     </div>
-                    <div class="article-coding">
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 let arr = [1, 2, 3, 4];
 arr.splice(2, 1);
@@ -49,10 +49,10 @@ console.log(arr.length);   // 3
             </section>
             
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>總結</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-list">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>使用 delete 刪除數組中的元素時，該元素的值會變為 empty，但是數組的長度不會改變</li>
                             <li><i class="fa-solid fa-check"></i>使用 splice 方法刪除數組中的元素時，數組的長度會相應地減少。</li>

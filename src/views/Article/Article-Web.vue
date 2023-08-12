@@ -14,7 +14,7 @@
                 </div>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_WebSocket-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -31,7 +31,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_CORS-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -47,7 +47,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_Proxy-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -64,7 +64,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_OWASP-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -81,7 +81,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_web-noun" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -99,7 +99,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_RESTfulAPI-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -115,7 +115,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_TCP-IP" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -132,7 +132,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_SSL-and-TLS" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -148,7 +148,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_HTTP-vs-HTTPS" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -164,7 +164,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_MVC-vs-MVVM" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -181,7 +181,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_api-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -198,7 +198,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_npm-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
@@ -215,7 +215,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_cdn-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>

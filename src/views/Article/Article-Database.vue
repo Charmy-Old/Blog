@@ -14,7 +14,7 @@
                 </div>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="DB_CRUD" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-database"></i>

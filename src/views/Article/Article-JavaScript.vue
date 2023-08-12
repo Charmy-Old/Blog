@@ -14,7 +14,7 @@
                 </div>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_stack-vs-queue" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -30,7 +30,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_RegularExpression" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -46,7 +46,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="CODE_props" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-file-code"></i>
@@ -62,7 +62,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_undefined-vs-undeclared-vs-null" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -78,7 +78,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_setAttribute-vs-getAttribute" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -94,7 +94,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_setTimeout-vs-setInterval" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -110,7 +110,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_destructuring-assignment" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -127,7 +127,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_sort" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -143,7 +143,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_closure" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -162,7 +162,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_BubblingEvents-vs-CapturingEvents" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -178,7 +178,7 @@
                 </a>
             </section>
             
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_OOP" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -195,7 +195,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_byValue-vs-byReference" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -211,7 +211,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_shallowCopy-vs-deepCopy" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -228,7 +228,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="CODE_BOM-vs-DOM" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-file-code"></i>
@@ -278,7 +278,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_slice-vs-splice-vs-split" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -295,7 +295,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_delete-vs-splice" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -313,7 +313,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_var-vs-let-vs-const" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -330,7 +330,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="CODE_Limit-Line-Width" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-file-code"></i>
@@ -348,7 +348,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_Cookie-vs-LocalStorage-vs-SessionStorage" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>
@@ -367,7 +367,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_map-vs-forEach" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>

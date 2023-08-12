@@ -3,8 +3,8 @@
 </style>
 
 <style lang="scss">
-    @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap"); /* font */
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,700&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap"); /* 花禮胡哨 font */
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,700&display=swap'); /* 中文繁體 font */
     @import "./assets/css/common/reset.css";
     @import "./assets/css/common/style.css";
 </style>

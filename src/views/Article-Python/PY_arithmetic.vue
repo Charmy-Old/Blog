@@ -11,10 +11,10 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>if 判斷式</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-coding">
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 x = input("請輸入數字：") # 取得字串形式的使用者輸入
 x = int(x) # 將字串型態轉換成數字型態
@@ -30,10 +30,10 @@ else:
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>簡易的四則運算</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-coding">
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 n1 = float(input("請輸入第一個數字："))
 calculate = input("請輸入運算：+ or - or * or /：")
@@ -54,10 +54,10 @@ else:
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>參考資料</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <a class="article-reference" href="https://www.youtube.com/playlist?list=PL-g0fdC5RMboYEyt6QS2iLb_1m7QcgfHk" target="_blank"><i class="fa-solid fa-pen-to-square"></i>彭彭的課程 - Python 入門教學課程</a>
                     </div>
                 </div>

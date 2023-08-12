@@ -9,13 +9,13 @@
                 </div>
             </section>
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>:nth-child</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>CSS3 新增的選取器中，大概就屬:nth-child(n)功能最猛了，:nth-child(n)不僅可以不靠class或是ID來選取網頁項目外，還解決了網頁中清單資料規律性選取的問題，:nth-child(n)尤其對於表格資料的呈現上更加方便。</p>
                     </div>
-                    <div class="article-list">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>:nth-child(n)<br>表示選擇的第n個標簽。</li>
                             <li><i class="fa-solid fa-check"></i>:nth-child(2n-1)<br>表示選擇的奇數標簽。</li>
@@ -29,10 +29,10 @@
                             <li><i class="fa-solid fa-check"></i>:last-child<br>表示選擇的最後一個標簽。</li>
                         </ul>
                     </div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4>:nth-child 的進階用法</h4>
                     </div>
-                    <div class="article-list">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>:nth-child(-n+10)<br>表示選擇的前10個標簽。</li>
                             <li><i class="fa-solid fa-check"></i>:nth-child(n+11):nth-child(-n+20)<br>表示選擇第11~20個標簽。</li>
@@ -42,10 +42,10 @@
                 </div>
             </section>
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>參考資料</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <a class="article-reference" href="https://csscoke.com/2013/09/21/%E4%BD%BF%E7%94%A8css3-nth-childn-%E9%81%B8%E5%8F%96%E5%99%A8%E8%A9%B3%E8%A7%A3/" target="_blank"><i class="fa-solid fa-pen-to-square"></i>CSS可樂 - 使用CSS3 :nth-child(n) 選取器教學</a>
                     </div>
                 </div>

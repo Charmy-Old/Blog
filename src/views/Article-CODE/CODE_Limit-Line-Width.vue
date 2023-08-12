@@ -11,14 +11,14 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>CSS 限制內容字數寬度或行數</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>過 CSS 來限制字數寬度或行數做法，可以將長篇的文章進行截斷，並且結尾以...方式呈現在版面上，對排版來說是相當好用的方式。</p>
                         <p>限制最大寬度：</p>
                     </div>
-                    <div class="article-coding">
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 .horizontalCSS {
     white-space: nowrap;
@@ -28,10 +28,10 @@
 }
 </pre>
                     </div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>限制最多三行：</p>
                     </div>
-                    <div class="article-coding">
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 .verticalCSS {
     width: 200px;
@@ -44,7 +44,7 @@
 </pre>
                     </div>
 
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p><i class="fa-regular fa-note-sticky"></i>語法解說：</p>
                         <p><i class="fa-regular fa-note-sticky"></i>overflow:hidden; ：將超過的部分進行隱藏</p>
                         <p><i class="fa-regular fa-note-sticky"></i>text-overflow: ellipsis; ：在被overflow的內容加上…，在Chrome及IE都可以顯示出…；Firefox可能僅會產生截斷，不會出現…</p>
@@ -59,14 +59,14 @@
 
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>JS 限制內容字數寬度或行數</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>display: -webkit-box;語法在某些瀏覽器不支援，所以建議使用JavaScript寫法。</p>
                         <p>限制寬度：</p>
                     </div>
-                    <div class="article-coding">
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 /* CSS */
 
@@ -78,7 +78,7 @@
 }
 </pre>
                     </div>
-                    <div class="article-coding">
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 // JS
 
@@ -97,10 +97,10 @@ adjustLinkWidth();
 </pre>
                     </div>
 
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>限制行數：</p>
                     </div>
-                    <div class="article-coding">
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 /* CSS */
 
@@ -115,7 +115,7 @@ adjustLinkWidth();
 }
 </pre>
                     </div>
-                    <div class="article-coding">
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 /* JS */
 
@@ -138,10 +138,10 @@ adjustContainerHeight();
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>Demo連結</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <a class="article-reference" href="https://codepen.io/Charmy_ing/pen/mdQMbZQ" target="_blank"><i class="fa-solid fa-pen-to-square"></i>CodePen</a>
                     </div>
                 </div>

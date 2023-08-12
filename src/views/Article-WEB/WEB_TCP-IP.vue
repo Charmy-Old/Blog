@@ -12,10 +12,10 @@
 
             <!-- TCP/IP -->
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>TCP/IP（Transmission Control Protocol/Internet Protocol）</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>TCP/IP（Transmission Control Protocol/Internet Protocol）是一組用於互聯網通信的通信協議。它是互聯網的核心協議套件，也是許多網絡通信的基礎。</p>
                         <p>TCP/IP協議套件由兩個主要協議組成：傳輸控制協議（TCP）和網際網路協議（IP）。這兩個協議一起工作，以確保數據的可靠傳輸。</p>
                         <p>TCP是一種面向連接的協議，它負責將數據分成小的數據包（稱為數據段）並在網絡上的主機之間建立可靠的連接。它確保數據的順序和完整性，並處理數據包的重發和錯誤檢測。</p>
@@ -28,10 +28,10 @@
 
             <!-- IP -->
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>IP（Internet Protocol）</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4>IP 簡介</h4>
                         <p>IP（Internet Protocol）是互聯網協議中的一個主要協議，屬於TCP/IP協議套件的一部分。它是一種網絡層協議，用於在互聯網上進行數據包的路由和交付。</p>
                         <p>IP協議的主要功能是定義數據包在網絡中的格式和路由方式。它使用IP地址來識別和定位網絡上的設備，例如計算機、路由器和其他網絡設備。每個連接到互聯網的設備都有一個唯一的IP地址，類似於住宅的郵遞地址，用於準確地將數據包發送到目標設備。</p>
@@ -44,10 +44,10 @@
             
             <!-- TCP -->
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>TLS(Transport Layer Security)</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4>TCP 簡介</h4>
                         <p>TCP（Transmission Control Protocol）是互聯網協議中的一個核心協議，屬於TCP/IP協議套件的一部分。它是一種面向連接的傳輸層協議，用於在網絡上確保可靠的數據傳輸。</p>
                         <p>TCP協議的主要功能是提供端到端的可靠性，確保數據的順序、完整性和可靠性。當兩個設備（例如計算機）之間需要進行數據傳輸時，它們首先建立一個TCP連接，創建一個虛擬的通信管道。</p>
@@ -60,10 +60,10 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>TCP和IP的差別</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>TCP/IP是一個通信協議套件，包括傳輸控制協議（TCP）和網際網路協議（IP），兩者密切相關並一起使用。以下是TCP和IP之間的主要差異：</p>
                         <h4><i class="fa-solid fa-pencil"></i>功能層級：</h4>
                         <p>TCP：TCP位於協議套件的傳輸層，負責提供可靠的數據傳輸。它確保數據的順序、完整性和可靠性，並提供流量控制和擁塞控制機制。</p>
@@ -82,10 +82,10 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>總結</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>TCP是一個位於傳輸層的協議，提供可靠的數據傳輸，而IP是一個位於網絡層的協議，負責路由和交付數據包。它們在TCP/IP協議套件中相互協作，共同確保了數據的可靠傳輸和網絡連接的建立。</p>
                     </div>
                 </div>

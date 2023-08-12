@@ -14,7 +14,7 @@
                 </div>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="CODE_props" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-file-code"></i>

@@ -62,8 +62,8 @@
         }
     
         .header-hb {
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 45px;
             display: block;
             align-self: center;
             margin-left: auto;
@@ -549,7 +549,7 @@ import { ref, reactive, onMounted, computed } from "vue"
 
             // 搜尋文章 for 迴圈跑全部文章
             const state = reactive({
-                searchInput: '',
+                searchInput: "",
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "/Programming-Language" },
                     { text: "什麼是 WebSocket？", url: "/WEB_WebSocket-introduce" },

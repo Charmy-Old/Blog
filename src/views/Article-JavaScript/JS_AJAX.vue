@@ -11,10 +11,10 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>AJAX 簡介</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>AJAX (Asynchronous JavaScript and XML) 指的是一套綜合了多項技術的瀏覽器端網頁開發技術。</p>
                         <p>傳統的 Web 應用允許使用者端填寫表單 (form)，當送出表單時就向網頁伺服器傳送一個請求。伺服器接收並處理傳來的表單，然後送回一個新的網頁，但這個做法浪費了許多頻寬，因為在前後兩個頁面中的大部分 HTML 碼往往是相同的。由於每次應用的溝通都需要向伺服器傳送請求，應用的回應時間依賴於伺服器的回應時間。這導致了使用者介面的回應比本機應用慢得多。</p>
                         <p>與此不同，AJAX應用可以僅向伺服器傳送並取回必須的資料，並在客戶端採用 JavaScript 處理來自伺服器的回應。因為在伺服器和瀏覽器之間交換的資料大量減少，伺服器回應更快了。同時，很多的處理工作可以在發出請求的客戶端機器上完成，因此 Web 伺服器的負荷也減少了。</p>
@@ -24,10 +24,10 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>AJAX 應用</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-list">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-regular fa-note-sticky"></i>運用 XHTML + CSS 來表達資訊</li>
                             <li><i class="fa-regular fa-note-sticky"></i>運用 JavaScript 操作DOM (Document Object Model) 來執行動態效果</li>
@@ -39,10 +39,10 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>AJAX 優缺點</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4>優點</h4>
                         <p>使用 Ajax 的最大優點，就是能在不更新整個頁面的前提下維護資料。這使得 Web 應用程式更為迅捷地回應使用者動作，並避免了在網路上傳送那些沒有改變的資訊。</p>
                         <p>傳 Ajax 不需要任何瀏覽器外掛程式，但需要使用者允許 JavaScript 在瀏覽器上執行。就像 DHTML 應用程式那樣，Ajax 應用程式必須在眾多不同的瀏覽器和平台上經過嚴格的測試。隨著 Ajax 的成熟，一些簡化 Ajax 使用方法的程式庫也相繼問世。同樣，也出現了另一種輔助程式設計的技術，為那些不支援 JavaScript 的使用者提供替代功能。</p>
@@ -55,20 +55,20 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>總結</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>Ajax 是以非同步的方式向伺服器提交需求。對伺服器而言，其與傳統的提交表單需求並無不同，而且由於是以非同步之方式提交，如果同時有多個 Ajax 需求及表單提交需求，將無法保證哪一個需求先獲得伺服器的回應。這會造成應用程式典型的多行程 (process) 或多執行緒 (thread) 的競爭 (racing) 問題。程式設計師因此必須自行處理或在 JavaScript 裡面動手腳以避免這類競爭問題的發 (如 Ajax 需求未回應之前，先 disable 送出按鈕)，這又不必要的增加了程式設計師的負擔。目前已知有自動處理此問題之開發框架似乎只有 ZK。</p>
                     </div>
                 </div>
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>參考資料</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <a class="article-reference" href="https://zh.wikipedia.org/wiki/AJAX" target="_blank"><i class="fa-solid fa-pen-to-square"></i>維基百科 - AJAX</a>
                     </div>
                 </div>

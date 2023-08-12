@@ -14,7 +14,7 @@
                 </div>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="PY_loop" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-python"></i>
@@ -31,7 +31,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="PY_arithmetic" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-python"></i>

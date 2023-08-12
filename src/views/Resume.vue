@@ -5,14 +5,14 @@
 
             <!-- Resume -->
             <section>
-                <div class="resume resume-title">
+                <div class="resume resume-title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h2>Resume</h2> 
                     <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-08</p>
                 </div>
             </section>
             <!-- 簡介 -->
             <section>
-                <div class="resume resume-introduce">
+                <div class="resume resume-introduce" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>簡介</h3>
                     <div class="resume-underline"></div>
                     <p>我是曾韋翰，中原大學土木工程學系畢業。讀書時發現土木領域與興趣並不相符，在尋找興趣的過程中無意間在youtube上看見彭彭的python大數據的影片，進而慢慢接觸程式的領域。摸索過程中在udemy上接觸到JavaScript後對網頁前端產生興趣，進而參加緯育TiBaMe的前端工程師就業養成班並完成個人專題與團體專題後成功結業。現於雲端數位有限公司任職前端工程師助理，平常休閒時間學習前端的相關知識。</p>
@@ -20,7 +20,7 @@
             </section>
             <!-- 學歷 -->
             <section>
-                <div class="resume resume-education">
+                <div class="resume resume-education" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>學歷</h3>
                     <div class="resume-underline"></div>
                     <p>緯育TiBaMe的前端工程師就業養成班 結業<span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/01</span></p>
@@ -30,10 +30,10 @@
             <!-- 專長 -->
             <section>
                 <div class="resume resume-expertise">
-                    <h3>專長</h3>
+                    <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">專長</h3>
                     <div class="resume-underline"></div>
-                    <p class="resume-expertiseTitle">網頁前端技術</p>
-                    <p class="resume-expertiseDetail">
+                    <p class="resume-expertiseTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">網頁前端技術</p>
+                    <p class="resume-expertiseDetail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <span><i class="fa-solid fa-keyboard"></i>HTML5</span>
                         <span><i class="fa-solid fa-keyboard"></i>CSS3</span>
                         <span><i class="fa-solid fa-keyboard"></i>CSS3動態特效</span>
@@ -48,8 +48,8 @@
                         <span><i class="fa-solid fa-keyboard"></i>Vue.js前端框架</span> 
                     </p>
                     <div class="resume-underline"></div>
-                    <p class="resume-expertiseTitle">UI/UX 使用者介面設計</p>
-                    <p class="resume-expertiseDetail">
+                    <p class="resume-expertiseTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">UI/UX 使用者介面設計</p>
+                    <p class="resume-expertiseDetail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <span><i class="fa-solid fa-keyboard"></i>UI/UX 設計</span>
                         <span><i class="fa-solid fa-keyboard"></i>Figma</span>
                         <span><i class="fa-solid fa-keyboard"></i>Wirefrme 設計</span>
@@ -57,8 +57,8 @@
                         <span><i class="fa-solid fa-keyboard"></i>Rprototype 設計</span>
                     </p>
                     <div class="resume-underline"></div>                    
-                    <p class="resume-expertiseTitle">網站程式系統與資料庫</p>
-                    <p class="resume-expertiseDetail">
+                    <p class="resume-expertiseTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">網站程式系統與資料庫</p>
+                    <p class="resume-expertiseDetail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <span><i class="fa-solid fa-keyboard"></i>系統分析 (敏捷式開發)</span>
                         <span><i class="fa-solid fa-keyboard"></i>PHP 程式設計</span>
                         <span><i class="fa-solid fa-keyboard"></i>My SQL資料庫</span>
@@ -76,8 +76,8 @@
                     <!-- BLOG -->
                     <div class="resume-projectBlock">
                         <div class="resume-projectText">
-                            <div class="resume-projectTitle">個人 BLOG</div>
-                            <div class="resume-projectTag">
+                            <div class="resume-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">個人 BLOG</div>
+                            <div class="resume-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>使用技術：</p>
                                 <p><i class="fa-solid fa-tag"></i>HTML</p>
                                 <p><i class="fa-solid fa-tag"></i>CSS</p>
@@ -88,15 +88,15 @@
                                 </span>
                             </div>
                             <div class="article-underline"></div>
-                            <div class="resume-projectContent">
+                            <div class="resume-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>Vue-CLI 進行BLOG撰寫，其中使用Vue composition api方式撰寫，部屬至GitHub後使用render取得網址。</p>
                                 <p>除了自我介紹，會整理一些前端文章等等，並持續思考該如何使網站更加豐富</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://github.com/Charmying/blog" target="_blank">GitHub</a>
                                 <p>→</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://charmying-blog.onrender.com/" target="_blank">前往網站</a>
                                 <p>→</p>
                             </div>
@@ -106,8 +106,8 @@
                     <!-- Pangolin Clothing -->
                     <div class="resume-projectBlock">
                         <div class="resume-projectText">
-                            <div class="resume-projectTitle">Pangolin Clothing 網站練習</div>
-                            <div class="resume-projectTag">
+                            <div class="resume-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">Pangolin Clothing 網站練習</div>
+                            <div class="resume-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>使用技術：</p>
                                 <p><i class="fa-solid fa-tag"></i>HTML</p>
                                 <p><i class="fa-solid fa-tag"></i>CSS</p>
@@ -120,16 +120,16 @@
                                 </span>
                             </div>
                             <div class="article-underline"></div>
-                            <div class="resume-projectContent">
+                            <div class="resume-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>Vue-CLI 進行網站練習，其中使用Vue composition api方式撰寫，登入功能使用fetch PHP連上PostgreSQL完成，部屬至GitHub後使用render取得網址。</p>
                                 <p>帳號密碼為charmy000@gmail.com和charmy000或Johnny000@gmail.com和Johnny000</p>
                                 <p>商品內頁和加入會員及忘記密碼功能等尚未完成</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://github.com/Charmying/pangolin-clothing" target="_blank">GitHub</a>
                                 <p>→</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://pangolin-clothing.onrender.com/" target="_blank">前往網站</a>
                                 <p>→</p>
                             </div>
@@ -139,8 +139,8 @@
                     <!-- Engineering-Calculator 工程計算機 -->
                     <div class="resume-projectBlock">
                         <div class="resume-projectText">
-                            <div class="resume-projectTitle">工程計算機 Engineering-Calculator</div>
-                            <div class="resume-projectTag">
+                            <div class="resume-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">工程計算機 Engineering-Calculator</div>
+                            <div class="resume-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>使用技術：</p>
                                 <p><i class="fa-solid fa-tag"></i>HTML</p>
                                 <p><i class="fa-solid fa-tag"></i>CSS</p>
@@ -150,18 +150,18 @@
                                 </span>
                             </div>
                             <div class="article-underline"></div>
-                            <div class="resume-projectContent">
+                            <div class="resume-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>用vue composition api 完成簡易工程計算機功能</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://github.com/Charmying/Engineering-Calculator" target="_blank">GitHub</a>
                                 <p>→</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://codepen.io/Charmy_ing/pen/yLQBLMw" target="_blank">CodePen</a>
                                 <p>→</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://charmying.github.io/Engineering-Calculator/" target="_blank">前往網站</a>
                                 <p>→</p>
                             </div>
@@ -171,8 +171,8 @@
                     <!-- 備忘錄 Todo-List-->
                     <div class="resume-projectBlock">
                         <div class="resume-projectText">
-                            <div class="resume-projectTitle">備忘錄 Todo-List</div>
-                            <div class="resume-projectTag">
+                            <div class="resume-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">備忘錄 Todo-List</div>
+                            <div class="resume-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>使用技術：</p>
                                 <p><i class="fa-solid fa-tag"></i>HTML</p>
                                 <p><i class="fa-solid fa-tag"></i>CSS</p>
@@ -182,18 +182,18 @@
                                 </span>
                             </div>
                             <div class="article-underline"></div>
-                            <div class="resume-projectContent">
+                            <div class="resume-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>HTML CSS JavaScript 寫出備忘錄，備忘錄輸入時需填入日期及時間並存入LocalStorage，時間到時會彈窗提醒。</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://github.com/Charmying/Todo-List/" target="_blank">GitHub</a>
                                 <p>→</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://codepen.io/Charmy_ing/pen/RwBeNRz" target="_blank">CodePen</a>
                                 <p>→</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://charmying.github.io/Todo-List/" target="_blank">前往網站</a>
                                 <p>→</p>
                             </div>
@@ -202,12 +202,12 @@
 
                     <!-- 緯育團專 -->
                     <div class="resume-projectBlock">
-                        <div class="resume-projectPic">
+                        <div class="resume-projectPic" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                             <img src="../assets/images/project/koala.webp" alt="">
                         </div>
                         <div class="resume-projectText">
-                            <div class="resume-projectTitle">緯育TiBaMe前端工程師就業養成班團體專題：KOALA+</div>
-                            <div class="resume-projectTag">
+                            <div class="resume-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">緯育TiBaMe前端工程師就業養成班團體專題：KOALA+</div>
+                            <div class="resume-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>使用技術：</p>
                                 <p><i class="fa-solid fa-tag"></i>Vue-CLI</p>
                                 <p><i class="fa-solid fa-tag"></i>PHP</p>
@@ -217,17 +217,17 @@
                                 </span>
                             </div>
                             <div class="article-underline"></div>
-                            <div class="resume-projectContent">
+                            <div class="resume-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>與組員從主題選擇開始到Wireframe及mockup繪製，因這次還會從後端PHP連接資料庫，所以先繪製ER model。</p>
                                 <p>負責項目：</p>
                                 <p>網站前台：會員登入、註冊、忘記密碼和無尾熊小遊戲</p>
                                 <p>網站後台：管理員的登入註冊。</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://docs.google.com/presentation/d/1giVj9XMnIGM1W-MYBEiZptxHv5_XzvwndlYpAEPF1S8/edit#slide=id.gcf542d467f_0_0" target="_blank">團體專題簡報</a>
                                 <p>→</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://tibamef2e.com/cgd103/g1/" target="_blank">前往網站</a>
                                 <p>→</p>
                             </div>
@@ -238,8 +238,8 @@
                     <!-- 緯育個專 -->
                     <div class="resume-projectBlock">
                         <div class="resume-projectText">
-                            <div class="resume-projectTitle">緯育 TiBaMe 前端工程師就業養成班個人專題：PANGOLIN 手機殼販售</div>
-                            <div class="resume-projectTag">
+                            <div class="resume-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">緯育 TiBaMe 前端工程師就業養成班個人專題：PANGOLIN 手機殼販售</div>
+                            <div class="resume-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>使用技術：</p>
                                 <p><i class="fa-solid fa-tag"></i>HTML</p>
                                 <p><i class="fa-solid fa-tag"></i>CSS</p>
@@ -250,14 +250,14 @@
                                 </span>
                             </div>
                             <div class="article-underline"></div>
-                            <div class="resume-projectContent">
+                            <div class="resume-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>從專題主題發想開始，到視覺設計及用Figma完成WireFrame及Mockup完成網頁設計，再使用HTML CSS JavaScript 和 jQuery 完成作品。</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://github.com/Charmying/Pangolin-Phonecase" target="_blank">GitHub</a>
                                 <p>→</p>
                             </div>
-                            <div class="resume-projectLink">
+                            <div class="resume-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://charmying.github.io/Pangolin-Phonecase/" target="_blank">前往網站</a>
                                 <p>→</p>
                             </div>

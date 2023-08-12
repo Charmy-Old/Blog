@@ -11,13 +11,13 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>生命週期與 Hooks function</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-pic">
+                    <div class="article-pic" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <img src="../../assets/images/article-vue/vue-lifecycle.png" alt="">
                     </div>
-                    <div class="article-table">
+                    <div class="article-table" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <table>
                             <thead>
                                 <tr>
@@ -99,10 +99,10 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>參考資料</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <a class="article-reference" href="https://book.vue.tw/CH1/1-7-lifecycle.html" target="_blank"><i class="fa-solid fa-pen-to-square"></i>重新認識 Vue.js | Kuro Hsu - 1-7 元件的生命週期與更新機制</a>
                     </div>
                 </div>

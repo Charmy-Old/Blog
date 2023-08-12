@@ -11,15 +11,15 @@
             </section>
 
             <section>
-                <div class="article-detail">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>Proxy 簡介</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>在電腦和網路中，「Proxy」(代理伺服器)是指一種位於使用者與目標伺服器之間的中間伺服器，用於處理使用者與目標伺服器之間的資料傳輸。代理伺服器可以用來幫助用戶匿名瀏覽網路、提高網路安全性、加速網頁載入速度，以及控制或監視網路流量。</p>
                         <p>代理伺服器的運作方式是這樣的：當在瀏覽網頁或使用網路應用時，請求會先被送到代理伺服器，然後代理伺服器再轉送請求到目標伺服器。反之亦然，目標伺服器的回應會先送到代理伺服器，然後再轉送到設備上。</p>
                         <h4>代理伺服器的幾個主要用途包括：</h4>
                     </div>
-                    <div class="article-list">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>匿名瀏覽：代理伺服器可以隱藏你的真實 IP 地址，使你在瀏覽網頁時更難被追蹤，增加了網路隱私</li>
                             <li><i class="fa-solid fa-check"></i>網路安全：代理伺服器可以擔任防火牆的角色，過濾惡意網路流量、攔截惡意軟體，提升網路安全性</li>

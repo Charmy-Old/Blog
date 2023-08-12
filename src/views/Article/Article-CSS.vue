@@ -14,7 +14,7 @@
                 </div>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="CSS_nth-child" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-css3-alt"></i>
@@ -30,7 +30,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="CSS_box-sizing" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-css3-alt"></i>
@@ -47,7 +47,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="CODE_Limit-Line-Width" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-file-code"></i>

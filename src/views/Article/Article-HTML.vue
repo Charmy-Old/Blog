@@ -14,7 +14,7 @@
                 </div>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="CODE_BOM-vs-DOM" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-file-code"></i>
@@ -32,7 +32,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="HTML_codeTag" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-html5"></i>
@@ -48,7 +48,7 @@
                 </a>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="HTML_tableTag" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-html5"></i>

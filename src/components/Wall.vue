@@ -57,6 +57,7 @@
 .wall-tag {
     font-weight: 900;
     width: fit-content;
+    text-align: center;
     margin: 1.5rem auto;
     transition: all 0.5s linear;
 }
