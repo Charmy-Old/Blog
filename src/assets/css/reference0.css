@@ -14,6 +14,11 @@
     font-weight: 900;
 }
 
+.reference-block {
+    max-height: 36px;
+    overflow: hidden;
+}
+
 .reference-title {
     display: flex;
     justify-content: space-between;
@@ -78,4 +83,8 @@
 
 .reference-block i {
     margin: 0 1rem 0 0;
+}
+
+.active {
+    max-height: fit-content;
 }

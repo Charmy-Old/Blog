@@ -280,6 +280,13 @@
                         <div class="resume-jobContent">
                             <p>依設計師的設計稿已網頁的方式呈現，並與客戶溝通協調問題與成果。</p>
                             <div class="resume-jobProject">
+                                <p>建準電機工業股份有限公司(越南一頁式網站)</p>
+                                <div class="resume-jobLink">
+                                    <a href="http://html.m000407.24241872.tw/index-Vietnamese" target="_blank">測試網站</a>
+                                    <p>→</p>
+                                </div>
+                            </div>
+                            <div class="resume-jobProject">
                                 <p>悠遊卡股份有限公司</p>
                                 <p>負責頁面：永續專區、投資人專區</p>
                                 <div class="resume-jobLink">
