@@ -157,6 +157,11 @@ const routes = [
         name: 'WEB_CORS-introduce',
         component: () => import('../views/Article-WEB/WEB_CORS-introduce.vue')
     },
+    {
+        path: '/WEB_WebSocket-introduce',
+        name: 'WEB_WebSocket-introduce',
+        component: () => import('../views/Article-WEB/WEB_WebSocket-introduce.vue')
+    },
 
     // HTML 文章
     {

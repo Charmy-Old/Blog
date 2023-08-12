@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL WEB">
+        <div class="article-title">什麼是 WebSocket？</div>
+    </section>
+
     <section class="ALL JS">
         <div class="article-title">stack(堆疊) V.S. queue(佇列)</div>
     </section>

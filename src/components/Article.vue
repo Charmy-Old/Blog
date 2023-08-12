@@ -59,6 +59,23 @@
         </a>
     </section>
 
+    <section class="all web">
+        <a href="WEB_WebSocket-introduce" class="article">
+            <div class="article-icon">
+                <i class="fa-sharp fa-solid fa-desktop"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 WebSocket？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-12</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>WebSocket 是一種在網際網路上實現全雙工通訊的通訊協定。傳統的 HTTP 協議是一種單向的請求-響應協議，也就是說當客戶端需要更新資料時，必須發送請求到伺服器，然後伺服器再回傳響應。這樣的模式在某些應用場景中效率不高，特別是當需要實時通訊、即時更新資料或交互式應用時。</p>
+                    <p>WebSocket 的主要特點是它建立了一個持久的連接，允許伺服器和客戶端在不同時間點之間互相推送資料，而無需每次都發送請求和響應。這使得 WebSocket 適合於實時的應用，如聊天應用、即時遊戲、股票報價、遠程控制等。WebSocket 協議的設計使得伺服器和客戶端可以進行低延遲的雙向通訊，並且節省了許多額外的網絡資源。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all javascript">
         <a href="JS_stack-vs-queue" class="article">
             <div class="article-icon">
