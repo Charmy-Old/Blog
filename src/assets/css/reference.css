@@ -79,3 +79,9 @@
 .reference-block i {
     margin: 0 1rem 0 0;
 }
+
+.reference-link a {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
