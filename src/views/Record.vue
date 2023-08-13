@@ -1,30 +1,6 @@
-<style>
-    .password-block {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .password-block input {
-        width: 65%;
-        border: 1px #222223 solid;
-        border-radius: 5px;
-        display: block;
-        padding: 0.25rem;
-    }
-
-    .password-block button {
-        width: 30%;
-        border: 1px #222223 solid;
-        border-radius: 5px;
-        display: block;
-        padding: 0.25rem;
-    }
-</style>
-
 <template>
     <div class="content" style="margin-top: 80px;">
-        <main>
+        <main style="margin: auto;">
 
             <section class="password">
                 <div class="password-block">

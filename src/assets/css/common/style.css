@@ -113,3 +113,26 @@ section {
 .lorem {
     border: 1px #26273B solid;
 }
+
+/* ========================================   輸入密碼顯示網頁   ======================================== */
+.password-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-block input {
+    width: 65%;
+    border: 1px #222223 solid;
+    border-radius: 5px;
+    display: block;
+    padding: 0.25rem;
+}
+
+.password-block button {
+    width: 30%;
+    border: 1px #222223 solid;
+    border-radius: 5px;
+    display: block;
+    padding: 0.25rem;
+}
