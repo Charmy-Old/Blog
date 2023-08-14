@@ -77,7 +77,7 @@
                         <div class="resume-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                             <h4>前端工程師助理</h4>
                             <h5>雲端數位科技有限公司（網際網路相關業 30~100人）</h5>
-                            <p>Internet程式設計師<span>｜</span>正職<span>｜</span>台中市北屯區</p>
+                            <p class="resume-jobDescribe">Internet程式設計師<span>｜</span>正職<span>｜</span>台中市北屯區</p>
                             <p class="resume-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2023/02/15~2023/08/14 六個月</span></p>
                         </div>
                         <div class="resume-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -136,7 +136,7 @@
                         <div class="resume-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                             <h4>立法委員選舉輔選人員</h4>
                             <h5>某立法委員服務處（政府／民意機關）</h5>
-                            <p>活動企劃人員<span>｜</span>工讀<span>｜</span>桃園市</p>
+                            <p class="resume-jobDescribe">活動企劃人員<span>｜</span>工讀<span>｜</span>桃園市</p>
                             <p class="resume-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2019/10~2020/01</span></p>
                         </div>
                         <div class="resume-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -153,7 +153,7 @@
                         <div class="resume-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                             <h4>中原大學社團活動幹部</h4>
                             <h5>中原大學卡拉ok社、中原大學中友會</h5>
-                            <p>社團幹部<span>｜</span>桃園市中壢區</p>
+                            <p class="resume-jobDescribe">社團幹部<span>｜</span>桃園市中壢區</p>
                             <p class="resume-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2016/09~2017/06</span></p>
                         </div>
                         <div class="resume-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -171,7 +171,7 @@
                         <div class="resume-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                             <h4>系上迎新宿營隊輔</h4>
                             <h5>中原大學環境工程學系系學會</h5>
-                            <p>系學會活動工作人員<span>｜</span>桃園市中壢區</p>
+                            <p class="resume-jobDescribe">系學會活動工作人員<span>｜</span>桃園市中壢區</p>
                             <p class="resume-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2016/07~2016/09</span></p>
                         </div>
                         <div class="resume-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -189,7 +189,7 @@
                         <div class="resume-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                             <h4>中原大學環境工程學系系上晚會年級活動總召</h4>
                             <h5>中原大學環境工程學系系學會</h5>
-                            <p>系學會活動工作人員<span>｜</span>桃園市中壢區</p>
+                            <p class="resume-jobDescribe">系學會活動工作人員<span>｜</span>桃園市中壢區</p>
                             <p class="resume-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2016/03~2016/05</span></p>
                         </div>
                         <div class="resume-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">

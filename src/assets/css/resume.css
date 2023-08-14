@@ -213,7 +213,17 @@
 }
 
 .resume-jobTitle h5 {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.resume-jobDescribe {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.resume-jobTime {
+    font-size: 14px;
     font-weight: 700;
 }
 
