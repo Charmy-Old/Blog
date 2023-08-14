@@ -67,6 +67,142 @@
                     </p>
                 </div>
             </section>
+            <!-- 經歷 -->
+            <section>
+                <div class="resume resume-experience">
+                    <h3>經歷</h3>
+                    <div class="resume-underline"></div>
+                    <!-- 雲端數位 -->
+                    <div class="resume-job">
+                        <div class="resume-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <h4>前端工程師助理</h4>
+                            <h5>雲端數位科技有限公司（網際網路相關業 30~100人）</h5>
+                            <p>Internet程式設計師<span>｜</span>正職<span>｜</span>台中市北屯區</p>
+                            <p class="resume-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2023/02/15~2023/08/14 六個月</span></p>
+                        </div>
+                        <div class="resume-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <p>依設計師的設計稿已網頁的方式呈現，並與客戶溝通協調問題與成果。</p>
+                            <div class="resume-jobProject">
+                                <p>建準電機工業股份有限公司(越南一頁式網站)</p>
+                                <div class="resume-jobLink">
+                                    <a href="http://html.m000407.24241872.tw/index-Vietnamese" target="_blank">測試網站</a>
+                                    <p>→</p>
+                                </div>
+                            </div>
+                            <div class="resume-jobProject">
+                                <p>悠遊卡股份有限公司</p>
+                                <p>負責頁面：永續專區、投資人專區</p>
+                                <div class="resume-jobLink">
+                                    <a href="http://test.m000231.24241872.tw/sustainableOperators" target="_blank">測試網站</a>
+                                    <p>→</p>
+                                </div>
+                                <div class="resume-jobLink">
+                                    <a href="https://www.easycard.com.tw/sustainableOperators" target="_blank">正式網站</a>
+                                    <p>→</p>
+                                </div>
+                            </div>
+                            <div class="resume-jobProject">
+                                <p>寶鋪建設股份有限公司</p>
+                                <p>負責頁面：地圖檢視</p>
+                                <div class="resume-jobLink">
+                                    <a href="http://html.m000381.24241872.tw/map" target="_blank">測試網站</a>
+                                    <p>→</p>
+                                </div>
+                                <div class="resume-jobLink">
+                                    <a href="https://www.baopu.com.tw/maps" target="_blank">正式網站</a>
+                                    <p>→</p>
+                                </div>
+                            </div>
+                            <div class="resume-jobProject">
+                                <p>凱薩衛浴股份有限公司</p>
+                                <p>負責頁面：經銷商招募</p>
+                                <div class="resume-jobLink">
+                                    <a href="http://html.m000351.24241872.tw/dealer-recruitment" target="_blank">測試網站</a>
+                                    <p>→</p>
+                                </div>
+                                <div class="resume-jobLink">
+                                    <a href="https://www.caesar.com.tw/page/dealer-recruitment" target="_blank">正式網站</a>
+                                    <p>→</p>
+                                </div>
+                            </div>
+                            <div class="resume-jobProject">
+                                <p>還有幫穎崴科技、建準吊扇等上市上櫃公司進行網頁的調整處理。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-underline"></div>
+                    <!-- 立法委員選舉輔選人員 -->
+                    <div class="resume-job">
+                        <div class="resume-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <h4>立法委員選舉輔選人員</h4>
+                            <h5>某立法委員服務處（政府／民意機關）</h5>
+                            <p>活動企劃人員<span>｜</span>工讀<span>｜</span>桃園市</p>
+                            <p class="resume-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2019/10~2020/01</span></p>
+                        </div>
+                        <div class="resume-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <ul>
+                                <li><i class="fa-solid fa-briefcase"></i>帶領團隊佈置場地</li>
+                                <li><i class="fa-solid fa-briefcase"></i>現場狀況緊急排除</li>
+                                <li><i class="fa-solid fa-briefcase"></i>主持造勢活動</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="resume-underline"></div>
+                    <!-- 中原社團 -->
+                    <div class="resume-job">
+                        <div class="resume-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <h4>中原大學社團活動幹部</h4>
+                            <h5>中原大學卡拉ok社、中原大學中友會</h5>
+                            <p>社團幹部<span>｜</span>桃園市中壢區</p>
+                            <p class="resume-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2016/09~2017/06</span></p>
+                        </div>
+                        <div class="resume-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <ul>
+                                <li><i class="fa-solid fa-briefcase"></i>活動流程規劃</li>
+                                <li><i class="fa-solid fa-briefcase"></i>主持活動</li>
+                                <li><i class="fa-solid fa-briefcase"></i>活動總結檢討</li>
+                                <li><i class="fa-solid fa-briefcase"></i>校園歌唱比賽評審並進行表演及歌唱教學至2022年</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="resume-underline"></div>
+                    <!-- 迎新宿營 -->
+                    <div class="resume-job">
+                        <div class="resume-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <h4>系上迎新宿營隊輔</h4>
+                            <h5>中原大學環境工程學系系學會</h5>
+                            <p>系學會活動工作人員<span>｜</span>桃園市中壢區</p>
+                            <p class="resume-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2016/07~2016/09</span></p>
+                        </div>
+                        <div class="resume-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <ul>
+                                <li><i class="fa-solid fa-briefcase"></i>活動流程規劃</li>
+                                <li><i class="fa-solid fa-briefcase"></i>主持活動</li>
+                                <li><i class="fa-solid fa-briefcase"></i>活動總結檢討</li>
+                                <li><i class="fa-solid fa-briefcase"></i>校園歌唱比賽評審並進行表演及歌唱教學至2022年</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="resume-underline"></div>
+                    <!-- 環工之夜總召 -->
+                    <div class="resume-job">
+                        <div class="resume-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <h4>中原大學環境工程學系系上晚會年級活動總召</h4>
+                            <h5>中原大學環境工程學系系學會</h5>
+                            <p>系學會活動工作人員<span>｜</span>桃園市中壢區</p>
+                            <p class="resume-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2016/03~2016/05</span></p>
+                        </div>
+                        <div class="resume-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <ul>
+                                <li><i class="fa-solid fa-briefcase"></i>人員配置</li>
+                                <li><i class="fa-solid fa-briefcase"></i>表演安排</li>
+                                <li><i class="fa-solid fa-briefcase"></i>與活動總召協調溝通 </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="resume-underline"></div>
+                </div>
+            </section>
             <!-- 作品 -->
             <section>
                 <div class="resume resume-project">
@@ -263,137 +399,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-
-            <section>
-                <div class="resume resume-experience">
-                    <h3>經歷</h3>
-                    <div class="resume-underline"></div>
-                    <!-- 雲端數位 -->
-                    <div class="resume-job">
-                        <div class="resume-jobTitle">
-                            <h4>前端工程師助理</h4>
-                            <h5>雲端數位科技有限公司（網際網路相關業 30~100人）</h5>
-                            <p>Internet程式設計師<span>｜</span>正職<span>｜</span>台中市北屯區</p>
-                        </div>
-                        <div class="resume-jobContent">
-                            <p>依設計師的設計稿已網頁的方式呈現，並與客戶溝通協調問題與成果。</p>
-                            <div class="resume-jobProject">
-                                <p>建準電機工業股份有限公司(越南一頁式網站)</p>
-                                <div class="resume-jobLink">
-                                    <a href="http://html.m000407.24241872.tw/index-Vietnamese" target="_blank">測試網站</a>
-                                    <p>→</p>
-                                </div>
-                            </div>
-                            <div class="resume-jobProject">
-                                <p>悠遊卡股份有限公司</p>
-                                <p>負責頁面：永續專區、投資人專區</p>
-                                <div class="resume-jobLink">
-                                    <a href="http://test.m000231.24241872.tw/sustainableOperators" target="_blank">測試網站</a>
-                                    <p>→</p>
-                                </div>
-                                <div class="resume-jobLink">
-                                    <a href="https://www.easycard.com.tw/sustainableOperators" target="_blank">正式網站</a>
-                                    <p>→</p>
-                                </div>
-                            </div>
-                            <div class="resume-jobProject">
-                                <p>寶鋪建設股份有限公司</p>
-                                <p>負責頁面：地圖檢視</p>
-                                <div class="resume-jobLink">
-                                    <a href="http://html.m000381.24241872.tw/map" target="_blank">測試網站</a>
-                                    <p>→</p>
-                                </div>
-                                <div class="resume-jobLink">
-                                    <a href="https://www.baopu.com.tw/maps" target="_blank">正式網站</a>
-                                    <p>→</p>
-                                </div>
-                            </div>
-                            <div class="resume-jobProject">
-                                <p>凱薩衛浴股份有限公司</p>
-                                <p>負責頁面：經銷商招募</p>
-                                <div class="resume-jobLink">
-                                    <a href="http://html.m000351.24241872.tw/dealer-recruitment" target="_blank">測試網站</a>
-                                    <p>→</p>
-                                </div>
-                                <div class="resume-jobLink">
-                                    <a href="https://www.caesar.com.tw/page/dealer-recruitment" target="_blank">正式網站</a>
-                                    <p>→</p>
-                                </div>
-                            </div>
-                            <div class="resume-jobProject">
-                                <p>還有幫穎崴科技、建準吊扇等上市上櫃公司進行網頁的調整處理。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="resume-underline"></div>
-                    <!-- 立法委員選舉輔選人員 -->
-                    <div class="resume-job">
-                        <div class="resume-jobTitle">
-                            <h4>立法委員選舉輔選人員</h4>
-                            <h5>某立法委員服務處（政府／民意機關）</h5>
-                            <p>活動企劃人員<span>｜</span>工讀<span>｜</span>桃園市</p>
-                        </div>
-                        <div class="resume-jobContent">
-                            <ul>
-                                <li><i class="fa-solid fa-briefcase"></i>帶領團隊佈置場地</li>
-                                <li><i class="fa-solid fa-briefcase"></i>現場狀況緊急排除</li>
-                                <li><i class="fa-solid fa-briefcase"></i>主持造勢活動</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="resume-underline"></div>
-                    <!-- 中原社團 -->
-                    <div class="resume-job">
-                        <div class="resume-jobTitle">
-                            <h4>中原大學社團活動幹部</h4>
-                            <h5>中原大學卡拉ok社、中原大學中友會</h5>
-                            <p>社團幹部<span>｜</span>桃園市中壢區</p>
-                        </div>
-                        <div class="resume-jobContent">
-                            <ul>
-                                <li><i class="fa-solid fa-briefcase"></i>活動流程規劃</li>
-                                <li><i class="fa-solid fa-briefcase"></i>主持活動</li>
-                                <li><i class="fa-solid fa-briefcase"></i>活動總結檢討</li>
-                                <li><i class="fa-solid fa-briefcase"></i>校園歌唱比賽評審並進行表演及歌唱教學至2022年</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="resume-underline"></div>
-                    <!-- 迎新宿營 -->
-                    <div class="resume-job">
-                        <div class="resume-jobTitle">
-                            <h4>系上迎新宿營隊輔</h4>
-                            <h5>中原大學環境工程學系系學會</h5>
-                            <p>系學會活動工作人員<span>｜</span>桃園市中壢區</p>
-                        </div>
-                        <div class="resume-jobContent">
-                            <ul>
-                                <li><i class="fa-solid fa-briefcase"></i>活動流程規劃</li>
-                                <li><i class="fa-solid fa-briefcase"></i>主持活動</li>
-                                <li><i class="fa-solid fa-briefcase"></i>活動總結檢討</li>
-                                <li><i class="fa-solid fa-briefcase"></i>校園歌唱比賽評審並進行表演及歌唱教學至2022年</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="resume-underline"></div>
-                    <!-- 環工之夜總召 -->
-                    <div class="resume-job">
-                        <div class="resume-jobTitle">
-                            <h4>中原大學環境工程學系系上晚會年級活動總召</h4>
-                            <h5>中原大學環境工程學系系學會</h5>
-                            <p>系學會活動工作人員<span>｜</span>桃園市中壢區</p>
-                        </div>
-                        <div class="resume-jobContent">
-                            <ul>
-                                <li><i class="fa-solid fa-briefcase"></i>人員配置</li>
-                                <li><i class="fa-solid fa-briefcase"></i>表演安排</li>
-                                <li><i class="fa-solid fa-briefcase"></i>與活動總召協調溝通 </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="resume-underline"></div>
                 </div>
             </section>
 
