@@ -20,7 +20,7 @@
             </section>
             <!-- 學歷 -->
             <section>
-                <div class="resume resume-education" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <div class="resume resume-education" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>學歷</h3>
                     <div class="resume-underline"></div>
                     <p>緯育TiBaMe的前端工程師就業養成班 結業<span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/01</span></p>
