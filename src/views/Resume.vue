@@ -7,7 +7,7 @@
             <section>
                 <div class="resume resume-title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h2>Resume</h2> 
-                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-08</p>
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-15</p>
                 </div>
             </section>
             <!-- 簡介 -->
@@ -15,7 +15,7 @@
                 <div class="resume resume-introduce" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>簡介</h3>
                     <div class="resume-underline"></div>
-                    <p>我是曾韋翰，中原大學土木工程學系畢業。讀書時發現土木領域與興趣並不相符，在尋找興趣的過程中無意間在youtube上看見彭彭的python大數據的影片，進而慢慢接觸程式的領域。摸索過程中在udemy上接觸到JavaScript後對網頁前端產生興趣，進而參加緯育TiBaMe的前端工程師就業養成班並完成個人專題與團體專題後成功結業。現於雲端數位有限公司任職前端工程師助理，平常休閒時間學習前端的相關知識。</p>
+                    <p>我是曾韋翰，中原大學土木工程學系畢業。讀書時發現土木領域與興趣並不相符，在尋找興趣的過程中無意間在youtube上看見彭彭的python大數據的影片，進而慢慢接觸程式的領域。摸索過程中在udemy上接觸到JavaScript後對網頁前端產生興趣，進而參加緯育TiBaMe的前端工程師就業養成班並完成個人專題與團體專題後成功結業。</p>
                 </div>
             </section>
             <!-- 學歷 -->
