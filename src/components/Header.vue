@@ -443,6 +443,8 @@
 
     @media screen and (max-width: 991px) {
         .header-search {
+            display: flex;
+            justify-content: space-between;
             margin: 1.5rem 0;
         }
     }
@@ -558,6 +560,7 @@ import { ref, reactive, onMounted, computed } from "vue"
                 searchInput: "",
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "/Programming-Language" },
+                    { text: "Git 常用指令", url: "/GIT_basic-instructions" },
                     { text: "什麼是 WebSocket？", url: "/WEB_WebSocket-introduce" },
                     { text: "stack(堆疊) V.S. queue(佇列)", url: "/JS_stack-vs-queue" },
                     { text: "JavaScript 的正規表達式 (Regular Expression)", url: "/JS_RegularExpression" },

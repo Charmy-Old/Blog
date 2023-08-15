@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL GIT">
+        <div class="article-title">Git 常用指令</div>
+    </section>
+
     <section class="ALL WEB">
         <div class="article-title">什麼是 WebSocket？</div>
     </section>
@@ -198,6 +202,12 @@
                 const Countall = document.querySelectorAll(".ALL");
                 allArticleCount.value = Countall.length;
             };
+            // 算 git 文章
+            const gitArticleCount = ref(0);
+            const CountgitArticle = () => {
+                const Countgit = document.querySelectorAll(".GIT");
+                gitArticleCount.value = Countgit.length;
+            };
             // 算 web 文章
             const webArticleCount = ref(0);
             const CountwebArticle = () => {
@@ -253,6 +263,7 @@
 
             onMounted(() => {
                 CountallArticle();
+                CountgitArticle();
                 CountwebArticle();
                 CounthtmlArticle();
                 CountcssArticle();
@@ -265,6 +276,7 @@
 
             return {
                 allArticleCount,
+                gitArticleCount,
                 webArticleCount,
                 htmlArticleCount,
                 cssArticleCount,

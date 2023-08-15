@@ -241,6 +241,7 @@
         <div class="wall-article-project">
             <section class="wall-article">
                 <div class="wall-tag"><a href="Article"><i class="fa-solid fa-tag"></i>All Tags ({{ allArticleCount }})</a></div>
+                <div class="wall-tag"><a href="Article-Git">Git ({{ gitArticleCount }})</a></div>
                 <div class="wall-tag"><a href="Article-Web">Web ({{ webArticleCount }})</a></div>
                 <div class="wall-tag"><a href="Article-HTML">HTML ({{ htmlArticleCount }})</a></div>
                 <div class="wall-tag"><a href="Article-CSS">CSS ({{ cssArticleCount }})</a></div>
@@ -290,6 +291,17 @@ export default {
             allArticleCount.value = Countall.length;
             // 更新全局變數
             sharedData.allArticleCount = allArticleCount.value;
+        };
+
+        // 算 git 文章
+        const gitArticleCount = ref(0);
+        onMounted(() => {
+            CountgitArticle();
+        });
+        const CountgitArticle = () => {
+            const Countgit = document.querySelectorAll(".GIT");
+            gitArticleCount.value = Countgit.length;
+            sharedData.gitArticleCount = gitArticleCount.value;
         };
 
         // 算 web 文章
@@ -382,6 +394,7 @@ export default {
 
         // 用 computed 抓全局變數
         const Countall = computed(() => sharedData.allArticleCount);
+        const Countgit = computed(() => sharedData.gitArticleCount);
         const Countweb = computed(() => sharedData.webArticleCount);
         const Counthtml = computed(() => sharedData.htmlArticleCount);
         const Countcss = computed(() => sharedData.cssArticleCount);
@@ -413,6 +426,7 @@ export default {
         return {
             // 文章數量計算
             allArticleCount: Countall,
+            gitArticleCount: Countgit,
             webArticleCount: Countweb,
             htmlArticleCount: Counthtml,
             cssArticleCount: Countcss,

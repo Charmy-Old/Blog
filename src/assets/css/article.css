@@ -44,11 +44,11 @@
 }
 
 .article-tag i {
-    margin: 0 0.75rem;
+    margin: 0 0 0 0.75rem;
 }
 
 .article-tag i:nth-child(1) {
-    margin: 0 0.75rem 0 0;
+    margin: 0 0.25rem 0 0;
 }
 
 .article-underline {
@@ -67,10 +67,6 @@
     .article-icon {
         font-size: 72px;
     }
-    
-    .article:hover  {
-        font-size: 96px;
-    }
 
     .article-title {
         font-size: 18px;
@@ -81,7 +77,6 @@
     .article {
         display: block;
     }
-
     .article-icon {
         width: 100%;
     }

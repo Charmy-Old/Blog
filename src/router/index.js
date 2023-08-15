@@ -54,6 +54,11 @@ const routes = [
 
     // 分類文章頁面
     {
+        path: '/Article-Git',
+        name: 'Article-Git',
+        component: () => import('../views/Article/Article-Git.vue')
+    },
+    {
         path: '/Article-Web',
         name: 'Article-Web',
         component: () => import('../views/Article/Article-Web.vue')
@@ -99,6 +104,13 @@ const routes = [
         path: '/Programming-Language',
         name: 'Programming-Language',
         component: () => import('../views/Article-Programming/Programming-Language.vue')
+    },
+
+    // Git 文章
+    {
+        path: '/GIT_basic-instructions',
+        name: 'GIT_basic-instructions',
+        component: () => import('../views/Article-Git/GIT_basic-instructions.vue')
     },
 
     // Web 文章

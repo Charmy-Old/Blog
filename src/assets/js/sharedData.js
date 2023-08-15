@@ -3,6 +3,7 @@ import { reactive } from 'vue';
 // 抓全局 Data
 const sharedData = reactive({
     allArticleCount: 0,
+    gitArticleCount: 0,
     webArticleCount: 0,
     htmlArticleCount: 0,
     cssArticleCount: 0,
