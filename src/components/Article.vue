@@ -1,7 +1,7 @@
 <template>
     <section class="d-none">
         <div class="container text-center">
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5">
                 <div>
                     <button class="select-button" data-filter="all">All</button>
                 </div>

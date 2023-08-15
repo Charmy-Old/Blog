@@ -21,13 +21,13 @@
     overflow: hidden;
 }
 
-.resumeProfile a img {
+.resumeProfile img {
     width: 100%;
     transform: scale(1.1);
     transition: all .3s linear;
 }
 
-.resumeProfile a img:hover {
+.resumeProfile img:hover {
     overflow: hidden;
     transform: scale(1.2);
 }
@@ -138,7 +138,7 @@
         align-self: center;
     }
 
-    .resumeProfile a img {
+    .resumeProfile img {
         text-align: center;
         transform: scale(1);
         transition: all .3s linear;
@@ -202,19 +202,20 @@
 
     <div class="wall">
         <div class="resume">
+            <a href="Resume">
             <section class="resumeTitle">
                 <div class="resumeProfile">
-                    <a href="Resume">
+                    
                         <img src="../assets/images/charmy.jpg" alt="大頭貼">
-                    </a>
                 </div>
                 <div class="resumeName">
                     <h2>曾韋翰 Charmy</h2>
                 </div>
             </section>
             <section class="resumeIntroduce">
-                <p>中原大學土木工程學系畢業，緯育TiBaMe的前端工程師就業養成班並完成個人專題與團體專題後成功結業。現職雲端數位有限公司前端工程師助理。</p>
+                <p>中原大學土木工程學系畢業，緯育TiBaMe的前端工程師就業養成班並完成個人專題與團體專題後成功結業。</p>
             </section>
+            </a>
         </div>
 
         <!-- <div class="wall-weather-search"> -->
