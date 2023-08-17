@@ -193,6 +193,29 @@
     }
 }
 
+.wall-wtRecord {
+    width: fit-content;
+    border: none;
+    margin: auto;
+    transition: all 0.5s linear;
+}
+
+.wall-wtRecord:hover {
+    background-color: #222223;
+    box-shadow: 0 0 15px #FFFAFA;
+}
+
+.wall-wtRecord a {
+    width: 100%;
+    display: block;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.5s linear;
+}
+
+.wall-wtRecord a:hover {
+    color: #FFFAFA;
+}
+
 </style>
 <template>
 
@@ -202,12 +225,12 @@
 
     <div class="wall">
         <div class="resume">
-            <a href="Resume">
             <section class="resumeTitle">
                 <div class="resumeProfile">
-                    
-                        <img src="../assets/images/charmy.jpg" alt="大頭貼">
-                </div>
+                        <a href="Resume">
+                            <img src="../assets/images/charmy.jpg" alt="大頭貼"> 
+                        </a>
+                    </div>
                 <div class="resumeName">
                     <h2>曾韋翰 Charmy</h2>
                 </div>
@@ -215,8 +238,13 @@
             <section class="resumeIntroduce">
                 <p>中原大學土木工程學系畢業，緯育TiBaMe的前端工程師就業養成班並完成個人專題與團體專題後成功結業。</p>
             </section>
-            </a>
         </div>
+
+        <section class="wall-wtRecord">
+            <a href="Weight-Record">
+                體重追蹤紀錄
+            </a>
+        </section>
 
         <!-- <div class="wall-weather-search"> -->
         <section class="wall-weather">

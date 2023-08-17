@@ -1,0 +1,235 @@
+/* .wtRecord {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+} */
+
+.wtRecord {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.5rem 0 10rem;
+}
+
+.wtRecord-title {
+    width: 100%;
+    height: fit-content;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 15px #FFFAFA;
+}
+
+.wtRecord-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #222223;
+}
+
+.wtRecord-titleBtn {
+    font-weight: 700;
+    color: #222223;
+    border: 1px solid #222223;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    right: 2.5%;
+    bottom: 12.5%;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.wtRecord-titleBtn:hover {
+    color: #FFFAFA;
+    background-color: #222223;
+    border: 1px solid #222223;
+}
+
+.wtRecord-list {
+    width: 100%;
+    height: fit-content;
+    max-height: 450px;
+    background-color: #222223;
+    margin: 1.5rem 0 0;
+    padding: 1rem;
+    overflow: auto;
+    box-shadow: 0 0 15px #FFFAFA;
+    cursor: default;
+}
+
+.wtRecord-list ul li {
+    background-color: #222223;
+    border-radius: 7.5px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 1.5rem;
+    padding: 0.5rem;
+    position: relative;
+    transition: all 0.5s linear;
+    box-shadow: 0 0 5px #FFFAFA;
+}
+
+.wtRecord-list ul li:hover {
+    background-color: #FFFAFA;
+    box-shadow: 0 0 5px #222223;
+}
+        
+.wtRecord-list ul li span {
+    font-size: 14px;
+    color: #FFFAFA;
+    padding: 0.25rem 0.5rem;
+    transition: all 0.5s linear;
+}
+
+.wtRecord-list ul li:hover span {
+    color: #222223;
+}
+
+.wtRecord-list ul li button {
+    padding: 0 0.25rem 0 0;
+}
+
+.wtRecord-list ul li button i {
+    color: #FFFAFA;
+    transition: all 0.5s linear;
+}
+
+.wtRecord-list ul li:hover button i {
+    color: #222223;
+    transform: rotate(3600deg);
+}
+
+.wtRecord-list-date {
+    flex: 1;
+}
+
+.wtRecord-list-weight {
+    text-align: right;
+    margin-right: 0.5rem;
+}
+
+.wtRecord-chart {
+    width: 100%;
+    height: 65vh;
+    background-color: #FFFAFA;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0 0;
+    padding: 1rem;
+    box-shadow: 0 0 15px #FFFAFA;
+}
+  
+.wtRecord-input {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+    
+.wtRecord-inputForm {
+    width: 300px;
+    background-color: #222223;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 1.75rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 15px #FFFAFA;
+}
+
+.wtRecord-inputForm label {
+    width: 100%;
+    margin: 1.5rem 0;
+    color: #FFFAFA;
+}
+
+.wtRecord-inputForm input {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFAFA;
+    border: 1px #FFFAFA solid;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 0.5rem;
+    box-shadow: 0 0 5px #FFFAFA;
+}
+
+.wtRecord-inputForm input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1) hue-rotate(180deg); /* 透過反轉顏色來改變圖標顏色 */
+}
+
+/* input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+} */
+
+.wtRecord-inputBtn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 1.5rem;
+}
+      
+.wtRecord-inputBtn button {
+    width: 40%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #222223;
+    background-color: #FFFAFA;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition: all 0.25s linear;
+    cursor: pointer;
+}
+
+.wtRecord-inputBtn button:hover {
+    color: #FFFAFA;
+    background-color: #222223;
+    box-shadow: 0 0 15px #FFFAFA;
+}
+
+.wtRecord-inputAlert {
+    font-size: 12px;
+    color: #FF7777;
+    margin: 1.25rem auto 1.5rem;
+}
+
+@media screen and (max-width: 499px) {
+    .wtRecord-titleBtn {
+        position: unset;
+    }
+
+    .wtRecord-title {
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .wtRecord-title h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .wtRecord-titleBtn {
+        font-size: 14px;
+    }
+
+    .wtRecord-list {
+        height: 300px;
+    }
+
+    .wtRecord-chart {
+        height: fit-content;
+        padding: 3.75rem 0;
+    }
+}

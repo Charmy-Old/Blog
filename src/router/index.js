@@ -47,6 +47,11 @@ const routes = [
         component: () => import('../views/Record.vue')
     },
     {
+        path: '/Weight-Record',
+        name: 'Weight-Record',
+        component: () => import('../views/Weight-Record.vue')
+    },
+    {
         path: '/Article',
         name: 'Article',
         component: () => import('../views/Article/Article.vue')
