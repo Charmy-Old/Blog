@@ -478,8 +478,8 @@
                 <nav class="header-nav">
                     <ul>
                         <li class="header-list">
-                            <a href="Resume">
-                                <p>Resume</p>
+                            <a href="About">
+                                <p>About</p>
                             </a>
                             <span class="header-underline"></span>
                         </li>

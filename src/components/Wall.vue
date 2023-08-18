@@ -52,6 +52,7 @@
 
 .resumeIntroduce p {
     line-height: 1.5;
+    margin: 0.5rem 0;
 }
 
 .wall-tag {
@@ -242,7 +243,9 @@
                 </div>
             </section>
             <section class="resumeIntroduce">
-                <p>中原大學土木工程學系畢業，緯育TiBaMe的前端工程師就業養成班並完成個人專題與團體專題後成功結業。</p>
+                <p>中原大學土木工程學系畢業</p>
+                <p>緯育 TiBaMe 前端工程師就業養成班結業</p>
+                <p>前端、表演、穿搭、美食</p>
             </section>
         </div>
 

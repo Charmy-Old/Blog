@@ -1,4 +1,4 @@
-.resume-underline {
+.about-underline {
     width: 0;
     height: 2px;
     margin: 0.75rem 0;
@@ -6,112 +6,112 @@
     transition: all 0.5s linear;
 }
 
-.resume:hover .resume-underline {
+.about:hover .about-underline {
     width: 100%;
 }
 
-.resume-title {
+.about-title {
     display: flex;
     justify-content: space-between;
 }
 
-.resume-title h2 {
+.about-title h2 {
     font-size: 48px;
     font-weight: 900;
 }
 
-.resume-title p {
+.about-title p {
     align-self: flex-end;
 }
 
-.resume-title p i {
+.about-title p i {
     margin: 0 0.75rem;
 }
 
-.resume-introduce h3 {
+.about-introduce h3 {
     font-size: 24px;
     font-weight: 900;
 }
 
-.resume-education h3 {
+.about-education h3 {
     font-size: 24px;
     font-weight: 900;
 }
 
-.resume-education p {
+.about-education p {
     margin: 2rem 0;
 }
 
-.resume-education p span {
+.about-education p span {
     float: right;
 }
 
-.resume-education p span i {
+.about-education p span i {
     margin: 0 0.75rem;
 }
 
-.resume-expertise h3 {
+.about-expertise h3 {
     font-size: 24px;
     font-weight: 900;
 }
 
-.resume-expertiseDetail {
+.about-expertiseDetail {
     display: flex;
     flex-wrap: wrap;
 }
 
-.resume-expertiseDetail span {
+.about-expertiseDetail span {
     font-size: 15px;
     width: fit-content;
     display: block;
     margin: 0.75rem 1.5rem 0 0;
 }
 
-.resume-expertiseDetail span i {
+.about-expertiseDetail span i {
     margin: 0 0.75rem 0 0;
 }
 
-.resume-project h3 {
+.about-project h3 {
     font-size: 24px;
     font-weight: 900;
 }
 
-.resume-projectBlock {
+.about-projectBlock {
     border: 1px #26273B solid;
     border-radius: 15px;
     margin: 2.5rem 0;
     padding: 1rem 0.5rem;
 }
 
-.resume-projectPic {
+.about-projectPic {
     width: 75%;
     margin: auto;
     overflow: hidden;
     transition: all 0.5s linear;
 }
 
-.resume-projectPic img {
+.about-projectPic img {
     width: 100%;
     transform: scale(0.9);
     transition: all .3s linear;
 }
 
-.resume-projectBlock:hover .resume-projectPic img {
+.about-projectBlock:hover .about-projectPic img {
     overflow: hidden;
     transform: scale(1);
 }
 
-.resume-projectText {
+.about-projectText {
     width: 75%;
     margin: 2.5rem auto;
     transition: all 0.5s linear;
 }
 
-.resume-projectTitle {
+.about-projectTitle {
     font-size: 20px;
 }
 
-.resume-projectTag {
+.about-projectTag {
     font-size: 15px;
     color: #C0C0C0;
     display: flex;
@@ -122,143 +122,143 @@
     transition: all 0.5s linear;
 }
 
-.resume-projectBlock:hover .resume-projectTag {
+.about-projectBlock:hover .about-projectTag {
     color: #222223;
 }
 
-.resume-projectTag span {
+.about-projectTag span {
     margin: 0 0 0 auto;
 }
 
-.resume-projectTag p i {
+.about-projectTag p i {
     margin: 0 0.75rem;
 }
 
-.resume-projectTag span i {
+.about-projectTag span i {
     margin: 0.75rem;
 }
 
-.resume-projectContent {
+.about-projectContent {
     margin: 1.25rem 0;
 }
 
-.resume-projectContent p {
+.about-projectContent p {
     margin: 0.75rem 0;
 }
 
-.resume-projectContent a:hover {
+.about-projectContent a:hover {
     color: #C0C0C0;
 }
 
-.resume-projectLink {
+.about-projectLink {
     display: flex;
     text-align: right;
     margin: 1.5rem 0 0 0;
 }
 
-.resume-projectLink p {
+.about-projectLink p {
     transform: translate(-0.5rem, -0.09rem);
     transition: all 0.5s linear;
 }
 
-.resume-projectBlock:hover .resume-projectLink p {
+.about-projectBlock:hover .about-projectLink p {
     color: #C0C0C0 !important;
     transform: translate(0.5rem, -0.09rem);
 }
 
 
-.resume-projectLink:hover {
+.about-projectLink:hover {
     color: #C0C0C0 !important;
 }
 
-.resume-projectLink a {
+.about-projectLink a {
     margin: 0 1rem 0 0;
     transition: all 0.5s linear;
 }
 
-.resume-projectLink a:hover {
+.about-projectLink a:hover {
     color: #C0C0C0 !important;
 }
 
 
 
 
-/* .resume-projectLink span {
+/* .about-projectLink span {
     display: block;
     transform: translateX(0);
     transition: all 0.5s linear;
 }
 
-.resume-projectLink:hover .resume-projectLink span {
+.about-projectLink:hover .about-projectLink span {
     transform: translateX(1rem);
     color: #D3D3D3;
 } */
 
-.resume-experience h3 {
+.about-experience h3 {
     font-size: 24px;
     font-weight: 900;
 }
 
-.resume-job {
+.about-job {
     margin: 2rem 0;
 }
 
-.resume-jobTitle {
+.about-jobTitle {
     margin: 1.75rem 0;
 }
 
-.resume-jobTitle h4 {
+.about-jobTitle h4 {
     font-size: 20px;
     font-weight: 700;
 }
 
-.resume-jobTitle h5 {
+.about-jobTitle h5 {
     font-size: 16px;
     font-weight: 700;
 }
 
-.resume-jobDescribe {
+.about-jobDescribe {
     font-size: 15px;
     font-weight: 700;
 }
 
-.resume-jobTime {
+.about-jobTime {
     font-size: 14px;
     font-weight: 700;
 }
 
-.resume-jobContent {
+.about-jobContent {
     margin: 1.75rem 0;
 }
 
-.resume-jobProject {
+.about-jobProject {
     margin: 1.25rem 0;
 }
 
-.resume-jobProject p {
+.about-jobProject p {
     margin: 0.05rem 0;
 }
 
-.resume-jobLink {
+.about-jobLink {
     display: flex;
     transition: all 0.5s linear;
 }
 
-.resume-jobLink:hover {
+.about-jobLink:hover {
     color: #C0C0C0 !important;
 }
 
-.resume-jobLink a:hover {
+.about-jobLink a:hover {
     color: #C0C0C0 !important;
 }
 
-.resume-jobLink p {
+.about-jobLink p {
     position: relative;
     transform: translateY(-3.2px);
-    animation: resume-job-arrow 1s infinite;
+    animation: about-job-arrow 1s infinite;
 }
 
-@keyframes resume-job-arrow {
+@keyframes about-job-arrow {
     0% {
         left: 1.5%;
     }
@@ -270,76 +270,76 @@
     }
 }
 
-.resume-projectBlock:hover .article-underline {
+.about-projectBlock:hover .article-underline {
     width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-    .resume-title {
+    .about-title {
         display: block;
     }
     
-    .resume-title h2 {
+    .about-title h2 {
         font-size: 24px;
         text-align: center;
     }
     
-    .resume-title p {
+    .about-title p {
         text-align: end;
     }
 
-    .resume-introduce h3 {
+    .about-introduce h3 {
         font-size: 20px;
         text-align: center;
     }
 
-    .resume-education h3 {
+    .about-education h3 {
         font-size: 20px;
         text-align: center;
     }
 
-    .resume-expertise h3 {
+    .about-expertise h3 {
         font-size: 20px;
         text-align: center;
     }
 
-    .resume-project h3 {
+    .about-project h3 {
         font-size: 20px;
         text-align: center;
     }
 
-    .resume-projectPic {
+    .about-projectPic {
         font-size: 72px;
     }
     
-    .resume-projectBlock:hover .resume-projectPic {
+    .about-projectBlock:hover .about-projectPic {
         font-size: 96px;
     }
 
-    .resume-projectTitle {
+    .about-projectTitle {
         font-size: 18px;
     }
 }
 
 @media screen and (max-width: 575px) {
-    .resume-projectPic {
+    .about-projectPic {
         width: 100%;
     }
 
-    .resume-projectText {
+    .about-projectText {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 499px) {
-    .resume-underline {
+    .about-underline {
         width: 100%;
     }
 }
 
 
 @media screen and (min-width: 500px) {
-    .resume-projectContent a {
+    .about-projectContent a {
         display: -webkit-box;
         -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
@@ -349,6 +349,6 @@
     }
 }
 
-.resume-jobTime span {
+.about-jobTime span {
     margin-left: 1rem;
 }
