@@ -194,7 +194,6 @@
 }
 
 .wall-wtRecord {
-    width: fit-content;
     border: none;
     margin: auto;
     transition: all 0.5s linear;
@@ -208,12 +207,19 @@
 .wall-wtRecord a {
     width: 100%;
     display: block;
+    text-align: center;
     padding: 0.5rem 1.5rem;
     transition: all 0.5s linear;
 }
 
 .wall-wtRecord a:hover {
     color: #FFFAFA;
+}
+
+@media (max-width: 991px) {
+    .wall-wtRecord {
+        width: fit-content;
+    }
 }
 
 </style>

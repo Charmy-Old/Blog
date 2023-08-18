@@ -10,7 +10,7 @@
                 </section>
                 <section class="wtRecord-height">
                     <div class="wtRecord-height-input">
-                        <label for="wtRecord-inputHeight"><i class="fa-solid fa-weight-scale"></i>身高</label>
+                        <label for="wtRecord-inputHeight">身高</label>
                         <input v-model="inputHeightValue" id="wtRecord-inputHeight" type="number" v-model.number="inputHeight" min="0" max="30000" step="0.1" placeholder="輸入您的身高(cm)">
                         <button @click="addHeightValue">新增</button>
                     </div>

@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem 0;
     position: relative;
     box-shadow: 0 0 15px #FFFAFA;
 }
@@ -34,8 +35,11 @@
     border-radius: 15px;
     padding: 0.5rem 1rem;
     position: absolute;
-    right: 2.5%;
-    bottom: 12.5%;
+    /* right: 2.5%;
+    bottom: 12.5%; */
+    right: 7.5%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
     transition: all 0.5s linear;
     cursor: pointer;
 }
@@ -239,24 +243,20 @@
 }
 
 .wtRecord-height-input {
+    min-width: 335px;
     display: flex;
 }
 
 .wtRecord-height-input label {
-    width: 60px;
+    width: fit-content;
     color: #FFFAFA;
     display: flex;
     justify-content: center;
     align-self: center;
 }
 
-.wtRecord-height-input label i {
-    align-self: center;
-    margin: 0 0.5rem 0.25rem 0;
-}
-
 .wtRecord-height-input input {
-    width: 160px;
+    width: 180px;
     color: #FFFAFA;
     border: 1px #FFFAFA solid;
     border-radius: 10px;
