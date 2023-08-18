@@ -28,7 +28,7 @@
         <div class="article-title">什麼是 Proxy？</div>
     </section>
 
-    <section class="ALL JS VUE REACT">
+    <section class="ALL JS VUE">
         <div class="article-title">什麼是 props？</div>
     </section>
 
@@ -240,13 +240,6 @@
                 vueArticleCount.value = Countvue.length;
             };
 
-            // 算 react 文章
-            const reactArticleCount = ref(0);
-            const CountreactArticle = () => {
-                const Countreact = document.querySelectorAll(".REACT");
-                reactArticleCount.value = Countreact.length;
-            };
-
             // 算 database 文章
             const databaseArticleCount = ref(0);
             const CountdatabaseArticle = () => {
@@ -269,7 +262,6 @@
                 CountcssArticle();
                 CountjsArticle();
                 CountvueArticle();
-                CountreactArticle();
                 CountdatabaseArticle();
                 CountpythonArticle();
             });
@@ -282,7 +274,6 @@
                 cssArticleCount,
                 jsArticleCount,
                 vueArticleCount,
-                reactArticleCount,
                 databaseArticleCount,
                 pythonArticleCount,
             };

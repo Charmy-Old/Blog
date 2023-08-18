@@ -9,7 +9,6 @@ const sharedData = reactive({
     cssArticleCount: 0,
     jsArticleCount: 0,
     vueArticleCount: 0,
-    reactArticleCount: 0,
     databaseArticleCount: 0,
     pythonArticleCount: 0,
 });

@@ -9,41 +9,28 @@
                         <div>
                             <button class="select-button" data-filter="all">All</button>
                         </div>
-                        
-                        <div>
-                            <button class="select-button" data-filter="git">Git</button>
-                        </div>
-
                         <div>
                             <button class="select-button" data-filter="web">Web</button>
                         </div>
 
                         <div>
-                            <button class="select-button" data-filter="html">HTML</button>
+                            <button class="select-button" data-filter="html-css">HTML / CSS</button>
                         </div>
-                            
-                        <div>
-                            <button class="select-button" data-filter="css">CSS</button>
-                        </div>
-                            
+
                         <div>
                             <button class="select-button" data-filter="javascript">JavaScript</button>
                         </div>
-                            
+
                         <div>
                             <button class="select-button" data-filter="vue">Vue</button>
                         </div>
-
-                        <div>
-                            <button class="select-button" data-filter="react">React</button>
-                        </div>
-
-                        <div>
-                            <button class="select-button" data-filter="database">Database</button>
-                        </div>
-
+                    
                         <div>
                             <button class="select-button" data-filter="python">Python</button>
+                        </div>
+                    
+                        <div>
+                            <button class="select-button" data-filter="others">Others</button>
                         </div>
                     </div>
                 </div>

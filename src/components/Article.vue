@@ -5,21 +5,12 @@
                 <div>
                     <button class="select-button" data-filter="all">All</button>
                 </div>
-
-                <div>
-                    <button class="select-button" data-filter="git">Git</button>
-                </div>
-                    
                 <div>
                     <button class="select-button" data-filter="web">Web</button>
                 </div>
                 
                 <div>
-                    <button class="select-button" data-filter="html">HTML</button>
-                </div>
-                    
-                <div>
-                    <button class="select-button" data-filter="css">CSS</button>
+                    <button class="select-button" data-filter="html-css">HTML / CSS</button>
                 </div>
                     
                 <div>
@@ -31,15 +22,11 @@
                 </div>
 
                 <div>
-                    <button class="select-button" data-filter="react">React</button>
-                </div>
-
-                <div>
-                    <button class="select-button" data-filter="database">Database</button>
-                </div>
-
-                <div>
                     <button class="select-button" data-filter="python">Python</button>
+                </div>
+
+                <div>
+                    <button class="select-button" data-filter="others">Others</button>
                 </div>
             </div>
         </div>
@@ -63,7 +50,7 @@
         </a>
     </section>
 
-    <section class="all git">
+    <section class="all others">
         <a href="GIT_basic-instructions" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-github"></i>
@@ -161,14 +148,14 @@
         </a>
     </section>
 
-    <section class="all javascript vue react">
+    <section class="all javascript vue">
         <a href="CODE_props" class="article">
             <div class="article-icon">
                 <i class="fa-solid fa-file-code"></i>
             </div>
             <div class="article-text">
                 <div class="article-title">什麼是 props？</div>
-                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-solid fa-tag"></i>Vue<i class="fa-solid fa-tag"></i>React<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-06</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-solid fa-tag"></i>Vue<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-06</div>
                 <div class="article-underline"></div>
                 <div class="article-content">
                     <p>在 JavaScript 中，props 是 properties(屬性)的縮寫，用於在組件(conponent)之間傳遞數據。在 VUE、React、Angular 等框架中，props 是用於在組件(conponent)向組件(conponent)傳遞數據的一種機制。通過 props，可以將組件A信息傳遞給組件B，組件B可以讀取這些訊息並在其渲染中使用。</p>
@@ -445,7 +432,7 @@
         </a>
     </section>
 
-    <section class="all database">
+    <section class="all others">
         <a href="DB_CRUD" class="article">
             <div class="article-icon">
                 <i class="fa-solid fa-database"></i>
@@ -483,7 +470,7 @@
         </a>
     </section>
 
-    <section class="all html javascript">
+    <section class="all html-css javascript">
         <a href="CODE_BOM-vs-DOM" class="article">
             <div class="article-icon">
                 <i class="fa-solid fa-file-code"></i>
@@ -501,7 +488,7 @@
         </a>
     </section>
     
-    <section class="all css">
+    <section class="all html-css">
         <a href="CSS_nth-child" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-css3-alt"></i>
@@ -549,7 +536,7 @@
         </a>
     </section>
 
-    <section class="all css">
+    <section class="all html-css">
         <a href="CSS_box-sizing" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-css3-alt"></i>
@@ -684,7 +671,7 @@
         </a>
     </section>
 
-    <section class="all css javascript">
+    <section class="all html-css javascript">
         <a href="CODE_Limit-Line-Width" class="article">
             <div class="article-icon">
                 <i class="fa-solid fa-file-code"></i>
@@ -825,7 +812,7 @@
         </a>
     </section>
 
-    <section class="all html">
+    <section class="all html-css">
         <a href="HTML_codeTag" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-html5"></i>
@@ -841,7 +828,7 @@
         </a>
     </section>
 
-    <section class="all html">
+    <section class="all html-css">
         <a href="HTML_tableTag" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-html5"></i>

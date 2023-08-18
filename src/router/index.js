@@ -89,11 +89,6 @@ const routes = [
         component: () => import('../views/Article/Article-Vue.vue')
     },
     {
-        path: '/Article-React',
-        name: 'Article-React',
-        component: () => import('../views/Article/Article-React.vue')
-    },
-    {
         path: '/Article-Database',
         name: 'Article-Database',
         component: () => import('../views/Article/Article-Database.vue')
