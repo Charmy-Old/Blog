@@ -21,7 +21,7 @@
                     </div>
                     <div class="article-text">
                         <div class="article-title">bind V.S. call V.S. apply</div>
-                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-09</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-20</div>
                         <div class="article-underline"></div>
                         <div class="article-content">
                             <p>在 JavaScript 中，bind、call 和 apply 都是用來操作函數的方法，它們主要用於設定函數的上下文（即 this 的值）以及傳遞參數。</p>
