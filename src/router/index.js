@@ -305,6 +305,11 @@ const routes = [
         name: 'JS_stack-vs-queue',
         component: () => import('../views/Article-JavaScript/JS_stack-vs-queue.vue')
     },
+    {
+        path: '/JS_bind-vs-call-vs-apply',
+        name: 'JS_bind-vs-call-vs-apply',
+        component: () => import('../views/Article-JavaScript/JS_bind-vs-call-vs-apply.vue')
+    },
 
     // Vue 文章
     {

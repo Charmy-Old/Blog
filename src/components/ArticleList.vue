@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL JS">
+        <div class="article-title">bind V.S. call V.S. apply</div>
+    </section>
+
     <section class="ALL CHAT">
         <div class="article-title">什麼是 ODM、OEM、OBM 和 IDM？</div>
     </section>

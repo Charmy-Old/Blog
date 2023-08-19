@@ -14,7 +14,7 @@
                 </div>
             </section>
 
-            <section>
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
               <a href="GIT_basic-instructions" class="article">
                   <div class="article-icon">
                       <i class="fa-brands fa-github"></i>

@@ -25,6 +25,7 @@
                         <div class="reference-underline"></div>
                         <div class="reference-link"><a href="https://www.casper.tw/" target="_blank">卡斯伯的 Blog</a></div>
                         <div class="reference-link"><a href="https://blog.niclin.tw/" target="_blank">Nic Lin's Blog 喜歡在地上滾的工程師</a></div>
+                        <div class="reference-link"><a href="https://maxleebk.com/" target="_blank">Max's Blog</a></div>
                         <div class="reference-link"><a href="https://penghuachen.github.io/" target="_blank">PH 前端修煉記錄</a></div>
                         <div class="reference-link"><a href="https://blog.zjzhang.org/" target="_blank">Zhe-Jia's Blog</a></div>
                         <div class="reference-link"><a href="https://book.vue.tw/menu.html" target="_blank">重新認識 Vue.js | Kuro Hsu</a></div>
@@ -254,6 +255,7 @@
                         <h3><i class="fa-solid fa-newspaper"></i>文章</h3>
                         <div class="reference-underline"></div>
                         <div class="reference-link"><a href="https://ithelp.ithome.com.tw/articles/10194154" target="_blank">重新認識 JavaScript: Day 24 物件與原型鏈</a></div>
+                        <div class="reference-link"><a href="https://ithelp.ithome.com.tw/articles/10223556" target="_blank">15. [JS] 什麼是原型鏈？</a></div>
                         <div class="reference-link"><a href="https://hao1229.github.io/2019/08/05/EcommercePractice6/" target="_blank">Vue.js 電商練習技術整理 -- 製作讀取動畫增加使用者體驗</a></div>
                         <div class="reference-underline"></div>
                         <div class="reference-link"><a href="https://backlog.com/git-tutorial/tw/" target="_blank">連猴子都能懂的Git入門指南</a></div>
