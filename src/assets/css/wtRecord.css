@@ -37,7 +37,7 @@
     position: absolute;
     /* right: 2.5%;
     bottom: 12.5%; */
-    right: 7.5%;
+    right: 5rem;
     bottom: 50%;
     transform: translate(50%, 50%);
     transition: all 0.5s linear;
@@ -208,6 +208,7 @@
 @media screen and (max-width: 499px) {
     .wtRecord-titleBtn {
         position: unset;
+        transform: translate(0, 0);
     }
 
     .wtRecord-title {
@@ -226,6 +227,27 @@
 
     .wtRecord-list {
         height: 300px;
+    }
+
+
+    .wtRecord-list ul li {
+        display: block;
+    }
+
+    .wtRecord-list ul li span {
+        display: block;
+        text-align: left;
+    }
+
+    .wtRecord-list-weight {
+        display: flex !important;
+        align-items: center;
+    }
+
+    .wtRecord-list ul li button {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.1rem;
     }
 
     .wtRecord-chart {

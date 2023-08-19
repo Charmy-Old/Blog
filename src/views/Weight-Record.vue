@@ -22,7 +22,7 @@
                     <ul>
                         <li v-for="(record, index) in records">
                             <span class="wtRecord-list-date">{{ record.date }}</span>
-                            <span class="wtRecord-list-weight">{{ record.weight }}<span>kg</span></span>
+                            <span class="wtRecord-list-weight">{{ record.weight }}<span class="wtRecord-list-weight-kg">kg</span></span>
                             <span class="wtRecord-list-bmi">BMI：{{ (record.weight/((heightValue / 100) ** 2)).toFixed(2) }}</span>
                             <button @click="delRecord(index)"><i class="fa-solid fa-xmark"></i></button>
                         </li>
