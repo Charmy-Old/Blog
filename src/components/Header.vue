@@ -560,7 +560,8 @@ import { ref, reactive, onMounted, computed } from "vue"
                 searchInput: "",
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "/Programming-Language" },
-                    { text: "B2B V.S. B2C V.S. B2B2C V.S. C2C", url: "/Chat_B2B-vsB2C-vs-B2B2C-vs-C2C" },
+                    { text: "什麼是 ODM、OEM、OBM 和 IDM？", url: "/Chat_ODM-vs-OEM-vs-OMM-vs-IEM" },
+                    { text: "什麼是 B2B、B2C、B2B2C 和 C2C？", url: "/Chat_B2B-vs-B2C-vs-B2B2C-vs-C2C" },
                     { text: "Git 常用指令", url: "/GIT_basic-instructions" },
                     { text: "什麼是 WebSocket？", url: "/WEB_WebSocket-introduce" },
                     { text: "stack(堆疊) V.S. queue(佇列)", url: "/JS_stack-vs-queue" },

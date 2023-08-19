@@ -5,9 +5,12 @@
     </section>
 
     <section class="ALL CHAT">
-        <div class="article-title">B2B V.S. B2C V.S. B2B2C V.S. C2C</div>
+        <div class="article-title">什麼是 ODM、OEM、OBM 和 IDM？</div>
     </section>
 
+    <section class="ALL CHAT">
+        <div class="article-title">什麼是 B2B、B2C、B2B2C 和 C2C？C</div>
+    </section>
 
     <section class="ALL GIT">
         <div class="article-title">Git 常用指令</div>

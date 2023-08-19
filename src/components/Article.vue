@@ -55,12 +55,29 @@
     </section>
 
     <section class="all chat">
-        <a href="Chat_B2B-vsB2C-vs-B2B2C-vs-C2C" class="article">
+        <a href="Chat_ODM-vs-OEM-vs-OMM-vs-IEM" class="article">
             <div class="article-icon">
                 <i class="fa-solid fa-book-open-reader"></i>
             </div>
             <div class="article-text">
-                <div class="article-title">B2B V.S. B2C V.S. B2B2C V.S. C2C</div>
+                <div class="article-title">什麼是 ODM、OEM、OBM 和 IDM？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Chat<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-19</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>ODM、OEM、OBM 和 IDM 是現代製造業非常重要的概念，對於日常各種產品都有著重要影響。在這個競爭的市場中，品牌商需要不斷創新並提高生產效率，而 ODM、OEM、OBM 和 IDM 正是幫助品牌商實現目標的重要工具。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+
+    <section class="all chat">
+        <a href="Chat_B2B-vs-B2C-vs-B2B2C-vs-C2C" class="article">
+            <div class="article-icon">
+                <i class="fa-solid fa-book-open-reader"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 B2B、B2C、B2B2C 和 C2C？</div>
                 <div class="article-tag"><i class="fa-solid fa-tag"></i>Chat<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-19</div>
                 <div class="article-underline"></div>
                 <div class="article-content">

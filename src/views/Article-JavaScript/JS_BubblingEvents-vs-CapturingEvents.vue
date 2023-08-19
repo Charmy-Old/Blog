@@ -12,7 +12,7 @@
 
             <section>
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                    <h3>事件捕獲 冒泡事件 簡介</h3>
+                    <h3>事件捕獲 和 冒泡事件 簡介</h3>
                     <div class="article-detailLine"></div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>在 JavaScript 中，事件處理涉及兩個主要階段：事件捕獲(Capturing Events)和冒泡事件(Bubbling Events)。這兩個階段描述了事件在 DOM Tree 中傳播的方式，允許在事件發生時捕獲或處理。</p>

@@ -366,9 +366,14 @@ const routes = [
 
     // 雜談 文章
     {
-        path: '/Chat_B2B-vsB2C-vs-B2B2C-vs-C2C',
-        name: 'Chat_B2B-vsB2C-vs-B2B2C-vs-C2C',
-        component: () => import('../views/Article-Chat/Chat_B2B-vsB2C-vs-B2B2C-vs-C2C.vue')
+        path: '/Chat_B2B-vs-B2C-vs-B2B2C-vs-C2C',
+        name: 'Chat_B2B-vs-B2C-vs-B2B2C-vs-C2C',
+        component: () => import('../views/Article-Chat/Chat_B2B-vs-B2C-vs-B2B2C-vs-C2C.vue')
+    },
+    {
+        path: '/Chat_ODM-vs-OEM-vs-OMM-vs-IEM',
+        name: 'Chat_ODM-vs-OEM-vs-OMM-vs-IEM',
+        component: () => import('../views/Article-Chat/Chat_ODM-vs-OEM-vs-OMM-vs-IEM.vue')
     },
 ]
 

@@ -5,7 +5,7 @@
 
             <section>
                 <div class="article-heading">
-                    <h2 class="article-heading">B2B V.S. B2C V.S. B2B2C V.S. C2C</h2>
+                    <h2 class="article-heading">什麼是 B2B、B2C、B2B2C 和 C2C？</h2>
                     <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-19</p>
                 </div>
             </section>

@@ -12,7 +12,7 @@
 
             <section>
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                    <h3>淺拷貝 深拷貝 簡介</h3>
+                    <h3>淺拷貝 和 深拷貝 簡介</h3>
                     <div class="article-detailLine"></div>
                     <div class="article-pic" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <img src="../../assets/images/article-js/shallowCopy-vs-deepCopy.webp" alt="淺拷貝 VS 深拷貝">
