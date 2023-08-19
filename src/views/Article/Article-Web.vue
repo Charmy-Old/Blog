@@ -138,7 +138,7 @@
                         <i class="fa-sharp fa-solid fa-desktop"></i>
                     </div>
                     <div class="article-text">
-                        <div class="article-title">什麼是 SSL和TLS？</div>
+                        <div class="article-title">什麼是 SSL 和 TLS？</div>
                         <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-08</div>
                         <div class="article-underline"></div>
                         <div class="article-content">

@@ -4,6 +4,11 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL CHAT">
+        <div class="article-title">B2B V.S. B2C V.S. B2B2C V.S. C2C</div>
+    </section>
+
+
     <section class="ALL GIT">
         <div class="article-title">Git 常用指令</div>
     </section>
@@ -145,7 +150,7 @@
     </section>
 
     <section class="ALL WEB">
-        <div class="article-title">什麼是 SSL和TLS？</div>
+        <div class="article-title">什麼是 SSL 和 TLS？</div>
     </section>
 
     <section class="ALL WEB">
@@ -254,6 +259,13 @@
                 pythonArticleCount.value = Countpython.length;
             };
 
+            // 算 雜談 文章
+            const chatArticleCount = ref(0);
+            const CountchatArticle = () => {
+                const Countchat = document.querySelectorAll(".CHAT");
+                chatArticleCount.value = Countchat.length;
+            };
+
             onMounted(() => {
                 CountallArticle();
                 CountgitArticle();
@@ -264,6 +276,7 @@
                 CountvueArticle();
                 CountdatabaseArticle();
                 CountpythonArticle();
+                CountchatArticle();
             });
 
             return {
@@ -276,6 +289,7 @@
                 vueArticleCount,
                 databaseArticleCount,
                 pythonArticleCount,
+                chatArticleCount,
             };
         }
     };

@@ -5,7 +5,7 @@
 
             <section>
                 <div class="article-heading">
-                    <h2 class="article-heading">什麼是 SSL和TLS？</h2>
+                    <h2 class="article-heading">什麼是 SSL 和 TLS？</h2>
                     <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-08</p>
                 </div>
             </section>

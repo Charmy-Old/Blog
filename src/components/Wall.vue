@@ -286,6 +286,7 @@
                 <div class="wall-tag"><a href="Article-Vue">Vue ({{ vueArticleCount }})</a></div>
                 <div class="wall-tag"><a href="Article-Database">Database ({{ databaseArticleCount }})</a></div>
                 <div class="wall-tag"><a href="Article-Python">Python ({{ pythonArticleCount }})</a></div>
+                <div class="wall-tag"><a href="Article-Chat">雜談 ({{ chatArticleCount }})</a></div>
             </section>
 
             <section class="wall-project">
@@ -417,6 +418,18 @@ export default {
             sharedData.pythonArticleCount = pythonArticleCount.value;
         };
 
+        // 算 雜談 文章
+        const chatArticleCount = ref(0);
+        onMounted(() => {
+            CountchatArticle();
+        });
+        const CountchatArticle = () => {
+            const Countchat = document.querySelectorAll(".CHAT");
+            chatArticleCount.value = Countchat.length;
+            sharedData.chatArticleCount = chatArticleCount.value;
+        };
+        
+
         // 用 computed 抓全局變數
         const Countall = computed(() => sharedData.allArticleCount);
         const Countgit = computed(() => sharedData.gitArticleCount);
@@ -427,6 +440,7 @@ export default {
         const Countvue = computed(() => sharedData.vueArticleCount);
         const Countdatabase = computed(() => sharedData.databaseArticleCount);
         const Countpython = computed(() => sharedData.pythonArticleCount);
+        const Countchat = computed(() => sharedData.chatArticleCount);
 
         // 天氣 api
         const weatherDatas = ref([]);
@@ -458,6 +472,7 @@ export default {
             vueArticleCount: Countvue,
             databaseArticleCount: Countdatabase,
             pythonArticleCount: Countpython,
+            chatArticleCount: Countchat,
             // 天氣 api
             weatherDatas,
             locationName,

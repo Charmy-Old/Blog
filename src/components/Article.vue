@@ -28,6 +28,10 @@
                 <div>
                     <button class="select-button" data-filter="others">Others</button>
                 </div>
+
+                <div>
+                    <button class="select-button" data-filter="chat">雜談</button>
+                </div>
             </div>
         </div>
     </section>
@@ -45,6 +49,23 @@
                 <div class="article-content">
                     <p>雖然程式語言學習的領域是學無止境的，但是若不先找到目標而先專攻一個方向，很難培養出自己的一套學習方式及方向的！</p>
                     <p>如果清楚了學習的目的及方向，接著我們就要選擇學習哪一種程式語言；以下是簡單的整理，讓新手、入門的程式語言自學者，能快速有個方向：</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all chat">
+        <a href="Chat_B2B-vsB2C-vs-B2B2C-vs-C2C" class="article">
+            <div class="article-icon">
+                <i class="fa-solid fa-book-open-reader"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">B2B V.S. B2C V.S. B2B2C V.S. C2C</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Chat<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-19</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>B2B、B2C、C2C 和 B2B2C 都是商業模式的簡稱，屬於商業管理和行銷領域的專業範疇。</p>
+                    <p>在數位化的時代下，行銷也從傳統的實體商店轉戰網路平台。對於想要嘗試電商的商家而言，B2B、B2C、C2C、B2B2C都是常常聽到的電商經營模式。</p>
                 </div>
             </div>
         </a>
@@ -644,7 +665,7 @@
                 <i class="fa-sharp fa-solid fa-desktop"></i>
             </div>
             <div class="article-text">
-                <div class="article-title">什麼是 SSL和TLS？</div>
+                <div class="article-title">什麼是 SSL 和 TLS？</div>
                 <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-08</div>
                 <div class="article-underline"></div>
                 <div class="article-content">

@@ -560,6 +560,7 @@ import { ref, reactive, onMounted, computed } from "vue"
                 searchInput: "",
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "/Programming-Language" },
+                    { text: "B2B V.S. B2C V.S. B2B2C V.S. C2C", url: "/Chat_B2B-vsB2C-vs-B2B2C-vs-C2C" },
                     { text: "Git 常用指令", url: "/GIT_basic-instructions" },
                     { text: "什麼是 WebSocket？", url: "/WEB_WebSocket-introduce" },
                     { text: "stack(堆疊) V.S. queue(佇列)", url: "/JS_stack-vs-queue" },
@@ -595,7 +596,7 @@ import { ref, reactive, onMounted, computed } from "vue"
                     { text: "var V.S. let V.S. const", url: "/JS_var-vs-let-vs-const" },
                     { text: "什麼是 RESTful API？", url: "/WEB_RESTfulAPI-introduce" },
                     { text: "什麼是 TCP/IP？", url: "/WEB_TCP-IP" },
-                    { text: "什麼是 SSL和TLS？", url: "/WEB_SSL-and-TLS" },
+                    { text: "什麼是 SSL 和 TLS？", url: "/WEB_SSL-and-TLS" },
                     { text: "HTTP V.S. HTTPS", url: "/WEB_HTTP-vs-HTTPS" },
                     { text: "限制內容字數寬度或行數", url: "/CODE_Limit-Line-Width" },
                     { text: "Cookie V.S. LocalStorage V.S. SessionStorage", url: "/JS_Cookie-vs-LocalStorage-vs-SessionStorage" },

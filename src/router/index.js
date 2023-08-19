@@ -98,6 +98,11 @@ const routes = [
         name: 'Article-Python',
         component: () => import('../views/Article/Article-Python.vue')
     },
+    {
+        path: '/Article-Chat',
+        name: 'Article-Chat',
+        component: () => import('../views/Article/Article-Chat.vue')
+    },
 
     // 置頂 文章
     {
@@ -357,7 +362,14 @@ const routes = [
         path: '/CODE_props',
         name: 'CODE_props',
         component: () => import('../views/Article-CODE/CODE_props.vue')
-    },   
+    },
+
+    // 雜談 文章
+    {
+        path: '/Chat_B2B-vsB2C-vs-B2B2C-vs-C2C',
+        name: 'Chat_B2B-vsB2C-vs-B2B2C-vs-C2C',
+        component: () => import('../views/Article-Chat/Chat_B2B-vsB2C-vs-B2B2C-vs-C2C.vue')
+    },
 ]
 
 

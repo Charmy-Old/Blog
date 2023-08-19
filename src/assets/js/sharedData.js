@@ -11,6 +11,7 @@ const sharedData = reactive({
     vueArticleCount: 0,
     databaseArticleCount: 0,
     pythonArticleCount: 0,
+    chatArticleCount: 0,
 });
 
 export default sharedData;

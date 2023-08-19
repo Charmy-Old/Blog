@@ -32,6 +32,10 @@
                         <div>
                             <button class="select-button" data-filter="others">Others</button>
                         </div>
+
+                        <div>
+                            <button class="select-button" data-filter="chat">雜談</button>
+                        </div>
                     </div>
                 </div>
             </section>
