@@ -234,7 +234,7 @@
         <div class="resume">
             <section class="resumeTitle">
                 <div class="resumeProfile">
-                        <a href="Resume">
+                        <a href="About">
                             <img src="../assets/images/charmy.jpg" alt="大頭貼"> 
                         </a>
                     </div>

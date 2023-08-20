@@ -28,17 +28,18 @@
                         <div class="reference-link"><a href="https://maxleebk.com/" target="_blank">Max's Blog</a></div>
                         <div class="reference-link"><a href="https://penghuachen.github.io/" target="_blank">PH 前端修煉記錄</a></div>
                         <div class="reference-link"><a href="https://blog.zjzhang.org/" target="_blank">Zhe-Jia's Blog</a></div>
-                        <div class="reference-link"><a href="https://book.vue.tw/menu.html" target="_blank">重新認識 Vue.js | Kuro Hsu</a></div>
-                        <div class="reference-link"><a href="https://hackmd.io/@MhZhtPVfTHanTVVP-3Ov6A/H1b8LVTRu/%2FCgLRMTf5S26kJxR705rGxw" target="_blank">洋蔥筆記</a></div>
-                        <div class="reference-link"><a href="https://pjchender.dev/" target="_blank">PJCHENder</a></div>
                         <div class="reference-link"><a href="https://blog.kalan.dev/" target="_blank">Kalan's Blog</a></div>
                         <div class="reference-link"><a href="https://hao1229.github.io/" target="_blank">Hao's F2E World</a></div>
-                        <div class="reference-link"><a href="https://hackmd.io/@mingjunlu/front-end-interview-questions#JavaScript" target="_blank">前端面試問題</a></div>
+                        <div class="reference-link"><a href="https://jameshsu0407.github.io/" target="_blank">米米的部落格</a></div>
+                        <div class="reference-link"><a href="https://blog.jsy.tw//" target="_blank">JS Ying's Blog</a></div>
+                        <div class="reference-link"><a href="https://hackmd.io/@MhZhtPVfTHanTVVP-3Ov6A/H1b8LVTRu/%2FCgLRMTf5S26kJxR705rGxw" target="_blank">洋蔥筆記</a></div>
+                        <div class="reference-link"><a href="https://pjchender.dev/" target="_blank">PJCHENder</a></div>
+                        <div class="reference-link"><a href="https://book.vue.tw/menu.html" target="_blank">重新認識 Vue.js | Kuro Hsu</a></div>
+                        <div class="reference-link"><a href="https://ithelp.ithome.com.tw/users/20106426/ironman/2136" target="_blank">前端工程師用 javaScript 學演算法 系列</a></div>
+                        <div class="reference-link"><a href="https://github.com/lydiahallie/javascript-questions/blob/master/zh-TW/README_zh-TW.md" target="_blank">JavaScript 進階題目列表---</a></div>
                         <div class="reference-link"><a href="https://medium.com/starbugs/%E9%9D%A2%E8%A9%A6-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E4%B8%80%E5%AE%9A%E8%A6%81%E6%9C%83%E7%9A%84-js-%E8%A7%80%E5%BF%B5%E9%A1%8C-%E4%B8%AD%E8%8B%B1%E5%B0%8D%E7%85%A7%E4%B9%8B%E4%B8%8A%E7%AF%87-3b0a3feda14f" target="_blank">[面試] 前端工程師一定要會的 JS 觀念題-中英對照之上篇</a></div>
                         <div class="reference-link"><a href="https://medium.com/hannah-lin/%E9%9D%A2%E8%A9%A6-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E4%B8%80%E5%AE%9A%E8%A6%81%E6%9C%83%E7%9A%84-js-%E8%A7%80%E5%BF%B5%E9%A1%8C-%E4%B8%AD%E8%8B%B1%E5%B0%8D%E7%85%A7%E4%B9%8B%E4%B8%8B%E7%AF%87-fd46292e374b" target="_blank">[面試] 前端工程師一定要會的 JS 觀念題-中英對照之下篇</a></div>
-                        <div class="reference-link"><a href="https://ithelp.ithome.com.tw/users/20106426/ironman/2136" target="_blank">前端工程師用 javaScript 學演算法 系列</a></div>
-                        <div class="reference-link"><a href="https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md" target="_blank">JavaScript 进阶问题列表</a></div>
-                        <div class="reference-link"><a href="https://github.com/f2etw/jobs/issues" target="_blank">前端 gitHub 論壇</a></div>
+                        <div class="reference-link"><a href="https://hackmd.io/@mingjunlu/front-end-interview-questions#JavaScript" target="_blank">前端面試問題</a></div>
                     </div>
                 </section>
 
@@ -49,6 +50,7 @@
                         <div class="reference-link"><a href="https://www.ithome.com.tw/" target="_blank">iThome</a></div>
                         <div class="reference-link"><a href="https://stackoverflow.com/" target="_blank">stackoverflow</a></div>
                         <div class="reference-link"><a href="https://codelove.tw/" target="_blank">CodeLove 愛寫扣論壇</a></div>
+                        <div class="reference-link"><a href="https://github.com/f2etw/jobs/issues" target="_blank">前端 gitHub 論壇</a></div>
                     </div>
                 </section>
 
@@ -257,6 +259,15 @@
                         <div class="reference-link"><a href="https://ithelp.ithome.com.tw/articles/10194154" target="_blank">重新認識 JavaScript: Day 24 物件與原型鏈</a></div>
                         <div class="reference-link"><a href="https://ithelp.ithome.com.tw/articles/10223556" target="_blank">15. [JS] 什麼是原型鏈？</a></div>
                         <div class="reference-link"><a href="https://hao1229.github.io/2019/08/05/EcommercePractice6/" target="_blank">Vue.js 電商練習技術整理 -- 製作讀取動畫增加使用者體驗</a></div>
+
+
+                        <div class="reference-link"><a href="https://ithelp.ithome.com.tw/articles/10230871" target="_blank">JavaScript - Event Loop</a></div>
+                        <div class="reference-link"><a href="https://maxleebk.com/2020/07/25/prototype/" target="_blank">面試官最愛考的 JS 原型鏈</a></div>
+                        <div class="reference-link"><a href="https://yakimhsu.com/project/project_w16_EventLoop.html" target="_blank">[第十六週] JavaScript 進階：事件迴圈 Event Loop、Stack、Queue</a></div>
+                        <div class="reference-link"><a href="https://jianline.com/javascript-event-loop/" target="_blank">[筆記]-JavaScript Event Loop是什麼?Event Loop的3個重點</a></div>
+                        <div class="reference-link"><a href="https://ithelp.ithome.com.tw/articles/10299646?sc=rss.iron" target="_blank">[Day12] 專案開發流程前，甚麼是design pattern?</a></div>
+
+
                         <div class="reference-underline"></div>
                         <div class="reference-link"><a href="https://backlog.com/git-tutorial/tw/" target="_blank">連猴子都能懂的Git入門指南</a></div>
                         <div class="reference-link"><a href="https://www.wibibi.com/info.php?tid=CSS3_animation_%E5%8B%95%E7%95%AB%E5%B1%AC%E6%80%A7" target="_blank">CSS3 animation 動畫屬性</a></div>
