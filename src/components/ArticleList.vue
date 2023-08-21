@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL SOFTWARE">
+        <div class="article-title">什麼是 遞迴(Recursion)？</div>
+    </section>
+
     <section class="ALL JS">
         <div class="article-title">bind V.S. call V.S. apply</div>
     </section>
@@ -266,6 +270,13 @@
                 pythonArticleCount.value = Countpython.length;
             };
 
+            // 算 software 文章
+            const softwareArticleCount = ref(0);
+            const CountsoftwareArticle = () => {
+                const Countsoftware = document.querySelectorAll(".SOFTWARE");
+                softwareArticleCount.value = Countsoftware.length;
+            };
+
             // 算 雜談 文章
             const chatArticleCount = ref(0);
             const CountchatArticle = () => {
@@ -283,6 +294,7 @@
                 CountvueArticle();
                 CountdatabaseArticle();
                 CountpythonArticle();
+                CountsoftwareArticle();
                 CountchatArticle();
             });
 
@@ -296,6 +308,7 @@
                 vueArticleCount,
                 databaseArticleCount,
                 pythonArticleCount,
+                softwareArticleCount,
                 chatArticleCount,
             };
         }

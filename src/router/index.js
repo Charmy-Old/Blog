@@ -104,6 +104,11 @@ const routes = [
         component: () => import('../views/Article/Article-Python.vue')
     },
     {
+        path: '/Article-Software',
+        name: 'Article-Software',
+        component: () => import('../views/Article/Article-Software.vue')
+    },
+    {
         path: '/Article-Chat',
         name: 'Article-Chat',
         component: () => import('../views/Article/Article-Chat.vue')
@@ -373,6 +378,19 @@ const routes = [
         name: 'CODE_props',
         component: () => import('../views/Article-CODE/CODE_props.vue')
     },
+
+
+
+    // Software 文章
+    {
+        path: '/Software_recursion',
+        name: 'Software_recursion',
+        component: () => import('../views/Article-Software/Software_recursion.vue')
+    },
+
+
+
+
 
     // 雜談 文章
     {

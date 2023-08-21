@@ -9,6 +9,7 @@
                         <div>
                             <button class="select-button" data-filter="all">All</button>
                         </div>
+
                         <div>
                             <button class="select-button" data-filter="web">Web</button>
                         </div>
@@ -27,6 +28,10 @@
                     
                         <div>
                             <button class="select-button" data-filter="python">Python</button>
+                        </div>
+
+                        <div>
+                            <button class="select-button" data-filter="software">Software</button>
                         </div>
                     
                         <div>

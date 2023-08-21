@@ -26,6 +26,10 @@
                 </div>
 
                 <div>
+                    <button class="select-button" data-filter="software">Software</button>
+                </div>
+
+                <div>
                     <button class="select-button" data-filter="others">Others</button>
                 </div>
 
@@ -49,6 +53,22 @@
                 <div class="article-content">
                     <p>雖然程式語言學習的領域是學無止境的，但是若不先找到目標而先專攻一個方向，很難培養出自己的一套學習方式及方向的！</p>
                     <p>如果清楚了學習的目的及方向，接著我們就要選擇學習哪一種程式語言；以下是簡單的整理，讓新手、入門的程式語言自學者，能快速有個方向：</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all software">
+        <a href="Software_recursion" class="article">
+            <div class="article-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 遞迴(Recursion)？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Software<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-22</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>遞迴又稱遞歸，是一種在程式設計中常見的概念與技巧，指的是一個函式在其定義中使用自己本身的方法，用來解決需要重複執行相似任務的問題。也就是說，一個遞迴函式在解決問題時，會將大問題分解為一個或多個類似但規模較小的子問題，然後遞迴地呼叫自己來處理這些子問題，直到某個停止條件，稱為「基案」(Base Case)，遞迴才會停止，最終這些子問題的解決方案會被合併，得到原始問題的解。遞迴可以使程式碼更簡潔、易讀，但也需要小心處理，以避免無限循環造成程式崩潰。</p>
                 </div>
             </div>
         </a>
