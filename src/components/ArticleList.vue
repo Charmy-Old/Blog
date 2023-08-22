@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL PYTHON">
+        <div class="article-title">【Pandas】Pandas Series處理單維度資料方法</div>
+    </section>
+
     <section class="ALL SOFTWARE">
         <div class="article-title">什麼是 ORM(Object-Relational Mapping)？</div>
     </section>

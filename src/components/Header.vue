@@ -560,7 +560,7 @@ import { ref, reactive, onMounted, computed } from "vue"
                 searchInput: "",
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "/Programming-Language" },
-                    { text: "什麼是 ORM(Object-Relational Mapping)？", url: "/Software_ORM-introduce" },
+                    { text: "【Pandas】Pandas Series處理單維度資料方法", url: "/PY_Pandas-Series" },
                     { text: "什麼是 遞迴(Recursion)？", url: "/Software_recursion" },
                     { text: "bind V.S. call V.S. apply", url: "/JS_bind-vs-call-vs-apply" },
                     { text: "什麼是 ODM、OEM、OBM 和 IDM？", url: "/Chat_ODM-vs-OEM-vs-OMM-vs-IEM" },

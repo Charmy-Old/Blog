@@ -361,6 +361,11 @@ const routes = [
         name: 'PY_loop',
         component: () => import('../views/Article-Python/PY_loop.vue')
     },
+    {
+        path: '/PY_Pandas-Series',
+        name: 'PY_Pandas-Series',
+        component: () => import('../views/Article-Python/PY_Pandas-Series.vue')
+    },
 
     // 技術合併 文章
     {
