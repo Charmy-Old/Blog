@@ -59,12 +59,29 @@
     </section>
 
     <section class="all python">
+        <a href="PY_Pandas-DataFrame" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-python"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">【Pandas】Pandas DataFrame 處理雙維度資料方法</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Python<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-23</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>DataFrame 主要用來處理雙維度的資料，也就是具有列(row)與欄(column)的表格式資料集，所以經常應用於讀取 CSV 檔案、網頁表格或資料庫等，來進行其中的資料分析或處理。</p>
+                    <p>在相較於 Pandas Series 處理單維度或單一欄位的資料的部分，Pandas DataFrame 可以處理雙維度或多欄位的資料，就像是 Excel 的表格(Table)，具有資料索引(列)及欄位標題(欄)</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all python">
         <a href="PY_Pandas-Series" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-python"></i>
             </div>
             <div class="article-text">
-                <div class="article-title">【Pandas】Pandas Series處理單維度資料方法</div>
+                <div class="article-title">【Pandas】Pandas Series 處理單維度資料方法</div>
                 <div class="article-tag"><i class="fa-solid fa-tag"></i>Python<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-22</div>
                 <div class="article-underline"></div>
                 <div class="article-content">

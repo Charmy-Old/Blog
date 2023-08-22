@@ -5,7 +5,11 @@
     </section>
 
     <section class="ALL PYTHON">
-        <div class="article-title">【Pandas】Pandas Series處理單維度資料方法</div>
+        <div class="article-title">【Pandas】Pandas DataFrame 處理雙維度資料方法</div>
+    </section>
+
+    <section class="ALL PYTHON">
+        <div class="article-title">【Pandas】Pandas Series 處理單維度資料方法</div>
     </section>
 
     <section class="ALL SOFTWARE">

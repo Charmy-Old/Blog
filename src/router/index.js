@@ -366,6 +366,11 @@ const routes = [
         name: 'PY_Pandas-Series',
         component: () => import('../views/Article-Python/PY_Pandas-Series.vue')
     },
+    {
+        path: '/PY_Pandas-DataFrame',
+        name: 'PY_Pandas-DataFrame',
+        component: () => import('../views/Article-Python/PY_Pandas-DataFrame.vue')
+    },
 
     // 技術合併 文章
     {

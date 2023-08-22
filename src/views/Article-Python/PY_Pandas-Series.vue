@@ -5,8 +5,8 @@
 
             <section>
                 <div class="article-heading">
-                    <h2 class="article-heading">【Pandas】Pandas Series處理單維度資料方法</h2>
-                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-20</p>
+                    <h2 class="article-heading">【Pandas】Pandas Series 處理單維度資料方法</h2>
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-22</p>
                 </div>
             </section>
 
@@ -31,7 +31,7 @@ pip install pandas
                     <h3>建立和觀察 Pandas Series 物件</h3>
                     <div class="article-detailLine"></div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p>要利Pandas Series來儲存單維度的資料，就需要先建立Pandas Series物件，語法如下：</p>
+                        <p>要利 Pandas Series 來儲存單維度的資料，就需要先建立 Pandas Series 物件，語法如下：</p>
                     </div>
                     <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
@@ -291,20 +291,29 @@ dtype: object
 import pandas as pd   # 引入 pandas 套件
 
 num = pd.Series([100, -300, 50, 999, -500, 375], index=["NO.1", "NO.2", "NO.3", "NO.4", "NO.5", "NO.6"])
+
 print("=============================================")
 print(num)
+
 print("=============================================")
 print("最大值：", num.max())
+
 print("=============================================")
 print("總和：", num.sum())
+
 print("=============================================")
 print("標準差：", num.std())
+
 print("=============================================")
 print("中位數：", num.median())
+
 print("=============================================")
-print("最大的三個數：", num.nlargest(3))
+print("最大的三個數：")
+print(num.nlargest(3))
+
 print("=============================================")
-print("最小的兩個數：", num.nsmallest(2)) 
+print("最小的兩個數：")
+print(num.nsmallest(2))
 </pre>
                     </div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -329,12 +338,14 @@ dtype: int64
 =============================================
 中位數： 75.0
 =============================================
-最大的三個數： NO.4    999
+最大的三個數：
+NO.4    999
 NO.6    375
 NO.1    100
 dtype: int64
 =============================================
-最小的兩個數： NO.5   -500
+最小的兩個數：
+NO.5   -500
 NO.2   -300
 dtype: int64
 </pre>
