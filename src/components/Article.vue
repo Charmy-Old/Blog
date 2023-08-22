@@ -59,6 +59,23 @@
     </section>
 
     <section class="all software">
+        <a href="Software_ORM-introduce" class="article">
+            <div class="article-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 ORM(Object-Relational Mapping)？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Software<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-22</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>ORM 代表物件關聯映射(Object-Relational Mapping)，是一種軟體開發模式，用於在關聯式資料庫和程式語言中的物件導向程式碼之間建立一個映射，使開發者能夠使用物件來操作資料庫，而不需要直接處理 SQL 語句。這樣的模式有助於減少開發過程中的重複性工作，並提高程式碼的可讀性和維護性。</p>
+                    <p>簡單來說，ORM 允許用程式語言中的類別和物件來表示資料庫中的表格和記錄，並提供方法來執行常見的 CRUD 操作以及資料查詢，同時隱藏了底層資料庫的細節。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all software">
         <a href="Software_recursion" class="article">
             <div class="article-icon">
                 <i class="fa-solid fa-laptop-code"></i>

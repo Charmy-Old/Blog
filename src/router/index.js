@@ -379,18 +379,17 @@ const routes = [
         component: () => import('../views/Article-CODE/CODE_props.vue')
     },
 
-
-
     // Software 文章
     {
         path: '/Software_recursion',
         name: 'Software_recursion',
         component: () => import('../views/Article-Software/Software_recursion.vue')
     },
-
-
-
-
+    {
+        path: '/Software_ORM-introduce',
+        name: 'Software_ORM-introduce',
+        component: () => import('../views/Article-Software/Software_ORM-introduce.vue')
+    },
 
     // 雜談 文章
     {

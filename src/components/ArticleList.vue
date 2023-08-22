@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL SOFTWARE">
+        <div class="article-title">什麼是 ORM(Object-Relational Mapping)？</div>
+    </section>
+
+    <section class="ALL SOFTWARE">
         <div class="article-title">什麼是 遞迴(Recursion)？</div>
     </section>
 
