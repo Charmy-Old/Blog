@@ -41,6 +41,10 @@
                         <div>
                             <button class="select-button" data-filter="chat">雜談</button>
                         </div>
+
+                        <div>
+                            <button class="select-button" data-filter="food">美食札記</button>
+                        </div>
                     </div>
                 </div>
             </section>

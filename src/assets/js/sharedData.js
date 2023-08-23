@@ -13,6 +13,7 @@ const sharedData = reactive({
     pythonArticleCount: 0,
     softwareArticleCount: 0,
     chatArticleCount: 0,
+    foodArticleCount: 0,
 });
 
 export default sharedData;

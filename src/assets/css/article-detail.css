@@ -50,12 +50,14 @@
 }
 
 .article-detail p {
+    display: flex;
     margin: 1.5rem 0;
 }
 
 .article-detail p i {
     color: aqua;
-    margin: 0 0.75rem 0 0;
+    display: block;
+    margin: 0.15rem 0.75rem 0 0;
 }
 
 .article-pic {
@@ -223,4 +225,31 @@
         vertical-align: middle;
         padding: 0.1rem;
     }
+}
+
+
+.article-detail .article-picTxt p {
+    font-size: 15px;
+    justify-content: center;
+    margin: -0.75rem 0 2.5rem;
+}
+
+
+.article-map {
+    margin: 2.5rem 0;
+    position: relative;
+}
+
+.article-map-ratio::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; /* 16:9 的宽高比例 */
+}
+
+.article-map .article-map-ratio iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

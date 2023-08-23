@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL FOOD">
+        <div class="article-title">【美食札記】阿如早餐店</div>
+    </section>
+
     <section class="ALL PYTHON">
         <div class="article-title">【Pandas】Pandas DataFrame 處理雙維度資料方法</div>
     </section>
@@ -296,6 +300,13 @@
                 chatArticleCount.value = Countchat.length;
             };
 
+            // 算 美食札記 文章
+            const foodArticleCount = ref(0);
+            const CountfoodArticle = () => {
+                const Countfood = document.querySelectorAll(".FOOD");
+                foodArticleCount.value = Countfood.length;
+            };
+
             onMounted(() => {
                 CountallArticle();
                 CountgitArticle();
@@ -308,6 +319,7 @@
                 CountpythonArticle();
                 CountsoftwareArticle();
                 CountchatArticle();
+                CountfoodArticle();
             });
 
             return {
@@ -322,6 +334,7 @@
                 pythonArticleCount,
                 softwareArticleCount,
                 chatArticleCount,
+                foodArticleCount,
             };
         }
     };

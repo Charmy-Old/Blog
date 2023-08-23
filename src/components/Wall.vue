@@ -288,6 +288,7 @@
                 <div class="wall-tag"><a href="Article-Python">Python ({{ pythonArticleCount }})</a></div>
                 <div class="wall-tag"><a href="Article-Software">Software ({{ softwareArticleCount }})</a></div>
                 <div class="wall-tag"><a href="Article-Chat">雜談 ({{ chatArticleCount }})</a></div>
+                <div class="wall-tag"><a href="Article-Food">美食札記 ({{ foodArticleCount }})</a></div>
             </section>
 
             <section class="wall-project">
@@ -440,6 +441,17 @@ export default {
             chatArticleCount.value = Countchat.length;
             sharedData.chatArticleCount = chatArticleCount.value;
         };
+
+        // 算 美食札記 文章
+        const foodArticleCount = ref(0);
+        onMounted(() => {
+            CountfoodArticle();
+        });
+        const CountfoodArticle = () => {
+            const Countfood = document.querySelectorAll(".FOOD");
+            foodArticleCount.value = Countfood.length;
+            sharedData.foodArticleCount = foodArticleCount.value;
+        };
         
 
         // 用 computed 抓全局變數
@@ -454,6 +466,7 @@ export default {
         const Countpython = computed(() => sharedData.pythonArticleCount);
         const Countsoftware = computed(() => sharedData.softwareArticleCount);
         const Countchat = computed(() => sharedData.chatArticleCount);
+        const Countfood = computed(() => sharedData.foodArticleCount);
 
         // 天氣 api
         const weatherDatas = ref([]);
@@ -487,6 +500,7 @@ export default {
             pythonArticleCount: Countpython,
             softwareArticleCount: Countsoftware,
             chatArticleCount: Countchat,
+            foodArticleCount: Countfood,
             // 天氣 api
             weatherDatas,
             locationName,

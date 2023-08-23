@@ -113,6 +113,11 @@ const routes = [
         name: 'Article-Chat',
         component: () => import('../views/Article/Article-Chat.vue')
     },
+    {
+        path: '/Article-Food',
+        name: 'Article-Food',
+        component: () => import('../views/Article/Article-Food.vue')
+    },
 
     // 置頂 文章
     {
@@ -411,6 +416,13 @@ const routes = [
         path: '/Chat_ODM-vs-OEM-vs-OMM-vs-IEM',
         name: 'Chat_ODM-vs-OEM-vs-OMM-vs-IEM',
         component: () => import('../views/Article-Chat/Chat_ODM-vs-OEM-vs-OMM-vs-IEM.vue')
+    },
+
+    // 美食札記 文章
+    {
+        path: '/FOOD_A-RU',
+        name: 'FOOD_A-RU',
+        component: () => import('../views/Article-Food/FOOD_A-RU.vue')
     },
 ]
 
