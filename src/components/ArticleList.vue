@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL FOOD">
+        <div class="article-title">【美食札記】平祿壽司</div>
+    </section>
+
+    <section class="ALL FOOD">
         <div class="article-title">【美食札記】阿如早餐店</div>
     </section>
 

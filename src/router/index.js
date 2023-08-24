@@ -420,9 +420,14 @@ const routes = [
 
     // 美食札記 文章
     {
-        path: '/FOOD_A-RU',
-        name: 'FOOD_A-RU',
-        component: () => import('../views/Article-Food/FOOD_A-RU.vue')
+        path: '/FOOD_A-Ru',
+        name: 'FOOD_A-Ru',
+        component: () => import('../views/Article-Food/FOOD_A-Ru.vue')
+    },
+    {
+        path: '/FOOD_Ping-Lu-Sushi',
+        name: 'FOOD_Ping-Lu-Sushi',
+        component: () => import('../views/Article-Food/FOOD_Ping-Lu-Sushi.vue')
     },
 ]
 

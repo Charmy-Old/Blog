@@ -229,8 +229,9 @@
 
 
 .article-detail .article-picTxt p {
-    font-size: 15px;
+    font-size: 14px;
     justify-content: center;
+    text-align: center;
     margin: -0.75rem 0 2.5rem;
 }
 

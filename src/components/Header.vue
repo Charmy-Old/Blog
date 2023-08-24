@@ -560,7 +560,8 @@ import { ref, reactive, onMounted, computed } from "vue"
                 searchInput: "",
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "/Programming-Language" },
-                    { text: "【美食札記】阿如早餐店", url: "/FOOD_A-RU" },
+                    { text: "【美食札記】平祿壽司", url: "/FOOD_Ping-Lu-Sushi" },
+                    { text: "【美食札記】阿如早餐店", url: "/FOOD_A-Ru" },
                     { text: "【Pandas】Pandas DataFrame 處理雙維度資料方法", url: "/PY_Pandas-DataFrame" },
                     { text: "【Pandas】Pandas Series 處理單維度資料方法", url: "/PY_Pandas-Series" },
                     { text: "什麼是 遞迴(Recursion)？", url: "/Software_recursion" },
