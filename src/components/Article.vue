@@ -62,6 +62,23 @@
         </a>
     </section>
 
+    <section class="all chat">
+        <a href="Chat_GameTheory-introduce" class="article">
+            <div class="article-icon">
+                <i class="fa-solid fa-book-open-reader"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 賽局理論(Game Theory)？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Chat<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-25</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>賽局理論(Game Theory)最初是研究策略遊戲的學問，因此又稱為對策論或博弈論，是經濟學的一個分支。</p>
+                    <p>賽局理論是對決策者之間互動的分析。與傳統代表性決策者分析方式最大的不同之處，是在於將每位決策者對其他決策者行為的知識與預期納入分析架構。當我們極大化己方的報酬時，對手也正在極大化他的報酬。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all food">
         <a href="FOOD_Ping-Lu-Sushi" class="article">
             <div class="article-icon">

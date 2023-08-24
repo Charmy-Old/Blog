@@ -560,6 +560,7 @@ import { ref, reactive, onMounted, computed } from "vue"
                 searchInput: "",
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "/Programming-Language" },
+                    { text: "什麼是 賽局理論(Game Theory)？", url: "Chat_GameTheory-introduce" },
                     { text: "【美食札記】平祿壽司", url: "/FOOD_Ping-Lu-Sushi" },
                     { text: "【美食札記】阿如早餐店", url: "/FOOD_A-Ru" },
                     { text: "【Pandas】Pandas DataFrame 處理雙維度資料方法", url: "/PY_Pandas-DataFrame" },

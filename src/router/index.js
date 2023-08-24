@@ -417,6 +417,11 @@ const routes = [
         name: 'Chat_ODM-vs-OEM-vs-OBM-vs-IEM',
         component: () => import('../views/Article-Chat/Chat_ODM-vs-OEM-vs-OBM-vs-IEM.vue')
     },
+    {
+        path: '/Chat_GameTheory-introduce',
+        name: 'Chat_GameTheory-introduce',
+        component: () => import('../views/Article-Chat/Chat_GameTheory-introduce.vue')
+    },
 
     // 美食札記 文章
     {
