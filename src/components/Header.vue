@@ -566,7 +566,7 @@ import { ref, reactive, onMounted, computed } from "vue"
                     { text: "【Pandas】Pandas Series 處理單維度資料方法", url: "/PY_Pandas-Series" },
                     { text: "什麼是 遞迴(Recursion)？", url: "/Software_recursion" },
                     { text: "bind V.S. call V.S. apply", url: "/JS_bind-vs-call-vs-apply" },
-                    { text: "什麼是 ODM、OEM、OBM 和 IDM？", url: "/Chat_ODM-vs-OEM-vs-OMM-vs-IEM" },
+                    { text: "什麼是 ODM、OEM、OBM 和 IDM？", url: "/Chat_ODM-vs-OEM-vs-OBM-vs-IEM" },
                     { text: "什麼是 B2B、B2C、B2B2C 和 C2C？", url: "/Chat_B2B-vs-B2C-vs-B2B2C-vs-C2C" },
                     { text: "Git 常用指令", url: "/GIT_basic-instructions" },
                     { text: "什麼是 WebSocket？", url: "/WEB_WebSocket-introduce" },

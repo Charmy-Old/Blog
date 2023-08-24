@@ -15,7 +15,7 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                <a href="Chat_ODM-vs-OEM-vs-OMM-vs-IEM" class="article">
+                <a href="Chat_ODM-vs-OEM-vs-OBM-vs-IEM" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-book-open-reader"></i>
                     </div>

@@ -180,7 +180,7 @@
     </section>
 
     <section class="all chat">
-        <a href="Chat_ODM-vs-OEM-vs-OMM-vs-IEM" class="article">
+        <a href="Chat_ODM-vs-OEM-vs-OBM-vs-IEM" class="article">
             <div class="article-icon">
                 <i class="fa-solid fa-book-open-reader"></i>
             </div>

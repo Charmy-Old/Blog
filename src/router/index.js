@@ -413,9 +413,9 @@ const routes = [
         component: () => import('../views/Article-Chat/Chat_B2B-vs-B2C-vs-B2B2C-vs-C2C.vue')
     },
     {
-        path: '/Chat_ODM-vs-OEM-vs-OMM-vs-IEM',
-        name: 'Chat_ODM-vs-OEM-vs-OMM-vs-IEM',
-        component: () => import('../views/Article-Chat/Chat_ODM-vs-OEM-vs-OMM-vs-IEM.vue')
+        path: '/Chat_ODM-vs-OEM-vs-OBM-vs-IEM',
+        name: 'Chat_ODM-vs-OEM-vs-OBM-vs-IEM',
+        component: () => import('../views/Article-Chat/Chat_ODM-vs-OEM-vs-OBM-vs-IEM.vue')
     },
 
     // 美食札記 文章
