@@ -89,7 +89,7 @@
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p><i class="fa-regular fa-note-sticky"></i>店名：阿如早餐店</p>
                         <p><i class="fa-regular fa-note-sticky"></i>地址：台中市北區文祥街 49 號</p>
-                        <p><i class="fa-regular fa-note-sticky"></i>營業時間：7:00 ~ 14:00</p>
+                        <p><i class="fa-regular fa-note-sticky"></i>營業時間：07:00 ~ 14:00</p>
                         <p><i class="fa-regular fa-note-sticky"></i>訂餐專線：市話:04 2201 5169、中華電線:0933 537 866、台灣大哥大:0958 537 866</p>
                     </div>
                     <div class="article-map" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">

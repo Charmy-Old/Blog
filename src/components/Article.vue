@@ -62,6 +62,23 @@
         </a>
     </section>
 
+    <section class="all food">
+        <a href="FOOD_Gong-Yuan-Road-Da-Mian-Geng" class="article">
+            <div class="article-icon">
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">【美食札記】台中公園路大麵𥺧</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>美食札記<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-29</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>大麵羹(大麵𥺧)是臺中市獨有的特色小吃，因為有著獨特的鹹味和口感，所以算是評價兩極的食物，但對大多數老台中人來說，是相當親切的在地特色美食。</p>
+                    <p>位於台中公園路上的這間大麵羹，附近就是台中公園，也在一中商圈的外圍，是從小跟著老爸在台中「闖蕩」時會去光顧的愛店之一，連平日都會有著不少的客人，但是私心覺得衛生方面還有加強的空間。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all chat">
         <a href="Chat_GameTheory-introduce" class="article">
             <div class="article-icon">
