@@ -15,6 +15,23 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="FOOD_Yi-Zhong-Fan-Fan" class="article">
+                    <div class="article-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">【美食札記】飯飯 一中店</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>美食札記<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-29</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>飯飯是能夠滿足愛吃肉人的丼飯專家，一中店位於一中街水利大樓附近，走路約一分鐘就可以到達，不只好吃還有著超高的 CP 值，店內座位是吧檯式，能夠隨時看見做飯的區域，對客人也是一種保障，是非常推薦放入口袋名單的店家。</p>
+                            <p>店內的點餐方式是採用機器自助點餐，如果有問題店員也會親切提供協助，店門口也有螢幕顯示目前的叫號狀況。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="FOOD_Gong-Yuan-Road-Da-Mian-Geng" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-utensils"></i>

@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL FOOD">
+        <div class="article-title">【美食札記】飯飯 一中店</div>
+    </section>
+
+    <section class="ALL FOOD">
         <div class="article-title">【美食札記】台中公園路大麵𥺧</div>
     </section>
 

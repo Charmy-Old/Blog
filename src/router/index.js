@@ -439,6 +439,11 @@ const routes = [
         name: 'FOOD_Gong-Yuan-Road-Da-Mian-Geng',
         component: () => import('../views/Article-Food/FOOD_Gong-Yuan-Road-Da-Mian-Geng.vue')
     },
+    {
+        path: '/FOOD_Yi-Zhong-Fan-Fan',
+        name: 'FOOD_Yi-Zhong-Fan-Fan',
+        component: () => import('../views/Article-Food/FOOD_Yi-Zhong-Fan-Fan.vue')
+    },
 ]
 
 const router = createRouter({
