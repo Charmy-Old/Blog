@@ -4,6 +4,14 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL JS">
+         <div class="article-title">JavaScript 中陣列(Array)的遍歷方法</div>
+    </section>
+
+    <section class="ALL JS">
+        <div class="article-title">什麼是 迴圈、迭代、遍歷、遞迴？</div>
+    </section>
+
     <section class="ALL FOOD">
         <div class="article-title">【美食札記】飯飯 一中店</div>
     </section>

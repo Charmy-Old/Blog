@@ -38,7 +38,7 @@ expected output：[2, 8, 18, 32]
                     <div class="article-detailLine"></div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <h4>定義</h4>
-                        <p>針對每一個元素執行提供的函數(executes a provided function once for each array element)。除了拋出異常以外，沒有辦法中止或跳出 forEach() 循環。如果你需要中止或跳出循環，forEach() 方法不是應當使用的工具。</p>
+                        <p>針對每一個元素執行提供的函數(executes a provided function once for each array element)。除了拋出異常以外，沒有辦法中止或跳出 forEach() 迴圈。如果你需要中止或跳出迴圈，forEach() 方法不是應當使用的工具。</p>
                     </div>
                     <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
@@ -62,7 +62,7 @@ expected output：undefined
                     <div class="article-detailLine"></div>
                     <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
-                            <li><i class="fa-solid fa-check"></i>都是循環遍歷數組中的每一項</li>
+                            <li><i class="fa-solid fa-check"></i>都是迴圈遍歷數組中的每一項</li>
                             <li><i class="fa-solid fa-check"></i>每一次執行匿名函數都支持三個參數，數組中的當前項item，當前項的索引index，原始數組input</li>
                             <li><i class="fa-solid fa-check"></i>匿名函數中的this都是指window</li>
                             <li><i class="fa-solid fa-check"></i>只能遍歷數組</li>

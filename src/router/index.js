@@ -32,6 +32,11 @@ const routes = [
         component: () => import('../views/Home6.vue')
     },
     {
+        path: '/Home7',
+        name: 'Home7',
+        component: () => import('../views/Home7.vue')
+    },
+    {
         path: '/About',
         name: 'About',
         component: () => import('../views/About.vue')
@@ -324,6 +329,16 @@ const routes = [
         path: '/JS_bind-vs-call-vs-apply',
         name: 'JS_bind-vs-call-vs-apply',
         component: () => import('../views/Article-JavaScript/JS_bind-vs-call-vs-apply.vue')
+    },
+    {
+        path: '/JS_Loop-vs-Iteration-vs-Traversal-vs-Recursion',
+        name: 'JS_Loop-vs-Iteration-vs-Traversal-vs-Recursion',
+        component: () => import('../views/Article-JavaScript/JS_Loop-vs-Iteration-vs-Traversal-vs-Recursion.vue')
+    },
+    {
+        path: '/JS_traversal',
+        name: 'JS_traversal',
+        component: () => import('../views/Article-JavaScript/JS_traversal.vue')
     },
 
     // Vue 文章

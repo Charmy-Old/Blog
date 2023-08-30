@@ -15,6 +15,38 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="JS_traversal" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">JavaScript 中陣列(Array)的遍歷方法</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-31</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>遍歷是迭代的一種方式，專指逐一訪問資料集合中的每個元素，並對每個元素進行處理。遍歷通常用於對資料進行讀取、修改或分析等操作。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="JS_Loop-vs-Iteration-vs-Traversal-vs-Recursion" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 迴圈、迭代、遍歷、遞迴？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-31</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>在 JavaScript 中，迴圈(Loop)、迭代(Iteration)、遍歷(Traversal)、遞迴(Recursion)是處理資料和執行程式碼的不同方式。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_bind-vs-call-vs-apply" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>

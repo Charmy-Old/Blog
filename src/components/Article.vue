@@ -62,6 +62,38 @@
         </a>
     </section>
 
+    <section class="all javascript">
+        <a href="JS_traversal" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">JavaScript 中陣列(Array)的遍歷方法</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-31</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>遍歷是迭代的一種方式，專指逐一訪問資料集合中的每個元素，並對每個元素進行處理。遍歷通常用於對資料進行讀取、修改或分析等操作。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all javascript">
+        <a href="JS_Loop-vs-Iteration-vs-Traversal-vs-Recursion" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 迴圈、迭代、遍歷、遞迴？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-31</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>在 JavaScript 中，迴圈(Loop)、迭代(Iteration)、遍歷(Traversal)、遞迴(Recursion)是處理資料和執行程式碼的不同方式。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all food">
         <a href="FOOD_Yi-Zhong-Fan-Fan" class="article">
             <div class="article-icon">
@@ -208,7 +240,7 @@
                 <div class="article-tag"><i class="fa-solid fa-tag"></i>Software<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-22</div>
                 <div class="article-underline"></div>
                 <div class="article-content">
-                    <p>遞迴又稱遞歸，是一種在程式設計中常見的概念與技巧，指的是一個函式在其定義中使用自己本身的方法，用來解決需要重複執行相似任務的問題。也就是說，一個遞迴函式在解決問題時，會將大問題分解為一個或多個類似但規模較小的子問題，然後遞迴地呼叫自己來處理這些子問題，直到某個停止條件，稱為「基案」(Base Case)，遞迴才會停止，最終這些子問題的解決方案會被合併，得到原始問題的解。遞迴可以使程式碼更簡潔、易讀，但也需要小心處理，以避免無限循環造成程式崩潰。</p>
+                    <p>遞迴又稱遞歸，是一種在程式設計中常見的概念與技巧，指的是一個函式在其定義中使用自己本身的方法，用來解決需要重複執行相似任務的問題。也就是說，一個遞迴函式在解決問題時，會將大問題分解為一個或多個類似但規模較小的子問題，然後遞迴地呼叫自己來處理這些子問題，直到某個停止條件，稱為「基案」(Base Case)，遞迴才會停止，最終這些子問題的解決方案會被合併，得到原始問題的解。遞迴可以使程式碼更簡潔、易讀，但也需要小心處理，以避免無限迴圈造成程式崩潰。</p>
                 </div>
             </div>
         </a>
