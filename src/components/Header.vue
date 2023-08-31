@@ -560,6 +560,8 @@ import { ref, reactive, onMounted, computed } from "vue"
                 searchInput: "",
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "/Programming-Language" },
+                    { text: "JavaScript 的 indexOf()", url: "JS_indexOf" },
+                    { text: "JavaScript 的模板字串插值(Template String Interpolation)", url: "JS_TemplateStringInterpolation" },
                     { text: "JavaScript 中陣列(Array)的遍歷方法", url: "JS_traversal" },
                     { text: "什麼是 迴圈、迭代、遍歷、遞迴？", url: "JS_Loop-vs-Iteration-vs-Traversal-vs-Recursion" },
                     { text: "【美食札記】飯飯 一中店", url: "FOOD_Yi-Zhong-Fan-Fan" },

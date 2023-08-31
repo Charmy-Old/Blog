@@ -5,7 +5,7 @@
 
             <section>
                 <div class="article-heading">
-                    <h2 class="article-heading">JavaScript 的正規表達式 (Regular Expression)</h2>
+                    <h2 class="article-heading">JavaScript 的正規表達式(Regular Expression)</h2>
                     <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-09</p>
                 </div>
             </section>

@@ -15,6 +15,39 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="JS_indexOf" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">JavaScript 的 indexOf()</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-09-01</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>在 JavaScript 中，indexOf是一個用於字串或陣列的方法，用於尋找特定元素在該字串或陣列中的位置索引。如果該元素存在於字串或陣列中，則 indexOf() 會返回該元素的第一個出現的索引位置；如果該元素不存在，則返回 -1。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="JS_TemplateStringInterpolation" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">JavaScript 的模板字串插值(Template String Interpolation)</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-09-01</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>在 JavaScript 中，${} 是一種稱為「模板字串插值」(Template String Interpolation)的語法，可以在字串中插入變數或運算式的值，不需要使用傳統的字串串接方法。</p>
+                            <p>${} 可以想像成是一個特殊的區塊，用來包裹想要插入的變數或表達式。當 JavaScript 處理這些模板字串時，會將 ${} 內的內容解析並替換為實際的值。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_traversal" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>

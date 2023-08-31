@@ -340,6 +340,16 @@ const routes = [
         name: 'JS_traversal',
         component: () => import('../views/Article-JavaScript/JS_traversal.vue')
     },
+    {
+        path: '/JS_TemplateStringInterpolation',
+        name: 'JS_TemplateStringInterpolation',
+        component: () => import('../views/Article-JavaScript/JS_TemplateStringInterpolation.vue')
+    },
+    {
+        path: '/JS_indexOf',
+        name: 'JS_indexOf',
+        component: () => import('../views/Article-JavaScript/JS_indexOf.vue')
+    },
 
     // Vue 文章
     {

@@ -5,6 +5,14 @@
     </section>
 
     <section class="ALL JS">
+        <div class="article-title">JavaScript 的 indexOf()</div>
+    </section>
+
+    <section class="ALL JS">
+        <div class="article-title">JavaScript 的模板字串插值(Template String Interpolation)</div>
+    </section>
+
+    <section class="ALL JS">
          <div class="article-title">JavaScript 中陣列(Array)的遍歷方法</div>
     </section>
 
