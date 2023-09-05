@@ -469,6 +469,11 @@ const routes = [
         name: 'FOOD_Yi-Zhong-Fan-Fan',
         component: () => import('../views/Article-Food/FOOD_Yi-Zhong-Fan-Fan.vue')
     },
+    {
+        path: '/FOOD_12sukiyak',
+        name: 'FOOD_12sukiyak',
+        component: () => import('../views/Article-Food/FOOD_12sukiyak.vue')
+    },
 ]
 
 const router = createRouter({

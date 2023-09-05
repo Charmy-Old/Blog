@@ -15,6 +15,22 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="FOOD_12sukiyak" class="article">
+                    <div class="article-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">【美食札記】十二段鍋物堂</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>美食札記<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-09-06</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>十二段太平店位於台中太平的中山路上，是北太平的精華路段之一，鄰近 74 號快速道路，附近也有 Starbucks、郵局、Adidas等，也是勤益科大學生前往一中街的主要幹道之一，但距離勤益科大還是有點距離，騎車開車會比較方便。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="FOOD_Yi-Zhong-Fan-Fan" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-utensils"></i>
