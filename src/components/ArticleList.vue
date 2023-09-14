@@ -5,6 +5,10 @@
     </section>
 
     <section class="ALL FOOD">
+        <div class="article-title">【美食札記】八庵壽司割烹</div>
+    </section>
+
+    <section class="ALL FOOD">
         <div class="article-title">【美食札記】十二段鍋物堂</div>
     </section>
 

@@ -82,7 +82,6 @@
                         <div class="reference-underline"></div>
                         <div class="reference-link"><a href="https://analytics.google.com/analytics/web/#/p402024888/reports/intelligenthome" target="_blank"> Analytics (分析)</a></div>
                         <div class="reference-link"><a href="https://www.figma.com/" target="_blank">Figma</a></div>
-                        <div class="reference-link"><a href="https://www.figma.com/" target="_blank">Figma</a></div>
                         <div class="reference-link"><a href="https://www.aconvert.com/tw/image/png-to-webp/" target="_blank">PNG轉WEBP - 在線轉換圖像文件</a></div>
                         <div class="reference-link"><a href="https://animatedbackgrounds.me/" target="_blank">Animated Backgrounds</a></div>
                         <div class="reference-link"><a href="https://stableboost.ai/" target="_blank">STABLE BOOST</a></div>

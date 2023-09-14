@@ -15,6 +15,23 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="FOOD_Ba-An-Sushi" class="article">
+                    <div class="article-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">【美食札記】八庵壽司割烹</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>美食札記<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-09-15</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>來新竹工作後，為了趕快上手工作就一直沒有機會好好平常新竹的美食，這次是在因緣際會下收到之前台積電員工的吃飯邀請才知道這間店的，聽說也是他在新竹的日式料理愛店！</p>
+                            <p>聽說八庵壽司割烹在新竹有著相當不錯的口碑，老闆聽說之前是日本料理師傅出身的，目前在新竹好像有三間分店。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="FOOD_12sukiyak" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-utensils"></i>

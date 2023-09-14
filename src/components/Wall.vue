@@ -243,9 +243,10 @@
                 </div>
             </section>
             <section class="resumeIntroduce">
-                <p>中原大學土木工程學系畢業</p>
+                <p>中原大學土木系畢業</p>
                 <p>緯育 TiBaMe 前端工程師就業養成班結業</p>
                 <p>前端、表演、穿搭、美食</p>
+                <p>現職華苓科技 Vue 前端工程師</p>
             </section>
         </div>
 
