@@ -479,6 +479,11 @@ const routes = [
         name: 'FOOD_Ba-An-Sushi',
         component: () => import('../views/Article-Food/FOOD_Ba-An-Sushi.vue')
     },
+    {
+        path: '/FOOD_SHIMADZU-Curry',
+        name: 'FOOD_SHIMADZU-Curry',
+        component: () => import('../views/Article-Food/FOOD_SHIMADZU-Curry.vue')
+    },
 ]
 
 const router = createRouter({
