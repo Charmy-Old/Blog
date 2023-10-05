@@ -15,6 +15,23 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="FOOD_SHIMADZU-Curry" class="article">
+                    <div class="article-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">【美食札記】島津和牛咖哩</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>美食札記<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-10-05</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>這次要分享的是位於新竹東區的島津日式咖哩，是在新竹非常有名的道地日本咖哩定食，不只有竹製燈籠跟日式拉門，店內採木質調為主的設計也多了更多的日系氛圍。</p>
+                            <p>招牌咖哩醬經過十數種辛香料熬煮後再經過 48 小時熟成。經過熟成的咖哩醬口感滑順又有層次，尾韻帶點辛口，實在很有魅力，一入口就能感受到濃厚的咖哩滋味，此外米飯是產地低溫直送的北海道夢美人米，搭配肉質細膩的日本和牛跟 Q 彈口感的澳洲和牛非常加分，內用的話飯跟咖哩可以各加一次，雞湯也可以無限續碗。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="FOOD_Ba-An-Sushi" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-utensils"></i>

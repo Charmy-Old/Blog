@@ -560,6 +560,7 @@ import { ref, reactive, onMounted, computed } from "vue"
                 searchInput: "",
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "/Programming-Language" },
+                    { text: "【美食札記】島津和牛咖哩", url: "FOOD_SHIMADZU-Curry" },
                     { text: "【美食札記】八庵壽司割烹", url: "FOOD_Ba-An-Sushi" },
                     { text: "【美食札記】十二段鍋物堂", url: "FOOD_12sukiyak" },
                     { text: "JavaScript 的 indexOf()", url: "JS_indexOf" },
