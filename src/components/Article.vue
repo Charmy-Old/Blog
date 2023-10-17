@@ -62,6 +62,23 @@
         </a>
     </section>
 
+    <section class="all javascript">
+        <a href="JS_Axios-Interceptors" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">Axios 攔截器(Axios Interceptors)</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-10-17</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>Axios 實體是透過封裝 `XMLHttpRequest` 、 `HttpModule` 來進行實作，這些方式都是一些原生的類別，所以您可以理解成在兼容性不會有其他阿咂的問題。</p>
+                    <p>Axios 是 Ajax 其中一個方式，在流程不外乎就是 包裝請求 (建立 Request) → 伺服器回傳相應資訊 (回傳 Response)，所以在建立 Request 的過程中需要進行相應的設定來告知 Axios 該怎麼組成請求，並針對請求回傳 Promise，在使用上可以透過 then/catch/finally 來獲取請求完成狀態，相較 XMLHttpRequest 在使用上來的更加精簡，當然因為是 Promise 物件所以可以透過 async/await 進行同步等待。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all food">
         <a href="FOOD_SHIMADZU-Curry" class="article">
             <div class="article-icon">

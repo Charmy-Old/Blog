@@ -350,6 +350,11 @@ const routes = [
         name: 'JS_indexOf',
         component: () => import('../views/Article-JavaScript/JS_indexOf.vue')
     },
+    {
+        path: '/JS_Axios-Interceptors',
+        name: 'JS_Axios-Interceptors',
+        component: () => import('../views/Article-JavaScript/JS_Axios-Interceptors.vue')
+    },
 
     // Vue 文章
     {
