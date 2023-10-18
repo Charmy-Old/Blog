@@ -489,6 +489,11 @@ const routes = [
         name: 'FOOD_SHIMADZU-Curry',
         component: () => import('../views/Article-Food/FOOD_SHIMADZU-Curry.vue')
     },
+    {
+        path: '/FOOD_SOFT-EGG',
+        name: 'FOOD_SOFT-EGG',
+        component: () => import('../views/Article-Food/FOOD_SOFT-EGG.vue')
+    },
 ]
 
 const router = createRouter({
