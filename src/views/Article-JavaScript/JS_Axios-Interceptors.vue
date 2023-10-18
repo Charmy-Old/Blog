@@ -35,7 +35,12 @@
                         </ol>
                     </div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p><i class="fa-regular fa-note-sticky"></i>Axios CDN：https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js</p>
+                        <p><i class="fa-regular fa-note-sticky"></i>Axios CDN：</p>
+                    </div>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
+&lt;script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js">
+</pre>
                     </div>
                 </div>
             </section>

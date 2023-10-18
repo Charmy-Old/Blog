@@ -15,6 +15,23 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="FOOD_SOFT-EGG" class="article">
+                    <div class="article-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">【美食札記】軟蛋醬 蛋包飯專門製作所</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>美食札記<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-10-18</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>這次要介紹的是我在新竹非常喜歡的美食，軟蛋醬 蛋包飯專門製作所，是竹科附近很受歡迎的店家，只會在平日營業，除了是下班晚餐的優質選擇外，也是許多上班族午餐的口袋名單之一。</p>
+                            <p>這裡使用多種最到地的特殊口味，堅持使用台灣當天現宰溫體舒肥雞，這裡的招牌餐點是使用舒肥肌肉的蛋包飯，蛋包飯的蛋皮吃起來滑嫩好入口，舒肥雞吃起來也很嫩完全不乾柴，平日有機會可以到竹科金山街品嘗看看。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="FOOD_SHIMADZU-Curry" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-utensils"></i>
