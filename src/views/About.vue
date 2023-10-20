@@ -75,7 +75,7 @@
                     <!-- 雲端數位 -->
                     <div class="about-job">
                         <div class="about-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                            <h4>前端工程師助理</h4>
+                            <h4>前端工程師</h4>
                             <h5>雲端數位科技有限公司（網際網路相關業 30~100人）</h5>
                             <p class="about-jobDescribe">Internet程式設計師<span>｜</span>正職<span>｜</span>台中市北屯區</p>
                             <p class="about-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2023/02/15~2023/08/14 六個月</span></p>
