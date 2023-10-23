@@ -145,14 +145,15 @@
         transition: all .3s linear;
     }
 
-    .wall-article-project {
+    .wall-typeSetting {
         width: 100%;
         display: flex;
         justify-content: space-between;
     }
 
     .wall-article, .wall-project {
-        width: 49%;
+        /* width: 49%; */
+        width: 100%;
     }
 }
 
@@ -185,7 +186,7 @@
 }
 
 @media (max-width: 500px) {
-    .wall-article-project {
+    .wall-typeSetting {
         display: block;
     }
 
@@ -275,22 +276,22 @@
             </div>
         </section>
 
-        <div class="wall-article-project">
-            <section class="wall-article">
-                <div class="wall-tag"><a href="Article"><i class="fa-solid fa-tag"></i>All Tags ({{ allArticleCount }})</a></div>
-                <div class="wall-tag"><a href="Article-Git">Git ({{ gitArticleCount }})</a></div>
-                <div class="wall-tag"><a href="Article-Web">Web ({{ webArticleCount }})</a></div>
-                <div class="wall-tag"><a href="Article-HTML">HTML ({{ htmlArticleCount }})</a></div>
-                <div class="wall-tag"><a href="Article-CSS">CSS ({{ cssArticleCount }})</a></div>
-                <div class="wall-tag"><a href="Article-JavaScript">JavaScript ({{ jsArticleCount }})</a></div>
-                <div class="wall-tag"><a href="Article-Vue">Vue ({{ vueArticleCount }})</a></div>
-                <div class="wall-tag"><a href="Article-Database">Database ({{ databaseArticleCount }})</a></div>
-                <div class="wall-tag"><a href="Article-Python">Python ({{ pythonArticleCount }})</a></div>
-                <div class="wall-tag"><a href="Article-Software">Software ({{ softwareArticleCount }})</a></div>
-                <div class="wall-tag"><a href="Article-Chat">雜談 ({{ chatArticleCount }})</a></div>
-                <div class="wall-tag"><a href="Article-Food">美食札記 ({{ foodArticleCount }})</a></div>
-            </section>
+        <section class="wall-article">
+            <div class="wall-tag"><a href="Article"><i class="fa-solid fa-tag"></i>All Tags ({{ allArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article-Git">Git ({{ gitArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article-Web">Web ({{ webArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article-HTML">HTML ({{ htmlArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article-CSS">CSS ({{ cssArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article-JavaScript">JavaScript ({{ jsArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article-Vue">Vue ({{ vueArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article-Database">Database ({{ databaseArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article-Python">Python ({{ pythonArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article-Software">Software ({{ softwareArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article-Chat">雜談 ({{ chatArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article-Food">美食札記 ({{ foodArticleCount }})</a></div>
+        </section>
 
+        <div class="wall-typeSetting">
             <section class="wall-project">
                 <div class="wall-tag"><a href="Side-Project"><i class="fa-solid fa-tag"></i>最新作品</a></div>
                 <div class="wall-tag"><a href="https://pangolin-clothing.onrender.com/">Pangolin Clothing</a></div>
@@ -299,22 +300,21 @@
                 <div class="wall-tag"><a href="https://tibamef2e.com/cgd103/g1/">緯育團體專題</a></div>
                 <div class="wall-tag"><a href="https://charmying.github.io/Pangolin-Phonecase/">緯育個人專題</a></div>
             </section>
+            <section class="wall-project">
+                <div class="wall-tag"><i class="fa-solid fa-tag"></i>CodePen</div>
+                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/WNYyeOv" target="_blank">JS for迴圈九九乘法</a></div>
+                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/mdQMbZQ" target="_blank">限制內容字寬行數</a></div>
+                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/yLQBLMw" target="_blank">Engineering Calculator</a></div>
+                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/RwBeNRz" target="_blank">Todo List LocalStorage</a></div>
+            </section>
         </div>
         
-        <section class="wall-project">
-            <div class="wall-tag"><i class="fa-solid fa-tag"></i>CodePen</div>
-            <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/WNYyeOv" target="_blank">JS for迴圈九九乘法</a></div>
-            <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/mdQMbZQ" target="_blank">限制內容字寬行數</a></div>
-            <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/yLQBLMw" target="_blank">Engineering Calculator</a></div>
-            <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/RwBeNRz" target="_blank">Todo List LocalStorage</a></div>
-        </section>
-
     </div>
 </template>
 <script>
 import sharedData from "@/assets/js/sharedData";
 import ArticleList from "@/components/ArticleList.vue";
-import { defineComponent, ref, reactive, onMounted, computed } from "vue";
+import { ref, onMounted, computed } from "vue";
 export default {
     components: {
         ArticleList,

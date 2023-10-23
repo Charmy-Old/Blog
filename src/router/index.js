@@ -419,9 +419,9 @@ const routes = [
         component: () => import('../views/Article-CODE/CODE_BOM-vs-DOM.vue')
     },
     {
-        path: '/CODE_props',
-        name: 'CODE_props',
-        component: () => import('../views/Article-CODE/CODE_props.vue')
+        path: '/VUE_props',
+        name: 'VUE_props',
+        component: () => import('../views/Article-Vue/VUE_props.vue')
     },
 
     // Software 文章

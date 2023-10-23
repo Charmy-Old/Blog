@@ -125,7 +125,7 @@
         <div class="article-title">什麼是 Proxy？</div>
     </section>
 
-    <section class="ALL JS VUE">
+    <section class="ALL VUE">
         <div class="article-title">什麼是 props？</div>
     </section>
 

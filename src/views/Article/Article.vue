@@ -2,7 +2,6 @@
     <Header />
     <div class="content">
         <main>
-            
             <section>
                 <div class="container text-center">
                     <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5">
@@ -29,10 +28,6 @@
                         <div>
                             <button class="select-button" data-filter="python">Python</button>
                         </div>
-
-                        <div>
-                            <button class="select-button" data-filter="software">Software</button>
-                        </div>
                     
                         <div>
                             <button class="select-button" data-filter="others">Others</button>
@@ -48,7 +43,6 @@
                     </div>
                 </div>
             </section>
-
             <Article />
         </main>
         <Wall />

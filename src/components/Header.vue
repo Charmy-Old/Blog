@@ -586,7 +586,7 @@ import { ref, reactive, onMounted, computed } from "vue"
                     { text: "JavaScript 的正規表達式 (Regular Expression)", url: "/JS_RegularExpression" },
                     { text: "什麼是 CORS？", url: "/WEB_CORS-introduce" },
                     { text: "什麼是 Proxy？", url: "/WEB_Proxy-introduce" },
-                    { text: "什麼是 props？", url: "/CODE_props" },
+                    { text: "什麼是 props？", url: "/VUE_props" },
                     { text: "undefined V.S. undeclared V.S. null", url: "/JS_undefined-vs-undeclared-vs-null" },
                     { text: "setAttribute V.S. getAttribute", url: "/JS_setAttribute-vs-getAttribute" },
                     { text: "setTimeout V.S. setInterval", url: "/JS_setTimeout-vs-setInterval" },
