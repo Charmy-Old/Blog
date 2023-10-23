@@ -266,3 +266,13 @@
         font-size: 16px;
     }
 }
+
+.article-shop-intro {
+    margin: 0 0 2.5rem;
+}
+
+.article-shop-intro p {
+    color: #666666;
+    display: flex;
+    justify-content: center;
+}

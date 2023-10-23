@@ -494,6 +494,11 @@ const routes = [
         name: 'FOOD_SOFT-EGG',
         component: () => import('../views/Article-Food/FOOD_SOFT-EGG.vue')
     },
+    {
+        path: '/FOOD_Tai-Chu',
+        name: 'FOOD_Tai-Chu',
+        component: () => import('../views/Article-Food/FOOD_Tai-Chu.vue')
+    },
 ]
 
 const router = createRouter({

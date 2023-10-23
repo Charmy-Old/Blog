@@ -15,6 +15,23 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="FOOD_Tai-Chu" class="article">
+                    <div class="article-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">【美食札記】太初 麵食りようり</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>美食札記<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-10-23</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>太初麵食是輕井澤集團下的一個品牌，坐落在台中美食重鎮區的公益路，最一開始跟朋友去吃的時候，想說竟然會有麵店在消費相對高的公益路上，該不會是很貴的麵店吧，沒想到看到菜單會是對公益路來說意想不到的平價。</p>
+                            <p>最近一次吃是在下午兩點左右，還要排 11 組客人，等了大約 20 分鐘，之前也有在用餐尖峰時刻現場排隊，直接等了 40 多分鐘，建議確定有要吃的話可以直接電話或線上訂位。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="FOOD_SOFT-EGG" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-utensils"></i>
