@@ -33,8 +33,8 @@
                             </div>
                             <div class="article-underline"></div>
                             <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                                <p>Vue-CLI 進行BLOG撰寫，其中使用Vue composition api方式撰寫，部屬至GitHub後使用render取得網址。</p>
-                                <p>除了自我介紹，會整理一些前端文章等等，並持續思考該如何使網站更加豐富</p>
+                                <p>Vue-CLI 進行 BLOG 撰寫，其中使用Vue composition api方式撰寫，部屬至GitHub後使用render取得網址。</p>
+                                <p>除了自我介紹外，也有放入 Code Pen 連結，並增加天氣查詢功能以及體重 local storage 記錄功能，除此之外還會整理一些前端文章等等，並持續思考該如何使網站更加豐富。</p>
                             </div>
                             <div class="sideProject-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://github.com/Charmying/blog" target="_blank">GitHub</a>

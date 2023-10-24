@@ -250,32 +250,6 @@
             </section>
         </div>
 
-        <section class="wall-wtRecord">
-            <a href="Weight-Record">
-                體重追蹤紀錄
-            </a>
-        </section>
-
-        <!-- <div class="wall-weather-search"> -->
-        <section class="wall-weather">
-            <div v-cloak>
-                <h2>天氣查詢</h2>
-                <select class="select-area" v-model="locationName">
-                    <option value="" selected disabled>選擇區域</option>
-                    <option v-for="weatherData of weatherDatas" :key="weatherData.locationName" :value="weatherData.locationName">
-                        {{ weatherData.locationName }}
-                    </option>
-                </select>
-                <div class="showWeather" v-for="weatherData of weatherDatas" :key="weatherData.locationName" v-show="locationName === weatherData.locationName">
-                    <!-- <p>{{ locationName }}</p> -->
-                    <p>天氣狀況：{{ weatherData.weatherElement[0].time[0].parameter.parameterName }}</p>
-                    <p>最高溫度：{{ weatherData.weatherElement[4].time[0].parameter.parameterName }} ℃</p>
-                    <p>最低溫度：{{ weatherData.weatherElement[2].time[0].parameter.parameterName }} ℃</p>
-                    <p>降雨機率：{{ weatherData.weatherElement[1].time[0].parameter.parameterName }} ％</p>
-                </div>
-            </div>
-        </section>
-
         <section class="wall-article">
             <div class="wall-tag"><a href="Article"><i class="fa-solid fa-tag"></i>All Tags ({{ allArticleCount }})</a></div>
             <div class="wall-tag"><a href="Article-Git">Git ({{ gitArticleCount }})</a></div>
@@ -302,12 +276,39 @@
             </section>
             <section class="wall-project">
                 <div class="wall-tag"><i class="fa-solid fa-tag"></i>CodePen</div>
+                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/qBgEyMQ" target="_blank">會員登入 顯示密碼</a></div>
                 <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/WNYyeOv" target="_blank">JS for迴圈九九乘法</a></div>
                 <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/mdQMbZQ" target="_blank">限制內容字寬行數</a></div>
                 <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/yLQBLMw" target="_blank">Engineering Calculator</a></div>
                 <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/RwBeNRz" target="_blank">Todo List LocalStorage</a></div>
             </section>
         </div>
+
+        <section class="wall-wtRecord">
+            <a href="Weight-Record">
+                體重追蹤紀錄
+            </a>
+        </section>
+
+        <!-- <div class="wall-weather-search"> -->
+        <section class="wall-weather">
+            <div v-cloak>
+                <h2>天氣查詢</h2>
+                <select class="select-area" v-model="locationName">
+                    <option value="" selected disabled>選擇區域</option>
+                    <option v-for="weatherData of weatherDatas" :key="weatherData.locationName" :value="weatherData.locationName">
+                        {{ weatherData.locationName }}
+                    </option>
+                </select>
+                <div class="showWeather" v-for="weatherData of weatherDatas" :key="weatherData.locationName" v-show="locationName === weatherData.locationName">
+                    <!-- <p>{{ locationName }}</p> -->
+                    <p>天氣狀況：{{ weatherData.weatherElement[0].time[0].parameter.parameterName }}</p>
+                    <p>最高溫度：{{ weatherData.weatherElement[4].time[0].parameter.parameterName }} ℃</p>
+                    <p>最低溫度：{{ weatherData.weatherElement[2].time[0].parameter.parameterName }} ℃</p>
+                    <p>降雨機率：{{ weatherData.weatherElement[1].time[0].parameter.parameterName }} ％</p>
+                </div>
+            </div>
+        </section>
         
     </div>
 </template>
