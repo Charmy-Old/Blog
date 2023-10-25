@@ -1,0 +1,112 @@
+.question-underline {
+    width: 0;
+    height: 2px;
+    margin: 0.75rem 0;
+    background-color: #222223;
+    transition: all 0.5s linear;
+}
+
+.question:hover .question-underline {
+    width: 100%;
+}
+
+.question {
+    font-weight: 900;
+}
+
+.question-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-title h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.question-title p {
+    align-self: flex-end;
+}
+
+.question-title p i {
+    margin: 0 0.75rem;
+}
+
+.question-block {
+    max-height: 24px;
+    overflow: hidden;
+    transition: all 0.5s linear;
+}
+
+.question-block-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    position: relative;
+}
+
+.question-block-title h3 {
+    width: 85%;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.question-block-title i {
+    align-self: center;
+    transition: all 0.5s linear;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+}
+
+.question-coding {
+    font-family: "Source Code Pro";
+    font-weight: 700;
+    /* color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 15px;
+    margin: 1.5rem 0;
+    padding: 0.25rem; */
+}
+
+.question-coding pre {
+    text-align: left;
+}
+
+.question-coding pre code {
+    line-height: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    .question-title {
+        display: block;
+    }
+    
+    .question-title h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .question-title p {
+        text-align: end;
+    }
+
+    .question-block h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .question-underline {
+        width: 100%;
+    }
+}
+
+.aaa {
+    max-height: fit-content;
+    transition: all 0.5s linear;
+}
+.zzz {
+    transform: rotate(180deg);
+    transition: all 0.5s linear;
+}
