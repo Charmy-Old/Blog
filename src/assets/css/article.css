@@ -4,19 +4,19 @@
 }
 
 .article-icon {
-    font-size: 72px;
-    width: 25%;
+    font-size: 48px;
+    width: 17.5%;
     text-align: center;
     align-self: center;
     transition: all 0.5s linear;
 }
 
 .article:hover .article-icon {
-    font-size: 96px;
+    font-size: 72px;
 }
 
 .article-text {
-    width: 70%;
+    width: 80%;
     margin: 1rem 0;
     transition: all 0.5s linear;
 }
@@ -26,11 +26,11 @@
 }
 
 .article-title {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .article-tag {
-    font-size: 15px;
+    font-size: 14px;
     color: #C0C0C0;
     display: flex;
     align-items: center;
@@ -138,9 +138,10 @@
 
 @media screen and (min-width: 500px) {
     .article-content {
-        min-height: 48px;
+        font-size: 15px;
+        min-height: 24px;
         display: -webkit-box;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;

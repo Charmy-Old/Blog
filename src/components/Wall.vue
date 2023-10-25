@@ -56,6 +56,7 @@
 }
 
 .wall-tag {
+    font-size: 15px;
     font-weight: 900;
     width: fit-content;
     text-align: center;
@@ -284,13 +285,6 @@
             </section>
         </div>
 
-        <section class="wall-wtRecord">
-            <a href="Weight-Record">
-                體重追蹤紀錄
-            </a>
-        </section>
-
-        <!-- <div class="wall-weather-search"> -->
         <section class="wall-weather">
             <div v-cloak>
                 <h2>天氣查詢</h2>
@@ -308,6 +302,12 @@
                     <p>降雨機率：{{ weatherData.weatherElement[1].time[0].parameter.parameterName }} ％</p>
                 </div>
             </div>
+        </section>
+
+        <section class="wall-wtRecord">
+            <a href="Weight-Record">
+                體重追蹤紀錄
+            </a>
         </section>
         
     </div>

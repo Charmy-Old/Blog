@@ -54,7 +54,7 @@
                         <span><i class="fa-solid fa-keyboard"></i>Figma</span>
                         <span><i class="fa-solid fa-keyboard"></i>Wirefrme 設計</span>
                         <span><i class="fa-solid fa-keyboard"></i>Mockup 設計</span>
-                        <span><i class="fa-solid fa-keyboard"></i>Rprototype 設計</span>
+                        <span><i class="fa-solid fa-keyboard"></i>Prototype 設計</span>
                     </p>
                     <div class="about-underline"></div>                    
                     <p class="about-expertiseTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">網站程式系統與資料庫</p>

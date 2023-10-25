@@ -523,7 +523,7 @@
         </a>
     </section>
 
-    <section class="all javascript vue">
+    <section class="all vue">
         <a href="VUE_props" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-vuejs"></i>
