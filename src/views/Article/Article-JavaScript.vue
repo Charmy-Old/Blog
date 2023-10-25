@@ -15,6 +15,22 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="JS_class" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 JavaScript 的 class？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-10-25</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>JavaScript 的類別(class)是在 ECMAScript 6 中引入，用來作為建立新物件的模板。class 能將程式碼封裝起來便於處理。 類別基於原型(prototype)，但在語法和定義上，與 ES5 的類類別(class-like)有所不同，可以使 JavaScript 的程式碼更加清晰、簡潔和可維護。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="JS_Axios-Interceptors" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>

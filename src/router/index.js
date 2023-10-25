@@ -37,6 +37,11 @@ const routes = [
         component: () => import('../views/Home7.vue')
     },
     {
+        path: '/Home8',
+        name: 'Home8',
+        component: () => import('../views/Home8.vue')
+    },
+    {
         path: '/About',
         name: 'About',
         component: () => import('../views/About.vue')
@@ -355,6 +360,11 @@ const routes = [
         name: 'JS_Axios-Interceptors',
         component: () => import('../views/Article-JavaScript/JS_Axios-Interceptors.vue')
     },
+    {
+        path: '/JS_class',
+        name: 'JS_class',
+        component: () => import('../views/Article-JavaScript/JS_class.vue')
+    },
 
     // Vue 文章
     {
@@ -376,6 +386,11 @@ const routes = [
         path: '/VUE_eventBus',
         name: 'VUE_eventBus',
         component: () => import('../views/Article-Vue/VUE_eventBus.vue')
+    },
+    {
+        path: '/VUE_props',
+        name: 'VUE_props',
+        component: () => import('../views/Article-Vue/VUE_props.vue')
     },
     
     // Database 文章
@@ -417,11 +432,6 @@ const routes = [
         path: '/CODE_BOM-vs-DOM',
         name: 'CODE_BOM-vs-DOM',
         component: () => import('../views/Article-CODE/CODE_BOM-vs-DOM.vue')
-    },
-    {
-        path: '/VUE_props',
-        name: 'VUE_props',
-        component: () => import('../views/Article-Vue/VUE_props.vue')
     },
 
     // Software 文章
