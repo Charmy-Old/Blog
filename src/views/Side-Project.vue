@@ -164,6 +164,9 @@
                             <div class="article-underline"></div>
                             <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>與組員從主題選擇開始到Wireframe及mockup繪製，因這次還會從後端PHP連接資料庫，所以先繪製ER model。</p>
+                                <p>若想直接體驗小遊戲可以在進入前台後登入體驗帳號</p>
+                                <p>帳號：charmy777</p>
+                                <p>密碼：charmy777</p>
                                 <p>負責項目：</p>
                                 <p>網站前台：會員登入、註冊、忘記密碼和無尾熊小遊戲</p>
                                 <p>網站後台：管理員的登入註冊。</p>
