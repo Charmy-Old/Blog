@@ -468,6 +468,11 @@ const routes = [
         name: 'Chat_GameTheory-introduce',
         component: () => import('../views/Article-Chat/Chat_GameTheory-introduce.vue')
     },
+    {
+        path: '/Chat_IoT-vs-AIoT',
+        name: 'Chat_IoT-vs-AIoT',
+        component: () => import('../views/Article-Chat/Chat_IoT-vs-AIoT.vue')
+    },
 
     // 美食札記 文章
     {

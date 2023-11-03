@@ -199,6 +199,7 @@
 .wall-wtRecord {
     border: none;
     margin: auto;
+    padding: 0;
     transition: all 0.5s linear;
 }
 
@@ -211,7 +212,7 @@
     width: 100%;
     display: block;
     text-align: center;
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 1.5rem;
     transition: all 0.5s linear;
 }
 

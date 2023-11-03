@@ -560,6 +560,7 @@ import { ref, reactive, onMounted, computed } from "vue"
                 searchInput: "",
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "Programming-Language" },
+                    { text: "什麼是 IoT(物聯網) 和 AIoT(人工智慧物聯網)？", url: "Chat_IoT-vs-AIoT" },
                     { text: "什麼是 JavaScript 的 class？", url: "JS_class" },
                     { text: "【美食札記】太初 麵食りようり", url: "FOOD_Tai-Chu" },
                     { text: "【美食札記】軟蛋醬 蛋包飯專門製作所", url: "FOOD_SOFT-EGG" },

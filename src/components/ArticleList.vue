@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL CHAT">
+        <div class="article-title">什麼是 IoT(物聯網) 和 AIoT(人工智慧物聯網)？</div>
+    </section>
+
     <section class="ALL JS">
         <div class="article-title">什麼是 JavaScript 的 class？</div>
     </section>

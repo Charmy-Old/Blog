@@ -15,6 +15,22 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="Chat_IoT-vs-AIoT" class="article">
+                    <div class="article-icon">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 IoT(物聯網) 和 AIoT(人工智慧物聯網)？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Chat<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-11-03</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>IoT 全名：Internet of Things，是指連接著各種裝置的集體網路和幫助裝置與雲端和裝置之間互相通訊的技術，這些裝置範圍涵蓋一般家庭物件到精密的工業工具。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="Chat_GameTheory-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-book-open-reader"></i>
