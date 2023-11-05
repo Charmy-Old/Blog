@@ -14,7 +14,7 @@
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>太初 麵食りようり</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-shop-intro" style="line-height: 0.5;" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                    <div class="article-shop-intro" style="text-align: center;" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>用一雙木筷蜷起，螫伏於麵食中的隱喻；</p>
                         <p>用一隻碗承接，潛沉在湯裡的圓滿。</p>
                         <p>執一抹味蕾，書寫四氣五味，閱覽食飲風華，</p>
@@ -35,7 +35,7 @@
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>太初麵食是輕井澤集團下的一個品牌，坐落在台中美食重鎮區的公益路，最一開始跟朋友去吃的時候，想說竟然會有麵店在消費相對高的公益路上，該不會是很貴的麵店吧，沒想到看到菜單會是對公益路來說意想不到的平價。</p>
                         <p>最近一次吃是在下午兩點左右，還要排 11 組客人，等了大約 20 分鐘，之前也有在用餐尖峰時刻現場排隊，直接等了 40 多分鐘，建議確定有要吃的話可以直接電話或線上訂位。</p>
-                        <a href="https://booking.menushop.tw/304a">太初麵食 線上訂位系統 →</a>
+                        <a href="https://booking.menushop.tw/304a" target="_blank">太初麵食 線上訂位系統 →</a>
                     </div>
                     <div class="article-pic" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <img src="../../assets/images/article-food/Tai-Chu/Tai-Chu-02.webp" alt="">

@@ -520,6 +520,16 @@ const routes = [
         name: 'FOOD_Tai-Chu',
         component: () => import('../views/Article-Food/FOOD_Tai-Chu.vue')
     },
+    {
+        path: '/FOOD_Mao-Ni-Brunch',
+        name: 'FOOD_Mao-Ni-Brunch',
+        component: () => import('../views/Article-Food/FOOD_Mao-Ni-Brunch.vue')
+    },
+    {
+        path: '/FOOD_La-Miette-Pizza&Kitchen',
+        name: 'FOOD_La-Miette-Pizza&Kitchen',
+        component: () => import('../views/Article-Food/FOOD_La-Miette-Pizza&Kitchen.vue')
+    },
 ]
 
 const router = createRouter({

@@ -12,7 +12,7 @@
 }
 
 .article:hover .article-icon {
-    font-size: 72px;
+    font-size: 64px;
 }
 
 .article-text {
@@ -64,10 +64,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .article-icon {
-        font-size: 72px;
-    }
-
     .article-title {
         font-size: 18px;
     }
@@ -82,7 +78,7 @@
     }
 
     .article:hover .article-icon {
-        font-size: 72px;
+        font-size: 32px;
     }
 
     .article-text {

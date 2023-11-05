@@ -21,7 +21,7 @@
                         <p>平祿壽司創立於西元 1967 年(昭和 42 年)的仙台，有著東日本最老牌迴轉壽司的稱號，在北海道和東北等地擁有 50 間分店，選擇進駐台灣的第一間店就選在台中市北區五權路上，不同於日本當地店面單獨使用壽司迴轉台，台灣分店展現傳統與現代的結合，另外加上智能送餐車搭配平板點餐，餐點的傳送更加迅速。</p>
                         <p>平祿壽司五權店位於台中的五權路上，鄰近中國醫藥大學、中友百貨等地標，平日晚上和假日的用餐時段抽號碼牌大約要等 40 分鐘起跳，是台中高人氣的迴轉壽司。</p>
                         <p>因為排隊人潮眾多，建議大家先線上訂位，但是之前想定位才發現要到下個月才有位子！</p>
-                        <a href="https://inline.app/booking/-Lpl2tJ_OoERaB7PpmVz:inline-live-1/-Lpl2tOPRFkfEt1VXHfb?language=zh-tw">平禄寿司 五權店 線上訂位系統 →</a>
+                        <a href="https://inline.app/booking/-Lpl2tJ_OoERaB7PpmVz:inline-live-1/-Lpl2tOPRFkfEt1VXHfb?language=zh-tw" target="_blank">平禄寿司 五權店 線上訂位系統 →</a>
                     </div>
                     <div class="article-pic" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <img src="../../assets/images/article-food/Ping-Lu-Sushi/Ping-Lu-Sushi-02.webp" alt="">

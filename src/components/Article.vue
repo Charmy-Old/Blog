@@ -58,6 +58,38 @@
         </a>
     </section>
 
+    <section class="all food">
+        <a href="FOOD_La-Miette-Pizza&Kitchen" class="article">
+            <div class="article-icon">
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">【美食札記】冪x2 La Miette Pizza&Kitchen</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>美食札記<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-11-06</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>冪x2 La Miette Pizza&Kitchen，隱身於新竹火車站附近的仁愛街，臨進新竹女中，店面有植物攀附作為裝飾使得招牌不太明顯。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all food">
+        <a href="FOOD_Mao-Ni-Brunch" class="article">
+            <div class="article-icon">
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">【美食札記】貓匿 MAONI Brunch｜早餐｜早午餐｜輕食｜下午茶｜咖啡茶飲</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>美食札記<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-11-06</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>一日之計在於晨，早餐要吃得像國王，這次這間早午餐是我高中同學特地打電話叫我起床推薦要一起去吃的，貓匿位於新竹竹科附近的金山街，是 2021 年底創立的早午餐品牌，是不少竹科人的愛店口袋名單之一，店家也非常貼心的在平日提早到 6:45 開始營業。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all chat">
         <a href="Chat_IoT-vs-AIoT" class="article">
             <div class="article-icon">
