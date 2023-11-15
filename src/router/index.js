@@ -66,11 +66,6 @@ const routes = [
         name: 'Weight-Record',
         component: () => import('../views/Weight-Record.vue')
     },
-    {
-        path: '/Question',
-        name: 'Question',
-        component: () => import('../views/Question.vue')
-    },
 
     {
         path: '/Article',
