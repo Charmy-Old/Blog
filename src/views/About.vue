@@ -15,7 +15,7 @@
                 <div class="about about-introduce" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>簡介</h3>
                     <div class="about-underline"></div>
-                    <p>我是曾韋翰，中原大學土木工程學系畢業。讀書時發現土木領域與興趣並不相符，在尋找興趣的過程中無意間在youtube上看見彭彭的python大數據的影片，進而慢慢接觸程式的領域。摸索過程中在udemy上接觸到JavaScript後對網頁前端產生興趣，進而參加緯育TiBaMe的前端工程師就業養成班並完成個人專題與團體專題後成功結業。</p>
+                    <p>您好，我是曾韋翰，因在 YouTube 上接觸到程式的影片進而對程式產生熱忱，所以在 udemy 上自學前端，在摸索過程中得知緯育 TiBaMe 教育機構後進而參加前端工程師就業養成班並成功結業。</p>
                 </div>
             </section>
             <!-- 學歷 -->
@@ -36,34 +36,34 @@
                     <p class="about-expertiseDetail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <span><i class="fa-solid fa-keyboard"></i>HTML5</span>
                         <span><i class="fa-solid fa-keyboard"></i>CSS3</span>
-                        <span><i class="fa-solid fa-keyboard"></i>CSS3動態特效</span>
+                        <span><i class="fa-solid fa-keyboard"></i>CSS3 Animation</span>
                         <span><i class="fa-solid fa-keyboard"></i>JavaScript</span>
-                        <span><i class="fa-solid fa-keyboard"></i>RWD行動網頁 (含Bootstrap)</span>
+                        <span><i class="fa-solid fa-keyboard"></i>RWD</span>
                         <span><i class="fa-solid fa-keyboard"></i>jQuery</span>
                         <span><i class="fa-solid fa-keyboard"></i>AJAX</span>
                         <span><i class="fa-solid fa-keyboard"></i>Web APIs</span>
                         <span><i class="fa-solid fa-keyboard"></i>Pug</span>
                         <span><i class="fa-solid fa-keyboard"></i>SCSS</span>
                         <span><i class="fa-solid fa-keyboard"></i>Webpack</span>
-                        <span><i class="fa-solid fa-keyboard"></i>Vue.js前端框架</span> 
+                        <span><i class="fa-solid fa-keyboard"></i>Vue.js</span> 
                     </p>
                     <div class="about-underline"></div>
                     <p class="about-expertiseTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">UI/UX 使用者介面設計</p>
                     <p class="about-expertiseDetail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <span><i class="fa-solid fa-keyboard"></i>UI/UX 設計</span>
+                        <span><i class="fa-solid fa-keyboard"></i>UI/UX</span>
                         <span><i class="fa-solid fa-keyboard"></i>Figma</span>
-                        <span><i class="fa-solid fa-keyboard"></i>Wirefrme 設計</span>
-                        <span><i class="fa-solid fa-keyboard"></i>Mockup 設計</span>
-                        <span><i class="fa-solid fa-keyboard"></i>Prototype 設計</span>
+                        <span><i class="fa-solid fa-keyboard"></i>Wirefrme</span>
+                        <span><i class="fa-solid fa-keyboard"></i>Mockup</span>
+                        <span><i class="fa-solid fa-keyboard"></i>Prototype</span>
                     </p>
                     <div class="about-underline"></div>                    
                     <p class="about-expertiseTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">網站程式系統與資料庫</p>
                     <p class="about-expertiseDetail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <span><i class="fa-solid fa-keyboard"></i>系統分析 (敏捷式開發)</span>
-                        <span><i class="fa-solid fa-keyboard"></i>PHP 程式設計</span>
-                        <span><i class="fa-solid fa-keyboard"></i>My SQL資料庫</span>
-                        <span><i class="fa-solid fa-keyboard"></i>Git 版本控制</span>
+                        <span><i class="fa-solid fa-keyboard"></i>PHP</span>
+                        <span><i class="fa-solid fa-keyboard"></i>My SQL</span>
+                        <span><i class="fa-solid fa-keyboard"></i>Git</span>
                         <span><i class="fa-solid fa-keyboard"></i>Sourcetree</span>
+                        <span><i class="fa-solid fa-keyboard"></i>系統分析(敏捷式開發)</span>
                     </p>
                 </div>
             </section>
