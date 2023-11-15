@@ -87,9 +87,9 @@ const intervalId = setInterval(function() {
 <pre>
 Interval message: 1   // 第 1 秒結束出現
 Interval message: 2   // 第 2 秒結束出現
-Interval message: 3   // 第 1 秒結束出現
-Interval message: 4   // 第 1 秒結束出現
-Interval message: 5   // 第 1 秒結束出現，計數達到 5 時停止
+Interval message: 3   // 第 3 秒結束出現
+Interval message: 4   // 第 4 秒結束出現
+Interval message: 5   // 第 5 秒結束出現，計數達到 5 時停止
 </pre>
                     </div>
                 </div>

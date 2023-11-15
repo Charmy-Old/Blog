@@ -114,7 +114,7 @@ console.log(history.getCurrentPage());   // Output: https://www.example.com/page
                     <h3>queue(佇列)</h3>
                     <div class="article-detailLine"></div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p>佇列是一種先進先出(First-In-First-Out，FIFO)的資料結構。這意味著最早加入佇列的元素將是第一個被移除的，就像排隊等候一樣。在 JavaScript 中，佇列常用於處理排隊任務，例如異步操作的管理。</p>
+                        <p>佇列是一種先進先出(First-In-First-Out，FIFO)的資料結構。這意味著最早加入佇列的元素將是第一個被移除的，就像排隊等候一樣。在 JavaScript 中，佇列常用於處理排隊任務，例如非同步操作的管理。</p>
                         <p>在佇列中，兩個主要操作是「入隊」(enqueue)和「出隊」(dequeue)：</p>
                     </div>
                     <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
