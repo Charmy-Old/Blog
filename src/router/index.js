@@ -215,6 +215,11 @@ const routes = [
         name: 'WEB_WebSocket-introduce',
         component: () => import('../views/Article-WEB/WEB_WebSocket-introduce.vue')
     },
+    {
+        path: '/WEB_CSR-vs-SSR',
+        name: 'WEB_CSR-vs-SSR',
+        component: () => import('../views/Article-WEB/WEB_CSR-vs-SSR.vue')
+    },
 
     // HTML 文章
     {

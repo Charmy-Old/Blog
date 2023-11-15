@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL WEB">
+        <div class="article-title">什麼是 CSR 、 SSR 和 Hydration？</div>
+    </section>
+
     <section class="ALL FOOD">
         <div class="article-title">【美食札記】冪x2 La Miette Pizza&Kitchen</div>
     </section>

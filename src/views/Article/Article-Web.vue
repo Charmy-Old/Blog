@@ -15,6 +15,22 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="WEB_CSR-vs-SSR" class="article">
+                    <div class="article-icon">
+                        <i class="fa-sharp fa-solid fa-desktop"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 CSR 、 SSR 和 Hydration？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-11-15</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>前端的 SSR(Server-Side Rendering)和 CSR(Client-Side Rendering)是兩種不同的渲染方式，它們分別發生在伺服器和客戶端。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_WebSocket-introduce" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
