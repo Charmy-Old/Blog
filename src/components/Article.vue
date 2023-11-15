@@ -59,7 +59,7 @@
     </section>
 
     <section class="all web">
-        <a href="WEB_CSR-vs-SSR" class="article">
+        <a href="WEB_CSR-vs-SSR-vs-Hydration" class="article">
             <div class="article-icon">
                 <i class="fa-sharp fa-solid fa-desktop"></i>
             </div>

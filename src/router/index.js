@@ -216,9 +216,9 @@ const routes = [
         component: () => import('../views/Article-WEB/WEB_WebSocket-introduce.vue')
     },
     {
-        path: '/WEB_CSR-vs-SSR',
-        name: 'WEB_CSR-vs-SSR',
-        component: () => import('../views/Article-WEB/WEB_CSR-vs-SSR.vue')
+        path: '/WEB_CSR-vs-SSR-vs-Hydration',
+        name: 'WEB_CSR-vs-SSR-vs-Hydration',
+        component: () => import('../views/Article-WEB/WEB_CSR-vs-SSR-vs-Hydration.vue')
     },
 
     // HTML 文章

@@ -15,7 +15,7 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                <a href="WEB_CSR-vs-SSR" class="article">
+                <a href="WEB_CSR-vs-SSR-vs-Hydration" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
                     </div>
