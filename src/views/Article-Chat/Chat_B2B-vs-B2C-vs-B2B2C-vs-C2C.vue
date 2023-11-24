@@ -65,9 +65,9 @@
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>差異</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-content">
-                          <p>上述 4 種電子商務經營模式中，其中以「B2B、B2C、B2B2C」3 種最為常見，以下用表格來簡介三者的差異</p>
-                      </div>
+                    <div class="article-txt">
+                        <p>上述 4 種電子商務經營模式中，其中以「B2B、B2C、B2B2C」3 種最為常見，以下用表格來簡介三者的差異</p>
+                    </div>
                     <div class="article-table" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <table>
                             <thead>

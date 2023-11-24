@@ -15,6 +15,22 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="Chat_ICs-Photolithography-vs-Etching-vs-Diffusion-vs-Deposition" class="article">
+                    <div class="article-icon">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 半導體的黃光、蝕刻、擴散和薄膜？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Chat<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-11-24</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>半導體製程是製造積體電路(Integrated Circuits，ICs)的過程，其中包括了一系列步驟，如黃光(Photolithography)、蝕刻(Etching)、擴散(Diffusion)、薄膜(Deposition)等。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="Chat_IoT-vs-AIoT" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-book-open-reader"></i>

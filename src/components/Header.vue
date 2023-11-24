@@ -560,6 +560,7 @@ import { ref, reactive, onMounted, computed } from "vue"
                 searchInput: "",
                 divContentList: [
                     { text: "【程式入門】該如何開始自學寫程式", url: "Programming-Language" },
+                    { text: "什麼是 半導體的黃光、蝕刻、擴散和薄膜？", url: "Chat_ICs-Photolithography-vs-Etching-vs-Diffusion-vs-Deposition" },
                     { text: "什麼是 CSR 、 SSR 和 Hydration？", url: "WEB_CSR-vs-SSR-vs-Hydration" },
                     { text: "【美食札記】冪x2 La Miette Pizza&Kitchen", url: "FOOD_La-Miette-Pizza&Kitchen" },
                     { text: "【美食札記】貓匿 MAONI Brunch｜早餐｜早午餐｜輕食｜下午茶｜咖啡茶飲", url: "FOOD_Mao-Ni-Brunch" },

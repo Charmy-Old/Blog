@@ -473,6 +473,11 @@ const routes = [
         name: 'Chat_IoT-vs-AIoT',
         component: () => import('../views/Article-Chat/Chat_IoT-vs-AIoT.vue')
     },
+    {
+        path: '/Chat_ICs-Photolithography-vs-Etching-vs-Diffusion-vs-Deposition',
+        name: 'Chat_ICs-Photolithography-vs-Etching-vs-Diffusion-vs-Deposition',
+        component: () => import('../views/Article-Chat/Chat_ICs-Photolithography-vs-Etching-vs-Diffusion-vs-Deposition.vue')
+    },
 
     // 美食札記 文章
     {
