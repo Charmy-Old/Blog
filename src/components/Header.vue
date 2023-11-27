@@ -1,5 +1,4 @@
 <style scoped>
-
     #header-menu-switch{
         display: none;
     }
@@ -117,6 +116,7 @@
         
         }
          */
+
         @keyframes hb-line-1 {
             0% {
                 top: 7px;
@@ -174,7 +174,8 @@
             }
         
         }
-         */
+        */
+
         @keyframes hb-line-2 {
             0% {
                 opacity: 1;
@@ -221,6 +222,7 @@
         #header-menu-switch:checked + .header .header-hb-line:nth-child(3) {
             animation: hb-line-3 1s 1s forwards;
         }
+
         /* @keyframes hb-line-3 {
             0% {
                 top: 31px;
@@ -235,6 +237,7 @@
                 transform: rotate(675deg);
             }
         } */
+
         @keyframes hb-line-3 {
             0% {
                 top: 31px;
@@ -462,6 +465,7 @@
         }
     }
 </style>
+
 <template>
     <header>
         <input type="checkbox" name="" id="header-menu-switch">
@@ -472,7 +476,6 @@
                 <span class="header-hb-line"></span>
                 <span class="header-hb-line"></span>
             </label>
-
             <!-- 選單 -->
             <div class="header-content">
                 <nav class="header-nav">
@@ -534,136 +537,121 @@
         </div>
     </header>
 </template>
-<script>
+
+<script setup>
 import { ref, reactive, onMounted, computed } from "vue"
-    export default {
-        setup() {
-            // Title 逐一呈現
-            const Title = ref("");
-            const showTitle = () => {
-                const originalText = "Charmying Blog";
-                let index = 0;
-                const intervalId = setInterval(() => {
-                    Title.value += originalText[index];
-                    index++;
-                    if (index === originalText.length) {
-                        clearInterval(intervalId);
-                    }
-                }, 250) // 控制每個字出現的時間間隔，單位為毫秒
-            }
-            onMounted(() => {
-                showTitle();
-            })
 
-            // 搜尋文章 for 迴圈跑全部文章
-            const state = reactive({
-                searchInput: "",
-                divContentList: [
-                    { text: "【程式入門】該如何開始自學寫程式", url: "Programming-Language" },
-                    { text: "什麼是 半導體的黃光、蝕刻、擴散和薄膜？", url: "Chat_ICs-Photolithography-vs-Etching-vs-Diffusion-vs-Deposition" },
-                    { text: "什麼是 CSR 、 SSR 和 Hydration？", url: "WEB_CSR-vs-SSR-vs-Hydration" },
-                    { text: "【美食札記】冪x2 La Miette Pizza&Kitchen", url: "FOOD_La-Miette-Pizza&Kitchen" },
-                    { text: "【美食札記】貓匿 MAONI Brunch｜早餐｜早午餐｜輕食｜下午茶｜咖啡茶飲", url: "FOOD_Mao-Ni-Brunch" },
-                    { text: "什麼是 IoT(物聯網) 和 AIoT(人工智慧物聯網)？", url: "Chat_IoT-vs-AIoT" },
-                    { text: "什麼是 JavaScript 的 class？", url: "JS_class" },
-                    { text: "【美食札記】太初 麵食りようり", url: "FOOD_Tai-Chu" },
-                    { text: "【美食札記】軟蛋醬 蛋包飯專門製作所", url: "FOOD_SOFT-EGG" },
-                    { text: "Axios 攔截器(Axios Interceptors)", url: "JS_Axios-Interceptors" },
-                    { text: "【美食札記】島津和牛咖哩", url: "FOOD_SHIMADZU-Curry" },
-                    { text: "【美食札記】八庵壽司割烹", url: "FOOD_Ba-An-Sushi" },
-                    { text: "【美食札記】十二段鍋物堂", url: "FOOD_12sukiyak" },
-                    { text: "JavaScript 的 indexOf()", url: "JS_indexOf" },
-                    { text: "JavaScript 的模板字串插值(Template String Interpolation)", url: "JS_TemplateStringInterpolation" },
-                    { text: "JavaScript 中陣列(Array)的遍歷方法", url: "JS_traversal" },
-                    { text: "什麼是 迴圈、迭代、遍歷、遞迴？", url: "JS_Loop-vs-Iteration-vs-Traversal-vs-Recursion" },
-                    { text: "【美食札記】飯飯 一中店", url: "FOOD_Yi-Zhong-Fan-Fan" },
-                    { text: "【美食札記】台中公園路大麵𥺧", url: "FOOD_Gong-Yuan-Road-Da-Mian-Geng" },
-                    { text: "什麼是 賽局理論(Game Theory)？", url: "Chat_GameTheory-introduce" },
-                    { text: "【美食札記】平祿壽司", url: "/FOOD_Ping-Lu-Sushi" },
-                    { text: "【美食札記】阿如早餐店", url: "/FOOD_A-Ru" },
-                    { text: "【Pandas】Pandas DataFrame 處理雙維度資料方法", url: "/PY_Pandas-DataFrame" },
-                    { text: "【Pandas】Pandas Series 處理單維度資料方法", url: "/PY_Pandas-Series" },
-                    { text: "什麼是 遞迴(Recursion)？", url: "/Software_recursion" },
-                    { text: "bind V.S. call V.S. apply", url: "/JS_bind-vs-call-vs-apply" },
-                    { text: "什麼是 ODM、OEM、OBM 和 IDM？", url: "/Chat_ODM-vs-OEM-vs-OBM-vs-IEM" },
-                    { text: "什麼是 B2B、B2C、B2B2C 和 C2C？", url: "/Chat_B2B-vs-B2C-vs-B2B2C-vs-C2C" },
-                    { text: "Git 常用指令", url: "/GIT_basic-instructions" },
-                    { text: "什麼是 WebSocket？", url: "/WEB_WebSocket-introduce" },
-                    { text: "stack(堆疊) V.S. queue(佇列)", url: "/JS_stack-vs-queue" },
-                    { text: "JavaScript 的正規表達式 (Regular Expression)", url: "/JS_RegularExpression" },
-                    { text: "什麼是 CORS？", url: "/WEB_CORS-introduce" },
-                    { text: "什麼是 Proxy？", url: "/WEB_Proxy-introduce" },
-                    { text: "什麼是 props？", url: "/VUE_props" },
-                    { text: "undefined V.S. undeclared V.S. null", url: "/JS_undefined-vs-undeclared-vs-null" },
-                    { text: "setAttribute V.S. getAttribute", url: "/JS_setAttribute-vs-getAttribute" },
-                    { text: "setTimeout V.S. setInterval", url: "/JS_setTimeout-vs-setInterval" },
-                    { text: "什麼是 解構賦值(Destructuring Assignment)？", url: "/JS_destructuring-assignment" },
-                    { text: "什麼是 OWASP？", url: "/WEB_OWASP-introduce" },
-                    { text: "陣列中的物件資料選取與排序", url: "/JS_sort" },
-                    { text: "什麼是 Event Bus？", url: "/VUE_eventBus" },
-                    { text: "如何建立 Vue-CLI？", url: "/VUE_createVUEcli" },
-                    { text: "什麼是 閉包(Closure)？", url: "/JS_closure" },
-                    { text: "事件捕獲(Capturing Events) V.S. 冒泡事件(Bubbling Events)", url: "/JS_BubblingEvents-vs-CapturingEvents" },
-                    { text: "JavaScript 的物件導向", url: "/JS_OOP" },
-                    { text: "By Value V.S. By Reference", url: "/JS_byValue-vs-byReference" },
-                    { text: "淺拷貝(Shallow Copy) V.S. 深拷貝(Deep Copy)", url: "/JS_shallowCopy-vs-deepCopy" },
-                    { text: "Vue 模板語法", url: "/VUE_syntax" },
-                    { text: "迴圈基礎 & 迴圈控制", url: "/PY_loop" },
-                    { text: "if 判斷式和簡易的四則運算", url: "/PY_arithmetic" },
-                    { text: "什麼是 CRUD？", url: "/DB_CRUD" },
-                    { text: "淺談網頁技術名詞", url: "/WEB_web-noun" },
-                    { text: "BOM V.S. DOM", url: "/CODE_BOM-vs-DOM" },
-                    { text: "CSS 選取第一個、最後一個、偶數、奇數、第n個標簽元素", url: "/CSS_nth-child" },
-                    { text: "JavaScript 的非同步 (Asynchronous)", url: "JS_Asynchronous" },
-                    { text: "什麼是 AJAX？", url: "/JS_AJAX" },
-                    { text: "什麼是 CSS box-sizing？", url: "/CSS_box-sizing" },
-                    { text: "slice() V.S. splice() V.S. split()", url: "/JS_slice-vs-splice-vs-split" },
-                    { text: "delete V.S. splice", url: "/JS_delete-vs-splice" },
-                    { text: "var V.S. let V.S. const", url: "/JS_var-vs-let-vs-const" },
-                    { text: "什麼是 RESTful API？", url: "/WEB_RESTfulAPI-introduce" },
-                    { text: "什麼是 TCP/IP？", url: "/WEB_TCP-IP" },
-                    { text: "什麼是 SSL 和 TLS？", url: "/WEB_SSL-and-TLS" },
-                    { text: "HTTP V.S. HTTPS", url: "/WEB_HTTP-vs-HTTPS" },
-                    { text: "限制內容字數寬度或行數", url: "/CODE_Limit-Line-Width" },
-                    { text: "Cookie V.S. LocalStorage V.S. SessionStorage", url: "/JS_Cookie-vs-LocalStorage-vs-SessionStorage" },
-                    { text: "map() V.S. forEach()", url: "/JS_map-vs-forEach" },
-                    { text: "MVC V.S. MVVM", url: "/WEB_MVC-vs-MVVM" },
-                    { text: "元件的生命週期與更新機制", url: "/VUE_LifeCycle" },
-                    { text: "什麼是 API？", url: "/WEB_api-introduce" },
-                    { text: "什麼是 NPM？了解 node套件管理工具 npm install", url: "/WEB_npm-introduce" },
-                    { text: "什麼是 CDN？| CDN 的工作原理是什麼？", url: "/WEB_cdn-introduce" },
-                    { text: "HTML <code> 顯示程式碼內容", url: "/HTML_codeTag" },
-                    { text: "HTML 表格 (table)", url: "/HTML_tableTag" },
-                ],
-            });
-            const filteredDivContentList = computed(() => {
-                if (state.searchInput) {
-                    const searchKeyword = state.searchInput.toLowerCase();
-                    return state.divContentList.filter(content =>
-                        content.text.toLowerCase().includes(searchKeyword)
-                    );
-                } else {
-                    return state.divContentList;
-                }
-            });
-            const showLightbox = ref(false);
-            // const search = () => {
-            //   // Perform search logic here
-            // };
-            const closeLightbox = () => {
-              showLightbox.value = false;
-            };
-
-            return {
-                // Title 逐一呈現
-                Title,
-                showTitle,
-                // 搜尋文章
-                state,
-                filteredDivContentList,
-                showLightbox,
-                closeLightbox,
-            };
+const Title = ref("");
+const showTitle = () => {
+    const originalText = "Charmying Blog";
+    let index = 0;
+    const intervalId = setInterval(() => {
+        Title.value += originalText[index];
+        index++;
+        if (index === originalText.length) {
+            clearInterval(intervalId);
         }
-    };
+    }, 250) // 控制每個字出現的時間間隔，單位為毫秒
+}
+onMounted(() => {
+    showTitle();
+})
+
+// 搜尋文章 for 迴圈跑全部文章
+const state = reactive({
+    searchInput: "",
+    divContentList: [
+        { text: "【程式入門】該如何開始自學寫程式", url: "Programming-Language" },
+        { text: "什麼是 半導體的黃光、蝕刻、擴散和薄膜？", url: "Chat_ICs-Photolithography-vs-Etching-vs-Diffusion-vs-Deposition" },
+        { text: "什麼是 CSR 、 SSR 和 Hydration？", url: "WEB_CSR-vs-SSR-vs-Hydration" },
+        { text: "【美食札記】冪x2 La Miette Pizza&Kitchen", url: "FOOD_La-Miette-Pizza&Kitchen" },
+        { text: "【美食札記】貓匿 MAONI Brunch｜早餐｜早午餐｜輕食｜下午茶｜咖啡茶飲", url: "FOOD_Mao-Ni-Brunch" },
+        { text: "什麼是 IoT(物聯網) 和 AIoT(人工智慧物聯網)？", url: "Chat_IoT-vs-AIoT" },
+        { text: "什麼是 JavaScript 的 class？", url: "JS_class" },
+        { text: "【美食札記】太初 麵食りようり", url: "FOOD_Tai-Chu" },
+        { text: "【美食札記】軟蛋醬 蛋包飯專門製作所", url: "FOOD_SOFT-EGG" },
+        { text: "Axios 攔截器(Axios Interceptors)", url: "JS_Axios-Interceptors" },
+        { text: "【美食札記】島津和牛咖哩", url: "FOOD_SHIMADZU-Curry" },
+        { text: "【美食札記】八庵壽司割烹", url: "FOOD_Ba-An-Sushi" },
+        { text: "【美食札記】十二段鍋物堂", url: "FOOD_12sukiyak" },
+        { text: "JavaScript 的 indexOf()", url: "JS_indexOf" },
+        { text: "JavaScript 的模板字串插值(Template String Interpolation)", url: "JS_TemplateStringInterpolation" },
+        { text: "JavaScript 中陣列(Array)的遍歷方法", url: "JS_traversal" },
+        { text: "什麼是 迴圈、迭代、遍歷、遞迴？", url: "JS_Loop-vs-Iteration-vs-Traversal-vs-Recursion" },
+        { text: "【美食札記】飯飯 一中店", url: "FOOD_Yi-Zhong-Fan-Fan" },
+        { text: "【美食札記】台中公園路大麵𥺧", url: "FOOD_Gong-Yuan-Road-Da-Mian-Geng" },
+        { text: "什麼是 賽局理論(Game Theory)？", url: "Chat_GameTheory-introduce" },
+        { text: "【美食札記】平祿壽司", url: "/FOOD_Ping-Lu-Sushi" },
+        { text: "【美食札記】阿如早餐店", url: "/FOOD_A-Ru" },
+        { text: "【Pandas】Pandas DataFrame 處理雙維度資料方法", url: "/PY_Pandas-DataFrame" },
+        { text: "【Pandas】Pandas Series 處理單維度資料方法", url: "/PY_Pandas-Series" },
+        { text: "什麼是 遞迴(Recursion)？", url: "/Software_recursion" },
+        { text: "bind V.S. call V.S. apply", url: "/JS_bind-vs-call-vs-apply" },
+        { text: "什麼是 ODM、OEM、OBM 和 IDM？", url: "/Chat_ODM-vs-OEM-vs-OBM-vs-IEM" },
+        { text: "什麼是 B2B、B2C、B2B2C 和 C2C？", url: "/Chat_B2B-vs-B2C-vs-B2B2C-vs-C2C" },
+        { text: "Git 常用指令", url: "/GIT_basic-instructions" },
+        { text: "什麼是 WebSocket？", url: "/WEB_WebSocket-introduce" },
+        { text: "stack(堆疊) V.S. queue(佇列)", url: "/JS_stack-vs-queue" },
+        { text: "JavaScript 的正規表達式 (Regular Expression)", url: "/JS_RegularExpression" },
+        { text: "什麼是 CORS？", url: "/WEB_CORS-introduce" },
+        { text: "什麼是 Proxy？", url: "/WEB_Proxy-introduce" },
+        { text: "什麼是 props？", url: "/VUE_props" },
+        { text: "undefined V.S. undeclared V.S. null", url: "/JS_undefined-vs-undeclared-vs-null" },
+        { text: "setAttribute V.S. getAttribute", url: "/JS_setAttribute-vs-getAttribute" },
+        { text: "setTimeout V.S. setInterval", url: "/JS_setTimeout-vs-setInterval" },
+        { text: "什麼是 解構賦值(Destructuring Assignment)？", url: "/JS_destructuring-assignment" },
+        { text: "什麼是 OWASP？", url: "/WEB_OWASP-introduce" },
+        { text: "陣列中的物件資料選取與排序", url: "/JS_sort" },
+        { text: "什麼是 Event Bus？", url: "/VUE_eventBus" },
+        { text: "如何建立 Vue-CLI？", url: "/VUE_createVUEcli" },
+        { text: "什麼是 閉包(Closure)？", url: "/JS_closure" },
+        { text: "事件捕獲(Capturing Events) V.S. 冒泡事件(Bubbling Events)", url: "/JS_BubblingEvents-vs-CapturingEvents" },
+        { text: "JavaScript 的物件導向", url: "/JS_OOP" },
+        { text: "By Value V.S. By Reference", url: "/JS_byValue-vs-byReference" },
+        { text: "淺拷貝(Shallow Copy) V.S. 深拷貝(Deep Copy)", url: "/JS_shallowCopy-vs-deepCopy" },
+        { text: "Vue 模板語法", url: "/VUE_syntax" },
+        { text: "迴圈基礎 & 迴圈控制", url: "/PY_loop" },
+        { text: "if 判斷式和簡易的四則運算", url: "/PY_arithmetic" },
+        { text: "什麼是 CRUD？", url: "/DB_CRUD" },
+        { text: "淺談網頁技術名詞", url: "/WEB_web-noun" },
+        { text: "BOM V.S. DOM", url: "/CODE_BOM-vs-DOM" },
+        { text: "CSS 選取第一個、最後一個、偶數、奇數、第n個標簽元素", url: "/CSS_nth-child" },
+        { text: "JavaScript 的非同步 (Asynchronous)", url: "JS_Asynchronous" },
+        { text: "什麼是 AJAX？", url: "/JS_AJAX" },
+        { text: "什麼是 CSS box-sizing？", url: "/CSS_box-sizing" },
+        { text: "slice() V.S. splice() V.S. split()", url: "/JS_slice-vs-splice-vs-split" },
+        { text: "delete V.S. splice", url: "/JS_delete-vs-splice" },
+        { text: "var V.S. let V.S. const", url: "/JS_var-vs-let-vs-const" },
+        { text: "什麼是 RESTful API？", url: "/WEB_RESTfulAPI-introduce" },
+        { text: "什麼是 TCP/IP？", url: "/WEB_TCP-IP" },
+        { text: "什麼是 SSL 和 TLS？", url: "/WEB_SSL-and-TLS" },
+        { text: "HTTP V.S. HTTPS", url: "/WEB_HTTP-vs-HTTPS" },
+        { text: "限制內容字數寬度或行數", url: "/CODE_Limit-Line-Width" },
+        { text: "Cookie V.S. LocalStorage V.S. SessionStorage", url: "/JS_Cookie-vs-LocalStorage-vs-SessionStorage" },
+        { text: "map() V.S. forEach()", url: "/JS_map-vs-forEach" },
+        { text: "MVC V.S. MVVM", url: "/WEB_MVC-vs-MVVM" },
+        { text: "元件的生命週期與更新機制", url: "/VUE_LifeCycle" },
+        { text: "什麼是 API？", url: "/WEB_api-introduce" },
+        { text: "什麼是 NPM？了解 node套件管理工具 npm install", url: "/WEB_npm-introduce" },
+        { text: "什麼是 CDN？| CDN 的工作原理是什麼？", url: "/WEB_cdn-introduce" },
+        { text: "HTML <code> 顯示程式碼內容", url: "/HTML_codeTag" },
+        { text: "HTML 表格 (table)", url: "/HTML_tableTag" },
+    ],
+});
+
+const filteredDivContentList = computed(() => {
+    if (state.searchInput) {
+        const searchKeyword = state.searchInput.toLowerCase();
+        return state.divContentList.filter(content =>
+            content.text.toLowerCase().includes(searchKeyword)
+        );
+    } else {
+        return state.divContentList;
+    }
+});
+
+const showLightbox = ref(false);
+const closeLightbox = () => {
+    showLightbox.value = false;
+};
 </script>

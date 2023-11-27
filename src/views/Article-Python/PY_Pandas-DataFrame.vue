@@ -2,7 +2,6 @@
     <Header />
     <div class="content">
         <main>
-
             <section>
                 <div class="article-heading">
                     <h2 class="article-heading">【Pandas】Pandas DataFrame 處理雙維度資料方法</h2>
@@ -726,19 +725,10 @@ NO.5  Eee   22000   40 year
     <pageRate />
     <BackToTop />
 </template>
-<script>
-    import Header from "@/components/Header.vue";
-    import Wall from "@/components/Wall.vue";
-    import BackToTop from "@/components/BackToTop.vue";
-    import pageRate from "@/components/pageRate.vue";
-    export default {
-        components: {
-            Header,
-            Wall,
-            BackToTop,
-            pageRate,
-            // Footer,
-        },
-        setup() {}
-    };
+
+<script setup>
+import Header from "@/components/Header.vue";
+import Wall from "@/components/Wall.vue";
+import BackToTop from "@/components/BackToTop.vue";
+import pageRate from "@/components/pageRate.vue";
 </script>

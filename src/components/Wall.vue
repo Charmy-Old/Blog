@@ -227,12 +227,11 @@
 }
 
 </style>
-<template>
 
+<template>
     <div class="d-none">
         <ArticleList />
     </div>
-
     <div class="wall">
         <div class="resume">
             <section class="resumeTitle">
@@ -251,7 +250,6 @@
                 <p>前端、表演、穿搭、美食</p>
             </section>
         </div>
-
         <section class="wall-article">
             <div class="wall-tag"><a href="Article"><i class="fa-solid fa-tag"></i>All Tags ({{ allArticleCount }})</a></div>
             <div class="wall-tag"><a href="Article-Git">Git ({{ gitArticleCount }})</a></div>
@@ -266,7 +264,6 @@
             <div class="wall-tag"><a href="Article-Chat">雜談 ({{ chatArticleCount }})</a></div>
             <div class="wall-tag"><a href="Article-Food">美食札記 ({{ foodArticleCount }})</a></div>
         </section>
-
         <div class="wall-typeSetting">
             <section class="wall-project">
                 <div class="wall-tag"><a href="Side-Project"><i class="fa-solid fa-tag"></i>最新作品</a></div>
@@ -285,7 +282,6 @@
                 <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/RwBeNRz" target="_blank">Todo List LocalStorage</a></div>
             </section>
         </div>
-
         <section class="wall-weather">
             <div v-cloak>
                 <h2>天氣查詢</h2>
@@ -304,212 +300,178 @@
                 </div>
             </div>
         </section>
-
         <section class="wall-wtRecord">
             <a href="Weight-Record">
                 體重追蹤紀錄
             </a>
         </section>
-        
     </div>
 </template>
-<script>
+
+<script setup>
 import sharedData from "@/assets/js/sharedData";
 import ArticleList from "@/components/ArticleList.vue";
 import { ref, onMounted, computed } from "vue";
-export default {
-    components: {
-        ArticleList,
-    },
-    setup() {
-        // 算全部文章
-        const allArticleCount = ref(0);
-        onMounted(() => {
-            CountallArticle();
-        });
-        const CountallArticle = () => {
-            const Countall = document.querySelectorAll(".ALL");
-            allArticleCount.value = Countall.length;
-            // 更新全局變數
-            sharedData.allArticleCount = allArticleCount.value;
-        };
 
-        // 算 git 文章
-        const gitArticleCount = ref(0);
-        onMounted(() => {
-            CountgitArticle();
-        });
-        const CountgitArticle = () => {
-            const Countgit = document.querySelectorAll(".GIT");
-            gitArticleCount.value = Countgit.length;
-            sharedData.gitArticleCount = gitArticleCount.value;
-        };
+// 算全部文章
+const allArticleCount = ref(0);
+onMounted(() => {
+    CountallArticle();
+});
 
-        // 算 web 文章
-        const webArticleCount = ref(0);
-        onMounted(() => {
-            CountwebArticle();
-        });
-        const CountwebArticle = () => {
-            const Countweb = document.querySelectorAll(".WEB");
-            webArticleCount.value = Countweb.length;
-            sharedData.webArticleCount = webArticleCount.value;
-        };
-
-        // 算 html 文章
-        const htmlArticleCount = ref(0);
-        onMounted(() => {
-            CounthtmlArticle();
-        });
-        const CounthtmlArticle = () => {
-            const Counthtml = document.querySelectorAll(".HTML");
-            htmlArticleCount.value = Counthtml.length;
-            sharedData.htmlArticleCount = htmlArticleCount.value;
-        };
-
-        // 算 css 文章
-        const cssArticleCount = ref(0);
-        onMounted(() => {
-            CountcssArticle();
-        });
-        const CountcssArticle = () => {
-            const Countcss = document.querySelectorAll(".CSS");
-            cssArticleCount.value = Countcss.length;
-            sharedData.cssArticleCount = cssArticleCount.value;
-        };
-
-        // 算 js 文章
-        const jsArticleCount = ref(0);
-        onMounted(() => {
-            CountjsArticle();
-        });
-        const CountjsArticle = () => {
-            const Countjs = document.querySelectorAll(".JS");
-            jsArticleCount.value = Countjs.length;
-            sharedData.jsArticleCount = jsArticleCount.value;
-        };
-
-        // 算 vue 文章
-        const vueArticleCount = ref(0);
-        onMounted(() => {
-            CountvueArticle();
-        });
-        const CountvueArticle = () => {
-            const Countvue = document.querySelectorAll(".VUE");
-            vueArticleCount.value = Countvue.length;
-            sharedData.vueArticleCount = vueArticleCount.value;
-        };
-
-        // 算 database 文章
-        const databaseArticleCount = ref(0);
-        onMounted(() => {
-            CountdatabaseArticle();
-        });
-        const CountdatabaseArticle = () => {
-            const Countdatabase = document.querySelectorAll(".DB");
-            databaseArticleCount.value = Countdatabase.length;
-            sharedData.databaseArticleCount = databaseArticleCount.value;
-        };
-
-        // 算 python 文章
-        const pythonArticleCount = ref(0);
-        onMounted(() => {
-            CountpythonArticle();
-        });
-        const CountpythonArticle = () => {
-            const Countpython = document.querySelectorAll(".PYTHON");
-            pythonArticleCount.value = Countpython.length;
-            sharedData.pythonArticleCount = pythonArticleCount.value;
-        };
-
-        // 算 software 文章
-        const softwareArticleCount = ref(0);
-        onMounted(() => {
-            CountsoftwareArticle();
-        });
-        const CountsoftwareArticle = () => {
-            const Countsoftware = document.querySelectorAll(".SOFTWARE");
-            softwareArticleCount.value = Countsoftware.length;
-            sharedData.softwareArticleCount = softwareArticleCount.value;
-        };
-
-        // 算 雜談 文章
-        const chatArticleCount = ref(0);
-        onMounted(() => {
-            CountchatArticle();
-        });
-        const CountchatArticle = () => {
-            const Countchat = document.querySelectorAll(".CHAT");
-            chatArticleCount.value = Countchat.length;
-            sharedData.chatArticleCount = chatArticleCount.value;
-        };
-
-        // 算 美食札記 文章
-        const foodArticleCount = ref(0);
-        onMounted(() => {
-            CountfoodArticle();
-        });
-        const CountfoodArticle = () => {
-            const Countfood = document.querySelectorAll(".FOOD");
-            foodArticleCount.value = Countfood.length;
-            sharedData.foodArticleCount = foodArticleCount.value;
-        };
-        
-
-        // 用 computed 抓全局變數
-        const Countall = computed(() => sharedData.allArticleCount);
-        const Countgit = computed(() => sharedData.gitArticleCount);
-        const Countweb = computed(() => sharedData.webArticleCount);
-        const Counthtml = computed(() => sharedData.htmlArticleCount);
-        const Countcss = computed(() => sharedData.cssArticleCount);
-        const Countjs = computed(() => sharedData.jsArticleCount);
-        const Countvue = computed(() => sharedData.vueArticleCount);
-        const Countdatabase = computed(() => sharedData.databaseArticleCount);
-        const Countpython = computed(() => sharedData.pythonArticleCount);
-        const Countsoftware = computed(() => sharedData.softwareArticleCount);
-        const Countchat = computed(() => sharedData.chatArticleCount);
-        const Countfood = computed(() => sharedData.foodArticleCount);
-
-        // 天氣 api
-        const weatherDatas = ref([]);
-        const locationName = ref("");
-        const getWeather = () => {
-            fetch(
-                "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-AB74CE7B-2CF2-4D40-A61C-6F5D05C0DEB6&format=JSON&sort=time"
-            )
-            .then((res) => res.json())
-            .then((json) => {
-                weatherDatas.value = json.records.location;
-            })
-            .catch((error) => {
-                alert("系統異常，請稍後再試");
-            });
-        };
-        onMounted(() => {
-            getWeather();
-        });
-
-        return {
-            // 文章數量計算
-            allArticleCount: Countall,
-            gitArticleCount: Countgit,
-            webArticleCount: Countweb,
-            htmlArticleCount: Counthtml,
-            cssArticleCount: Countcss,
-            jsArticleCount: Countjs,
-            vueArticleCount: Countvue,
-            databaseArticleCount: Countdatabase,
-            pythonArticleCount: Countpython,
-            softwareArticleCount: Countsoftware,
-            chatArticleCount: Countchat,
-            foodArticleCount: Countfood,
-            // 天氣 api
-            weatherDatas,
-            locationName,
-            getWeather,
-        };
-    },
+const CountallArticle = () => {
+    const Countall = document.querySelectorAll(".ALL");
+    allArticleCount.value = Countall.length;
+    // 更新全局變數
+    sharedData.allArticleCount = allArticleCount.value;
 };
 
+// 算 git 文章
+const gitArticleCount = ref(0);
+onMounted(() => {
+    CountgitArticle();
+});
 
+const CountgitArticle = () => {
+    const Countgit = document.querySelectorAll(".GIT");
+    gitArticleCount.value = Countgit.length;
+    sharedData.gitArticleCount = gitArticleCount.value;
+};
+
+// 算 web 文章
+const webArticleCount = ref(0);
+onMounted(() => {
+    CountwebArticle();
+});
+
+const CountwebArticle = () => {
+    const Countweb = document.querySelectorAll(".WEB");
+    webArticleCount.value = Countweb.length;
+    sharedData.webArticleCount = webArticleCount.value;
+};
+
+// 算 html 文章
+const htmlArticleCount = ref(0);
+onMounted(() => {
+    CounthtmlArticle();
+});
+
+const CounthtmlArticle = () => {
+    const Counthtml = document.querySelectorAll(".HTML");
+    htmlArticleCount.value = Counthtml.length;
+    sharedData.htmlArticleCount = htmlArticleCount.value;
+};
+
+// 算 css 文章
+const cssArticleCount = ref(0);
+onMounted(() => {
+    CountcssArticle();
+});
+
+const CountcssArticle = () => {
+    const Countcss = document.querySelectorAll(".CSS");
+    cssArticleCount.value = Countcss.length;
+    sharedData.cssArticleCount = cssArticleCount.value;
+};
+
+// 算 js 文章
+const jsArticleCount = ref(0);
+onMounted(() => {
+    CountjsArticle();
+});
+
+const CountjsArticle = () => {
+    const Countjs = document.querySelectorAll(".JS");
+    jsArticleCount.value = Countjs.length;
+    sharedData.jsArticleCount = jsArticleCount.value;
+};
+
+// 算 vue 文章
+const vueArticleCount = ref(0);
+onMounted(() => {
+    CountvueArticle();
+});
+
+const CountvueArticle = () => {
+    const Countvue = document.querySelectorAll(".VUE");
+    vueArticleCount.value = Countvue.length;
+    sharedData.vueArticleCount = vueArticleCount.value;
+};
+
+// 算 database 文章
+const databaseArticleCount = ref(0);
+onMounted(() => {
+    CountdatabaseArticle();
+});
+
+const CountdatabaseArticle = () => {
+    const Countdatabase = document.querySelectorAll(".DB");
+    databaseArticleCount.value = Countdatabase.length;
+    sharedData.databaseArticleCount = databaseArticleCount.value;
+};
+
+// 算 python 文章
+const pythonArticleCount = ref(0);
+onMounted(() => {
+    CountpythonArticle();
+});
+
+const CountpythonArticle = () => {
+    const Countpython = document.querySelectorAll(".PYTHON");
+    pythonArticleCount.value = Countpython.length;
+    sharedData.pythonArticleCount = pythonArticleCount.value;
+};
+
+// 算 software 文章
+const softwareArticleCount = ref(0);
+onMounted(() => {
+    CountsoftwareArticle();
+});
+
+const CountsoftwareArticle = () => {
+    const Countsoftware = document.querySelectorAll(".SOFTWARE");
+    softwareArticleCount.value = Countsoftware.length;
+    sharedData.softwareArticleCount = softwareArticleCount.value;
+};
+
+// 算 雜談 文章
+const chatArticleCount = ref(0);
+onMounted(() => {
+    CountchatArticle();
+});
+
+const CountchatArticle = () => {
+    const Countchat = document.querySelectorAll(".CHAT");
+    chatArticleCount.value = Countchat.length;
+    sharedData.chatArticleCount = chatArticleCount.value;
+};
+
+// 算 美食札記 文章
+const foodArticleCount = ref(0);
+onMounted(() => {
+    CountfoodArticle();
+});
+
+const CountfoodArticle = () => {
+    const Countfood = document.querySelectorAll(".FOOD");
+    foodArticleCount.value = Countfood.length;
+    sharedData.foodArticleCount = foodArticleCount.value;
+};
+
+// 天氣 api
+const weatherDatas = ref([]);
+const locationName = ref("");
+const getWeather = () => {
+    fetch("https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-AB74CE7B-2CF2-4D40-A61C-6F5D05C0DEB6&format=JSON&sort=time")
+    .then((res) => res.json())
+    .then((json) => {
+        weatherDatas.value = json.records.location;
+    })
+    .catch((error) => {
+        alert("系統異常，請稍後再試");
+    });
+};
+onMounted(() => {
+    getWeather();
+});
 </script>

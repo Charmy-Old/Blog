@@ -2,7 +2,6 @@
     <Header />
     <div class="content">
         <main>
-
             <section>
                 <div class="article-heading">
                     <h2 class="article-heading">陣列中的物件資料選取與排序</h2>
@@ -277,26 +276,16 @@ console.log(sortedData);   // 排序後的陣列
                     </div>
                 </div>
             </section>
-
         </main>
         <Wall />
     </div>
     <pageRate />
     <BackToTop />
 </template>
-<script>
-    import Header from "@/components/Header.vue";
-    import Wall from "@/components/Wall.vue";
-    import BackToTop from "@/components/BackToTop.vue";
-    import pageRate from "@/components/pageRate.vue";
-    export default {
-        components: {
-            Header,
-            Wall,
-            BackToTop,
-            pageRate,
-            // Footer,
-        },
-        setup() {}
-    };
+
+<script setup>
+import Header from "@/components/Header.vue";
+import Wall from "@/components/Wall.vue";
+import BackToTop from "@/components/BackToTop.vue";
+import pageRate from "@/components/pageRate.vue";
 </script>

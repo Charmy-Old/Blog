@@ -2,7 +2,6 @@
     <Header />
     <div class="content">
         <main>
-
             <section>
                 <div class="article-heading">
                     <h2 class="article-heading">什麼是 ORM(Object-Relational Mapping)？</h2>
@@ -346,19 +345,10 @@ User.create({
     <pageRate />
     <BackToTop />
 </template>
-<script>
-    import Header from "@/components/Header.vue";
-    import Wall from "@/components/Wall.vue";
-    import BackToTop from "@/components/BackToTop.vue";
-    import pageRate from "@/components/pageRate.vue";
-    export default {
-        components: {
-            Header,
-            Wall,
-            BackToTop,
-            pageRate,
-            // Footer,
-        },
-        setup() {}
-    };
+
+<script setup>
+import Header from "@/components/Header.vue";
+import Wall from "@/components/Wall.vue";
+import BackToTop from "@/components/BackToTop.vue";
+import pageRate from "@/components/pageRate.vue";
 </script>

@@ -2,7 +2,6 @@
     <Header />
     <div class="content">
         <main>
-
             <section>
                 <div class="article-heading">
                     <h2 class="article-heading">setAttribute V.S. getAttribute</h2>
@@ -113,7 +112,6 @@ const attributeValue = element.getAttribute(attributeName);
                 </div>
             </section>
 
-            
             <section>
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>總結</h3>
@@ -129,26 +127,16 @@ const attributeValue = element.getAttribute(attributeName);
                     </div>
                 </div>
             </section>
-
         </main>
         <Wall />
     </div>
     <pageRate />
     <BackToTop />
 </template>
-<script>
-    import Header from "@/components/Header.vue";
-    import Wall from "@/components/Wall.vue";
-    import BackToTop from "@/components/BackToTop.vue";
-    import pageRate from "@/components/pageRate.vue";
-    export default {
-        components: {
-            Header,
-            Wall,
-            BackToTop,
-            pageRate,
-            // Footer,
-        },
-        setup() {}
-    };
+
+<script setup>
+import Header from "@/components/Header.vue";
+import Wall from "@/components/Wall.vue";
+import BackToTop from "@/components/BackToTop.vue";
+import pageRate from "@/components/pageRate.vue";
 </script>

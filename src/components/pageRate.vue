@@ -43,9 +43,7 @@
 .pageRate-circlePath {
   stroke-dasharray: 0,200;
 }
-
 </style>
-
 
 <template>
     <div class="pageRate">
@@ -59,26 +57,19 @@
     </div>  
 </template>
 
+<script setup>
+import { ref, onMounted } from "vue";
 
-<script>
-import { defineComponent, ref, onMounted } from "vue";
-export default defineComponent({
-    setup() {
-        const loadPercent = ref(0);
-        onMounted(() => {
-            onscroll = () => {
-                let height = document.body.scrollHeight - window.innerHeight;
-                let scroll = window.scrollY;
-                let percent = (scroll / height) * 100;
-                loadPercent.value = Math.round(percent, 2);
-                document.querySelector(".pageRate-circlePath").style.strokeDasharray = percent * 2.6 + "% 200";
-                document.querySelector(".pageRate-loader").style.background = `${loadPercent.value / 100 / 2}) 40%,rgba(255, 0, 0, 0.12) 70%)`;
-            };
-        });
-        return {
-            loadPercent,
-        };
-    },
+const loadPercent = ref(0);
+onMounted(() => {
+    onscroll = () => {
+        let height = document.body.scrollHeight - window.innerHeight;
+        let scroll = window.scrollY;
+        let percent = (scroll / height) * 100;
+        loadPercent.value = Math.round(percent, 2);
+        document.querySelector(".pageRate-circlePath").style.strokeDasharray = percent * 2.6 + "% 200";
+        document.querySelector(".pageRate-loader").style.background = `${loadPercent.value / 100 / 2}) 40%,rgba(255, 0, 0, 0.12) 70%)`;
+    };
 });
 </script>
 

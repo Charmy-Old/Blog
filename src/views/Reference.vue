@@ -2,7 +2,6 @@
     <Header /> <!-- 用掉用掉 h1 -->
     <div class="content">
         <main>
-
             <!-- Reference -->
             <section>
                 <div class="reference reference-title">
@@ -258,15 +257,11 @@
                         <div class="reference-link"><a href="https://ithelp.ithome.com.tw/articles/10194154" target="_blank">重新認識 JavaScript: Day 24 物件與原型鏈</a></div>
                         <div class="reference-link"><a href="https://ithelp.ithome.com.tw/articles/10223556" target="_blank">15. [JS] 什麼是原型鏈？</a></div>
                         <div class="reference-link"><a href="https://hao1229.github.io/2019/08/05/EcommercePractice6/" target="_blank">Vue.js 電商練習技術整理 -- 製作讀取動畫增加使用者體驗</a></div>
-
-
                         <div class="reference-link"><a href="https://ithelp.ithome.com.tw/articles/10230871" target="_blank">JavaScript - Event Loop</a></div>
                         <div class="reference-link"><a href="https://maxleebk.com/2020/07/25/prototype/" target="_blank">面試官最愛考的 JS 原型鏈</a></div>
                         <div class="reference-link"><a href="https://yakimhsu.com/project/project_w16_EventLoop.html" target="_blank">[第十六週] JavaScript 進階：事件迴圈 Event Loop、Stack、Queue</a></div>
                         <div class="reference-link"><a href="https://jianline.com/javascript-event-loop/" target="_blank">[筆記]-JavaScript Event Loop是什麼?Event Loop的3個重點</a></div>
                         <div class="reference-link"><a href="https://ithelp.ithome.com.tw/articles/10299646?sc=rss.iron" target="_blank">[Day12] 專案開發流程前，甚麼是design pattern?</a></div>
-
-
                         <div class="reference-underline"></div>
                         <div class="reference-link"><a href="https://backlog.com/git-tutorial/tw/" target="_blank">連猴子都能懂的Git入門指南</a></div>
                         <div class="reference-link"><a href="https://www.wibibi.com/info.php?tid=CSS3_animation_%E5%8B%95%E7%95%AB%E5%B1%AC%E6%80%A7" target="_blank">CSS3 animation 動畫屬性</a></div>
@@ -295,48 +290,31 @@
                     </div>
                 </section>
             </section>
-
         </main>
         <Wall />
     </div>
     <pageRate />
     <BackToTop />
 </template>
-<script>
-    import Header from "@/components/Header.vue";
-    import Wall from "@/components/Wall.vue";
-    import BackToTop from "@/components/BackToTop.vue";
-    import pageRate from "@/components/pageRate.vue";
-    import { ref } from "vue";
-    export default {
-        components: {
-            Header,
-            Wall,
-            BackToTop,
-            pageRate,
-            // Footer,
-        },
-        setup() {
-            const password = "qqq";
-            const inputPassword = ref("");
-            const passwordCorrect = ref();
-            
-            const checkPassword = () => {
-                if (inputPassword.value === password) {
-                    document.querySelector(".password").style = "display: none;";
-                    passwordCorrect.value = true;
-                } else {
-                    alert("密碼錯誤")
-                    inputPassword.value = "";
-                }
 
-            };
-        
-            return {
-                inputPassword,
-                passwordCorrect,
-                checkPassword
-            };
-        }
-    };
+<script setup>
+import Header from "@/components/Header.vue";
+import Wall from "@/components/Wall.vue";
+import BackToTop from "@/components/BackToTop.vue";
+import pageRate from "@/components/pageRate.vue";
+import { ref } from "vue";
+
+const password = "qqq";
+const inputPassword = ref("");
+const passwordCorrect = ref();
+            
+const checkPassword = () => {
+    if (inputPassword.value === password) {
+        document.querySelector(".password").style = "display: none;";
+        passwordCorrect.value = true;
+    } else {
+        alert("密碼錯誤")
+        inputPassword.value = "";
+    }
+};
 </script>

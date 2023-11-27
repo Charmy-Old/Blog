@@ -1,8 +1,7 @@
 <template>
-    <Header /> <!-- 用掉用掉 h1 -->
+    <Header />
     <div class="content">
         <main>
-
             <!-- sideProject -->
             <section>
                 <div class="sideProject sideProject-title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -16,7 +15,6 @@
                 <div class="sideProject sideProject-project">
                     <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">作品</h3>
                     <div class="sideProject-underline"></div>
-
                     <!-- BLOG -->
                     <div class="sideProject-projectBlock">
                         <div class="sideProject-projectText">
@@ -46,7 +44,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- Pangolin Clothing -->
                     <div class="sideProject-projectBlock">
                         <div class="sideProject-projectText">
@@ -79,7 +76,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- Engineering-Calculator 工程計算機 -->
                     <div class="sideProject-projectBlock">
                         <div class="sideProject-projectText">
@@ -111,7 +107,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- 備忘錄 Todo-List-->
                     <div class="sideProject-projectBlock">
                         <div class="sideProject-projectText">
@@ -144,7 +139,6 @@
                             
                         </div>
                     </div>
-
                     <!-- 緯育團專 -->
                     <div class="sideProject-projectBlock">
                         <div class="sideProject-projectPic">
@@ -181,7 +175,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- 緯育個專 -->
                     <div class="sideProject-projectBlock">
                         <div class="sideProject-projectText">
@@ -218,19 +211,10 @@
     <pageRate />
     <BackToTop />
 </template>
-<script>
-    import Header from "@/components/Header.vue";
-    import Wall from "@/components/Wall.vue";
-    import BackToTop from "@/components/BackToTop.vue";
-    import pageRate from "@/components/pageRate.vue";
-    export default {
-        components: {
-            Header,
-            Wall,
-            BackToTop,
-            pageRate,
-            // Footer,
-        },
-        setup() {}
-    };
+
+<script setup>
+import Header from "@/components/Header.vue";
+import Wall from "@/components/Wall.vue";
+import BackToTop from "@/components/BackToTop.vue";
+import pageRate from "@/components/pageRate.vue";
 </script>

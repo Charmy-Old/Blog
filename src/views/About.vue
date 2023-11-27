@@ -2,7 +2,6 @@
     <Header /> <!-- 用掉用掉 h1 -->
     <div class="content">
         <main>
-
             <!-- About -->
             <section>
                 <div class="about about-title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -10,6 +9,7 @@
                     <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-15</p>
                 </div>
             </section>
+
             <!-- 簡介 -->
             <section>
                 <div class="about about-introduce" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -18,6 +18,7 @@
                     <p>您好，我是曾韋翰，因在 YouTube 上接觸到程式的影片進而對程式產生熱忱，所以在 udemy 上自學前端，在摸索過程中得知緯育 TiBaMe 教育機構後進而參加前端工程師就業養成班並成功結業。</p>
                 </div>
             </section>
+
             <!-- 學歷 -->
             <section>
                 <div class="about about-education" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -27,6 +28,7 @@
                     <p>中原大學土木工程學系 畢業<span><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/05</span></p>
                 </div>
             </section>
+
             <!-- 專長 -->
             <section>
                 <div class="about about-expertise">
@@ -67,6 +69,7 @@
                     </p>
                 </div>
             </section>
+
             <!-- 經歷 -->
             <section>
                 <div class="about about-experience">
@@ -203,12 +206,12 @@
                     <div class="about-underline"></div>
                 </div>
             </section>
+
             <!-- 作品 -->
             <section>
                 <div class="about about-project">
                     <h3>作品</h3>
                     <div class="about-underline"></div>
-
                     <!-- BLOG -->
                     <div class="about-projectBlock">
                         <div class="about-projectText">
@@ -238,7 +241,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- Pangolin Clothing -->
                     <div class="about-projectBlock">
                         <div class="about-projectText">
@@ -271,7 +273,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- Engineering-Calculator 工程計算機 -->
                     <div class="about-projectBlock">
                         <div class="about-projectText">
@@ -303,7 +304,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- 備忘錄 Todo-List-->
                     <div class="about-projectBlock">
                         <div class="about-projectText">
@@ -335,7 +335,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- 緯育團專 -->
                     <div class="about-projectBlock">
                         <div class="about-projectPic" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -373,7 +372,6 @@
                             
                         </div>
                     </div>
-
                     <!-- 緯育個專 -->
                     <div class="about-projectBlock">
                         <div class="about-projectText">
@@ -404,26 +402,16 @@
                     </div>
                 </div>
             </section>
-
         </main>
         <Wall />
     </div>
     <pageRate />
     <BackToTop />
 </template>
-<script>
-    import Header from "@/components/Header.vue";
-    import Wall from "@/components/Wall.vue";
-    import BackToTop from "@/components/BackToTop.vue";
-    import pageRate from "@/components/pageRate.vue";
-    export default {
-        components: {
-            Header,
-            Wall,
-            BackToTop,
-            pageRate,
-            // Footer,
-        },
-        setup() {}
-    };
+
+<script setup>
+import Header from "@/components/Header.vue";
+import Wall from "@/components/Wall.vue";
+import BackToTop from "@/components/BackToTop.vue";
+import pageRate from "@/components/pageRate.vue";
 </script>

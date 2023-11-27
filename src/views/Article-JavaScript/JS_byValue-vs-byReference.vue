@@ -2,7 +2,6 @@
     <Header />
     <div class="content">
         <main>
-
             <section>
                 <div class="article-heading">
                     <h2 class="article-heading">By Value V.S. By Reference</h2>
@@ -72,26 +71,16 @@ console.log(newArray);   // 輸出 [1, 2, 3, 4]，原始陣列被修改
                     </div>
                 </div>
             </section>
-
         </main>
         <Wall />
     </div>
     <pageRate />
     <BackToTop />
 </template>
-<script>
-    import Header from "@/components/Header.vue";
-    import Wall from "@/components/Wall.vue";
-    import BackToTop from "@/components/BackToTop.vue";
-    import pageRate from "@/components/pageRate.vue";
-    export default {
-        components: {
-            Header,
-            Wall,
-            BackToTop,
-            pageRate,
-            // Footer,
-        },
-        setup() {}
-    };
+
+<script setup>
+import Header from "@/components/Header.vue";
+import Wall from "@/components/Wall.vue";
+import BackToTop from "@/components/BackToTop.vue";
+import pageRate from "@/components/pageRate.vue";
 </script>

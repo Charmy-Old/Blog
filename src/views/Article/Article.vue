@@ -50,51 +50,41 @@
     <pageRate />
     <BackToTop />
 </template>
-<script>
-    import Header from "@/components/Header.vue";
-    import Wall from "@/components/Wall.vue";
-    import BackToTop from "@/components/BackToTop.vue";
-    import Article from "@/components/Article.vue";
-    import pageRate from "@/components/pageRate.vue";
-    import { onMounted } from "vue";
-    export default {
-        components: {
-            Header,
-            Wall,
-            BackToTop,
-            Article,
-            pageRate,
-            // Footer,
-        },
-        setup() {
-            onMounted(() => {
-                function selectArticle() {
-                    const buttons = document.querySelectorAll(".select-button");
-                    const cards = document.querySelectorAll(".all");
-                    
-                    function filter(category, items) {
-                        items.forEach((item) => {
-                            const isItemFiltered = !item.classList.contains(category);
-                            const isShowAll = category.toLowerCase() === "all";
-                            if (isItemFiltered && !isShowAll) {
-                                item.classList.add("d-none");
-                            } else {
-                                item.classList.remove("d-none");
-                            }
-                        });
-                    }
-                    
-                    buttons.forEach((button) => {
-                        button.addEventListener("click", () => {
-                            const currentCategory = button.dataset.filter;
-                            console.log(currentCategory);
-                            filter(currentCategory, cards);
-                        });
-                    });
+
+<script setup>
+import Header from "@/components/Header.vue";
+import Wall from "@/components/Wall.vue";
+import BackToTop from "@/components/BackToTop.vue";
+import Article from "@/components/Article.vue";
+import pageRate from "@/components/pageRate.vue";
+import { onMounted } from "vue";
+
+onMounted(() => {
+    function selectArticle() {
+        const buttons = document.querySelectorAll(".select-button");
+        const cards = document.querySelectorAll(".all");
+        
+        function filter(category, items) {
+            items.forEach((item) => {
+                const isItemFiltered = !item.classList.contains(category);
+                const isShowAll = category.toLowerCase() === "all";
+                if (isItemFiltered && !isShowAll) {
+                    item.classList.add("d-none");
+                } else {
+                    item.classList.remove("d-none");
                 }
-          
-                selectArticle();
-            })
+            });
         }
-    };
+        
+        buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+                const currentCategory = button.dataset.filter;
+                console.log(currentCategory);
+                filter(currentCategory, cards);
+            });
+        });
+    }
+
+    selectArticle();
+})
 </script>

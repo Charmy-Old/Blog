@@ -33,7 +33,6 @@
         background-color: #222223;
     }
 
-
     .pageList li a {
         width: 100%;
         height: 100%;
@@ -42,6 +41,7 @@
     }
 
 </style>
+
 <template>
     <ul class="pageList">
         <li><a href="/">1</a></li>
@@ -54,8 +54,5 @@
         <li><a href="/Home8">8</a></li>
     </ul>
 </template>
-<script>
-    export default {
-        setup() {}
-    };
-</script>
+
+<script setup></script>

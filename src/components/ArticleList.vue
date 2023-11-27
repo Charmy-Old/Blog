@@ -304,118 +304,106 @@
         <div class="article-title">HTML 表格 (table)</div>
     </section>
 </template>
-<script>
-    import { ref, onMounted } from "vue";
-    export default {
-        setup() {
-            // 算 全部 文章
-            const allArticleCount = ref(0);
-            const CountallArticle = () => {
-                const Countall = document.querySelectorAll(".ALL");
-                allArticleCount.value = Countall.length;
-            };
-            // 算 git 文章
-            const gitArticleCount = ref(0);
-            const CountgitArticle = () => {
-                const Countgit = document.querySelectorAll(".GIT");
-                gitArticleCount.value = Countgit.length;
-            };
-            // 算 web 文章
-            const webArticleCount = ref(0);
-            const CountwebArticle = () => {
-                const Countweb = document.querySelectorAll(".WEB");
-                webArticleCount.value = Countweb.length;
-            };
-            // 算 html 文章
-            const htmlArticleCount = ref(0);
-            const CounthtmlArticle = () => {
-                const Counthtml = document.querySelectorAll(".HTML");
-                htmlArticleCount.value = Counthtml.length;
-            };
-            // 算 css 文章
-            const cssArticleCount = ref(0);
-            const CountcssArticle = () => {
-                const Countcss = document.querySelectorAll(".CSS");
-                cssArticleCount.value = Countcss.length;
-            };
-            // 算 js 文章
-            const jsArticleCount = ref(0);
-            const CountjsArticle = () => {
-                const Countjs = document.querySelectorAll("JS");
-                jsArticleCount.value = Countjs.length;
-            };
 
-            // 算 vue 文章
-            const vueArticleCount = ref(0);
-            const CountvueArticle = () => {
-                const Countvue = document.querySelectorAll(".VUE");
-                vueArticleCount.value = Countvue.length;
-            };
+<script setup>
+import { ref, onMounted } from "vue";
 
-            // 算 database 文章
-            const databaseArticleCount = ref(0);
-            const CountdatabaseArticle = () => {
-                const Countdatabase = document.querySelectorAll(".DB");
-                databaseArticleCount.value = Countdatabase.length;
-            };
+// 算 全部 文章
+const allArticleCount = ref(0);
+const CountallArticle = () => {
+    const Countall = document.querySelectorAll(".ALL");
+    allArticleCount.value = Countall.length;
+};
 
-            // 算 python 文章
-            const pythonArticleCount = ref(0);
-            const CountpythonArticle = () => {
-                const Countpython = document.querySelectorAll(".PYTHON");
-                pythonArticleCount.value = Countpython.length;
-            };
+// 算 git 文章
+const gitArticleCount = ref(0);
+const CountgitArticle = () => {
+    const Countgit = document.querySelectorAll(".GIT");
+    gitArticleCount.value = Countgit.length;
+};
 
-            // 算 software 文章
-            const softwareArticleCount = ref(0);
-            const CountsoftwareArticle = () => {
-                const Countsoftware = document.querySelectorAll(".SOFTWARE");
-                softwareArticleCount.value = Countsoftware.length;
-            };
+// 算 web 文章
+const webArticleCount = ref(0);
+const CountwebArticle = () => {
+    const Countweb = document.querySelectorAll(".WEB");
+    webArticleCount.value = Countweb.length;
+};
 
-            // 算 雜談 文章
-            const chatArticleCount = ref(0);
-            const CountchatArticle = () => {
-                const Countchat = document.querySelectorAll(".CHAT");
-                chatArticleCount.value = Countchat.length;
-            };
+// 算 html 文章
+const htmlArticleCount = ref(0);
+const CounthtmlArticle = () => {
+    const Counthtml = document.querySelectorAll(".HTML");
+    htmlArticleCount.value = Counthtml.length;
+};
 
-            // 算 美食札記 文章
-            const foodArticleCount = ref(0);
-            const CountfoodArticle = () => {
-                const Countfood = document.querySelectorAll(".FOOD");
-                foodArticleCount.value = Countfood.length;
-            };
+// 算 css 文章
+const cssArticleCount = ref(0);
+const CountcssArticle = () => {
+    const Countcss = document.querySelectorAll(".CSS");
+    cssArticleCount.value = Countcss.length;
+};
 
-            onMounted(() => {
-                CountallArticle();
-                CountgitArticle();
-                CountwebArticle();
-                CounthtmlArticle();
-                CountcssArticle();
-                CountjsArticle();
-                CountvueArticle();
-                CountdatabaseArticle();
-                CountpythonArticle();
-                CountsoftwareArticle();
-                CountchatArticle();
-                CountfoodArticle();
-            });
+// 算 js 文章
+const jsArticleCount = ref(0);
+const CountjsArticle = () => {
+    const Countjs = document.querySelectorAll("JS");
+    jsArticleCount.value = Countjs.length;
+};
 
-            return {
-                allArticleCount,
-                gitArticleCount,
-                webArticleCount,
-                htmlArticleCount,
-                cssArticleCount,
-                jsArticleCount,
-                vueArticleCount,
-                databaseArticleCount,
-                pythonArticleCount,
-                softwareArticleCount,
-                chatArticleCount,
-                foodArticleCount,
-            };
-        }
-    };
+// 算 vue 文章
+const vueArticleCount = ref(0);
+const CountvueArticle = () => {
+    const Countvue = document.querySelectorAll(".VUE");
+    vueArticleCount.value = Countvue.length;
+};
+
+// 算 database 文章
+const databaseArticleCount = ref(0);
+const CountdatabaseArticle = () => {
+    const Countdatabase = document.querySelectorAll(".DB");
+    databaseArticleCount.value = Countdatabase.length;
+};
+
+// 算 python 文章
+const pythonArticleCount = ref(0);
+const CountpythonArticle = () => {
+    const Countpython = document.querySelectorAll(".PYTHON");
+    pythonArticleCount.value = Countpython.length;
+};
+
+// 算 software 文章
+const softwareArticleCount = ref(0);
+const CountsoftwareArticle = () => {
+    const Countsoftware = document.querySelectorAll(".SOFTWARE");
+    softwareArticleCount.value = Countsoftware.length;
+};
+
+// 算 雜談 文章
+const chatArticleCount = ref(0);
+const CountchatArticle = () => {
+    const Countchat = document.querySelectorAll(".CHAT");
+    chatArticleCount.value = Countchat.length;
+};
+
+// 算 美食札記 文章
+const foodArticleCount = ref(0);
+const CountfoodArticle = () => {
+    const Countfood = document.querySelectorAll(".FOOD");
+    foodArticleCount.value = Countfood.length;
+};
+
+onMounted(() => {
+    CountallArticle();
+    CountgitArticle();
+    CountwebArticle();
+    CounthtmlArticle();
+    CountcssArticle();
+    CountjsArticle();
+    CountvueArticle();
+    CountdatabaseArticle();
+    CountpythonArticle();
+    CountsoftwareArticle();
+    CountchatArticle();
+    CountfoodArticle();
+});
 </script>

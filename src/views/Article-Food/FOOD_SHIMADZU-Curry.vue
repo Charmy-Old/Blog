@@ -2,7 +2,6 @@
     <Header />
     <div class="content">
         <main>
-
             <section>
                 <div class="article-heading">
                     <h2 class="article-heading">【美食札記】島津和牛咖哩</h2>
@@ -111,7 +110,6 @@
                         <p><i class="fa-regular fa-note-sticky"></i>五、六、日營業時間：11:30 ~ 21:00</p>
                         <p><i class="fa-regular fa-note-sticky"></i>連絡電話：03 567 8510</p>
                     </div>
-
                     <div class="article-map" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <div class="article-map-ratio">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1811.167781271278!2d121.01712603885812!3d24.783960629660154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346837ce2e19f22f%3A0xaa109ab3a38dc7b0!2z5bO25rSl5ZKM54mb5ZKW5ZOpKOmXnOaWsOW6lyk!5e0!3m2!1szh-TW!2stw!4v1696503845653!5m2!1szh-TW!2stw" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -124,7 +122,6 @@
                         <p><i class="fa-regular fa-note-sticky"></i>營業時間：11:30 ~ 20:30</p>
                         <p><i class="fa-regular fa-note-sticky"></i>連絡電話：02 2717 1007</p>
                     </div>
-                   
                     <div class="article-map" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <div class="article-map-ratio">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.2794356268782!2d121.54704298792736!3d25.058516380077148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab7294444613%3A0xa1ac21f92a259506!2z5bO25rSl5ZKM54mb5ZKW5ZOp77yI5rCR55Sf5bqX77yJ!5e0!3m2!1szh-TW!2stw!4v1696504064021!5m2!1szh-TW!2stw" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -132,26 +129,16 @@
                     </div>
                 </div>
             </section>
-
         </main>
         <Wall />
     </div>
     <pageRate />
     <BackToTop />
 </template>
-<script>
-    import Header from "@/components/Header.vue";
-    import Wall from "@/components/Wall.vue";
-    import BackToTop from "@/components/BackToTop.vue";
-    import pageRate from "@/components/pageRate.vue";
-    export default {
-        components: {
-            Header,
-            Wall,
-            BackToTop,
-            pageRate,
-            // Footer,
-        },
-        setup() {}
-    };
+
+<script setup>
+import Header from "@/components/Header.vue";
+import Wall from "@/components/Wall.vue";
+import BackToTop from "@/components/BackToTop.vue";
+import pageRate from "@/components/pageRate.vue";
 </script>
