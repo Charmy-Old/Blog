@@ -366,6 +366,11 @@ const routes = [
         name: 'JS_class',
         component: () => import('../views/Article-JavaScript/JS_class.vue')
     },
+    {
+        path: '/JS_sort-vs-toSorted',
+        name: 'JS_sort-vs-toSorted',
+        component: () => import('../views/Article-JavaScript/JS_sort-vs-toSorted.vue')
+    },
 
     // Vue 文章
     {

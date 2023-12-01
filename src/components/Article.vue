@@ -58,6 +58,22 @@
         </a>
     </section>
 
+    <section class="all javascript">
+        <a href="JS_sort-vs-toSorted" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">sort() V.S. toSorted()</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-12-01</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>JavaScript 中的 sort() 和 toSorted() 都是用來對陣列進行排序的函數。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all chat">
         <a href="Chat_ICs-Photolithography-vs-Etching-vs-Diffusion-vs-Deposition" class="article">
             <div class="article-icon">

@@ -81,10 +81,10 @@ function myFunction(event) {
                     <div class="article-detailLine"></div>
                     <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
-                            <li><i class="fa-solid fa-check"></i>事件捕獲階段從祖先元素向目標元素傳播，很少使用。</li>
-                            <li><i class="fa-solid fa-check"></i>事件冒泡階段從目標元素向祖先元素傳播，是默認的傳播方式，也是最常用的。</li>
-                            <li><i class="fa-solid fa-check"></i>使用 addEventListener 添加事件處理時，通過設置 useCapture 參數為 true 可以啟用事件捕獲階段，為 false 或省略參數則使用事件冒泡階段。</li>
-                            <li><i class="fa-solid fa-check"></i>使用 event.stopPropagation() 方法可以阻止事件在捕獲或冒泡階段繼續傳播。</li>
+                            <li><i class="fa-solid fa-check"></i>事件捕獲階段從祖先元素向目標元素傳播，很少使用</li>
+                            <li><i class="fa-solid fa-check"></i>事件冒泡階段從目標元素向祖先元素傳播，是默認的傳播方式，也是最常用的</li>
+                            <li><i class="fa-solid fa-check"></i>使用 addEventListener 添加事件處理時，通過設置 useCapture 參數為 true 可以啟用事件捕獲階段，為 false 或省略參數則使用事件冒泡階段</li>
+                            <li><i class="fa-solid fa-check"></i>使用 event.stopPropagation() 方法可以阻止事件在捕獲或冒泡階段繼續傳播</li>
                         </ul>
                     </div>
                 </div>
