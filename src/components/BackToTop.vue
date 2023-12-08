@@ -3,8 +3,8 @@
     width: 50px;
     height: 50px;
     display: flex;
-    justify-content: center;   
-    align-items: center;   
+    justify-content: center;
+    align-items: center;
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -13,7 +13,7 @@
     background-color: #FFFAFA;
     cursor: pointer;
     transform: translateY(0%);
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .back-to-top:hover {
@@ -56,7 +56,9 @@
 
 <template>
     <div class="back-to-top hide" @click="BackToTop">
-        <div class=""><p class="back-to-top-arrow">↑</p></div>
+        <div class="">
+            <p class="back-to-top-arrow">↑</p>
+        </div>
     </div>
 </template>
 

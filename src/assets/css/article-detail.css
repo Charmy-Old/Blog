@@ -24,7 +24,7 @@
     height: 2px;
     background-color: #222223;
     margin: 0.5rem 0 1.5rem;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .article:hover .article-detailLine {
@@ -71,7 +71,7 @@
 
 .article-txt {
     margin: 1.5rem 0;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .article-txt h4 i {
@@ -97,7 +97,7 @@
     margin-left: 0.75rem;
     transform: translateY(-0.1rem);
     position: relative;
-    animation-name: moving; 
+    animation-name: moving;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -107,9 +107,11 @@
     0% {
         left: 0;
     }
+
     50% {
         left: 1.5rem;
     }
+
     100% {
         left: 0;
     }
@@ -159,7 +161,8 @@
     width: 100%;
 }
 
-.article-table table th, .article-table table td {
+.article-table table th,
+.article-table table td {
     border: 2px #26273B solid;
     text-align: center;
     vertical-align: middle;
@@ -171,7 +174,7 @@
     color: #C0C0C0;
     display: block;
     margin: 0.5rem 0;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .article-detail .article-reference:hover {
@@ -215,7 +218,8 @@
         width: 100%;
     }
 
-    .article-table table th, .article-table table td {
+    .article-table table th,
+    .article-table table td {
         width: calc(100%/3);
         border: 2px #26273B solid;
         text-align: center;
@@ -248,7 +252,8 @@
 .article-map-ratio::before {
     content: "";
     display: block;
-    padding-top: 56.25%; /* 16:9 寬高比 */
+    padding-top: 56.25%;
+    /* 16:9 寬高比 */
 }
 
 .article-map .article-map-ratio iframe {
@@ -263,6 +268,7 @@
     .article-detail .article-picTxt p {
         font-size: 14px;
     }
+
     .article-detail .article-picTxt h4 {
         font-size: 16px;
     }

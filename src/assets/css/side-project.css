@@ -3,7 +3,7 @@
     height: 2px;
     margin: 0.75rem 0;
     background-color: #222223;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .sideProject:hover .sideProject-underline {
@@ -44,7 +44,7 @@
     width: 75%;
     margin: auto;
     overflow: hidden;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .sideProject-projectPic img {
@@ -61,7 +61,7 @@
 .sideProject-projectText {
     width: 75%;
     margin: 2.5rem auto;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .sideProject-projectTitle {
@@ -76,7 +76,7 @@
     align-items: center;
     margin: 0.5rem 0.5rem 0.5rem 0;
     gap: 1%;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .sideProject-projectBlock:hover .sideProject-projectTag {
@@ -111,7 +111,7 @@
 
 .sideProject-projectLink p {
     transform: translate(-0.5rem, -0.09rem);
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .sideProject-projectBlock:hover .sideProject-projectLink p {
@@ -124,7 +124,7 @@
 
 .sideProject-projectLink a {
     margin: 0 1rem 0 0;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .sideProject-projectLink a:hover {
@@ -157,7 +157,7 @@
     .sideProject-projectPic {
         font-size: 72px;
     }
-    
+
     .sideProject-projectBlock:hover .sideProject-projectPic {
         font-size: 96px;
     }
@@ -194,6 +194,6 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
-        transition: all 0.5s linear;
+        transition: all 0.3s linear;
     }
 }

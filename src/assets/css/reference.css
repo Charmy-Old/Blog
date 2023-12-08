@@ -3,7 +3,7 @@
     height: 2px;
     margin: 0.75rem 0;
     background-color: #222223;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .reference:hover .reference-underline {
@@ -50,12 +50,12 @@
     .reference-title {
         display: block;
     }
-    
+
     .reference-title h2 {
         font-size: 24px;
         text-align: center;
     }
-    
+
     .reference-title p {
         text-align: end;
     }

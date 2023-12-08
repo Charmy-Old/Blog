@@ -1,104 +1,105 @@
 <style scoped>
-    #header-menu-switch{
-        display: none;
-    }
-    
+#header-menu-switch {
+    display: none;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0 1rem;
+    position: relative;
+    z-index: 9999;
+}
+
+.header-content {
+    line-height: 80px;
+}
+
+.header-hb {
+    display: none;
+}
+
+.header-nav {
+    width: fit-content;
+    display: flex;
+}
+
+.header-nav>ul {
+    display: flex;
+}
+
+.header-list {
+    align-self: center;
+}
+
+.header-list a {
+    font-size: 18px;
+    font-weight: 900;
+    display: block;
+    padding: 0rem 1.5rem;
+    color: #FFFAFA;
+    transition: all 0.3s linear;
+}
+
+.header-list a:hover {
+    color: #C0C0C0;
+}
+
+.header-underline {
+    width: 120px;
+    height: 1px;
+    display: none;
+    margin: 0.5rem auto 1rem;
+    background-color: #FFFAFA;
+}
+
+@media screen and (max-width: 991px) {
     .header {
-        height: 80px;
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        padding: 0 1rem;
-        position: relative;
-        z-index: 9999;
-    }
-    
-    .header-content {
-        line-height: 80px;
-    }
-    
-    .header-hb {
-        display: none;
-    }
-    
-    .header-nav {
-        width: fit-content;
-        display: flex;
-    }
-    
-    .header-nav > ul {
-        display: flex;
+        padding: 0 2rem 0 1rem;
     }
 
-    .header-list {
-        align-self: center;
-    }
-    
-    .header-list a {
-        font-size: 18px;
-        font-weight: 900;
+    .header-hb {
+        width: 30px;
+        height: 45px;
         display: block;
-        padding: 0rem 1.5rem;
-        color: #FFFAFA;
-        transition: all 0.5s linear;
+        align-self: center;
+        margin-left: auto;
+        position: relative;
+        cursor: pointer;
     }
-    
-    .header-list a:hover {
-        color: #C0C0C0;
-    }
-    
-    .header-underline {
-        width: 120px;
-        height: 1px;
-        display: none;
-        margin: 0.5rem auto 1rem;
+
+    .header-hb-line {
+        width: 32px;
+        height: 2px;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        left: 0;
         background-color: #FFFAFA;
+        /* 線 */
+        opacity: 1;
+        transform: rotate(0deg);
     }
-    
-    @media screen and (max-width: 991px) {
-        .header {
-            padding: 0 2rem 0 1rem;
-        }
-    
-        .header-hb {
-            width: 30px;
-            height: 45px;
-            display: block;
-            align-self: center;
-            margin-left: auto;
-            position: relative;
-            cursor: pointer;
-        }
-    
-        .header-hb-line {
-            width: 32px;
-            height: 2px;
-            margin: auto;
-            position: absolute;
-            right: 0;
-            left: 0;
-            background-color: #FFFAFA; /* 線 */
-            opacity: 1;
-            transform: rotate(0deg);
-        }
-    
-        .header-hb-line:nth-child(1) {
-            top: 7px;
-        }
-    
-        .header-hb-line:nth-child(2) {
-            top: 19px;
-        }
-    
-        .header-hb-line:nth-child(3) {
-            top: 31px;
-        }
-    
-        #header-menu-switch:checked + .header .header-hb-line:nth-child(1) {
-            animation: hb-line-1 1s 1s forwards;
-        }
-    
-        /* @keyframes hb-line-1 {
+
+    .header-hb-line:nth-child(1) {
+        top: 7px;
+    }
+
+    .header-hb-line:nth-child(2) {
+        top: 19px;
+    }
+
+    .header-hb-line:nth-child(3) {
+        top: 31px;
+    }
+
+    #header-menu-switch:checked+.header .header-hb-line:nth-child(1) {
+        animation: hb-line-1 1s 1s forwards;
+    }
+
+    /* @keyframes hb-line-1 {
             0% {
                 top: 7px;
                 transform: rotate(0deg);
@@ -117,54 +118,54 @@
         }
          */
 
-        @keyframes hb-line-1 {
-            0% {
-                top: 7px;
-                transform: rotate(0deg);
-            }
-        
-            10% {
-                top: 31px;
-                transform: rotate(0deg);
-            }
-        
-            20% {
-                top: 7px;
-                transform: rotate(0deg);
-            }
-        
-            30% {
-                top: 31px;
-                transform: rotate(0deg);
-            }
-        
-            40% {
-                top: 7px;
-                transform: rotate(0deg);
-            }
-        
-            50% {
-                top: 19px;
-                transform: rotate(0deg);
-            }
-        
-            75% {
-                top: 19px;
-                transform: rotate(-405deg);
-            }
-        
-            100% {
-                top: 19px;
-                transform: rotate(405deg);
-            }
-        
+    @keyframes hb-line-1 {
+        0% {
+            top: 7px;
+            transform: rotate(0deg);
         }
-    
-        #header-menu-switch:checked + .header .header-hb-line:nth-child(2) {
-            animation: hb-line-2 1s 0s forwards;
+
+        10% {
+            top: 31px;
+            transform: rotate(0deg);
         }
-    
-        /* @keyframes hb-line-2 {
+
+        20% {
+            top: 7px;
+            transform: rotate(0deg);
+        }
+
+        30% {
+            top: 31px;
+            transform: rotate(0deg);
+        }
+
+        40% {
+            top: 7px;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 19px;
+            transform: rotate(0deg);
+        }
+
+        75% {
+            top: 19px;
+            transform: rotate(-405deg);
+        }
+
+        100% {
+            top: 19px;
+            transform: rotate(405deg);
+        }
+
+    }
+
+    #header-menu-switch:checked+.header .header-hb-line:nth-child(2) {
+        animation: hb-line-2 1s 0s forwards;
+    }
+
+    /* @keyframes hb-line-2 {
             0% {
                 opacity: 1;
             }
@@ -176,54 +177,57 @@
         }
         */
 
-        @keyframes hb-line-2 {
-            0% {
-                opacity: 1;
-            }
-        
-            10% {
-                opacity: 0;
-            }
-        
-            20% {
-                opacity: 1;
-            }
-        
-            30% {
-                opacity: 0;
-            }
-        
-            40% {
-                opacity: 1;
-            }
-        
-            50% {
-                opacity: 0;
-            }
-        
-            60% {
-                opacity: 1;
-            }
-        
-            70% {
-                opacity: 0;
-            }
-            80% {
-                opacity: 1;
-            }
-            90% {
-                opacity: 0;
-            }
-        
-            100% {
-                opacity: 0;
-            }
-        }
-        #header-menu-switch:checked + .header .header-hb-line:nth-child(3) {
-            animation: hb-line-3 1s 1s forwards;
+    @keyframes hb-line-2 {
+        0% {
+            opacity: 1;
         }
 
-        /* @keyframes hb-line-3 {
+        10% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 1;
+        }
+
+        30% {
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        60% {
+            opacity: 1;
+        }
+
+        70% {
+            opacity: 0;
+        }
+
+        80% {
+            opacity: 1;
+        }
+
+        90% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    #header-menu-switch:checked+.header .header-hb-line:nth-child(3) {
+        animation: hb-line-3 1s 1s forwards;
+    }
+
+    /* @keyframes hb-line-3 {
             0% {
                 top: 31px;
                 transform: rotate(0deg);
@@ -238,232 +242,243 @@
             }
         } */
 
-        @keyframes hb-line-3 {
-            0% {
-                top: 31px;
-                transform: rotate(0deg);
-            }
-            10% {
-                top: 7px;
-                transform: rotate(0deg);
-            }
-            20% {
-                top: 31px;
-                transform: rotate(0deg);
-            }
-            30% {
-                top: 7px;
-                transform: rotate(0deg);
-            }
-            40% {
-                top: 31px;
-                transform: rotate(0deg);
-            }
-            50% {
-                top: 19px;
-                transform: rotate(0deg);
-            }
-            75% {
-                top: 19px;
-                transform: rotate(-675deg);
-            }
-            100% {
-                top: 19px;
-                transform: rotate(675deg);
-            }
-        }
-        #header-menu-switch:checked + .header .header-nav {
-            left: 0;
-            opacity: 1;
-            transition: opacity 1s 2s;
-        }
-        .header-nav {
-            width: 100%;
-            position: absolute;
-            top: 80px;
-            left: -100%;
-            /* background-image: url("../assets/images/background.webp");
-            background-size: cover; */
-            background-color: #222223;
-            opacity: 0;
-            transition: opacity 1s 0s,
-                        left    0s 1s;
-        }
-        .header-nav > ul {
-            width: 100%;
-            display: block;
-            float: left;
-            /* float: right; */
+    @keyframes hb-line-3 {
+        0% {
+            top: 31px;
+            transform: rotate(0deg);
         }
 
-        .header-list a {
-            display: flex;
-            justify-content: space-between;
+        10% {
+            top: 7px;
+            transform: rotate(0deg);
         }
 
-        .header-underline {
-            width: 0%;
-            display: block;
-            margin: 0 0 0.5rem;
-            transition: all 1s linear;
+        20% {
+            top: 31px;
+            transform: rotate(0deg);
         }
 
-        .header-list:hover .header-underline {
-            width: 100%;
+        30% {
+            top: 7px;
+            transform: rotate(0deg);
+        }
+
+        40% {
+            top: 31px;
+            transform: rotate(0deg);
+        }
+
+        50% {
+            top: 19px;
+            transform: rotate(0deg);
+        }
+
+        75% {
+            top: 19px;
+            transform: rotate(-675deg);
+        }
+
+        100% {
+            top: 19px;
+            transform: rotate(675deg);
         }
     }
 
-    .title {
-        font-family: "Henny Penny";
-        font-size: 48px;
-        font-weight: 900;
-        width: fit-content;
-        line-height: 180px;
-        /* color: #26273B; */
-        margin: auto;
+    #header-menu-switch:checked+.header .header-nav {
+        left: 0;
+        opacity: 1;
+        transition: opacity 1s 2s;
     }
 
-    .title h1 a {
-        color: #FFFAFA;
-        letter-spacing: 0.2rem;
-    }
-
-    .title h1 a:hover {
-        color: #C0C0C0;
-    }
-
-    @media screen and (max-width: 991px) {
-        .title {
-            font-size: 36px;
-            line-height: 80px;
-            position: relative;
-            z-index: 10000;
-            transform: translateY(-80px);
-        }
-    }
-
-    @media screen and (max-width: 575px) {
-        .title {
-            font-size: 24px;
-        }
-    }
-
-    @media screen and (max-width: 380px) {
-        .title h1 a {
-            letter-spacing: 0.1rem;
-        }
-    }
-
-    @media screen and (max-width: 360px) {
-        .title {
-            margin: 0 5rem 0 1.5rem;
-        }
-    }
-
-    .header-search {
-        line-height: 30px;
-        padding: 0rem 1.5rem;
-    }
-
-    .header-search-input {
-        color: #FFFAFA;
-        border: 1px #FFFAFA solid;
-        padding: 0 0.25rem;
-    }
-
-    .header-search-button {
-        color: #FFFAFA;
-        border: 1px #FFFAFA solid;
-        padding:  0rem 1rem;
-        transition: all 0.5s linear;
-    }
-
-    .header-search-button:hover {
-        color: #222223;
-        background-color: #FFFAFA;
-    }
-
-    .header-search-lightbox {
+    .header-nav {
         width: 100%;
-        height: 100%;
-        line-height: 2;
-        color: #FFFFFF;
-        background-color: #222223;;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /* justify-content: center; */
-        opacity: 0.95;
-        overflow: auto;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 99999;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        /* background-image: url("../assets/images/background.webp");
+            background-size: cover; */
+        background-color: #222223;
+        opacity: 0;
+        transition: opacity 1s 0s,
+            left 0s 1s;
     }
 
-    .header-search-lightbox div:nth-child(n+2) {
-        margin-top: 1.5rem;
-    }
-
-    .header-search-lightbox div:last-child {
-        margin-bottom: 5rem;
-    }
-
-    .header-search-lightboxSearch {
-        width: fit-content;
-        margin: 7.5rem 0 1.5rem 0;
-    }
-
-    .header-search-lightboxButton {
-        line-height: 25px;
-        color: #FFFAFA;
+    .header-nav>ul {
+        width: 100%;
         display: block;
-        /* border: 1px #FFFAFA solid; */
-        margin-left: auto;
-        padding:  0rem 0.5rem;
-        transform: translate(35px,-5px);
-        transition: all 0.5s linear;
-    }
-    
-    .header-search-lightboxInput {
-        width: 300px;
-        line-height: 40px;
-        color: #FFFAFA;
-        border: 1px #FFFAFA solid;
-        padding: 0 0.25rem;
+        float: left;
+        /* float: right; */
     }
 
-    .header-search-lightboxButton i {
-        color: #FFFAFA;
-        margin: auto;
-        transition: all 0.5s linear;
+    .header-list a {
+        display: flex;
+        justify-content: space-between;
     }
 
-    .header-search-lightbox div:nth-child(n+2) {
-        margin-top: 1rem;
+    .header-underline {
+        width: 0%;
+        display: block;
+        margin: 0 0 0.5rem;
+        transition: all 1s linear;
     }
 
-    @media screen and (max-width: 991px) {
-        .header-search {
-            display: flex;
-            justify-content: space-between;
-            margin: 1.5rem 0;
-        }
+    .header-list:hover .header-underline {
+        width: 100%;
     }
+}
 
-    @media screen and (max-width: 768px) {
-        .header-search-lightbox div:nth-child(n+2) a {
-            font-size: 16px;
-            text-align: center;
-        }
-    }
+.title {
+    font-family: "Henny Penny";
+    font-size: 48px;
+    font-weight: 900;
+    width: fit-content;
+    line-height: 180px;
+    /* color: #26273B; */
+    margin: auto;
+}
 
-    @media screen and (max-width: 499px) {
-        .header-search-lightboxButton {
-            transform: translate(0,-10px);
-        }
+.title h1 a {
+    color: #FFFAFA;
+    letter-spacing: 0.2rem;
+}
+
+.title h1 a:hover {
+    color: #C0C0C0;
+}
+
+@media screen and (max-width: 991px) {
+    .title {
+        font-size: 36px;
+        line-height: 80px;
+        position: relative;
+        z-index: 10000;
+        transform: translateY(-80px);
     }
+}
+
+@media screen and (max-width: 575px) {
+    .title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .title h1 a {
+        letter-spacing: 0.1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .title {
+        margin: 0 5rem 0 1.5rem;
+    }
+}
+
+.header-search {
+    line-height: 30px;
+    padding: 0rem 1.5rem;
+}
+
+.header-search-input {
+    color: #FFFAFA;
+    border: 1px #FFFAFA solid;
+    padding: 0 0.25rem;
+}
+
+.header-search-button {
+    color: #FFFAFA;
+    border: 1px #FFFAFA solid;
+    padding: 0rem 1rem;
+    transition: all 0.3s linear;
+}
+
+.header-search-button:hover {
+    color: #222223;
+    background-color: #FFFAFA;
+}
+
+.header-search-lightbox {
+    width: 100%;
+    height: 100%;
+    line-height: 2;
+    color: #FFFFFF;
+    background-color: #222223;
+    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    opacity: 0.95;
+    overflow: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+}
+
+.header-search-lightbox div:nth-child(n+2) {
+    margin-top: 1.5rem;
+}
+
+.header-search-lightbox div:last-child {
+    margin-bottom: 5rem;
+}
+
+.header-search-lightboxSearch {
+    width: fit-content;
+    margin: 7.5rem 0 1.5rem 0;
+}
+
+.header-search-lightboxButton {
+    line-height: 25px;
+    color: #FFFAFA;
+    display: block;
+    /* border: 1px #FFFAFA solid; */
+    margin-left: auto;
+    padding: 0rem 0.5rem;
+    transform: translate(35px, -5px);
+    transition: all 0.3s linear;
+}
+
+.header-search-lightboxInput {
+    width: 300px;
+    line-height: 40px;
+    color: #FFFAFA;
+    border: 1px #FFFAFA solid;
+    padding: 0 0.25rem;
+}
+
+.header-search-lightboxButton i {
+    color: #FFFAFA;
+    margin: auto;
+    transition: all 0.3s linear;
+}
+
+.header-search-lightbox div:nth-child(n+2) {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+    .header-search {
+        display: flex;
+        justify-content: space-between;
+        margin: 1.5rem 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-search-lightbox div:nth-child(n+2) a {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .header-search-lightboxButton {
+        transform: translate(0, -10px);
+    }
+}
 </style>
 
 <template>
@@ -500,18 +515,21 @@
                         </li>
                         <li class="header-list">
                             <div v-if="!showLightbox" class="header-search">
-                                <input class="header-search-input" v-model="state.searchInput" type="text" placeholder="Search Article">
+                                <input class="header-search-input" v-model="state.searchInput" type="text"
+                                    placeholder="Search Article">
                                 <button class="header-search-button" @click="search, showLightbox = true">Search</button>
                             </div>
                             <div v-if="showLightbox" class="header-search-lightbox">
                                 <div class="header-search-lightboxSearch">
-                                    <button class="header-search-lightboxButton" @click="closeLightbox"><i class="fa-solid fa-x"></i></button>
-                                    <input class="header-search-lightboxInput" v-model="state.searchInput" type="text" placeholder="Search Article">
+                                    <button class="header-search-lightboxButton" @click="closeLightbox"><i
+                                            class="fa-solid fa-x"></i></button>
+                                    <input class="header-search-lightboxInput" v-model="state.searchInput" type="text"
+                                        placeholder="Search Article">
                                 </div>
 
-                            
+
                                 <div v-for="content in filteredDivContentList" :key="content">
-                                     <a :href="content.url">{{ content.text }}</a>
+                                    <a :href="content.url">{{ content.text }}</a>
                                 </div>
                             </div>
                             <span class="header-underline"></span>
@@ -529,7 +547,7 @@
                             <span class="header-underline"></span>
                         </li>
                     </ul>
-                 </nav>
+                </nav>
             </div>
         </div>
         <div class="title">

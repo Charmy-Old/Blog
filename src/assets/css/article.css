@@ -8,7 +8,7 @@
     width: 17.5%;
     text-align: center;
     align-self: center;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .article:hover .article-icon {
@@ -18,7 +18,7 @@
 .article-text {
     width: 80%;
     margin: 1rem 0;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .article:hover .article-text {
@@ -36,7 +36,7 @@
     align-items: center;
     margin: 0.25rem 0 0.5rem;
     gap: 1%;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .article:hover .article-tag {
@@ -56,7 +56,7 @@
     height: 2px;
     margin: 0.5rem 0;
     background-color: #222223;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .article:hover .article-underline {
@@ -73,6 +73,7 @@
     .article {
         display: block;
     }
+
     .article-icon {
         width: 100%;
     }
@@ -102,7 +103,7 @@
     border-radius: 10px;
     margin: 0.5rem 0;
     padding: 0.5rem 1rem;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .select-button:hover {
@@ -168,9 +169,7 @@
     }
 }
 
-@media screen and (max-width: 399px) {
-
-}
+@media screen and (max-width: 399px) {}
 
 @media screen and (max-width: 350px) {
     .article-tag {

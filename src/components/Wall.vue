@@ -61,7 +61,7 @@
     width: fit-content;
     text-align: center;
     margin: 1.5rem auto;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .wall-tag:first-child {
@@ -121,7 +121,7 @@
     .resume {
         display: flex;
     }
-    
+
     .resumeTitle {
         width: 45%;
         display: flex;
@@ -132,7 +132,7 @@
         height: fit-content;
         align-self: center;
     }
-    
+
     .resumeProfile {
         width: 70%;
         line-height: 0;
@@ -152,7 +152,8 @@
         justify-content: space-between;
     }
 
-    .wall-article, .wall-project {
+    .wall-article,
+    .wall-project {
         /* width: 49%; */
         width: 100%;
     }
@@ -180,7 +181,7 @@
     .resumeIntroduce {
         width: 100%;
     }
-    
+
     .wall-weather-search {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -191,7 +192,8 @@
         display: block;
     }
 
-    .wall-article, .wall-project {
+    .wall-article,
+    .wall-project {
         width: 100%;
     }
 }
@@ -200,7 +202,7 @@
     border: none;
     margin: auto;
     padding: 0;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .wall-wtRecord:hover {
@@ -213,7 +215,7 @@
     display: block;
     text-align: center;
     padding: 1rem 1.5rem;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 .wall-wtRecord a:hover {
@@ -226,6 +228,30 @@
     }
 }
 
+.wall-recommendedFood p {
+    font-size: 18px;
+    font-weight: 900;
+    color: #222223;
+    text-align: center;
+}
+
+.wall-recommendedFood button {
+    font-size: 18px;
+    font-weight: 900;
+    color: #222223;
+    border: 3px #222223 solid;
+    border-radius: 10px;
+    display: block;
+    margin: 1.5rem auto 0.5rem;
+    padding: 0.25rem 1.25rem;
+    transition: all 0.3s linear;
+}
+
+.wall-recommendedFood button:hover {
+    color: #FFFAFA;
+    background-color: #222223;
+    box-shadow: 0 0 15px #222223;
+}
 </style>
 
 <template>
@@ -236,10 +262,10 @@
         <div class="resume">
             <section class="resumeTitle">
                 <div class="resumeProfile">
-                        <a href="About">
-                            <img src="../assets/images/charmy.jpg" alt="大頭貼"> 
-                        </a>
-                    </div>
+                    <a href="About">
+                        <img src="../assets/images/charmy.jpg" alt="大頭貼">
+                    </a>
+                </div>
                 <div class="resumeName">
                     <h2>曾韋翰 Charmy</h2>
                 </div>
@@ -251,7 +277,8 @@
             </section>
         </div>
         <section class="wall-article">
-            <div class="wall-tag"><a href="Article"><i class="fa-solid fa-tag"></i>All Tags ({{ allArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article"><i class="fa-solid fa-tag"></i>All Tags ({{ allArticleCount }})</a>
+            </div>
             <div class="wall-tag"><a href="Article-Git">Git ({{ gitArticleCount }})</a></div>
             <div class="wall-tag"><a href="Article-Web">Web ({{ webArticleCount }})</a></div>
             <div class="wall-tag"><a href="Article-HTML">HTML ({{ htmlArticleCount }})</a></div>
@@ -268,18 +295,23 @@
             <section class="wall-project">
                 <div class="wall-tag"><a href="Side-Project"><i class="fa-solid fa-tag"></i>最新作品</a></div>
                 <div class="wall-tag"><a href="https://pangolin-clothing.onrender.com/">Pangolin Clothing</a></div>
-                <div class="wall-tag"><a href="https://charmying.github.io/Engineering-Calculator/">Engineering-Calculator</a></div>
+                <div class="wall-tag"><a
+                        href="https://charmying.github.io/Engineering-Calculator/">Engineering-Calculator</a></div>
                 <div class="wall-tag"><a href="https://charmying.github.io/Todo-List/">Todo-List</a></div>
                 <div class="wall-tag"><a href="https://tibamef2e.com/cgd103/g1/">緯育團體專題</a></div>
                 <div class="wall-tag"><a href="https://charmying.github.io/Pangolin-Phonecase/">緯育個人專題</a></div>
             </section>
             <section class="wall-project">
                 <div class="wall-tag"><i class="fa-solid fa-tag"></i>CodePen</div>
-                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/qBgEyMQ" target="_blank">會員登入 顯示密碼</a></div>
-                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/WNYyeOv" target="_blank">JS for迴圈九九乘法</a></div>
+                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/qBgEyMQ" target="_blank">會員登入 顯示密碼</a>
+                </div>
+                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/WNYyeOv" target="_blank">JS for迴圈九九乘法</a>
+                </div>
                 <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/mdQMbZQ" target="_blank">限制內容字寬行數</a></div>
-                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/yLQBLMw" target="_blank">Engineering Calculator</a></div>
-                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/RwBeNRz" target="_blank">Todo List LocalStorage</a></div>
+                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/yLQBLMw" target="_blank">Engineering
+                        Calculator</a></div>
+                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/RwBeNRz" target="_blank">Todo List
+                        LocalStorage</a></div>
             </section>
         </div>
         <section class="wall-weather">
@@ -287,11 +319,13 @@
                 <h2>天氣查詢</h2>
                 <select class="select-area" v-model="locationName">
                     <option value="" selected disabled>選擇區域</option>
-                    <option v-for="weatherData of weatherDatas" :key="weatherData.locationName" :value="weatherData.locationName">
+                    <option v-for="weatherData of weatherDatas" :key="weatherData.locationName"
+                        :value="weatherData.locationName">
                         {{ weatherData.locationName }}
                     </option>
                 </select>
-                <div class="showWeather" v-for="weatherData of weatherDatas" :key="weatherData.locationName" v-show="locationName === weatherData.locationName">
+                <div class="showWeather" v-for="weatherData of weatherDatas" :key="weatherData.locationName"
+                    v-show="locationName === weatherData.locationName">
                     <!-- <p>{{ locationName }}</p> -->
                     <p>天氣狀況：{{ weatherData.weatherElement[0].time[0].parameter.parameterName }}</p>
                     <p>最高溫度：{{ weatherData.weatherElement[4].time[0].parameter.parameterName }} ℃</p>
@@ -304,6 +338,13 @@
             <a href="Weight-Record">
                 體重追蹤紀錄
             </a>
+        </section>
+        <section class="wall-recommendedFood">
+            <div>
+                <p>建議吃什麼：{{ recommendedFood }}</p>
+                <button v-if="recommendedFood === ''" @click="recommend">推薦</button>
+                <button v-else @click="recommend">再推薦</button>
+            </div>
         </section>
     </div>
 </template>
@@ -463,15 +504,23 @@ const weatherDatas = ref([]);
 const locationName = ref("");
 const getWeather = () => {
     fetch("https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-AB74CE7B-2CF2-4D40-A61C-6F5D05C0DEB6&format=JSON&sort=time")
-    .then((res) => res.json())
-    .then((json) => {
-        weatherDatas.value = json.records.location;
-    })
-    .catch((error) => {
-        alert("系統異常，請稍後再試");
-    });
+        .then((res) => res.json())
+        .then((json) => {
+            weatherDatas.value = json.records.location;
+        })
+        .catch((error) => {
+            alert("系統異常，請稍後再試");
+        });
 };
 onMounted(() => {
     getWeather();
 });
+
+// 推薦食物
+const foodList = ref(["自己煮", "便當", "健康餐", "壽司", "拉麵", "牛肉麵", "烏龍麵", "烤雞", "炸雞", "水餃", "煎餃", "蒸餃", "蛋包飯", "烤肉飯", "炒飯", "燉飯", "Pizza", "義大利麵", "烤肉"]);
+const recommendedFood = ref('');
+const recommend = () => {
+    const randomIndex = Math.floor(Math.random() * foodList.value.length);
+    recommendedFood.value = foodList.value[randomIndex];
+};
 </script>

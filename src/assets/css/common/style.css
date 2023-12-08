@@ -12,11 +12,15 @@ body {
     line-height: 1.5;
 }
 
-a, a:hover, a:visited, a:link, a:active {
-    color:#222223;
-    text-decoration:none;
+a,
+a:hover,
+a:visited,
+a:link,
+a:active {
+    color: #222223;
+    text-decoration: none;
     outline: none;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 input {
@@ -92,18 +96,18 @@ section {
     width: 0.5rem;
     height: 0.5rem;
 }
-  
+
 /* 網頁捲軸【背景】 */
 ::-webkit-scrollbar-track {
     background-color: #FFFAFA;
 }
-  
+
 /* 網頁捲軸【把手】 */
 ::-webkit-scrollbar-thumb {
     background-color: #222223;
     border-radius: 50px;
 }
-  
+
 /* 網頁捲軸【滑過時】 */
 ::-webkit-scrollbar-thumb:hover {
     background-color: #C0C0C0;
