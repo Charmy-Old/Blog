@@ -346,34 +346,123 @@ for x in range(2,85,2):
                 <div class="question-content">
                     <div class="question-txt">
                         <p>Given the array of integers nums, you will choose two different indices i and j of that array. Return the maximum value of (nums[i]-1)*(nums[j]-1).</p>
-                        <p>給定整數數組nums，您將選擇該數組的兩個不同索引i和j。傳回 的最大值 (nums[i]-1)*(nums[j]-1)。</p>
+                        <p>給定整數數組 nums，將選擇該數組的兩個不同索引 i 和 j。傳回的最大值 (nums[i]-1)*(nums[j]-1)。</p>
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
 <pre>
 // JavaScript
 
-function maxProduct(nums) {
+const maxProduct = function(nums) {
     let max = 0;
-    for (let i = 0; i &lt; nums.length; i++) {
-        for (let j = i + 1; j &lt; nums.length; j++) {
+    for(let i = 0; i &lt; nums.length; i++) {
+        for(let j = i + 1; j &lt; nums.length; j++) {
             max = Math.max(max, (nums[i] - 1) * (nums[j] - 1));
         }
     }
     return max;
-}
+};
+
 console.log(maxProduct([8, 9, 1 , 11]));   // 80
 </pre>
                     </div>
                     <div class="question-coding">
 <pre>
 # Python
-
+# ====================================================================================================
 def maxProduct(nums):
-nums.sort()
-return (nums[-1]-1)*(nums[-2]-1)
-    
+    nums.sort()
+    return (nums[-1]-1)*(nums[-2]-1)
 print(maxProduct([8, 9, 1 , 11]))   # 80
+# ====================================================================================================
+class Solution(object):
+    def maxProduct(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        nums.sort()
+        return (nums[-1]-1)*(nums[-2]-1)
+print(Solution().maxProduct([8, 9, 1 , 11]))   # 80
+# ====================================================================================================
+# Python3
+# ====================================================================================================
+class Solution:
+    def maxProduct(self, nums: list[int]) -> int:
+        nums.sort()
+        return (nums[-1]-1)*(nums[-2]-1)
+print(Solution().maxProduct([8, 9, 1, 11]))   # 80
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(7)">
+                <div class="question-title">
+                    <h2>LeetCode <span style="color: #00B8A3;">(Easy)</span></h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</p>
+                        <p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>
+                        <p>You can return the answer in any order.</p>
+                        <p>給定一個整數數組 nums 和一個整數 target，傳回兩個數字的索引，使相加為 target。</p>
+                        <p>假設每個輸入都有一個解決方案，並且不能兩次使用相同的元素。</p>
+                        <p>按任意順序返回答案。</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+// JavaScript
+
+const twoSum = function(nums, target) {
+    for(let i = 0; i &lt nums.length; i++) {
+        for(let j = i + 1; j &lt nums.length; j++) {
+            if (nums[i] + nums[j] === target) {
+                return [i, j];
+            }
+        }
+    }
+    return [];
+};
+
+console.log(twoSum([2, 7, 11, 15], 22));   // [1, 3]
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python
+# ====================================================================================================
+def twoSum(nums, target):
+    for i in range(len(nums)):
+        for j in range(i+1,len(nums)):
+            if nums[i]+nums[j]==target:
+                return [i,j]
+print(twoSum([2, 7, 11, 15], 22))   # [1, 3]
+# ====================================================================================================
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        for i in range(len(nums)):
+            for j in range(i+1,len(nums)):
+                if nums[i]+nums[j]==target:
+                    return [i,j]
+print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
+# ====================================================================================================
+# Python3
+# ====================================================================================================
+class Solution:
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
+        for i in range(len(nums)):
+            for j in range(i+1,len(nums)):
+                if nums[i]+nums[j]==target:
+                    return [i, j]
+print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
 </pre>
                     </div>
                 </div>
