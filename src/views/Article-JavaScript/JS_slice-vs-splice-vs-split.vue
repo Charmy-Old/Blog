@@ -45,10 +45,10 @@ console.log(arr)   // [1, 2, 3, 4, 5]
                     </div>
                     <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
-                            <li><i class="fa-solid fa-pencil"></i>arr.slice(2) 從陣列的索引位子 2 開始到最後。</li>
-                            <li><i class="fa-solid fa-pencil"></i>arr.slice(1, 3) 從陣列的索引位子 1 開始到 2。</li>
-                            <li><i class="fa-solid fa-pencil"></i>arr.slice(-1) 開始位子為負數的話，會從陣列的最後一個索引位子開始往前推。</li>
-                            <li><i class="fa-solid fa-pencil"></i>arr 最後我們可以發現原陣列 arr 並未改變。</li>
+                            <li><i class="fa-solid fa-pencil"></i>arr.slice(2) 從陣列的索引位子 2 開始到最後</li>
+                            <li><i class="fa-solid fa-pencil"></i>arr.slice(1, 3) 從陣列的索引位子 1 開始到 2</li>
+                            <li><i class="fa-solid fa-pencil"></i>arr.slice(-1) 開始位子為負數的話，會從陣列的最後一個索引位子開始往前推</li>
+                            <li><i class="fa-solid fa-pencil"></i>arr 最後我們可以發現原陣列 arr 並未改變</li>
                         </ul>
                     </div>
                 </div>
@@ -64,8 +64,8 @@ console.log(arr)   // [1, 2, 3, 4, 5]
                     </div>
                     <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
-                            <li><i class="fa-solid fa-check"></i>可以藉由刪除既有元素或加入新元素來改變一個陣列的內容。</li>
-                            <li><i class="fa-solid fa-check"></i>原本的陣列將會被修改。</li>
+                            <li><i class="fa-solid fa-check"></i>可以藉由刪除既有元素或加入新元素來改變一個陣列的內容</li>
+                            <li><i class="fa-solid fa-check"></i>原本的陣列將會被修改</li>
                             <li><i class="fa-solid fa-check"></i>對象：Array</li>
                         </ul>
                     </div>
@@ -112,8 +112,8 @@ console.log(deletedNumbers)   // [2, 3]
                     </div>
                     <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
-                            <li><i class="fa-solid fa-check"></i>使用指定的分隔符字符串將一個 string 分割成子字符串數組。</li>
-                            <li><i class="fa-solid fa-check"></i>原本的陣列將不會被修改。</li>
+                            <li><i class="fa-solid fa-check"></i>使用指定的分隔符字符串將一個 string 分割成子字符串數組</li>
+                            <li><i class="fa-solid fa-check"></i>原本的陣列將不會被修改</li>
                             <li><i class="fa-solid fa-check"></i>對象：String</li>
                         </ul>
                     </div>
@@ -136,9 +136,9 @@ console.log(NewArray3)   // [ "Hello", " Charmy" ]
                     </div>
                     <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
-                            <li><i class="fa-solid fa-pencil"></i>str.split(",") 以","做為分隔前後的字符。</li>
-                            <li><i class="fa-solid fa-pencil"></i>str.split("") 分隔所有字符。</li>
-                            <li><i class="fa-solid fa-pencil"></i>str.split(",", 2) 以","做為分隔前後的字符，但只取前兩個。</li>
+                            <li><i class="fa-solid fa-pencil"></i>str.split(",") 以","做為分隔前後的字符</li>
+                            <li><i class="fa-solid fa-pencil"></i>str.split("") 分隔所有字符</li>
+                            <li><i class="fa-solid fa-pencil"></i>str.split(",", 2) 以","做為分隔前後的字符，但只取前兩個</li>
                         </ul>
                     </div>
                 </div>

@@ -75,7 +75,7 @@ array.toSorted([compareFn])
                     <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-solid fa-check"></i>array 是需要排序的數組</li>
-                            <li><i class="fa-solid fa-check"></i>compareFn 是可選的，指定排序順序的函數。如果省略，則將數組元素轉換為字符串，然後根據每個字符的 Unicode 碼位值進行排序。</li>
+                            <li><i class="fa-solid fa-check"></i>compareFn 是可選的，指定排序順序的函數。如果省略，則將數組元素轉換為字符串，然後根據每個字符的 Unicode 碼位值進行排序</li>
                         </ul>
                     </div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -84,9 +84,9 @@ array.toSorted([compareFn])
                     <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>
 function compareFn(a, b) {
-    // 返回 1 表示 a 大於 b。
-    // 返回 -1 表示 a 小於 b。
-    // 返回 0 表示 a 等於 b。
+    // 返回 1 表示 a 大於 b
+    // 返回 -1 表示 a 小於 b
+    // 返回 0 表示 a 等於 b
 }
 </pre>
                     </div>

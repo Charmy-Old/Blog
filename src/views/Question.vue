@@ -1,0 +1,438 @@
+<template>
+    <Header />
+    <div class="content">
+        <main>
+            <section>
+                <div class="container text-center">
+                    <div class="row row-cols-2 row-cols-md-4">
+                        <div>
+                            <button class="select-button" data-filter="all">All</button>
+                        </div>
+                        <div>
+                            <button class="select-button" data-filter="LeetCode">LeetCode</button>
+                        </div>
+                        <div>
+                            <button class="select-button" data-filter="Interview">前端面試</button>
+                        </div>
+                        <div>
+                            <button class="select-button" data-filter="Other">其他</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(0)">
+                <div class="question-title">
+                    <h2>前端面試考題</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>以下 console.log 會顯示出什麼 (淺拷貝 & 深拷貝 觀念)</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+let a = 1;
+let b = a;
+b = 2;
+console.log(a);   // 1
+console.log(b);   // 2
+let m = [1, 2];
+let n = m;
+n[0] = 3;
+console.log(m);   // [3, 2]
+console.log(n);   // [3, 2]
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(1)">
+                <div class="question-title">
+                    <h2>前端面試考題</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>運算子</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+console.log(2 + 3);   // 5
+console.log(2 + "3");   // 23
+console.log("2" + "3");   // 23
+console.log("2" + 3);   // 23
+
+console.log(2 - 3);   // -1
+console.log(2 - "3");   // -1
+console.log("2" - "3");   // -1
+console.log("2" - 3);   // -1
+
+console.log(2 * 3);   // 6
+console.log(2 * "3");   // 6
+console.log("2" * "3");   // 6
+console.log("2" * 3);   // 6
+
+console.log(2 / 3);   // 0.6666666666666666
+console.log(2 / "3");   // 0.66666666666666666
+console.log("2" / "3");   // 0.6666666666666666
+console.log("2" / 3);   // 0.6666666666666666
+
+console.log(2 + + 3);   // 5
+console.log(2 + + "3");   // 5
+console.log("2" + + "3");   // 23
+console.log("2" + + 3);   // 23
+
+console.log(2 - - 3);   // 5
+console.log(2 - - "3");   // 5
+console.log("2" - - "3");   // 5
+console.log("2" - - 3);   // 5
+
+console.log("沒有 * *");
+console.log("沒有 / /");
+
+console.log(2 + - 3);   // -1
+console.log("沒有 + *");
+console.log("沒有 + /");
+
+console.log(2 - + 3);   // -1
+console.log("沒有 - *");
+console.log("沒有 - /");
+
+console.log(2 * + 3);   // 6
+console.log(2 * - 3);   // -6
+console.log("沒有 * /");
+
+console.log(2 / + 3);   // 0.6666666666666666
+console.log(2 / - 3);   // -0.6666666666666666
+console.log("沒有 / *");
+
+console.log(NaN === NaN);   // false
+console.log(0 === -0);   //  true
+console.log(1 === 1);   //  true
+
+console.log({} + [] === 0);   // false
+console.log([] + [] === '');   // true
+console.log(false + 1 === 1);   // true
+console.log([] * 1 === 0);   // true
+console.log(typeof NaN === 'number');   // true
+
+console.log(NaN == NaN);   // false
+console.log(5 == '5');   // true
+console.log([] == '');   // true
+console.log(0 == '0');   // true
+console.log(0 === '0');   // false 
+console.log(0 == '');   // true
+console.log(0 === '');   // false
+console.log(0 == []);   // true
+console.log([] == 0);  // true
+console.log([] == 0);  // true
+console.log(({}) == '[object Object]');   // true
+console.log(({}) == {});   // false
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(2)">
+                <div class="question-title">
+                    <h2>前端面試考題</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>Arrow function 及一般 function 中的 this 有何不同</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-txt">
+                        <p>普通 function 中的 this：</p>
+                    </div>
+                    <div class="question-list">
+                        <ul>
+                            <li><i class="fa-solid fa-pencil"></i>在 JavaScript 中，this 是指向函式呼叫時的物件</li>
+                            <li><i class="fa-solid fa-pencil"></i>當函式沒有被任何物件呼叫時，this 會指向全域物件</li>
+                            <li><i class="fa-solid fa-pencil"></i>當函式被物件呼叫時，this 會指向該物件</li>
+                            <li><i class="fa-solid fa-pencil"></i>當函式透過 call() 或 apply() 方法呼叫時，this 會指向該方法的參數</li>
+                        </ul>
+                    </div>
+                    <div class="question-txt">
+                        <p>箭頭 function 中的 this：</p>
+                    </div>
+                    <div class="question-list">
+                        <ul>
+                            <li><i class="fa-solid fa-pencil"></i>箭頭 function 中的 this 指向函式定義時的作用域的 this</li>
+                            <li><i class="fa-solid fa-pencil"></i>箭頭 function 中的 this 不會隨著函式呼叫時的作用域而改變</li>
+                        </ul>
+                    </div>
+                    <div class="question-coding">
+<pre>
+// 普通 function 中的 this
+function foo() {
+    console.log(this);   // 全域物件
+}
+foo();   // 輸出：window
+
+// 箭頭 function 中的 this
+const bar = () => {
+    console.log(this);   // 全域物件
+};
+
+bar();   // 輸出：window
+
+// 普通 function 作為物件方法調用
+const obj = {
+    fn: function() {
+        console.log(this);   // obj
+    },
+};
+
+obj.fn();   // 輸出：obj
+
+// 箭頭 function 作為物件方法調用
+const obj2 = {
+    fn: () => {
+        console.log(this);   // obj2
+    },
+};
+
+obj2.fn();   // 輸出：obj2
+
+// 普通 function 透過 call() 或 apply() 方法調用
+function fn() {
+    console.log(this);   // 全域物件
+}
+
+fn.call(obj);   // 輸出：obj
+fn.apply(obj, []);   // 輸出：obj
+
+// 箭頭 function 透過 call() 或 apply() 方法調用
+const arrowFn = () => {
+    console.log(this);   // obj
+};
+
+arrowFn.call(obj);   // 輸出：obj
+arrowFn.apply(obj, []);   // 輸出：obj
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(3)">
+                <div class="question-title">
+                    <h2>前端面試考題</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>有一段 API 回應如下。請寫出一段程式，找出 airportId 為 TPE 的 city，並印出它的 cityName</p>
+                    </div>
+                    <div class="question-coding">
+<pre>
+"response": {
+    "status": "success",
+    "message": "",
+    "data": [
+        {
+            "cityId": "4442",
+            "cityName": "Singapore",
+            "airports": [
+                {
+                    "airportId": "SIN",
+                    "airportName": "Singapore Changi", 
+                    "longitude": 103.99,
+                    "latitude": 1.35
+                },
+                {
+                    "airportId": "XSP",
+                    "airportName": "Seletar Airport",
+                    "longitude": 103.87,
+                    "latitude": 1.42
+                }
+            ]
+        },
+        {
+            "cityId": "4869",
+            "cityName": "Taipei",
+            "airports": [
+                {
+                    "airportId": "TPE",
+                    "airportName": "Taiwan Taoyuan Intl",
+                    "longitude": 121.232822,
+                    "latitude": 25.077731
+                }
+            ]
+        }
+    ]
+}
+</pre>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+const ans = data.response.data.find(city => city.airports.find(airport => airport.airportId === "TPE"))
+console.log(ans.cityName);
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all Other question-block" :class="{ modifyHeight: heightActive }" @click="transform(4)">
+                <div class="question-title">
+                    <h2>其他</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>企業發放的獎金根據利潤提成。</p>
+                        <p>利潤(I)低於或等於10萬元時，獎金可提10%；</p>
+                        <p>利潤高於10萬元，低於20萬元時，低於10萬元的部分按10%提成，高於10萬元的部分，可提成7.5%；</p>
+                        <p>20萬到40萬之間時，高於20萬元的部分，可提成5%；40萬到60萬之間時高於40萬元的部分，可提成3%；</p>
+                        <p>60萬到100萬之間時，高於60萬元的部分，可提成1.5%，高於100萬元時，超過100萬元的部分按1%提成，</p>
+                        <p>從鍵盤輸入當月利潤I，求應發放獎金總數？</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+# Python
+profit=int(input("利潤值："))
+list_profit=[0,100000,200000,400000,600000,1000000]
+ratio=[0.1,0.075,0.05,0.03,0.015,0.01]
+bonus=0
+for x in range(len(ratio)):
+    if profit > list_profit[x]:
+        bonus+=(profit-list_profit[x])*ratio[x]
+        profit=list_profit[x]
+    else:
+        continue
+print(bonus)
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all Other question-block" :class="{ modifyHeight: heightActive }" @click="transform(5)">
+                <div class="question-title">
+                    <h2>其他</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>一個整數，它加上100後是一個完全平方數，再加上168又是一個完全平方數，請問該數是多少？</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+# Python
+
+for x in range(2,85,2):
+    y = 168 / x
+    if x > y and (x + y) % 2 == 0 and (x - y) % 2 == 0:
+        m = (x + y) / 2
+        n = (x - y) / 2
+        x = n * n - 100
+        print(x)
+</pre>
+                    </div>
+                </div>
+            </section>
+         
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(6)">
+                <div class="question-title">
+                    <h2>LeetCode <span style="color: #00B8A3;">(Easy)</span></h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>Given the array of integers nums, you will choose two different indices i and j of that array. Return the maximum value of (nums[i]-1)*(nums[j]-1).</p>
+                        <p>給定整數數組nums，您將選擇該數組的兩個不同索引i和j。傳回 的最大值 (nums[i]-1)*(nums[j]-1)。</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+// JavaScript
+
+function maxProduct(nums) {
+    let max = 0;
+    for (let i = 0; i &lt; nums.length; i++) {
+        for (let j = i + 1; j &lt; nums.length; j++) {
+            max = Math.max(max, (nums[i] - 1) * (nums[j] - 1));
+        }
+    }
+    return max;
+}
+console.log(maxProduct([8, 9, 1 , 11]));   // 80
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python
+
+def maxProduct(nums):
+nums.sort()
+return (nums[-1]-1)*(nums[-2]-1)
+    
+print(maxProduct([8, 9, 1 , 11]))   # 80
+</pre>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <Wall />
+    </div>
+    <pageRate />
+    <BackToTop />
+</template>
+
+<script setup>
+import Header from "@/components/Header.vue";
+import Wall from "@/components/Wall.vue";
+import BackToTop from "@/components/BackToTop.vue";
+import pageRate from "@/components/pageRate.vue";
+import { ref, onMounted } from "vue";
+
+onMounted(() => {
+    function selectArticle() {
+        const buttons = document.querySelectorAll(".select-button");
+        const cards = document.querySelectorAll(".all");
+        
+        function filter(category, items) {
+            items.forEach((item) => {
+                const isItemFiltered = !item.classList.contains(category);
+                const isShowAll = category.toLowerCase() === "all";
+                if (isItemFiltered && !isShowAll) {
+                    item.classList.add("d-none");
+                } else {
+                    item.classList.remove("d-none");
+                }
+            });
+        }
+        
+        buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+                const currentCategory = button.dataset.filter;
+                console.log(currentCategory);
+                filter(currentCategory, cards);
+            });
+        });
+    }
+
+    selectArticle();
+});
+
+const heightActive = ref(false);
+const transform = (index) => {
+    const cards = document.querySelectorAll(".all");
+    const targetCard = cards[index];
+    const ismodifyHeight = targetCard.classList.contains("modifyHeight");
+    
+    cards.forEach((card, i) => {
+        if (i === index) {
+            card.classList.toggle("modifyHeight", !ismodifyHeight);
+        } else {
+            card.classList.remove("modifyHeight");
+        }
+    });
+};
+</script>

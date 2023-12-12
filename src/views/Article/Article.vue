@@ -8,35 +8,27 @@
                         <div>
                             <button class="select-button" data-filter="all">All</button>
                         </div>
-
                         <div>
                             <button class="select-button" data-filter="web">Web</button>
                         </div>
-
                         <div>
                             <button class="select-button" data-filter="html-css">HTML / CSS</button>
                         </div>
-
                         <div>
                             <button class="select-button" data-filter="javascript">JavaScript</button>
                         </div>
-
                         <div>
                             <button class="select-button" data-filter="vue">Vue</button>
                         </div>
-                    
                         <div>
                             <button class="select-button" data-filter="python">Python</button>
                         </div>
-                    
                         <div>
                             <button class="select-button" data-filter="others">Others</button>
                         </div>
-
                         <div>
                             <button class="select-button" data-filter="chat">雜談</button>
                         </div>
-
                         <div>
                             <button class="select-button" data-filter="food">美食札記</button>
                         </div>

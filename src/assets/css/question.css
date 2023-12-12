@@ -1,0 +1,63 @@
+.question-block {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.question-title {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 0.5rem 0;
+    padding: 0 0.5rem;
+}
+
+.question-title h2 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.question-detailLine {
+    width: 0;
+    height: 2px;
+    background-color: #222223;
+    margin: 0.5rem 0 1.5rem;
+    transition: all 0.3s linear;
+}
+
+.question-block:hover .question-detailLine {
+    width: 100%;
+}
+
+.question-content {
+    margin: -1.25rem 0 0;
+}
+
+.question-txt {
+    line-height: 2;
+    margin: 1.5rem 0;
+    padding: 0 0.5rem;
+    transition: all 0.3s linear;
+}
+
+.question-list {
+    line-height: 2;
+    margin: 1.5rem 0;
+}
+
+.question-list li {
+    margin: 0.5rem 0;
+}
+
+.question-coding {
+    font-family: "Source Code Pro";
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 15px;
+    margin: 1.5rem 0 0.5rem;
+    padding: 1rem;
+}
+
+
+.modifyHeight {
+    max-height: fit-content;
+}

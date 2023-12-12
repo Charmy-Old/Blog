@@ -508,6 +508,12 @@
                             <span class="header-underline"></span>
                         </li>
                         <li class="header-list">
+                            <a href="Question">
+                                <p>Question</p>
+                            </a>
+                            <span class="header-underline"></span>
+                        </li>
+                        <li class="header-list">
                             <a href="Article">
                                 <p>Article</p>
                             </a>
@@ -526,8 +532,6 @@
                                     <input class="header-search-lightboxInput" v-model="state.searchInput" type="text"
                                         placeholder="Search Article">
                                 </div>
-
-
                                 <div v-for="content in filteredDivContentList" :key="content">
                                     <a :href="content.url">{{ content.text }}</a>
                                 </div>

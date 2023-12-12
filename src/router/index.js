@@ -57,11 +57,15 @@ const routes = [
         component: () => import('../views/Reference.vue')
     },
     {
+        path: '/Question',
+        name: 'Question',
+        component: () => import('../views/Question.vue')
+    },
+    {
         path: '/Weight-Record',
         name: 'Weight-Record',
         component: () => import('../views/Weight-Record.vue')
     },
-
     {
         path: '/Article',
         name: 'Article',
