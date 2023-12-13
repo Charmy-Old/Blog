@@ -373,6 +373,7 @@ console.log(maxProduct([8, 9, 1 , 11]));   // 80
 def maxProduct(nums):
     nums.sort()
     return (nums[-1]-1)*(nums[-2]-1)
+
 print(maxProduct([8, 9, 1 , 11]))   # 80
 # ====================================================================================================
 class Solution(object):
@@ -383,6 +384,7 @@ class Solution(object):
         """
         nums.sort()
         return (nums[-1]-1)*(nums[-2]-1)
+
 print(Solution().maxProduct([8, 9, 1 , 11]))   # 80
 # ====================================================================================================
 # Python3
@@ -391,6 +393,7 @@ class Solution:
     def maxProduct(self, nums: list[int]) -> int:
         nums.sort()
         return (nums[-1]-1)*(nums[-2]-1)
+
 print(Solution().maxProduct([8, 9, 1, 11]))   # 80
 </pre>
                     </div>
@@ -439,6 +442,7 @@ def twoSum(nums, target):
         for j in range(i+1,len(nums)):
             if nums[i]+nums[j]==target:
                 return [i,j]
+
 print(twoSum([2, 7, 11, 15], 22))   # [1, 3]
 # ====================================================================================================
 class Solution(object):
@@ -452,6 +456,7 @@ class Solution(object):
             for j in range(i+1,len(nums)):
                 if nums[i]+nums[j]==target:
                     return [i,j]
+
 print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
 # ====================================================================================================
 # Python3
@@ -462,7 +467,75 @@ class Solution:
             for j in range(i+1,len(nums)):
                 if nums[i]+nums[j]==target:
                     return [i, j]
+
 print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(8)">
+                <div class="question-title">
+                    <h2>LeetCode <span style="color: #00B8A3;">(Easy)</span></h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>Given an integer x, return true if x is a palindrome, and false otherwise.</p>
+                        <p>給定一個整數x，true如果x是一個則傳回回文，以及false其他情況。</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+// JavaScript
+
+const isPalindrome = function(x) {
+    return x.toString() === x.toString().split('').reverse().join('');
+};
+
+console.log(isPalindrome(121));   // true
+console.log(isPalindrome(-121));   // false
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python
+# ====================================================================================================
+def isPalindrome(x):
+    if x &lt 0:
+        return False
+    else:
+        return str(x) == str(x)[::-1]
+
+print(isPalindrome(121))   # True
+print(isPalindrome(-121))   # False
+# ====================================================================================================
+class Solution(object):
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        if x &lt 0:
+            return False
+        else:
+            x = str(x)
+            if x == x[::-1]:
+                return True
+            else:
+                return False
+
+print(Solution().isPalindrome(121))   # True
+print(Solution().isPalindrome(-121))   # False
+# ====================================================================================================
+# Python3
+# ====================================================================================================
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        return str(x) == str(x)[::-1]
+
+print(Solution().isPalindrome(121))   # True
+print(Solution().isPalindrome(-121))   # False
 </pre>
                     </div>
                 </div>
