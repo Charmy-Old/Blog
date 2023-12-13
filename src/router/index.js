@@ -138,9 +138,9 @@ const routes = [
 
     // Git 文章
     {
-        path: '/GIT_basic-instructions',
-        name: 'GIT_basic-instructions',
-        component: () => import('../views/Article-Git/GIT_basic-instructions.vue')
+        path: '/Git_basic-instructions',
+        name: 'Git_basic-instructions',
+        component: () => import('../views/Article-Git/Git_basic-instructions.vue')
     },
 
     // Web 文章
@@ -402,7 +402,7 @@ const routes = [
         name: 'VUE_props',
         component: () => import('../views/Article-Vue/VUE_props.vue')
     },
-    
+
     // Database 文章
     {
         path: '/DB_CRUD',
@@ -434,14 +434,14 @@ const routes = [
 
     // 技術合併 文章
     {
-        path: '/CODE_Limit-Line-Width',
-        name: 'CODE_Limit-Line-Width',
-        component: () => import('../views/Article-CODE/CODE_Limit-Line-Width.vue')
+        path: '/Code_Limit-Line-Width',
+        name: 'Code_Limit-Line-Width',
+        component: () => import('../views/Article-CODE/Code_Limit-Line-Width.vue')
     },
     {
-        path: '/CODE_BOM-vs-DOM',
-        name: 'CODE_BOM-vs-DOM',
-        component: () => import('../views/Article-CODE/CODE_BOM-vs-DOM.vue')
+        path: '/Code_BOM-vs-DOM',
+        name: 'Code_BOM-vs-DOM',
+        component: () => import('../views/Article-CODE/Code_BOM-vs-DOM.vue')
     },
 
     // Software 文章
@@ -485,64 +485,64 @@ const routes = [
 
     // 美食札記 文章
     {
-        path: '/FOOD_A-Ru',
-        name: 'FOOD_A-Ru',
-        component: () => import('../views/Article-Food/FOOD_A-Ru.vue')
+        path: '/Food_A-Ru',
+        name: 'Food_A-Ru',
+        component: () => import('../views/Article-Food/Food_A-Ru.vue')
     },
     {
-        path: '/FOOD_Ping-Lu-Sushi',
-        name: 'FOOD_Ping-Lu-Sushi',
-        component: () => import('../views/Article-Food/FOOD_Ping-Lu-Sushi.vue')
+        path: '/Food_Ping-Lu-Sushi',
+        name: 'Food_Ping-Lu-Sushi',
+        component: () => import('../views/Article-Food/Food_Ping-Lu-Sushi.vue')
     },
     {
-        path: '/FOOD_Gong-Yuan-Road-Da-Mian-Geng',
-        name: 'FOOD_Gong-Yuan-Road-Da-Mian-Geng',
-        component: () => import('../views/Article-Food/FOOD_Gong-Yuan-Road-Da-Mian-Geng.vue')
+        path: '/Food_Gong-Yuan-Road-Da-Mian-Geng',
+        name: 'Food_Gong-Yuan-Road-Da-Mian-Geng',
+        component: () => import('../views/Article-Food/Food_Gong-Yuan-Road-Da-Mian-Geng.vue')
     },
     {
-        path: '/FOOD_Yi-Zhong-Fan-Fan',
-        name: 'FOOD_Yi-Zhong-Fan-Fan',
-        component: () => import('../views/Article-Food/FOOD_Yi-Zhong-Fan-Fan.vue')
+        path: '/Food_Yi-Zhong-Fan-Fan',
+        name: 'Food_Yi-Zhong-Fan-Fan',
+        component: () => import('../views/Article-Food/Food_Yi-Zhong-Fan-Fan.vue')
     },
     {
-        path: '/FOOD_12sukiyak',
-        name: 'FOOD_12sukiyak',
-        component: () => import('../views/Article-Food/FOOD_12sukiyak.vue')
+        path: '/Food_12sukiyak',
+        name: 'Food_12sukiyak',
+        component: () => import('../views/Article-Food/Food_12sukiyak.vue')
     },
     {
-        path: '/FOOD_Ba-An-Sushi',
-        name: 'FOOD_Ba-An-Sushi',
-        component: () => import('../views/Article-Food/FOOD_Ba-An-Sushi.vue')
+        path: '/Food_Ba-An-Sushi',
+        name: 'Food_Ba-An-Sushi',
+        component: () => import('../views/Article-Food/Food_Ba-An-Sushi.vue')
     },
     {
-        path: '/FOOD_SHIMADZU-Curry',
-        name: 'FOOD_SHIMADZU-Curry',
-        component: () => import('../views/Article-Food/FOOD_SHIMADZU-Curry.vue')
+        path: '/Food_SHIMADZU-Curry',
+        name: 'Food_SHIMADZU-Curry',
+        component: () => import('../views/Article-Food/Food_SHIMADZU-Curry.vue')
     },
     {
-        path: '/FOOD_SOFT-EGG',
-        name: 'FOOD_SOFT-EGG',
-        component: () => import('../views/Article-Food/FOOD_SOFT-EGG.vue')
+        path: '/Food_SOFT-EGG',
+        name: 'Food_SOFT-EGG',
+        component: () => import('../views/Article-Food/Food_SOFT-EGG.vue')
     },
     {
-        path: '/FOOD_Tai-Chu',
-        name: 'FOOD_Tai-Chu',
-        component: () => import('../views/Article-Food/FOOD_Tai-Chu.vue')
+        path: '/Food_Tai-Chu',
+        name: 'Food_Tai-Chu',
+        component: () => import('../views/Article-Food/Food_Tai-Chu.vue')
     },
     {
-        path: '/FOOD_Mao-Ni-Brunch',
-        name: 'FOOD_Mao-Ni-Brunch',
-        component: () => import('../views/Article-Food/FOOD_Mao-Ni-Brunch.vue')
+        path: '/Food_Mao-Ni-Brunch',
+        name: 'Food_Mao-Ni-Brunch',
+        component: () => import('../views/Article-Food/Food_Mao-Ni-Brunch.vue')
     },
     {
-        path: '/FOOD_La-Miette-Pizza&Kitchen',
-        name: 'FOOD_La-Miette-Pizza&Kitchen',
-        component: () => import('../views/Article-Food/FOOD_La-Miette-Pizza&Kitchen.vue')
+        path: '/Food_La-Miette-Pizza&Kitchen',
+        name: 'Food_La-Miette-Pizza&Kitchen',
+        component: () => import('../views/Article-Food/Food_La-Miette-Pizza&Kitchen.vue')
     },
     {
-        path: '/FOOD_King-Young',
-        name: 'FOOD_King-Young',
-        component: () => import('../views/Article-Food/FOOD_King-Young.vue')
+        path: '/Food_King-Young',
+        name: 'Food_King-Young',
+        component: () => import('../views/Article-Food/Food_King-Young.vue')
     },
 ]
 
