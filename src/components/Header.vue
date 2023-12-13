@@ -55,7 +55,7 @@
     background-color: #FFFAFA;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
     .header {
         padding: 0 2rem 0 1rem;
     }
@@ -346,7 +346,7 @@
     color: #C0C0C0;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
     .title {
         font-size: 36px;
         line-height: 80px;
@@ -459,7 +459,7 @@
     margin-top: 1rem;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
     .header-search {
         display: flex;
         justify-content: space-between;
@@ -509,7 +509,7 @@
                         </li>
                         <li class="header-list">
                             <a href="Question">
-                                <p>Question</p>
+                                <p>LeetCode & Interview</p>
                             </a>
                             <span class="header-underline"></span>
                         </li>

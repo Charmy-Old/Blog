@@ -4,7 +4,8 @@
         <main>
             <section>
                 <div class="container text-center">
-                    <div class="row row-cols-2 row-cols-md-4">
+
+                    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
                         <div>
                             <button class="select-button" data-filter="all">All</button>
                         </div>
@@ -12,10 +13,10 @@
                             <button class="select-button" data-filter="LeetCode">LeetCode</button>
                         </div>
                         <div>
-                            <button class="select-button" data-filter="Interview">前端面試</button>
+                            <button class="select-button" data-filter="Interview">Interview</button>
                         </div>
                         <div>
-                            <button class="select-button" data-filter="Other">其他</button>
+                            <button class="select-button" data-filter="Other">Other</button>
                         </div>
                     </div>
                 </div>
@@ -23,7 +24,7 @@
 
             <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(0)">
                 <div class="question-title">
-                    <h2>前端面試考題</h2>
+                    <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
                 </div>
                 <div class="question-content">
@@ -50,7 +51,7 @@ console.log(n);   // [3, 2]
 
             <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(1)">
                 <div class="question-title">
-                    <h2>前端面試考題</h2>
+                    <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
                 </div>
                 <div class="question-content">
@@ -138,7 +139,7 @@ console.log(({}) == {});   // false
 
             <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(2)">
                 <div class="question-title">
-                    <h2>前端面試考題</h2>
+                    <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
                 </div>
                 <div class="question-content">
@@ -221,7 +222,7 @@ arrowFn.apply(obj, []);   // 輸出：obj
 
             <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(3)">
                 <div class="question-title">
-                    <h2>前端面試考題</h2>
+                    <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
                 </div>
                 <div class="question-content">
@@ -280,7 +281,7 @@ console.log(ans.cityName);
 
             <section class="all Other question-block" :class="{ modifyHeight: heightActive }" @click="transform(4)">
                 <div class="question-title">
-                    <h2>其他</h2>
+                    <h2>Other</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
                 </div>
                 <div class="question-content">
@@ -306,6 +307,7 @@ for x in range(len(ratio)):
         profit=list_profit[x]
     else:
         continue
+
 print(bonus)
 </pre>
                     </div>
@@ -314,7 +316,7 @@ print(bonus)
 
             <section class="all Other question-block" :class="{ modifyHeight: heightActive }" @click="transform(5)">
                 <div class="question-title">
-                    <h2>其他</h2>
+                    <h2>Other</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
                 </div>
                 <div class="question-content">
@@ -332,7 +334,8 @@ for x in range(2,85,2):
         m = (x + y) / 2
         n = (x - y) / 2
         x = n * n - 100
-        print(x)
+
+print(x)
 </pre>
                     </div>
                 </div>
@@ -482,7 +485,7 @@ print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
                 <div class="question-content">
                     <div class="question-txt">
                         <p>Given an integer x, return true if x is a palindrome, and false otherwise.</p>
-                        <p>給定一個整數x，true如果x是一個則傳回回文，以及false其他情況。</p>
+                        <p>給定一個整數x，true如果x是一個則傳回回文，以及falseOther情況。</p>
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
