@@ -436,12 +436,12 @@ const routes = [
     {
         path: '/Code_Limit-Line-Width',
         name: 'Code_Limit-Line-Width',
-        component: () => import('../views/Article-CODE/Code_Limit-Line-Width.vue')
+        component: () => import('../views/Article-Code/Code_Limit-Line-Width.vue')
     },
     {
         path: '/Code_BOM-vs-DOM',
         name: 'Code_BOM-vs-DOM',
-        component: () => import('../views/Article-CODE/Code_BOM-vs-DOM.vue')
+        component: () => import('../views/Article-Code/Code_BOM-vs-DOM.vue')
     },
 
     // Software 文章
