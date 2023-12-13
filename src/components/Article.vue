@@ -51,6 +51,22 @@
         </a>
     </section>
 
+    <section class="all food">
+        <a href="FOOD_King-Young" class="article">
+            <div class="article-icon">
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">【美食札記】京悅港式飲茶</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>美食札記<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-12-13</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>功夫粵菜.精緻港點. 絕美景觀餐廳.中友百貨美食，供應推車港點、百道佳餚。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all javascript">
         <a href="JS_sort-vs-toSorted" class="article">
             <div class="article-icon">

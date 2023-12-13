@@ -539,6 +539,11 @@ const routes = [
         name: 'FOOD_La-Miette-Pizza&Kitchen',
         component: () => import('../views/Article-Food/FOOD_La-Miette-Pizza&Kitchen.vue')
     },
+    {
+        path: '/FOOD_King-Young',
+        name: 'FOOD_King-Young',
+        component: () => import('../views/Article-Food/FOOD_King-Young.vue')
+    },
 ]
 
 const router = createRouter({
