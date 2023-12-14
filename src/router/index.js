@@ -4,7 +4,12 @@ const routes = [
     {
         path: '/',
         name: 'Home',
-        component: () => import('../views/Home.vue')
+        component: () => import('../views/Home.vue'),
+        meta: {
+            title: 'Charmying Blog',
+            description: 'Charmy 的部落格',
+            keywords: 'Charmy, 部落格, 部落格首頁, 前端, Front-End, 美食',
+        },
     },
     {
         path: '/Home2',

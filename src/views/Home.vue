@@ -5,6 +5,11 @@
 </style>
 
 <template>
+    <section class="d-none">
+        <title>Charmying Blog</title>
+        <meta name="description" content="Charmy 的部落格">
+        <meta name="keywords" content="Charmy, 部落格, 部落格首頁, 前端, Front-End, 美食">
+    </section>
     <Header />
     <div class="content">
         <main>
