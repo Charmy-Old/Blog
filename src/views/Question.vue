@@ -675,6 +675,139 @@ print(Solution().romanToInt("MCMXCIV"))   # 1994
                     </div>
                 </div>
             </section>
+
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(9)">
+                <div class="question-title">
+                    <h2>LeetCode <span style="color: #00B8A3;">(Easy)</span></h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>Roman to Integer</p>
+                        <p>羅馬數字轉整數。</p>
+                    </div>
+                    <div class="article-table" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Symbol(符號)</th>
+                                    <th>Value(值)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>I</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>V</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>X</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>L</td>
+                                    <td>50</td>
+                                </tr>
+                                <tr>
+                                    <td>C</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>D</td>
+                                    <td>500</td>
+                                </tr>
+                                <tr>
+                                    <td>M</td>
+                                    <td>1000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+// JavaScript
+
+const romanToInt = function(s) {
+    const roman = {
+        I: 1,
+        V: 5,
+        X: 10,
+        L: 50,
+        C: 100,
+        D: 500,
+        M: 1000
+    };
+    let sum = 0;
+    for (let i = 0; i &lt s.length; i++) {
+        if (roman[s[i]] &lt roman[s[i + 1]]) {
+            sum -= roman[s[i]];
+        } else {
+            sum += roman[s[i]];
+        }
+    }
+    return sum;
+};
+
+console.log(romanToInt("MCMXCIV"));   // 1994
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python
+# ====================================================================================================
+def roman_to_int(s):
+    roman_dict = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+    num = 0
+    for i in range(len(s) - 1):
+        if roman_dict[s[i]] &lt roman_dict[s[i + 1]]:
+            num -= roman_dict[s[i]]
+        else:
+            num += roman_dict[s[i]]
+    num += roman_dict[s[-1]]
+    return num
+
+print(roman_to_int('MCMXCIV'))   # 1994
+# ====================================================================================================
+class Solution(object):
+    def romanToInt(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        roman = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
+        result = 0
+        for i in range(len(s)):
+            if i > 0 and roman[s[i]] > roman[s[i-1]]:
+                result += roman[s[i]] - 2 * roman[s[i-1]]
+            else:
+                result += roman[s[i]]
+        return result
+
+print(Solution().romanToInt("MCMXCIV"))   # 1994
+# ====================================================================================================
+# Python3
+# ====================================================================================================
+class Solution:
+    def romanToInt(self, s: str) -> int:
+        roman = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+        result = 0
+        for i in range(len(s) - 1):
+            if roman[s[i]] &lt roman[s[i + 1]]:
+                result -= roman[s[i]]
+            else:
+                result += roman[s[i]]
+        result += roman[s[-1]]
+        return result
+
+print(Solution().romanToInt("MCMXCIV"))   # 1994
+</pre>
+                    </div>
+                </div>
+            </section>
         </main>
         <Wall />
     </div>
