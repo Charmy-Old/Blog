@@ -314,7 +314,8 @@
                         LocalStorage</a></div>
             </section>
         </div>
-        <section class="wall-weather">
+        <!-- <p>{{ locationName }}</p> -->
+        <!-- <section class="wall-weather">
             <div v-cloak>
                 <h2>天氣查詢</h2>
                 <select class="select-area" v-model="locationName">
@@ -326,14 +327,13 @@
                 </select>
                 <div class="showWeather" v-for="weatherData of weatherDatas" :key="weatherData.locationName"
                     v-show="locationName === weatherData.locationName">
-                    <!-- <p>{{ locationName }}</p> -->
                     <p>天氣狀況：{{ weatherData.weatherElement[0].time[0].parameter.parameterName }}</p>
                     <p>最高溫度：{{ weatherData.weatherElement[4].time[0].parameter.parameterName }} ℃</p>
                     <p>最低溫度：{{ weatherData.weatherElement[2].time[0].parameter.parameterName }} ℃</p>
                     <p>降雨機率：{{ weatherData.weatherElement[1].time[0].parameter.parameterName }} ％</p>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="wall-wtRecord">
             <a href="Weight-Record">
                 體重追蹤紀錄
@@ -500,21 +500,21 @@ const CountfoodArticle = () => {
 };
 
 // 天氣 api
-const weatherDatas = ref([]);
-const locationName = ref("");
-const getWeather = () => {
-    fetch("https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-AB74CE7B-2CF2-4D40-A61C-6F5D05C0DEB6&format=JSON&sort=time")
-        .then((res) => res.json())
-        .then((json) => {
-            weatherDatas.value = json.records.location;
-        })
-        .catch((error) => {
-            alert("系統異常，請稍後再試");
-        });
-};
-onMounted(() => {
-    getWeather();
-});
+// const weatherDatas = ref([]);
+// const locationName = ref("");
+// const getWeather = () => {
+//     fetch("https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-AB74CE7B-2CF2-4D40-A61C-6F5D05C0DEB6&format=JSON&sort=time")
+//         .then((res) => res.json())
+//         .then((json) => {
+//             weatherDatas.value = json.records.location;
+//         })
+//         .catch((error) => {
+//             alert("系統異常，請稍後再試");
+//         });
+// };
+// onMounted(() => {
+//     getWeather();
+// });
 
 // 推薦食物
 const foodList = ref(["自己煮", "便當", "健康餐", "壽司", "拉麵", "牛肉麵", "烏龍麵", "烤雞", "炸雞", "水餃", "煎餃", "蒸餃", "蛋包飯", "烤肉飯", "炒飯", "燉飯", "Pizza", "義大利麵", "烤肉"]);
