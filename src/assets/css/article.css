@@ -22,7 +22,7 @@
 }
 
 .article:hover .article-text {
-    color: #222223;
+    color: #C0C0C0;
 }
 
 .article-title {
@@ -31,7 +31,7 @@
 
 .article-tag {
     font-size: 14px;
-    color: #C0C0C0;
+    color: #FFFAFA;
     display: flex;
     align-items: center;
     margin: 0.25rem 0 0.5rem;
@@ -40,7 +40,7 @@
 }
 
 .article:hover .article-tag {
-    color: #222223;
+    color: #C0C0C0;
 }
 
 .article-tag i {
@@ -55,7 +55,7 @@
     width: 0;
     height: 2px;
     margin: 0.5rem 0;
-    background-color: #222223;
+    background-color: #FFFAFA;
     transition: all 0.3s linear;
 }
 
@@ -99,7 +99,7 @@
     width: 130px;
     font-weight: 900;
     color: #FFFAFA !important;
-    background-color: #222223;
+    /* background-color: #222223; */
     border-radius: 10px;
     margin: 0.5rem 0;
     padding: 0.5rem 1rem;

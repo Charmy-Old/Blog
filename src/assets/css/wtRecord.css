@@ -25,13 +25,13 @@
 .wtRecord-title h2 {
     font-size: 24px;
     font-weight: 700;
-    color: #222223;
+    color: #FFFAFA;
 }
 
 .wtRecord-titleBtn {
     font-weight: 700;
-    color: #222223;
-    border: 1px solid #222223;
+    color: #FFFAFA;
+    border: 1px solid #FFFAFA;
     border-radius: 15px;
     padding: 0.5rem 1rem;
     position: absolute;
@@ -316,10 +316,33 @@
         justify-content: center;
     }
 
+    .wtRecord-height-input button {
+        width: 75px;
+        color: #FFFAFA;
+        border: 1px #FFFAFA solid;
+        border-radius: 10px;
+        padding: 0.25rem 0.5rem;
+        box-shadow: 0 0 5px #FFFAFA;
+    }
+
     .wtRecord-height-show {
         width: 100%;
         display: flex;
         justify-content: center;
         margin: 1.75rem 0 0;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .wtRecord-height-input button {
+        width: 60px;
+    }
+
+    .wtRecord-height-input {
+        justify-content: unset;
+    }
+
+    .wtRecord-height-input input {
+        width: 165px;
     }
 }

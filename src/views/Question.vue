@@ -151,10 +151,10 @@ console.log(({}) == {});   // false
                     </div>
                     <div class="question-list">
                         <ul>
-                            <li><i class="fa-solid fa-pencil"></i>在 JavaScript 中，this 是指向函式呼叫時的物件</li>
-                            <li><i class="fa-solid fa-pencil"></i>當函式沒有被任何物件呼叫時，this 會指向全域物件</li>
-                            <li><i class="fa-solid fa-pencil"></i>當函式被物件呼叫時，this 會指向該物件</li>
-                            <li><i class="fa-solid fa-pencil"></i>當函式透過 call() 或 apply() 方法呼叫時，this 會指向該方法的參數</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>在 JavaScript 中，this 是指向函式呼叫時的物件</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>當函式沒有被任何物件呼叫時，this 會指向全域物件</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>當函式被物件呼叫時，this 會指向該物件</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>當函式透過 call() 或 apply() 方法呼叫時，this 會指向該方法的參數</li>
                         </ul>
                     </div>
                     <div class="question-txt">
@@ -162,8 +162,8 @@ console.log(({}) == {});   // false
                     </div>
                     <div class="question-list">
                         <ul>
-                            <li><i class="fa-solid fa-pencil"></i>箭頭 function 中的 this 指向函式定義時的作用域的 this</li>
-                            <li><i class="fa-solid fa-pencil"></i>箭頭 function 中的 this 不會隨著函式呼叫時的作用域而改變</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>箭頭 function 中的 this 指向函式定義時的作用域的 this</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>箭頭 function 中的 this 不會隨著函式呼叫時的作用域而改變</li>
                         </ul>
                     </div>
                     <div class="question-coding">
@@ -339,7 +339,7 @@ print(x)
                     </div>
                 </div>
             </section>
-         
+
             <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(6)">
                 <div class="question-title">
                     <h2>LeetCode <span style="color: #00B8A3;">(Easy)</span></h2>
@@ -347,7 +347,8 @@ print(x)
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
-                        <p>Given the array of integers nums, you will choose two different indices i and j of that array. Return the maximum value of (nums[i]-1)*(nums[j]-1).</p>
+                        <p>Given the array of integers nums, you will choose two different indices i and j of that array.
+                            Return the maximum value of (nums[i]-1)*(nums[j]-1).</p>
                         <p>給定整數數組 nums，將選擇該數組的兩個不同索引 i 和 j。傳回的最大值 (nums[i]-1)*(nums[j]-1)。</p>
                     </div>
                     <div class="question-detailLine"></div>
@@ -409,8 +410,10 @@ print(Solution().maxProduct([8, 9, 1, 11]))   # 80
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
-                        <p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</p>
-                        <p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>
+                        <p>Given an array of integers nums and an integer target, return indices of the two numbers such
+                            that they add up to target.</p>
+                        <p>You may assume that each input would have exactly one solution, and you may not use the same
+                            element twice.</p>
                         <p>You can return the answer in any order.</p>
                         <p>給定一個整數數組 nums 和一個整數 target，傳回兩個數字的索引，使相加為 target。</p>
                         <p>假設每個輸入都有一個解決方案，並且不能兩次使用相同的元素。</p>
@@ -553,7 +556,8 @@ print(Solution().isPalindrome(-121))   # False
                         <p>Roman to Integer</p>
                         <p>羅馬數字轉整數。</p>
                     </div>
-                    <div class="article-table" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                    <div class="article-table" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-delay="150" data-aos-duration="1000">
                         <table>
                             <thead>
                                 <tr>

@@ -178,7 +178,7 @@
 }
 
 .article-detail .article-reference:hover {
-    color: #222223;
+    color: #FFFAFA;
 }
 
 .article-detail .article-reference i {
@@ -279,7 +279,7 @@
 }
 
 .article-shop-intro p {
-    color: #666666;
+    color: #999999;
     display: flex;
     justify-content: center;
 }

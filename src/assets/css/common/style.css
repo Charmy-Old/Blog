@@ -18,7 +18,7 @@ a:hover,
 a:visited,
 a:link,
 a:active {
-    color: #222223;
+    color: #FFFAFA;
     text-decoration: none;
     outline: none;
     transition: all 0.3s linear;
@@ -81,16 +81,17 @@ main {
 }
 
 section {
-    background-color: #FFFAFA;
-    border: 2px #26273B solid;
+    /* background-color: #FFFAFA;
+    border: 2px #26273B solid; */
+    border: 2px #FFFAFA solid;
     border-radius: 10px;
     margin-bottom: 2.5rem !important;
     padding: 0.5rem;
 }
 
-/* .content {
-    color: #26273B;
-} */
+.content {
+    color: #FFFAFA;
+}
 
 /* ========================================   網頁卷軸   ======================================== */
 ::-webkit-scrollbar {

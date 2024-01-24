@@ -118,10 +118,6 @@
         padding: 1rem;
     }
 
-    .resume {
-        display: flex;
-    }
-
     .resumeTitle {
         width: 45%;
         display: flex;
@@ -160,10 +156,6 @@
 }
 
 @media (max-width: 575px) {
-    .resume {
-        display: block;
-    }
-
     .resumeTitle {
         width: 100%;
         display: flex;
@@ -199,7 +191,7 @@
 }
 
 .wall-wtRecord {
-    border: none;
+    /* border: none; */
     margin: auto;
     padding: 0;
     transition: all 0.3s linear;
@@ -231,15 +223,15 @@
 .wall-recommendedFood p {
     font-size: 18px;
     font-weight: 900;
-    color: #222223;
+    color: #FFFAFA;
     text-align: center;
 }
 
 .wall-recommendedFood button {
     font-size: 18px;
     font-weight: 900;
-    color: #222223;
-    border: 3px #222223 solid;
+    color: #FFFAFA;
+    border: 2px #FFFAFA solid;
     border-radius: 10px;
     display: block;
     margin: 1.5rem auto 0.5rem;
@@ -248,9 +240,9 @@
 }
 
 .wall-recommendedFood button:hover {
-    color: #FFFAFA;
-    background-color: #222223;
-    box-shadow: 0 0 15px #222223;
+    /* color: #222223;
+    background-color: #FFFAFA; */
+    box-shadow: 0 0 15px #FFFAFA;
 }
 </style>
 
@@ -276,6 +268,11 @@
                 <p>前端、表演、穿搭、美食</p>
             </section>
         </div>
+        <section class="wall-wtRecord">
+            <a href="Weight-Record">
+                體重追蹤紀錄
+            </a>
+        </section>
         <section class="wall-article">
             <div class="wall-tag"><a href="Article"><i class="fa-solid fa-tag"></i>All Tags ({{ allArticleCount }})</a>
             </div>
@@ -334,11 +331,6 @@
                 </div>
             </div>
         </section> -->
-        <section class="wall-wtRecord">
-            <a href="Weight-Record">
-                體重追蹤紀錄
-            </a>
-        </section>
         <section class="wall-recommendedFood">
             <div>
                 <p>建議吃什麼：{{ recommendedFood }}</p>

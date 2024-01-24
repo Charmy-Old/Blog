@@ -36,6 +36,7 @@
     .pageList li a {
         width: 100%;
         height: 100%;
+        color: #222223;
         border-radius: 50%;
         display: block;
     }

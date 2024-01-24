@@ -10,14 +10,18 @@
             </section>
 
             <section>
-                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                    data-aos-duration="1000">
                     <h3>資料的排序與選取</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p>2023/07/26 面試時遇到的題目，是關於 JavaScript 中，const 一個變數後，在裡面賦予一個 array 後再其中包含了 Object，在進行 key value 的選取與排序，以下題目有做些許的改變。</p>
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                        data-aos-duration="1000">
+                        <p>2023/07/26 面試時遇到的題目，是關於 JavaScript 中，const 一個變數後，在裡面賦予一個 array 後再其中包含了 Object，在進行 key value
+                            的選取與排序，以下題目有做些許的改變。</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-<pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-delay="150" data-aos-duration="1000">
+                        <pre>
 const data = [
     {"aaa": 26},
     {"bbb": 30},
@@ -28,7 +32,8 @@ const data = [
 ];
 </pre>
                     </div>
-                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                        data-aos-duration="1000">
                         <ol>
                             <li>1、如何只呈現 aaa 的資料</li>
                             <li>2、如何照數字由小到大重新排列</li>
@@ -38,11 +43,13 @@ const data = [
             </section>
 
             <section>
-                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                    data-aos-duration="1000">
                     <h3>參考解答</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-<pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-delay="150" data-aos-duration="1000">
+                        <pre>
 const data = [
     {"aaa": 26},
     {"bbb": 30},
@@ -57,8 +64,9 @@ const filteredData = data.filter(item => "aaa" in item);
 console.log(filteredData);   // 只顯示 key 為 aaa 的資料
 </pre>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-<pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-delay="150" data-aos-duration="1000">
+                        <pre>
 const data = [
     {"aaa": 26},
     {"bbb": 30},
@@ -83,16 +91,20 @@ console.log(data);   // value 由小到大排列
             </section>
 
             <section>
-                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                    data-aos-duration="1000">
                     <h3>參考解說</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                        data-aos-duration="1000">
                         <h4>只呈現 aaa 的資料</h4>
-                        <p>使用 Array.prototype.filter() 方法來過濾 data 陣列，並使用箭頭函式來檢查每個陣列元素是否包含 "aaa" 屬性。如果包含 "aaa" 屬性，則該元素將被保留在新的陣列 filteredData 中。</p>
+                        <p>使用 Array.prototype.filter() 方法來過濾 data 陣列，並使用箭頭函式來檢查每個陣列元素是否包含 "aaa" 屬性。如果包含 "aaa"
+                            屬性，則該元素將被保留在新的陣列 filteredData 中。</p>
                         <p>執行程式碼後，將只看到包含 "aaa" 屬性的資料，而 filteredData 將會是一個新的陣列，只包含滿足條件的資料。</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-<pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-delay="150" data-aos-duration="1000">
+                        <pre>
 const data = [
     {"aaa": 26},
     {"bbb": 30},
@@ -107,11 +119,13 @@ const filteredData = data.filter(item => "aaa" in item);
 console.log(filteredData);
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p><i class="fa-solid fa-pencil"></i>使用 for...of 迴圈</p>
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                        data-aos-duration="1000">
+                        <p><i class="fa-regular fa-note-sticky"></i>使用 for...of 迴圈</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-<pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-delay="150" data-aos-duration="1000">
+                        <pre>
 const data = [
     {"aaa": 26},
     {"bbb": 30},
@@ -131,11 +145,13 @@ for (const item of data) {
 console.log(filteredData);
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p><i class="fa-solid fa-pencil"></i>使用 Array.prototype.reduce()</p>
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                        data-aos-duration="1000">
+                        <p><i class="fa-regular fa-note-sticky"></i>使用 Array.prototype.reduce()</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-<pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-delay="150" data-aos-duration="1000">
+                        <pre>
 const data = [
     {"aaa": 26},
     {"bbb": 30},
@@ -155,13 +171,18 @@ const filteredData = data.reduce((result, item) => {
 console.log(filteredData);
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                        data-aos-duration="1000">
                         <h4>照數字由小到大重新排列</h4>
-                        <p>資料陣列 data 是一個物件陣列，每個物件只有一個屬性（例如 "aaa"、"bbb"、"ccc"）以及對應的數值。若想根據數值由小到大排列這些物件，可以使用 Array.prototype.sort() 方法，並傳遞一個自定義的排序函式來實現。在這個特定的情況下，需要先取出物件的數值來進行比較。</p>
-                        <p>下方的程式碼中使用 Array.prototype.sort() 方法並傳遞 sortByValue 函式。sortByValue 函式會取得物件的 value 值，並根據這些值的大小來決定物件在排序後的位置。使用 Object.values() 方法來獲取物件的值，並確保只有一個 value 值。最後呼叫 sort() 方法，這會改變原陣列 data，使其按照 value 值由小到大排列。</p>
+                        <p>資料陣列 data 是一個物件陣列，每個物件只有一個屬性（例如 "aaa"、"bbb"、"ccc"）以及對應的數值。若想根據數值由小到大排列這些物件，可以使用
+                            Array.prototype.sort() 方法，並傳遞一個自定義的排序函式來實現。在這個特定的情況下，需要先取出物件的數值來進行比較。</p>
+                        <p>下方的程式碼中使用 Array.prototype.sort() 方法並傳遞 sortByValue 函式。sortByValue 函式會取得物件的 value
+                            值，並根據這些值的大小來決定物件在排序後的位置。使用 Object.values() 方法來獲取物件的值，並確保只有一個 value 值。最後呼叫 sort() 方法，這會改變原陣列
+                            data，使其按照 value 值由小到大排列。</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-<pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-delay="150" data-aos-duration="1000">
+                        <pre>
 const data = [
     {"aaa": 26},
     {"bbb": 30},
@@ -188,12 +209,15 @@ console.log(data);   // 原始順序的陣列
 console.log(sortedData);   // 排序後的陣列
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                        data-aos-duration="1000">
                         <p>使用 Array.prototype.sort() 方法結合箭頭函式來實現更簡潔的方法。這樣就不需要單獨定義排序函式，直接在 sort() 方法中指定比較邏輯。</p>
-                        <p>在這個方法中，直接在 sort() 方法的參數中使用了一個箭頭函式。這個箭頭函式的內容和先前自定義的 sortByValueAscending 函式一樣，比較物件的 value 值，並根據結果排序。這樣可以省去單獨定義排序函式的步驟，使程式碼更簡潔。</p>
+                        <p>在這個方法中，直接在 sort() 方法的參數中使用了一個箭頭函式。這個箭頭函式的內容和先前自定義的 sortByValueAscending 函式一樣，比較物件的 value
+                            值，並根據結果排序。這樣可以省去單獨定義排序函式的步驟，使程式碼更簡潔。</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-<pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-delay="150" data-aos-duration="1000">
+                        <pre>
 const data = [
     {"aaa": 26},
     {"bbb": 30},
@@ -210,13 +234,17 @@ data.sort((a, b) => Object.values(a)[0] - Object.values(b)[0]);
 console.log(data);
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                        data-aos-duration="1000">
                         <p>使用 for 迴圈進行冒泡排序的實現。冒泡排序是一種簡單的排序算法，通過反覆交換相鄰的元素，將最大值不斷地“浮”到數列的右端。</p>
-                        <p>在每一輪迭代中使用 Object.values() 取得物件的 value 值並進行比較，若前一個元素的值大於後一個元素的值，則交換兩個元素的位置，將較大值往右“浮”。經過一輪迭代後，最大的值會浮到陣列的最後一個位置。再經過多次迭代，整個陣列會按照 value 值由小到大排列。</p>
+                        <p>在每一輪迭代中使用 Object.values() 取得物件的 value
+                            值並進行比較，若前一個元素的值大於後一個元素的值，則交換兩個元素的位置，將較大值往右“浮”。經過一輪迭代後，最大的值會浮到陣列的最後一個位置。再經過多次迭代，整個陣列會按照 value
+                            值由小到大排列。</p>
                         <p>這個方法不會改變原始陣列 data，而是將排序後的結果存放在 sortedData 中。</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-<pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-delay="150" data-aos-duration="1000">
+                        <pre>
 const data = [
     {"aaa": 26},
     {"bbb": 30},
@@ -243,11 +271,13 @@ for (let i = 0; i &lt; sortedData.length - 1; i++) {
 console.log(sortedData);
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                        data-aos-duration="1000">
                         <h4>照數字由大到小重新排列</h4>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-<pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-delay="150" data-aos-duration="1000">
+                        <pre>
 const data = [
     {"aaa": 26},
     {"bbb": 30},
@@ -273,15 +303,14 @@ sortedData.sort(sortByValue);
 console.log(data);   // 原始順序的陣列
 console.log(sortedData);   // 排序後的陣列
 </pre>
-                    </div>
                 </div>
-            </section>
-        </main>
-        <Wall />
-    </div>
-    <pageRate />
-    <BackToTop />
-</template>
+            </div>
+        </section>
+    </main>
+    <Wall />
+</div>
+<pageRate />
+<BackToTop /></template>
 
 <script setup>
 import Header from "@/components/Header.vue";

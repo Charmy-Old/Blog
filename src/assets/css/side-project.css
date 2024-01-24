@@ -2,7 +2,7 @@
     width: 0;
     height: 2px;
     margin: 0.75rem 0;
-    background-color: #222223;
+    background-color: #FFFAFA;
     transition: all 0.3s linear;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .sideProject-projectBlock {
-    border: 1px #26273B solid;
+    border: 1px #FFFAFA solid;
     border-radius: 15px;
     margin: 2.5rem 0;
     padding: 1rem 0.5rem;
@@ -80,7 +80,7 @@
 }
 
 .sideProject-projectBlock:hover .sideProject-projectTag {
-    color: #222223;
+    color: #FFFAFA;
 }
 
 .sideProject-projectTag span {
