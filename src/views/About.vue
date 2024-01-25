@@ -241,6 +241,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="about-underline"></div>
                     <!-- Pangolin Clothing -->
                     <div class="about-projectBlock">
                         <div class="about-projectText">
@@ -273,6 +274,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="about-underline"></div>
                     <!-- Engineering-Calculator 工程計算機 -->
                     <div class="about-projectBlock">
                         <div class="about-projectText">
@@ -304,6 +306,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="about-underline"></div>
                     <!-- 備忘錄 Todo-List-->
                     <div class="about-projectBlock">
                         <div class="about-projectText">
@@ -335,6 +338,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="about-underline"></div>
                     <!-- 緯育團專 -->
                     <div class="about-projectBlock">
                         <div class="about-projectPic" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -372,6 +376,7 @@
                             
                         </div>
                     </div>
+                    <div class="about-underline"></div>
                     <!-- 緯育個專 -->
                     <div class="about-projectBlock">
                         <div class="about-projectText">

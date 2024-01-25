@@ -119,18 +119,17 @@
     }
 
     .resumeTitle {
-        width: 45%;
-        display: flex;
+        width: 100%;
+        /* display: flex; */
     }
 
     .resumeIntroduce {
-        width: 50%;
+        width: 100%;
         height: fit-content;
         align-self: center;
     }
 
     .resumeProfile {
-        width: 70%;
         line-height: 0;
         text-align: center;
         align-self: center;
@@ -156,15 +155,6 @@
 }
 
 @media (max-width: 575px) {
-    .resumeTitle {
-        width: 100%;
-        display: flex;
-    }
-
-    .resumeProfile {
-        width: 40%;
-    }
-
     .resumeName {
         width: 60%;
         margin: auto;
@@ -255,7 +245,7 @@
             <section class="resumeTitle">
                 <div class="resumeProfile">
                     <a href="About">
-                        <img src="../assets/images/charmy.jpg" alt="大頭貼">
+                        <img src="../assets/images/Charmy.webp" alt="大頭貼">
                     </a>
                 </div>
                 <div class="resumeName">
