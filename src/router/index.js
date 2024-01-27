@@ -238,6 +238,11 @@ const routes = [
         name: 'CSS_box-sizing',
         component: () => import('../views/Article-CSS/CSS_box-sizing.vue')
     },
+    {
+        path: '/CSS_has-and-not',
+        name: 'CSS_has-and-not',
+        component: () => import('../views/Article-CSS/CSS_has-and-not.vue')
+    },
 
     // JS 文章
     {

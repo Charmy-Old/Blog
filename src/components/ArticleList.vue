@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL CSS">
+        <div class="article-title">:has() 和 :not() 偽類選擇器</div>
+    </section>
+
     <section class="ALL FOOD">
         <div class="article-title">【美食札記】京悅港式飲茶</div>
     </section>

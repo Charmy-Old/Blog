@@ -15,6 +15,23 @@
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
                 data-aos-duration="1000">
+                <a href="CSS_has-and-not" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">:has() 和 :not() 偽類選擇器</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>CSS<i class="fa-sharp fa-solid fa-calendar-days"></i>2024-01-28</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>在 CSS 中，:has() 和 :not() 是兩個重要的偽類選取器，可以用來根據元素的子元素或不符合某些條件的元素來進行樣式設定。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                data-aos-duration="1000">
                 <a href="CSS_nth-child" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-css3-alt"></i>

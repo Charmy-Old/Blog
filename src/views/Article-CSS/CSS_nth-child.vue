@@ -16,23 +16,21 @@
                     <div class="article-detailLine"></div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
                         data-aos-duration="1000">
-                        <p>CSS3
-                            新增的選取器中，大概就屬:nth-child(n)功能最猛了，:nth-child(n)不僅可以不靠class或是ID來選取網頁項目外，還解決了網頁中清單資料規律性選取的問題，:nth-child(n)尤其對於表格資料的呈現上更加方便。
-                        </p>
+                        <p>CSS3 新增的選取器中，大概就屬 :nth-child(n) 功能最猛了，:nth-child(n)不僅可以不靠 class 或是 ID 來選取網頁項目外，還解決了網頁中清單資料規律性選取的問題，:nth-child(n) 尤其對於表格資料的呈現上更加方便。</p>
                     </div>
                     <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
                         data-aos-duration="1000">
                         <ul>
-                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(n)<br>表示選擇的第n個標簽。</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(2n-1)<br>表示選擇的奇數標簽。</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(odd)<br>表示選擇的奇數標簽。</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(2n)<br>表示選擇的偶數標簽。</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(even)<br>表示選擇的偶數標簽。</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(n+3)<br>表示選擇的標簽從第3個開始到最後。</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(-n+3)<br>表示選擇的標簽從0到3，即小於3的標簽。</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>:nth-last-child(3)<br>表示選擇的倒數第3個標簽。</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>:first-child<br>表示選擇的第一個標簽。</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>:last-child<br>表示選擇的最後一個標簽。</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(n)<br>表示選擇的第n個標簽</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(2n-1)<br>表示選擇的奇數標簽</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(odd)<br>表示選擇的奇數標簽</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(2n)<br>表示選擇的偶數標簽</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(even)<br>表示選擇的偶數標簽</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(n+3)<br>表示選擇的標簽從第3個開始到最後</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(-n+3)<br>表示選擇的標簽從0到3，即小於3的標簽</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>:nth-last-child(3)<br>表示選擇的倒數第3個標簽</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>:first-child<br>表示選擇的第一個標簽</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>:last-child<br>表示選擇的最後一個標簽</li>
                         </ul>
                     </div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"

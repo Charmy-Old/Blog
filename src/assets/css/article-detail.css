@@ -22,7 +22,7 @@
 .article-detailLine {
     width: 0;
     height: 2px;
-    background-color: #222223;
+    background-color: #FFFAFA;
     margin: 0.5rem 0 1.5rem;
     transition: all 0.3s linear;
 }
