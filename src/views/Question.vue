@@ -652,8 +652,8 @@ class Solution(object):
         roman = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
         result = 0
         for i in range(len(s)):
-            if i > 0 and roman[s[i]] > roman[s[i-1]]:
-                result += roman[s[i]] - 2 * roman[s[i-1]]
+            if i > 0 and roman[s[i]] > roman[s[i - 1]]:
+                result += roman[s[i]] - 2 * roman[s[i - 1]]
             else:
                 result += roman[s[i]]
         return result
@@ -675,6 +675,169 @@ class Solution:
         return result
 
 print(Solution().romanToInt("MCMXCIV"))   # 1994
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(10)">
+                <div class="question-title">
+                    <h2>LeetCode <span style="color: #00B8A3;">(Easy)</span></h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.</p>
+                        <p>Consider the number of unique elements of nums to be k, to get accepted, you need to do the following things:</p>
+                        <p><i class="fa-regular fa-note-sticky"></i>Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. The remaining elements of nums are not important as well as the size of nums.</p>
+                        <p><i class="fa-regular fa-note-sticky"></i>Return k.</p>
+                        <p>Custom Judge:</p>
+                        <p>The judge will test your solution with the following code:</p>
+                        <div class="question-coding">
+<pre>
+int[] nums = [...]; // Input array
+int[] expectedNums = [...]; // The expected answer with correct length
+
+int k = removeDuplicates(nums); // Calls your implementation
+
+assert k == expectedNums.length;
+for (int i = 0; i &lt; k; i++) {
+    assert nums[i] == expectedNums[i];
+}
+</pre>
+                        </div>
+                        <p>If all assertions pass, then your solution will be accepted.</p>
+                        <p>Example 1:</p>
+                        <div class="question-coding">
+<pre>
+Input: nums = [1,1,2]
+Output: 2, nums = [1,2,_]
+Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
+</pre>
+                        </div>
+                        <p>Example 2:</p>
+                        <div class="question-coding">
+<pre>
+Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
+Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
+</pre>
+                        </div>
+                        <p>Constraints:</p>
+                        <p><i class="fa-regular fa-note-sticky"></i>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></p>
+                        <p><i class="fa-regular fa-note-sticky"></i>-100 &lt;= nums[i] &lt;= 100</p>
+                        <p><i class="fa-regular fa-note-sticky"></i>nums is sorted in non-decreasing order.</p>
+
+                        <p>給定一個以非遞減順序排序的整數陣列 nums，原地移除重複的元素，使得每個獨特的元素僅出現一次。元素的相對順序應保持不變。然後返回 nums 中獨特元素的數量。</p>
+                        <p>將 nums 中獨特元素的數量表示為 k，要被接受，你需要執行以下操作：</p>
+                        <p><i class="fa-regular fa-note-sticky"></i>修改陣列 nums，使得 nums 的前 k 個元素包含最初在 nums 中出現的獨特元素，並且順序相同。nums 的其餘元素以及 nums 的大小都不重要。</p>
+                        <p><i class="fa-regular fa-note-sticky"></i>返回 k。</p>
+                        <p>自定義判斷器：</p>
+                        <p>判斷器將使用以下程式碼測試你的解答：</p>
+                        <div class="question-coding">
+<pre>
+int[] nums = [...]; // Input array
+int[] expectedNums = [...]; // The expected answer with correct length
+
+int k = removeDuplicates(nums); // Calls your implementation
+
+assert k == expectedNums.length;
+for (int i = 0; i &lt; k; i++) {
+    assert nums[i] == expectedNums[i];
+}
+</pre>
+                        </div>
+                        <p>如果所有斷言都通過，則您的解答將被接受。</p>
+                        <p>Example 1:</p>
+                        <div class="question-coding">
+<pre>
+Input: nums = [1,1,2]
+Output: 2, nums = [1,2,_]
+
+解釋：您的函數應該返回 k = 2，其中 nums 的前兩個元素分別為 1 和 2。
+返回的 k 之後的元素是不重要的（因此它們是底線）。
+</pre>
+                        </div>
+                        <p>Example 2:</p>
+                        <div class="question-coding">
+<pre>
+Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
+解釋：您的函數應該返回 k = 5，其中 nums 的前五個元素分別為 0、1、2、3 和 4。
+返回的 k 之後的元素是不重要的（因此它們是底線）。
+</pre>
+                        </div>
+                        <p>Constraints:</p>
+                        <p><i class="fa-regular fa-note-sticky"></i>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></p>
+                        <p><i class="fa-regular fa-note-sticky"></i>-100 &lt;= nums[i] &lt;= 100</p>
+                        <p><i class="fa-regular fa-note-sticky"></i>nums 是按非遞減順序排序的。</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+// JavaScript
+
+const removeDuplicates = function(nums) {
+    let i = 0;
+    for (let n of nums)
+        if (n > nums[i])
+            nums[++i] = n;
+    return ++i;
+};
+
+console.log(removeDuplicates([1, 1, 2]));   // 2
+console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));   // 5
+console.log(removeDuplicates([1, 1, 2, 2, 3, 3, 4, 4, 5, 5]));   // 6
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python
+# ====================================================================================================
+def removeDuplicates(nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        i = 0
+        while i &lt len(nums)-1:
+            if nums[i] == nums[i+1]:
+                del nums[i]
+            else:
+                i += 1
+        return len(nums)
+    
+print(removeDuplicates([1,1,2]))   # 2
+print(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]))   # 5
+# ====================================================================================================
+class Solution(object):
+    def removeDuplicates(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        i = 0
+        while i &lt len(nums)-1:
+            if nums[i] == nums[i+1]:
+                del nums[i]
+            else:
+                i += 1
+        return len(nums)
+# ====================================================================================================
+# Python3
+# ====================================================================================================
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        if not nums:
+            return 0
+        i = 0
+        for j in range(1, len(nums)):
+            if nums[j] != nums[i]:
+                i += 1
+                nums[i] = nums[j]
+        return i + 1
 </pre>
                     </div>
                 </div>

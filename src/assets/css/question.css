@@ -36,6 +36,11 @@
     transition: all 0.3s linear;
 }
 
+.question-txt i {
+    color: aqua;
+    margin: 0 0.75rem 0 0;
+}
+
 .question-list {
     line-height: 2;
     margin: 1.5rem 0;
