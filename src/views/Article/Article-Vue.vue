@@ -14,6 +14,22 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="VUE_v-for-introduce" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-vuejs"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 v-for？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Vue<i class="fa-sharp fa-solid fa-calendar-days"></i>2024-02-14</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>v-for 是 Vue.js 中的一個指令，它允許你在 Vue 的模板中根據一個數據源（如陣列或物件）來生成重複的 HTML 元素或 Vue 組件。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="VUE_props" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-vuejs"></i>

@@ -119,11 +119,9 @@ doSomething(function(result1) {
                     <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
                         data-aos-duration="1000">
                         <ul>
-                            <li><i class="fa-regular fa-note-sticky"></i>隨著 Callback Functions 的嵌套層級增加，程式碼的可讀性急劇下降。</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>錯誤處理變得困難，因為每個 Callback Functions 都需要處理錯誤並傳遞錯誤給下一個
-                                Callback Functions 。</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>在 Callback hell 中，程式碼的重用性和可維護性受到限制，因為相關的操作被分散在多個
-                                Callback Functions 中。</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>隨著 Callback Functions 的嵌套層級增加，程式碼的可讀性急劇下降</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>錯誤處理變得困難，因為每個 Callback Functions 都需要處理錯誤並傳遞錯誤給下一個 Callback Functions</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>在 Callback hell 中，程式碼的重用性和可維護性受到限制，因為相關的操作被分散在多個 Callback Functions 中</li>
                         </ul>
                     </div>
                 </div>

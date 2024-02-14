@@ -15,7 +15,7 @@
                     <div class="article-detailLine"></div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p style="flex-wrap: wrap;">安裝 Vue cli 之前，必須先安裝 Node.js，可直接至 Node.js 官網(<a href="https://nodejs.org/zh-tw/download" style="margin: 0">https://nodejs.org/zh-tw/download</a>)下載並安裝</p>
-                        <p>Vue cli 4.x 需要 Node.js v8.9 或更高版本，可在 Terminal 或 cmd 中使用 node -v 查看版本</p>
+                        <p>Vue cli 4.x 需要 Node.js v8.9 或更高版本，可在 Terminal 或 cmd 中使用 node -v 查看版本。</p>
                     </div>
                 </div>
             </section>

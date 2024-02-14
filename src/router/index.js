@@ -407,6 +407,11 @@ const routes = [
         name: 'VUE_props',
         component: () => import('../views/Article-Vue/VUE_props.vue')
     },
+    {
+        path: '/VUE_v-for-introduce',
+        name: 'VUE_v-for-introduce',
+        component: () => import('../views/Article-Vue/VUE_v-for-introduce.vue')
+    },
 
     // Database 文章
     {
