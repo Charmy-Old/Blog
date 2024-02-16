@@ -349,6 +349,8 @@ print(x)
                     <div class="question-txt">
                         <p>Given the array of integers nums, you will choose two different indices i and j of that array.
                             Return the maximum value of (nums[i]-1)*(nums[j]-1).</p>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
                         <p>給定整數數組 nums，將選擇該數組的兩個不同索引 i 和 j。傳回的最大值 (nums[i]-1)*(nums[j]-1)。</p>
                     </div>
                     <div class="question-detailLine"></div>
@@ -372,13 +374,18 @@ console.log(maxProduct([8, 9, 1 , 11]));   // 80
                     <div class="question-coding">
 <pre>
 # Python
-# ====================================================================================================
+
 def maxProduct(nums):
     nums.sort()
     return (nums[-1]-1)*(nums[-2]-1)
 
 print(maxProduct([8, 9, 1 , 11]))   # 80
-# ====================================================================================================
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python
+
 class Solution(object):
     def maxProduct(self, nums):
         """
@@ -389,9 +396,12 @@ class Solution(object):
         return (nums[-1]-1)*(nums[-2]-1)
 
 print(Solution().maxProduct([8, 9, 1 , 11]))   # 80
-# ====================================================================================================
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
 # Python3
-# ====================================================================================================
+
 class Solution:
     def maxProduct(self, nums: list[int]) -> int:
         nums.sort()
@@ -400,6 +410,7 @@ class Solution:
 print(Solution().maxProduct([8, 9, 1, 11]))   # 80
 </pre>
                     </div>
+                    
                 </div>
             </section>
 
@@ -415,6 +426,8 @@ print(Solution().maxProduct([8, 9, 1, 11]))   # 80
                         <p>You may assume that each input would have exactly one solution, and you may not use the same
                             element twice.</p>
                         <p>You can return the answer in any order.</p>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
                         <p>給定一個整數數組 nums 和一個整數 target，傳回兩個數字的索引，使相加為 target。</p>
                         <p>假設每個輸入都有一個解決方案，並且不能兩次使用相同的元素。</p>
                         <p>按任意順序返回答案。</p>
@@ -441,7 +454,7 @@ console.log(twoSum([2, 7, 11, 15], 22));   // [1, 3]
                     <div class="question-coding">
 <pre>
 # Python
-# ====================================================================================================
+
 def twoSum(nums, target):
     for i in range(len(nums)):
         for j in range(i+1,len(nums)):
@@ -449,7 +462,12 @@ def twoSum(nums, target):
                 return [i,j]
 
 print(twoSum([2, 7, 11, 15], 22))   # [1, 3]
-# ====================================================================================================
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python
+
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -463,9 +481,12 @@ class Solution(object):
                     return [i,j]
 
 print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
-# ====================================================================================================
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
 # Python3
-# ====================================================================================================
+
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         for i in range(len(nums)):
@@ -487,7 +508,9 @@ print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
                 <div class="question-content">
                     <div class="question-txt">
                         <p>Given an integer x, return true if x is a palindrome, and false otherwise.</p>
-                        <p>給定一個整數x，true如果x是一個則傳回回文，以及falseOther情況。</p>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
+                        <p>給定一個整數 x，true 如果 x 是一個則傳回回文，以及 false Other 情況。</p>
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
@@ -505,7 +528,7 @@ console.log(isPalindrome(-121));   // false
                     <div class="question-coding">
 <pre>
 # Python
-# ====================================================================================================
+
 def isPalindrome(x):
     if x &lt 0:
         return False
@@ -514,7 +537,12 @@ def isPalindrome(x):
 
 print(isPalindrome(121))   # True
 print(isPalindrome(-121))   # False
-# ====================================================================================================
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python
+
 class Solution(object):
     def isPalindrome(self, x):
         """
@@ -532,9 +560,12 @@ class Solution(object):
 
 print(Solution().isPalindrome(121))   # True
 print(Solution().isPalindrome(-121))   # False
-# ====================================================================================================
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
 # Python3
-# ====================================================================================================
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         return str(x) == str(x)[::-1]
@@ -554,6 +585,8 @@ print(Solution().isPalindrome(-121))   # False
                 <div class="question-content">
                     <div class="question-txt">
                         <p>Roman to Integer</p>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
                         <p>羅馬數字轉整數。</p>
                     </div>
                     <div class="article-table" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -629,7 +662,7 @@ console.log(romanToInt("MCMXCIV"));   // 1994
                     <div class="question-coding">
 <pre>
 # Python
-# ====================================================================================================
+
 def roman_to_int(s):
     roman_dict = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
     num = 0
@@ -642,7 +675,12 @@ def roman_to_int(s):
     return num
 
 print(roman_to_int('MCMXCIV'))   # 1994
-# ====================================================================================================
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python
+
 class Solution(object):
     def romanToInt(self, s):
         """
@@ -659,9 +697,12 @@ class Solution(object):
         return result
 
 print(Solution().romanToInt("MCMXCIV"))   # 1994
-# ====================================================================================================
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
 # Python3
-# ====================================================================================================
+
 class Solution:
     def romanToInt(self, s: str) -> int:
         roman = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
@@ -729,7 +770,8 @@ It does not matter what you leave beyond the returned k (hence they are undersco
                         <p><i class="fa-regular fa-note-sticky"></i>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></p>
                         <p><i class="fa-regular fa-note-sticky"></i>-100 &lt;= nums[i] &lt;= 100</p>
                         <p><i class="fa-regular fa-note-sticky"></i>nums is sorted in non-decreasing order.</p>
-
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
                         <p>給定一個以非遞減順序排序的整數陣列 nums，原地移除重複的元素，使得每個獨特的元素僅出現一次。元素的相對順序應保持不變。然後返回 nums 中獨特元素的數量。</p>
                         <p>將 nums 中獨特元素的數量表示為 k，要被接受，你需要執行以下操作：</p>
                         <p><i class="fa-regular fa-note-sticky"></i>修改陣列 nums，使得 nums 的前 k 個元素包含最初在 nums 中出現的獨特元素，並且順序相同。nums 的其餘元素以及 nums 的大小都不重要。</p>
@@ -795,7 +837,7 @@ console.log(removeDuplicates([1, 1, 2, 2, 3, 3, 4, 4, 5, 5]));   // 6
                     <div class="question-coding">
 <pre>
 # Python
-# ====================================================================================================
+
 def removeDuplicates(nums):
         """
         :type nums: List[int]
@@ -811,7 +853,12 @@ def removeDuplicates(nums):
     
 print(removeDuplicates([1,1,2]))   # 2
 print(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]))   # 5
-# ====================================================================================================
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python
+
 class Solution(object):
     def removeDuplicates(self, nums):
         """
@@ -825,9 +872,12 @@ class Solution(object):
             else:
                 i += 1
         return len(nums)
-# ====================================================================================================
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
 # Python3
-# ====================================================================================================
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if not nums:
@@ -838,6 +888,120 @@ class Solution:
                 i += 1
                 nums[i] = nums[j]
         return i + 1
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(11)">
+                <div class="question-title">
+                    <h2>LeetCode <span style="color: #FAC31D;">(Medium)</span></h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.</p>
+                        <p>Example 1:</p>
+                        <p>Input: intervals = [[1,3],[2,6],[8,10],[15,18]]</p>
+                        <p>Output: [[1,6],[8,10],[15,18]]</p>
+                        <p>Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].</p>
+                        <p>Example 2:</p>
+                        <p>Input: intervals = [[1,4],[4,5]]</p>
+                        <p>Output: [[1,5]]</p>
+                        <p>Explanation: Intervals [1,4] and [4,5] are considered overlapping.</p>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
+                        <p>給定一個數組 intervals where ，合併所有重疊間隔，並傳回覆蓋輸入 中所有間隔的非重疊間隔數組。intervals[i] = [starti, endi]</p>
+                        <p>範例 1:</p>
+                        <p>Input: intervals = [[1,3],[2,6],[8,10],[15,18]]</p>
+                        <p>Output: [[1,6],[8,10],[15,18]]</p>
+                        <p>解釋：由於區間 [1,3] 和 [2,6] 重疊，因此將它們合併到 [1,6] 中。</p>
+                        <p>範例 2:</p>
+                        <p>Input: intervals = [[1,4],[4,5]]</p>
+                        <p>Output: [[1,5]]</p>
+                        <p>間隔 [1,4] 和 [4,5] 被視為重疊。</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+// JavaScript
+
+const merge = function (intervals) {
+    intervals.sort((a, b) => a[0] - b[0]);
+    const results = [intervals[0]];
+    for (let i = 1; i &lt; intervals.length; i++) {
+        const last = results[results.length - 1];
+        if (last[1] >= intervals[i][0]) {
+            last[1] = Math.max(last[1], intervals[i][1]);
+        } else {
+            results.push(intervals[i]);
+        }
+    }
+    return results;
+};
+
+console.log(merge([[1, 3], [2, 6], [8, 10], [15, 18]]));   // [[1, 6], [8, 10], [15, 18]]
+console.log(merge([[1, 4], [4, 5]]));   // [[1, 5]] 
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python
+
+def merge(intervals):
+    intervals.sort()
+    res = []
+    for interval in intervals:
+        if not res or res[-1][1] &lt; interval[0]:
+            res.append(interval)
+        else:
+            res[-1][1] = max(res[-1][1], interval[1])
+    return res
+
+print(merge([[1, 3],[2, 6],[8, 10],[15, 18]]))   # [[1, 6], [8, 10], [15, 18]]
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python
+
+class Solution(object):
+    def merge(self, intervals):
+        """
+        :type intervals: List[List[int]]
+        :rtype: List[List[int]]
+        """
+        intervals.sort()
+        res = []
+        for interval in intervals:
+            if not res or res[-1][1] &lt; interval[0]:
+                res.append(interval)
+            else:
+                res[-1][1] = max(res[-1][1], interval[1])
+        return res
+
+solution = Solution()
+print(solution.merge([[1, 3],[2, 6],[8, 10],[15, 18]]))   # [[1, 6], [8, 10], [15, 18]]
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+# Python3
+
+from typing import List
+
+class Solution:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        intervals.sort(key=lambda x: x[0])
+        res = []
+        for interval in intervals:
+            if not res or res[-1][1] &lt; interval[0]:
+                res.append(interval)
+            else:
+                res[-1][1] = max(res[-1][1], interval[1])
+        return res
+    
+print(Solution().merge([[1, 3],[2, 6],[8, 10],[15, 18]]))   # [[1, 6], [8, 10], [15, 18]]
 </pre>
                     </div>
                 </div>
