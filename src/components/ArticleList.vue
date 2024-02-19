@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL CHAT">
+        <div class="article-title">什麼是 豐田式管理？</div>
+    </section>
+
     <section class="ALL VUE">
         <div class="article-title">什麼是 v-for？</div>
     </section>

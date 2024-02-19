@@ -42,6 +42,11 @@ const routes = [
         component: () => import('../views/Home8.vue')
     },
     {
+        path: '/Home9',
+        name: 'Home9',
+        component: () => import('../views/Home9.vue')
+    },
+    {
         path: '/About',
         name: 'About',
         component: () => import('../views/About.vue')
@@ -491,6 +496,11 @@ const routes = [
         path: '/Chat_ICs-Photolithography-vs-Etching-vs-Diffusion-vs-Deposition',
         name: 'Chat_ICs-Photolithography-vs-Etching-vs-Diffusion-vs-Deposition',
         component: () => import('../views/Article-Chat/Chat_ICs-Photolithography-vs-Etching-vs-Diffusion-vs-Deposition.vue')
+    },
+    {
+        path: '/Chat_TPS',
+        name: 'Chat_TPS',
+        component: () => import('../views/Article-Chat/Chat_TPS.vue')
     },
 
     // 美食札記 文章

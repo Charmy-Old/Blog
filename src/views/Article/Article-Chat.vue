@@ -14,6 +14,22 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="Chat_TPS" class="article">
+                    <div class="article-icon">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 豐田式管理？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Chat<i class="fa-sharp fa-solid fa-calendar-days"></i>2024-02-20</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>被製造業中的生產管理者譽為必須了解的生產重要觀念與完善產線結構的管理落實，就是豐田式管理，又稱豐田式生產管理，但實際上豐田式管理有許多技巧與概念是不僅運用在生產作業，也能運用在其他產業的作業模式。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="Chat_ICs-Photolithography-vs-Etching-vs-Diffusion-vs-Deposition" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-book-open-reader"></i>

@@ -41,11 +41,8 @@
                         data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-regular fa-note-sticky"></i>:nth-child(-n+10)<br>表示選擇的前10個標簽。</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(n+11):nth-child(-n+20)<br>表示選擇第11~20個標簽。
-                            </li>
-                            <li><i
-                                    class="fa-regular fa-note-sticky"></i>:not(:nth-child(n+11):nth-child(-n+20))<br>表示選擇第11~20個以外的標簽。
-                            </li>
+                            <li><i class="fa-regular fa-note-sticky"></i>:nth-child(n+11):nth-child(-n+20)<br>表示選擇第11~20個標簽。</li>
+                            <li><i  class="fa-regular fa-note-sticky"></i>:not(:nth-child(n+11):nth-child(-n+20))<br>表示選擇第11~20個以外的標簽。</li>
                         </ul>
                     </div>
                 </div>

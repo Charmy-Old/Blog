@@ -584,6 +584,7 @@ const state = reactive({
     searchInput: "",
     divContentList: [
         { text: "【程式入門】該如何開始自學寫程式", url: "Programming-Language" },
+        { text: "什麼是 豐田式管理？", url: "Chat_TPS" },
         { text: "什麼是 v-for？", url: "VUE_v-for-introduce" },
         { text: ":has() 和 :not() 偽類選擇器", url: "CSS_has-and-not" },
         { text: "【美食札記】京悅港式飲茶", url: "Food_King-Young" },
