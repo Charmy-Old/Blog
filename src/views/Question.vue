@@ -1141,6 +1141,207 @@ for (let i = 0; i &lt;= 3; i++) {
                     </div>
                 </div>
             </section>
+
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(16)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>CSS 水平垂直置中方法</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-txt">
+                        <p>1、Flexbox</p>
+                    </div>
+                    <div class="question-coding">
+<pre>
+.parent {
+    display: flex;
+    justify-content: center;   /* 水平置中 */   
+    align-items: center;   /* 垂直置中 */
+}
+</pre>
+<pre>
+.parent {
+    display: flex;
+    justify-content: center;   /* 水平置中 */   
+    align-content: center;   /* 垂直置中 */
+    flex-wrap: wrap;
+}
+</pre>
+                    </div>
+                    <div class="question-txt">
+                        <p>2、相對定位 + transform</p>
+                    </div>
+                    <div class="question-coding">
+<pre>
+.child {
+    position: relative;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</pre>
+                    </div>
+                    <div class="question-txt">
+                        <p>3、絕對定位</p>
+                    </div>
+                    <div class="question-coding">
+<pre>
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(17)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>JavaScript Array 方法(持續更新)</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+// push(): 在陣列尾端新增一個或多個元素，並回傳新陣列的長度
+let arr = [1, 2, 3];
+arr.push(4);
+console.log(arr);   // [1, 2, 3, 4] 
+
+// pop(): 移除陣列的最後一個元素，並回傳被移除的元素
+let arr = [1, 2, 3];
+let last = arr.pop();
+console.log(last);   // 3
+
+// shift(): 移除陣列的第一個元素，並回傳被移除的元素
+let arr = [1, 2, 3];
+let first = arr.shift();
+console.log(first);   // 1
+
+// unshift(): 在陣列头端新增一個或多個元素，並回傳新陣列的長度
+let arr = [1, 2, 3];
+arr.unshift(0);
+console.log(arr);   // [0, 1, 2, 3]
+
+// splice(): 移除或替換陣列的元素
+let arr = [1, 2, 3];
+arr.splice(1, 1);
+console.log(arr);   // [1, 3]
+
+// slice(): 複製陣列中的一部分元素
+let arr = [1, 2, 3];
+let sliced = arr.slice(1, 2);
+console.log(sliced);   // [2]
+
+// indexOf(): 返回元素在陣列中的索引值
+let arr = [1, 2, 3];
+let index = arr.indexOf(2);
+console.log(index);   // 1
+
+// includes(): 檢查陣列中是否包含指定的元素
+let arr = [1, 2, 3];
+let includes = arr.includes(2);
+console.log(includes);   // true
+
+// join(): 將陣列元素連接成字串，并以指定的分隔符號分隔
+let arr = [1, 2, 3];
+let str = arr.join(' ');
+console.log(str);   // 1 2 3
+
+// forEach(): 對陣列中的每個元素進行操作
+let arr = [1, 2, 3];
+arr.forEach(function(element) {
+   console.log(element);   // 1 2 3
+})
+
+// map(): 對陣列中的每個元素進行操作，並返回新的陣列
+let arr = [1, 2, 3];
+let newArr = arr.map(function(element) {
+    return element * 2;
+})
+console.log(newArr);   // [2, 4, 6]
+
+// filter(): 對陣列中的每個元素進行操作，並返回符合條件的元素
+let arr = [1, 2, 3];
+let filtered = arr.filter(function(element) {
+   return element > 1;
+})
+console.log(filtered);   // [2, 3]
+
+// reduce(): 對陣列中的每個元素進行操作，並返回結果
+let arr = [1, 2, 3];
+let sum = arr.reduce(function(total, element) {
+   return total + element;
+})
+console.log(sum);   // 6
+
+// sort(): 對陣列中的每個元素進行排序
+let arr = [3, 2, 1];
+arr.sort();
+console.log(arr);   // [1, 2, 3]
+
+// reverse(): 對陣列中的每個元素進行反轉
+let arr = [1, 2, 3];
+arr.reverse();
+console.log(arr);   // [3, 2, 1]
+
+// concat(): 對兩個陣列進行連接
+let arr1 = [1, 2];
+let arr2 = [3, 4];
+let concat = arr1.concat(arr2);
+console.log(concat);   // [1, 2, 3, 4]
+
+// length: 陣列的長度
+let arr = [1, 2, 3];
+console.log(arr.length);   // 3
+
+// Array.isArray(): 檢查物件是否為陣列
+let arr = [1, 2, 3];
+let isArray = Array.isArray(arr);
+console.log(isArray);   // true
+
+// Array.toString(): 將陣列元素轉換為字串
+let arr = [1, 2, 3];
+let str = arr.toString();
+console.log(str);   // 1,2,3
+
+// Array.valueOf(): 將陣列元素轉換為值
+let arr = [1, 2, 3];
+let value = arr.valueOf();
+console.log(value);   // [1, 2, 3]
+
+// Array.toLocaleString(): 將陣列元素轉換為字串，並以指定的格式輸出
+let arr = [1, 2, 3];
+let str = arr.toLocaleString();
+console.log(str);   // 1,2,3
+
+// __proto__: 陣列的 prototype 屬性
+let arr = [1, 2, 3];
+console.log(arr.__proto__);   // [object Array]
+
+// Array.constructor: 陣列的構造函數
+let arr = [1, 2, 3];
+console.log(arr.constructor);   // function Array() { [native code] }
+</pre>
+                    </div>
+                </div>
+            </section>
         </main>
         <Wall />
     </div>
