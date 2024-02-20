@@ -1006,6 +1006,141 @@ print(Solution().merge([[1, 3],[2, 6],[8, 10],[15, 18]]))   # [[1, 6], [8, 10], 
                     </div>
                 </div>
             </section>
+
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(12)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>請解釋 Cookie、LocalStorage 和 SessionStorage 的差異</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-txt">
+                        <p>Cookie：</p>
+                    </div>
+                    <div class="question-list">
+                        <ul>
+                            <li><i class="fa-regular fa-note-sticky"></i>可設定失效時間，預設是關閉瀏覽器後失效</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>大小約 4kb</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>每次都會攜帶在HTTP中，保存過多數據會帶來效能問題</li>
+                        </ul>
+                    </div>
+                    <div class="question-txt">
+                        <p>LocalStorage：</p>
+                    </div>
+                    <div class="question-list">
+                        <ul>
+                            <li><i class="fa-regular fa-note-sticky"></i>除非被清除，否則永久保存</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>大小一般為 5Mb</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>僅在瀏覽器保存，不參與Server的溝通</li>
+                        </ul>
+                    </div>
+                    <div class="question-txt">
+                        <p>SessionStorage：</p>
+                    </div>
+                    <div class="question-list">
+                        <ul>
+                            <li><i class="fa-regular fa-note-sticky"></i>關閉頁面或瀏覽器後被清除</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>大小一般為 5Mb</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>僅在瀏覽器保存，不參與Server的溝通</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(13)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>以下 console.log 會顯示出什麼 (var、let 和 for 迴圈及 setTimeout 觀念)</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+<pre>
+for (var i = 0; i &lt; 3; i++) {
+    setTimeout(function () {
+        console.log(i);
+    }, 100);
+}
+// 3 3 3
+
+for (let i = 0; i &lt; 3; i++) {
+    setTimeout(function () {
+        console.log(i);
+    }, 100);
+}
+// 0 1 2
+
+for (var i = 0; i &lt;= 3; i++) {
+    setTimeout(function () {
+        console.log(i);
+    }, 100);
+}
+// 4 4 4 4
+
+for (let i = 0; i &lt;= 3; i++) {
+    setTimeout(function () {
+        console.log(i);
+    }, 100);
+}
+// 0 1 2 3
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(14)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>請解釋 JavaScript 中 var、let 和 const 的差異</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-list">
+                        <ul>
+                            <li><i class="fa-regular fa-note-sticky"></i>在 JavaScript 早期只有 var，直到 ES2015(ES6) 時才加入了 let 與 const</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>在作用域上，var 可以是全域、也可以是以函式作為範圍；let 與 const 則是以區塊作為範圍</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>在宣告上，var 可以被重複宣告，但是 let 與 const 則不行</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>在 hoisting 上，var 宣告的變數會自動初始化值為 undefined，因為在宣告前就使用變數，不會出現錯誤，而會是 undefined ；但是 let 與 const 宣告的變數則不會自動初始化，而是會進到暫時死區 (TDZ)，因此在 let 與 const 宣告變數前使用該變數，會出現錯誤</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>let 與 const 在絕多數面向都是一樣，兩者的一大區別在於，用 let 宣告的變數可以重新賦值，但是用 const 的不行</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(15)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>請解釋 vue 生命週期中 watch 和 computed 的差異</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-txt">
+                        <p>computed:(計算屬性)：</p>
+                        <p>computed 是一個屬性，用於定義一個依賴於其他數據的屬性。它們根據它們所依賴的數據自動更新，只有當依賴的數據發生變化時，計算屬性才會重新求值。</p>
+                        <p>computed 屬性在數據變化時具有緩存的特性，當計算屬性依賴的數據沒有改變時，不會重新計算，而是直接返回之前的結果。</p>
+                    </div>
+                    <div class="question-txt">
+                        <p>watch:(監聽)：</p>
+                        <p>watch 是一個選項，用於監聽數據的變化並在數據發生改變時執行相應的函數。它允許執行自定義的邏輯，當數據變化時作出不同的響應。</p>
+                        <p>watch 通常用於當需要執行異步操作，或者需要更複雜的邏輯來響應數據變化時。</p>
+                    </div>
+                    <div class="question-txt">
+                        <p>computed 適合用於根據數據的轉換或計算得到一個新值，而 watch 則適合用於當需要執行一些副作用操作，或者需要更複雜的邏輯來響應數據的改變。</p>
+                    </div>
+                </div>
+            </section>
         </main>
         <Wall />
     </div>

@@ -16,8 +16,7 @@
                     <div class="article-detailLine"></div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
                         data-aos-duration="1000">
-                        <p>在 JavaScript 中，var、let 和 const 是用於宣告變數的保留字，在 JavaScript 早期只有 var，直到 ES2015 (ES6) 時才加入了 let 與
-                            const</p>
+                        <p>在 JavaScript 中，var、let 和 const 是用於宣告變數的保留字，在 JavaScript 早期只有 var，直到 ES2015(ES6) 時才加入了 let 與 const</p>
                         <h4>var 與 let / const ，主要有幾項差異：</h4>
                     </div>
                     <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
@@ -27,7 +26,7 @@
                             </li>
                             <li><i class="fa-regular fa-note-sticky"></i>在宣告上，var 可以被重複宣告，但是 let 與 const 則不行。</li>
                             <li><i class="fa-regular fa-note-sticky"></i>在提升上，var 宣告的變數會自動初始化值為
-                                undefined，因此在宣告前就使用變數，不會出現錯誤，而會是 undefined ；但是 let 與 const 宣告的變數則不會自動初始化，而是會進到暫時死區 (TDZ)，因此在
+                                undefined，因為在宣告前就使用變數，不會出現錯誤，而會是 undefined；但是 let 與 const 宣告的變數則不會自動初始化，而是會進到暫時死區 (TDZ)，因此在
                                 let 與 const 宣告變數前使用該變數，會出現錯誤。</li>
                             <li><i class="fa-regular fa-note-sticky"></i>let 與 const 在絕多數面向都是一樣，兩者的一大區別在於，用 let
                                 宣告的變數可以重新賦值，但是用 const 的不行。</li>
@@ -133,7 +132,7 @@ callNum();   // 123
                     <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                         data-aos-delay="150" data-aos-duration="1000">
                         <pre>
-// 用 for 迴圈執行五次，每隔 0.1 秒會印出 i
+// 用 for 迴圈執行三次，每隔 0.1 秒會印出 i
 for (var i = 0; i &lt; 3; i++) {
     setTimeout(function () {
         console.log(i);
