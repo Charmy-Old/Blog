@@ -28,11 +28,230 @@
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
-                        <p>以下 console.log 會顯示出什麼 (淺拷貝 & 深拷貝 觀念)</p>
+                        <p>前端面試可以問的問題 (參考)</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-list">
+                        <ul>
+                            <li><i class="fa-regular fa-note-sticky"></i>若有幸進入貴公司，請問會接觸到哪些工作內容？</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>目前公司有幾位設計和後端，是怎麼合作的？</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>請問會需要整合不同的後端嗎？</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>專案的時程會很趕嗎？當工程師遇到困難時，會如何協助解決？</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>通常是怎麼處理 CSS 檔？是否依元件或頁面開檔案放置？樣式需要有命名規則？有導入 SCSS 嗎？</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>是否有遇過常改規格的情境？工程師會需要如何應對？</li>
+
+                            <li><i class="fa-regular fa-note-sticky"></i>專案中有用到哪些設計模式？</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>會在什麼時候決定將共用邏輯抽取出來成為 function 或是常數？</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>如果有十幾個需求同時開發或是需要轉換框架函式庫，會怎麼進行？</li>
+
+                            <li><i class="fa-regular fa-note-sticky"></i>您的工作上一天大概是怎麼過的？</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>最喜歡和最不喜歡這個團隊或公司的地方是什麼？</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>請問您通常都是怎麼帶領團隊？</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>這個團隊接下來的目標是什麼？</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(1)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>JavaScript Array 方法(持續更新)</p>
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-<pre>
+                        <pre>
+// push(): 在陣列尾端新增一個或多個元素，並回傳新陣列的長度
+let arr = [1, 2, 3];
+arr.push(4);
+console.log(arr);   // [1, 2, 3, 4] 
+
+// pop(): 移除陣列的最後一個元素，並回傳被移除的元素
+let arr = [1, 2, 3];
+let last = arr.pop();
+console.log(last);   // 3
+
+// shift(): 移除陣列的第一個元素，並回傳被移除的元素
+let arr = [1, 2, 3];
+let first = arr.shift();
+console.log(first);   // 1
+
+// unshift(): 在陣列頭端新增一個或多個元素，並回傳新陣列的長度
+let arr = [1, 2, 3];
+arr.unshift(0);
+console.log(arr);   // [0, 1, 2, 3]
+
+// splice(): 移除或替換陣列的元素
+let arr = [1, 2, 3];
+arr.splice(1, 1);
+console.log(arr);   // [1, 3]
+
+// slice(): 複製陣列中的一部分元素
+let arr = [1, 2, 3];
+let sliced = arr.slice(1, 2);
+console.log(sliced);   // [2]
+
+// sort(): 對陣列中的每個元素進行排序
+let arr = [3, 2, 1];
+arr.sort();
+console.log(arr);   // [1, 2, 3]
+// 自定義比較函式
+let arr = [3, 2, 1];
+arr.sort(function(a, b) {
+    return a - b;
+})
+console.log(arr);   // [1, 2, 3]
+
+// reverse(): 對陣列中的每個元素進行反轉
+let arr = [1, 2, 3];
+arr.reverse();
+console.log(arr);   // [3, 2, 1]
+
+// concat(): 對兩個陣列進行連接
+let arr1 = [1, 2];
+let arr2 = [3, 4];
+let concat = arr1.concat(arr2);
+console.log(concat);   // [1, 2, 3, 4]
+
+
+
+// for: 對陣列中的每個元素進行操作
+let arr = [1, 2, 3];
+for (let i = 0; i &lt arr.length; i++) {
+    console.log(arr[i]);   // 1 2 3
+}
+
+// forEach(): 對陣列中的每個元素進行操作
+let arr = [1, 2, 3];
+arr.forEach(function(element) {
+    console.log(element);   // 1 2 3
+})
+
+// for...of: 對陣列中的每個元素進行操作
+let arr = [1, 2, 3];
+for (let element of arr) {
+    console.log(element);   // 1 2 3
+}
+
+// map(): 對陣列中的每個元素進行操作，並返回新的陣列
+let arr = [1, 2, 3];
+let newArr = arr.map(function(element) {
+    return element * 2;
+})
+console.log(newArr);   // [2, 4, 6]
+
+// filter(): 對陣列中的每個元素進行操作，並返回符合條件的元素
+let arr = [1, 2, 3];
+let filtered = arr.filter(function(element) {
+   return element > 1;
+})
+console.log(filtered);   // [2, 3]
+
+// reduce(): 對陣列中的每個元素進行操作，並返回結果
+let arr = [1, 2, 3];
+let sum = arr.reduce(function(total, element) {
+   return total + element;
+})
+console.log(sum);   // 6
+
+// find(): 對陣列中的每個元素進行操作，並返回符合條件的第一個元素
+let arr = [1, 2, 3];
+let found = arr.find(function(element) {
+    return element > 1;
+})
+console.log(found);   // 2  
+
+// some(): 對陣列中的每個元素進行操作，並返回符合條件的元素
+let arr = [1, 2, 3];
+let some = arr.some(function(element) {
+    return element > 1;
+})
+console.log(some);   // true
+
+// every(): 對陣列中的每個元素進行操作，並返回符合條件的元素
+let arr = [1, 2, 3];
+let every = arr.every(function(element) {
+    return element > 1;
+})
+console.log(every);   // false
+
+
+
+// indexOf(): 返回元素在陣列中的索引值
+let arr = [1, 2, 3];
+let index = arr.indexOf(2);
+console.log(index);   // 1
+let index2 = arr.indexOf(4);
+console.log(index2);   // -1
+
+// includes(): 檢查陣列中是否包含指定的元素
+let arr = [1, 2, 3];
+let includes = arr.includes(2);
+console.log(includes);   // true
+
+// join(): 將陣列元素連接成字串，并以指定的分隔符號分隔
+let arr = [1, 2, 3];
+let str = arr.join(' ');
+console.log(str);   // 1 2 3
+
+// split(): 將字串分割成陣列
+let str = 'hello world';
+let arr = str.split(' ');
+console.log(arr);   // ['hello', 'world']
+
+// length: 陣列的長度
+let arr = [1, 2, 3];
+console.log(arr.length);   // 3
+
+// Array.isArray(): 檢查物件是否為陣列
+let arr = [1, 2, 3];
+let isArray = Array.isArray(arr);
+console.log(isArray);   // true
+
+// Array.toString(): 將陣列元素轉換為字串
+let arr = [1, 2, 3];
+let str = arr.toString();
+console.log(str);   // 1,2,3
+
+// Array.valueOf(): 將陣列元素轉換為值
+let arr = [1, 2, 3];
+let value = arr.valueOf();
+console.log(value);   // [1, 2, 3]
+
+// Array.toLocaleString(): 將陣列元素轉換為字串，並以指定的格式輸出
+let arr = [1, 2, 3];
+let str = arr.toLocaleString();
+console.log(str);   // 1,2,3
+
+// __proto__: 陣列的 prototype 屬性
+let arr = [1, 2, 3];
+console.log(arr.__proto__);   // [object Array]
+
+// Array.constructor: 陣列的構造函數
+let arr = [1, 2, 3];
+console.log(arr.constructor);   // function Array() { [native code] }
+</pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(2)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>請問以下 console.log 會顯示出什麼 (淺拷貝 & 深拷貝 觀念)</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+                        <pre>
 let a = 1;
 let b = a;
 b = 2;
@@ -48,7 +267,7 @@ console.log(n);   // [3, 2]
                 </div>
             </section>
 
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(1)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(3)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -59,7 +278,7 @@ console.log(n);   // [3, 2]
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 console.log(2 + 3);   // 5
 console.log(2 + "3");   // 23
 console.log("2" + "3");   // 23
@@ -136,14 +355,14 @@ console.log(({}) == {});   // false
                 </div>
             </section>
 
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(2)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(4)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
-                        <p>Arrow function 及一般 function 中的 this 有何不同</p>
+                        <p>請問 Arrow function 及一般 function 中的 this 有何不同</p>
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-txt">
@@ -167,7 +386,7 @@ console.log(({}) == {});   // false
                         </ul>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 // 普通 function 中的 this
 function foo() {
     console.log(this);   // 全域物件
@@ -219,7 +438,7 @@ arrowFn.apply(obj, []);   // 輸出：obj
                 </div>
             </section>
 
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(3)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(5)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -229,7 +448,7 @@ arrowFn.apply(obj, []);   // 輸出：obj
                         <p>有一段 API 回應如下。請寫出一段程式，找出 airportId 為 TPE 的 city，並印出它的 cityName</p>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 "response": {
     "status": "success",
     "message": "",
@@ -270,7 +489,7 @@ arrowFn.apply(obj, []);   // 輸出：obj
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 const ans = data.response.data.find(city => city.airports.find(airport => airport.airportId === "TPE"))
 console.log(ans.cityName);
 </pre>
@@ -278,7 +497,7 @@ console.log(ans.cityName);
                 </div>
             </section>
 
-            <section class="all Other question-block" :class="{ modifyHeight: heightActive }" @click="transform(4)">
+            <section class="all Other question-block" :class="{ modifyHeight: heightActive }" @click="transform(6)">
                 <div class="question-title">
                     <h2>Other</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -294,7 +513,7 @@ console.log(ans.cityName);
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 profit=int(input("利潤值："))
 list_profit=[0,100000,200000,400000,600000,1000000]
@@ -313,7 +532,7 @@ print(bonus)
                 </div>
             </section>
 
-            <section class="all Other question-block" :class="{ modifyHeight: heightActive }" @click="transform(5)">
+            <section class="all Other question-block" :class="{ modifyHeight: heightActive }" @click="transform(7)">
                 <div class="question-title">
                     <h2>Other</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -324,7 +543,7 @@ print(bonus)
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 for x in range(2,85,2):
@@ -340,7 +559,7 @@ print(x)
                 </div>
             </section>
 
-            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(6)">
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(8)">
                 <div class="question-title">
                     <h2>LeetCode <span style="color: #00B8A3;">(Easy)</span></h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -355,7 +574,7 @@ print(x)
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 // JavaScript
 
 const maxProduct = function(nums) {
@@ -372,7 +591,7 @@ console.log(maxProduct([8, 9, 1 , 11]));   // 80
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 def maxProduct(nums):
@@ -383,7 +602,7 @@ print(maxProduct([8, 9, 1 , 11]))   # 80
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 class Solution(object):
@@ -399,7 +618,7 @@ print(Solution().maxProduct([8, 9, 1 , 11]))   # 80
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python3
 
 class Solution:
@@ -410,11 +629,11 @@ class Solution:
 print(Solution().maxProduct([8, 9, 1, 11]))   # 80
 </pre>
                     </div>
-                    
+
                 </div>
             </section>
 
-            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(7)">
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(9)">
                 <div class="question-title">
                     <h2>LeetCode <span style="color: #00B8A3;">(Easy)</span></h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -434,7 +653,7 @@ print(Solution().maxProduct([8, 9, 1, 11]))   # 80
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 // JavaScript
 
 const twoSum = function(nums, target) {
@@ -452,7 +671,7 @@ console.log(twoSum([2, 7, 11, 15], 22));   // [1, 3]
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 def twoSum(nums, target):
@@ -465,7 +684,7 @@ print(twoSum([2, 7, 11, 15], 22))   # [1, 3]
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 class Solution(object):
@@ -484,7 +703,7 @@ print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python3
 
 class Solution:
@@ -500,7 +719,7 @@ print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
                 </div>
             </section>
 
-            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(8)">
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(10)">
                 <div class="question-title">
                     <h2>LeetCode <span style="color: #00B8A3;">(Easy)</span></h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -514,7 +733,7 @@ print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 // JavaScript
 
 const isPalindrome = function(x) {
@@ -526,7 +745,7 @@ console.log(isPalindrome(-121));   // false
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 def isPalindrome(x):
@@ -540,7 +759,7 @@ print(isPalindrome(-121))   # False
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 class Solution(object):
@@ -563,7 +782,7 @@ print(Solution().isPalindrome(-121))   # False
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python3
 
 class Solution:
@@ -577,7 +796,7 @@ print(Solution().isPalindrome(-121))   # False
                 </div>
             </section>
 
-            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(9)">
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(11)">
                 <div class="question-title">
                     <h2>LeetCode <span style="color: #00B8A3;">(Easy)</span></h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -632,7 +851,7 @@ print(Solution().isPalindrome(-121))   # False
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 // JavaScript
 
 const romanToInt = function(s) {
@@ -660,7 +879,7 @@ console.log(romanToInt("MCMXCIV"));   // 1994
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 def roman_to_int(s):
@@ -678,7 +897,7 @@ print(roman_to_int('MCMXCIV'))   # 1994
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 class Solution(object):
@@ -700,7 +919,7 @@ print(Solution().romanToInt("MCMXCIV"))   # 1994
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python3
 
 class Solution:
@@ -721,21 +940,26 @@ print(Solution().romanToInt("MCMXCIV"))   # 1994
                 </div>
             </section>
 
-            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(10)">
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(12)">
                 <div class="question-title">
                     <h2>LeetCode <span style="color: #00B8A3;">(Easy)</span></h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
-                        <p>Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.</p>
-                        <p>Consider the number of unique elements of nums to be k, to get accepted, you need to do the following things:</p>
-                        <p><i class="fa-regular fa-note-sticky"></i>Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. The remaining elements of nums are not important as well as the size of nums.</p>
+                        <p>Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such
+                            that each unique element appears only once. The relative order of the elements should be kept
+                            the same. Then return the number of unique elements in nums.</p>
+                        <p>Consider the number of unique elements of nums to be k, to get accepted, you need to do the
+                            following things:</p>
+                        <p><i class="fa-regular fa-note-sticky"></i>Change the array nums such that the first k elements of
+                            nums contain the unique elements in the order they were present in nums initially. The remaining
+                            elements of nums are not important as well as the size of nums.</p>
                         <p><i class="fa-regular fa-note-sticky"></i>Return k.</p>
                         <p>Custom Judge:</p>
                         <p>The judge will test your solution with the following code:</p>
                         <div class="question-coding">
-<pre>
+                            <pre>
 int[] nums = [...]; // Input array
 int[] expectedNums = [...]; // The expected answer with correct length
 
@@ -750,7 +974,7 @@ for (int i = 0; i &lt; k; i++) {
                         <p>If all assertions pass, then your solution will be accepted.</p>
                         <p>Example 1:</p>
                         <div class="question-coding">
-<pre>
+                            <pre>
 Input: nums = [1,1,2]
 Output: 2, nums = [1,2,_]
 Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
@@ -759,7 +983,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
                         </div>
                         <p>Example 2:</p>
                         <div class="question-coding">
-<pre>
+                            <pre>
 Input: nums = [0,0,1,1,1,2,2,3,3,4]
 Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
 Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
@@ -774,12 +998,13 @@ It does not matter what you leave beyond the returned k (hence they are undersco
                     <div class="question-txt" style="color: #999999;">
                         <p>給定一個以非遞減順序排序的整數陣列 nums，原地移除重複的元素，使得每個獨特的元素僅出現一次。元素的相對順序應保持不變。然後返回 nums 中獨特元素的數量。</p>
                         <p>將 nums 中獨特元素的數量表示為 k，要被接受，你需要執行以下操作：</p>
-                        <p><i class="fa-regular fa-note-sticky"></i>修改陣列 nums，使得 nums 的前 k 個元素包含最初在 nums 中出現的獨特元素，並且順序相同。nums 的其餘元素以及 nums 的大小都不重要。</p>
+                        <p><i class="fa-regular fa-note-sticky"></i>修改陣列 nums，使得 nums 的前 k 個元素包含最初在 nums
+                            中出現的獨特元素，並且順序相同。nums 的其餘元素以及 nums 的大小都不重要。</p>
                         <p><i class="fa-regular fa-note-sticky"></i>返回 k。</p>
                         <p>自定義判斷器：</p>
                         <p>判斷器將使用以下程式碼測試你的解答：</p>
                         <div class="question-coding">
-<pre>
+                            <pre>
 int[] nums = [...]; // Input array
 int[] expectedNums = [...]; // The expected answer with correct length
 
@@ -794,7 +1019,7 @@ for (int i = 0; i &lt; k; i++) {
                         <p>如果所有斷言都通過，則您的解答將被接受。</p>
                         <p>Example 1:</p>
                         <div class="question-coding">
-<pre>
+                            <pre>
 Input: nums = [1,1,2]
 Output: 2, nums = [1,2,_]
 
@@ -804,7 +1029,7 @@ Output: 2, nums = [1,2,_]
                         </div>
                         <p>Example 2:</p>
                         <div class="question-coding">
-<pre>
+                            <pre>
 Input: nums = [0,0,1,1,1,2,2,3,3,4]
 Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
 解釋：您的函數應該返回 k = 5，其中 nums 的前五個元素分別為 0、1、2、3 和 4。
@@ -818,7 +1043,7 @@ Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 // JavaScript
 
 const removeDuplicates = function(nums) {
@@ -835,7 +1060,7 @@ console.log(removeDuplicates([1, 1, 2, 2, 3, 3, 4, 4, 5, 5]));   // 6
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 def removeDuplicates(nums):
@@ -856,7 +1081,7 @@ print(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]))   # 5
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 class Solution(object):
@@ -875,7 +1100,7 @@ class Solution(object):
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python3
 
 class Solution:
@@ -893,14 +1118,16 @@ class Solution:
                 </div>
             </section>
 
-            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(11)">
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(13)">
                 <div class="question-title">
                     <h2>LeetCode <span style="color: #FAC31D;">(Medium)</span></h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
-                        <p>Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.</p>
+                        <p>Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals,
+                            and return an array of the non-overlapping intervals that cover all the intervals in the input.
+                        </p>
                         <p>Example 1:</p>
                         <p>Input: intervals = [[1,3],[2,6],[8,10],[15,18]]</p>
                         <p>Output: [[1,6],[8,10],[15,18]]</p>
@@ -923,7 +1150,7 @@ class Solution:
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 // JavaScript
 
 const merge = function (intervals) {
@@ -945,7 +1172,7 @@ console.log(merge([[1, 4], [4, 5]]));   // [[1, 5]]
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 def merge(intervals):
@@ -962,7 +1189,7 @@ print(merge([[1, 3],[2, 6],[8, 10],[15, 18]]))   # [[1, 6], [8, 10], [15, 18]]
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python
 
 class Solution(object):
@@ -985,7 +1212,7 @@ print(solution.merge([[1, 3],[2, 6],[8, 10],[15, 18]]))   # [[1, 6], [8, 10], [1
 </pre>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 # Python3
 
 from typing import List
@@ -1007,7 +1234,7 @@ print(Solution().merge([[1, 3],[2, 6],[8, 10],[15, 18]]))   # [[1, 6], [8, 10], 
                 </div>
             </section>
 
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(12)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(14)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1050,18 +1277,18 @@ print(Solution().merge([[1, 3],[2, 6],[8, 10],[15, 18]]))   # [[1, 6], [8, 10], 
                 </div>
             </section>
 
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(13)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(15)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
-                        <p>以下 console.log 會顯示出什麼 (var、let 和 for 迴圈及 setTimeout 觀念)</p>
+                        <p>請問以下 console.log 會顯示出什麼 (var、let 和 for 迴圈及 setTimeout 觀念)</p>
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 for (var i = 0; i &lt; 3; i++) {
     setTimeout(function () {
         console.log(i);
@@ -1094,7 +1321,7 @@ for (let i = 0; i &lt;= 3; i++) {
                 </div>
             </section>
 
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(14)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(16)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1106,17 +1333,22 @@ for (let i = 0; i &lt;= 3; i++) {
                     <div class="question-detailLine"></div>
                     <div class="question-list">
                         <ul>
-                            <li><i class="fa-regular fa-note-sticky"></i>在 JavaScript 早期只有 var，直到 ES2015(ES6) 時才加入了 let 與 const</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>在作用域上，var 可以是全域、也可以是以函式作為範圍；let 與 const 則是以區塊作為範圍</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>在 JavaScript 早期只有 var，直到 ES2015(ES6) 時才加入了 let 與
+                                const</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>在作用域上，var 可以是全域、也可以是以函式作為範圍；let 與 const 則是以區塊作為範圍
+                            </li>
                             <li><i class="fa-regular fa-note-sticky"></i>在宣告上，var 可以被重複宣告，但是 let 與 const 則不行</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>在 hoisting 上，var 宣告的變數會自動初始化值為 undefined，因為在宣告前就使用變數，不會出現錯誤，而會是 undefined ；但是 let 與 const 宣告的變數則不會自動初始化，而是會進到暫時死區 (TDZ)，因此在 let 與 const 宣告變數前使用該變數，會出現錯誤</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>let 與 const 在絕多數面向都是一樣，兩者的一大區別在於，用 let 宣告的變數可以重新賦值，但是用 const 的不行</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>在 hoisting 上，var 宣告的變數會自動初始化值為
+                                undefined，因為在宣告前就使用變數，不會出現錯誤，而會是 undefined ；但是 let 與 const 宣告的變數則不會自動初始化，而是會進到暫時死區 (TDZ)，因此在
+                                let 與 const 宣告變數前使用該變數，會出現錯誤</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>let 與 const 在絕多數面向都是一樣，兩者的一大區別在於，用 let
+                                宣告的變數可以重新賦值，但是用 const 的不行</li>
                         </ul>
                     </div>
                 </div>
             </section>
 
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(15)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(17)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1142,28 +1374,28 @@ for (let i = 0; i &lt;= 3; i++) {
                 </div>
             </section>
 
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(16)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(18)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
-                        <p>CSS 水平垂直置中方法</p>
+                        <p>請問 CSS 水平垂直置中方法</p>
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-txt">
                         <p>1、Flexbox</p>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 .parent {
     display: flex;
     justify-content: center;   /* 水平置中 */   
     align-items: center;   /* 垂直置中 */
 }
 </pre>
-<pre>
+                        <pre>
 .parent {
     display: flex;
     justify-content: center;   /* 水平置中 */   
@@ -1176,7 +1408,7 @@ for (let i = 0; i &lt;= 3; i++) {
                         <p>2、相對定位 + transform</p>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 .child {
     position: relative;
     top: 50%;  
@@ -1189,7 +1421,7 @@ for (let i = 0; i &lt;= 3; i++) {
                         <p>3、絕對定位</p>
                     </div>
                     <div class="question-coding">
-<pre>
+                        <pre>
 .parent {
     position: relative;
 }
@@ -1207,138 +1439,73 @@ for (let i = 0; i &lt;= 3; i++) {
                 </div>
             </section>
 
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(17)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(19)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
-                        <p>JavaScript Array 方法(持續更新)</p>
+                        <p>請問 vue 中 v-if 和 v-show 的差別</p>
                     </div>
                     <div class="question-detailLine"></div>
-                    <div class="question-coding">
-<pre>
-// push(): 在陣列尾端新增一個或多個元素，並回傳新陣列的長度
-let arr = [1, 2, 3];
-arr.push(4);
-console.log(arr);   // [1, 2, 3, 4] 
+                    <div class="question-txt">
+                        <p>v-if 和 v-show 都是用來根據條件來控制 DOM 元素顯示與隱藏的指令</p>
+                        <p>v-if 是「真正的」條件渲染指令。如果條件為假，DOM 元素將完全從 DOM 中移除，反之，如果條件為真，DOM 元素將被插入到 DOM 中。這意味著在條件為假時，Vue 將不會編譯或渲染該元素及其子元素。</p>
+                        <p>v-show 是簡單的 CSS 顯示/隱藏切換指令。DOM 元素始終會被渲染到 DOM 中，只是通過 CSS 的 display 屬性來控制其是否可見。當條件為假時，元素的 display 屬性會被設置為 none，使其隱藏，條件為真時則設置為 block(或其他適當的值)，使其顯示。</p>
+                        <p>如果應用中的元素頻繁地需要顯示和隱藏，那麼使用 v-show 可能更合適，因為它不會造成DOM的不必要重繪。但是，如果元素很少需要改變顯示狀態，或者在顯示和隱藏之間切換的代價比較高，那麼使用 v-if 更好，因為它能夠更徹底地控制 DOM 的渲染。</p>
+                    </div>
+                </div>
+            </section>
 
-// pop(): 移除陣列的最後一個元素，並回傳被移除的元素
-let arr = [1, 2, 3];
-let last = arr.pop();
-console.log(last);   // 3
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(20)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>請問網頁中 SSR 和 CSR 的差別</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-txt">
+                        <p>SSR 的意思是伺服器端渲染端渲染。SSR 在使用者發送請求時，伺服器端會先將頁面渲染完成，並將完整的 HTML 響應給瀏覽器，瀏覽器只需將 HTML 解析並顯示即可。SSR 的優點是可以提高頁面的初始加載速度，因為瀏覽器在載入頁面時，不需要從伺服器端獲取額外的資料，即可看到完整的頁面內容。此外，SSR 也可以提高頁面的 SEO 效果，因為搜尋引擎可以直接抓取伺服器端渲染的 HTML，並將其索引到搜尋結果中。</p>
+                        <p>CSR 的意思是瀏覽器端渲染。CSR 是將網頁的 HTML、CSS、JavaScript 等檔案都下載到瀏覽器後，再由瀏覽器端進行渲染CSR 的優點是可以提高網頁的效能，因為網頁的渲染工作可以由瀏覽器端進行，而不需要等待伺服器回應。此外，CSR 也更容易進行動態更新，因為瀏覽器可以直接更新已下載的檔案，而不需要重新載入整個網頁。CSR 的缺點是需要下載較多的檔案，因此在網路速度較慢的情況下，可能會導致網頁載入速度變慢。此外，CSR 也需要更複雜的程式碼，才能在瀏覽器端進行渲染。</p>
+                    </div>
+                </div>
+            </section>
 
-// shift(): 移除陣列的第一個元素，並回傳被移除的元素
-let arr = [1, 2, 3];
-let first = arr.shift();
-console.log(first);   // 1
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(21)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>請解釋 JavaScript 中 setTimeout 和 setInterval 的差別</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-txt">
+                        <p>setTimeout 用於在指定的時間後執行一次程式碼</p>
+                        <p>setInterval 用於在指定的時間間隔內重複執行一次程式碼</p>
+                    </div>
+                </div>
+            </section>
 
-// unshift(): 在陣列头端新增一個或多個元素，並回傳新陣列的長度
-let arr = [1, 2, 3];
-arr.unshift(0);
-console.log(arr);   // [0, 1, 2, 3]
-
-// splice(): 移除或替換陣列的元素
-let arr = [1, 2, 3];
-arr.splice(1, 1);
-console.log(arr);   // [1, 3]
-
-// slice(): 複製陣列中的一部分元素
-let arr = [1, 2, 3];
-let sliced = arr.slice(1, 2);
-console.log(sliced);   // [2]
-
-// indexOf(): 返回元素在陣列中的索引值
-let arr = [1, 2, 3];
-let index = arr.indexOf(2);
-console.log(index);   // 1
-
-// includes(): 檢查陣列中是否包含指定的元素
-let arr = [1, 2, 3];
-let includes = arr.includes(2);
-console.log(includes);   // true
-
-// join(): 將陣列元素連接成字串，并以指定的分隔符號分隔
-let arr = [1, 2, 3];
-let str = arr.join(' ');
-console.log(str);   // 1 2 3
-
-// forEach(): 對陣列中的每個元素進行操作
-let arr = [1, 2, 3];
-arr.forEach(function(element) {
-   console.log(element);   // 1 2 3
-})
-
-// map(): 對陣列中的每個元素進行操作，並返回新的陣列
-let arr = [1, 2, 3];
-let newArr = arr.map(function(element) {
-    return element * 2;
-})
-console.log(newArr);   // [2, 4, 6]
-
-// filter(): 對陣列中的每個元素進行操作，並返回符合條件的元素
-let arr = [1, 2, 3];
-let filtered = arr.filter(function(element) {
-   return element > 1;
-})
-console.log(filtered);   // [2, 3]
-
-// reduce(): 對陣列中的每個元素進行操作，並返回結果
-let arr = [1, 2, 3];
-let sum = arr.reduce(function(total, element) {
-   return total + element;
-})
-console.log(sum);   // 6
-
-// sort(): 對陣列中的每個元素進行排序
-let arr = [3, 2, 1];
-arr.sort();
-console.log(arr);   // [1, 2, 3]
-
-// reverse(): 對陣列中的每個元素進行反轉
-let arr = [1, 2, 3];
-arr.reverse();
-console.log(arr);   // [3, 2, 1]
-
-// concat(): 對兩個陣列進行連接
-let arr1 = [1, 2];
-let arr2 = [3, 4];
-let concat = arr1.concat(arr2);
-console.log(concat);   // [1, 2, 3, 4]
-
-// length: 陣列的長度
-let arr = [1, 2, 3];
-console.log(arr.length);   // 3
-
-// Array.isArray(): 檢查物件是否為陣列
-let arr = [1, 2, 3];
-let isArray = Array.isArray(arr);
-console.log(isArray);   // true
-
-// Array.toString(): 將陣列元素轉換為字串
-let arr = [1, 2, 3];
-let str = arr.toString();
-console.log(str);   // 1,2,3
-
-// Array.valueOf(): 將陣列元素轉換為值
-let arr = [1, 2, 3];
-let value = arr.valueOf();
-console.log(value);   // [1, 2, 3]
-
-// Array.toLocaleString(): 將陣列元素轉換為字串，並以指定的格式輸出
-let arr = [1, 2, 3];
-let str = arr.toLocaleString();
-console.log(str);   // 1,2,3
-
-// __proto__: 陣列的 prototype 屬性
-let arr = [1, 2, 3];
-console.log(arr.__proto__);   // [object Array]
-
-// Array.constructor: 陣列的構造函數
-let arr = [1, 2, 3];
-console.log(arr.constructor);   // function Array() { [native code] }
-</pre>
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(22)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <p>請解釋 JavaScript 中 undefined、undeclared 和 null 分別代表什麼意思</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-txt">
+                        <p>Undefined(未定義)：代表變數已經被宣告，但目前尚未賦予任何值，或者表示對象屬性不存在的情況</p>
+                        <p>Undeclared(未宣告)：代表變數尚未被宣告，意即嘗試使用一個還未宣告的變數</p>
+                        <p>Null(空值)：代表變數已經被宣告，但被賦值為 null，表示值為空或不存</p>
                     </div>
                 </div>
             </section>
@@ -1360,7 +1527,7 @@ onMounted(() => {
     function selectArticle() {
         const buttons = document.querySelectorAll(".select-button");
         const cards = document.querySelectorAll(".all");
-        
+
         function filter(category, items) {
             items.forEach((item) => {
                 const isItemFiltered = !item.classList.contains(category);
@@ -1372,7 +1539,7 @@ onMounted(() => {
                 }
             });
         }
-        
+
         buttons.forEach((button) => {
             button.addEventListener("click", () => {
                 const currentCategory = button.dataset.filter;
@@ -1390,7 +1557,7 @@ const transform = (index) => {
     const cards = document.querySelectorAll(".all");
     const targetCard = cards[index];
     const ismodifyHeight = targetCard.classList.contains("modifyHeight");
-    
+
     cards.forEach((card, i) => {
         if (i === index) {
             card.classList.toggle("modifyHeight", !ismodifyHeight);
