@@ -44,7 +44,7 @@
                             <li><i class="fa-regular fa-note-sticky"></i>會在什麼時候決定將共用邏輯抽取出來成為 function 或是常數？</li>
                             <li><i class="fa-regular fa-note-sticky"></i>如果有十幾個需求同時開發或是需要轉換框架函式庫，會怎麼進行？</li>
 
-                            <li><i class="fa-regular fa-note-sticky"></i>您的工作上一天大概是怎麼過的？</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>您的工作一天大概是怎麼過的？</li>
                             <li><i class="fa-regular fa-note-sticky"></i>最喜歡和最不喜歡這個團隊或公司的地方是什麼？</li>
                             <li><i class="fa-regular fa-note-sticky"></i>請問您通常都是怎麼帶領團隊？</li>
                             <li><i class="fa-regular fa-note-sticky"></i>這個團隊接下來的目標是什麼？</li>
@@ -1366,7 +1366,7 @@ for (let i = 0; i &lt;= 3; i++) {
                     <div class="question-txt">
                         <p>watch:(監聽)：</p>
                         <p>watch 是一個選項，用於監聽數據的變化並在數據發生改變時執行相應的函數。它允許執行自定義的邏輯，當數據變化時作出不同的響應。</p>
-                        <p>watch 通常用於當需要執行異步操作，或者需要更複雜的邏輯來響應數據變化時。</p>
+                        <p>watch 通常用於當需要執行非同步操作，或者需要更複雜的邏輯來響應數據變化時。</p>
                     </div>
                     <div class="question-txt">
                         <p>computed 適合用於根據數據的轉換或計算得到一個新值，而 watch 則適合用於當需要執行一些副作用操作，或者需要更複雜的邏輯來響應數據的改變。</p>
@@ -1470,7 +1470,9 @@ for (let i = 0; i &lt;= 3; i++) {
                     <div class="question-detailLine"></div>
                     <div class="question-txt">
                         <p>SSR 的意思是伺服器端渲染端渲染。SSR 在使用者發送請求時，伺服器端會先將頁面渲染完成，並將完整的 HTML 響應給瀏覽器，瀏覽器只需將 HTML 解析並顯示即可。SSR 的優點是可以提高頁面的初始加載速度，因為瀏覽器在載入頁面時，不需要從伺服器端獲取額外的資料，即可看到完整的頁面內容。此外，SSR 也可以提高頁面的 SEO 效果，因為搜尋引擎可以直接抓取伺服器端渲染的 HTML，並將其索引到搜尋結果中。</p>
-                        <p>CSR 的意思是瀏覽器端渲染。CSR 是將網頁的 HTML、CSS、JavaScript 等檔案都下載到瀏覽器後，再由瀏覽器端進行渲染CSR 的優點是可以提高網頁的效能，因為網頁的渲染工作可以由瀏覽器端進行，而不需要等待伺服器回應。此外，CSR 也更容易進行動態更新，因為瀏覽器可以直接更新已下載的檔案，而不需要重新載入整個網頁。CSR 的缺點是需要下載較多的檔案，因此在網路速度較慢的情況下，可能會導致網頁載入速度變慢。此外，CSR 也需要更複雜的程式碼，才能在瀏覽器端進行渲染。</p>
+                    </div>
+                    <div class="question-txt">
+                        <p>CSR 的意思是瀏覽器端渲染。CSR 是將網頁的 HTML、CSS、JavaScript 等檔案都下載到瀏覽器後，再由瀏覽器端進行渲染 CSR 的優點是可以提高網頁的效能，因為網頁的渲染工作可以由瀏覽器端進行，而不需要等待伺服器回應。此外，CSR 也更容易進行動態更新，因為瀏覽器可以直接更新已下載的檔案，而不需要重新載入整個網頁。CSR 的缺點是需要下載較多的檔案，因此在網路速度較慢的情況下，可能會導致網頁載入速度變慢。此外，CSR 也需要更複雜的程式碼，才能在瀏覽器端進行渲染。</p>
                     </div>
                 </div>
             </section>
