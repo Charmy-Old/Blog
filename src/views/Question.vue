@@ -566,8 +566,14 @@ print(x)
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
+                        <h3>1464. Maximum Product of Two Elements in an Array</h3>
+                    </div>
+                    <div class="question-txt">
                         <p>Given the array of integers nums, you will choose two different indices i and j of that array.
                             Return the maximum value of (nums[i]-1)*(nums[j]-1).</p>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
+                        <h3>1464. 陣列中兩個元素的最大乘積</h3>
                     </div>
                     <div class="question-txt" style="color: #999999;">
                         <p>給定整數數組 nums，將選擇該數組的兩個不同索引 i 和 j。傳回的最大值 (nums[i]-1)*(nums[j]-1)。</p>
@@ -640,11 +646,17 @@ print(Solution().maxProduct([8, 9, 1, 11]))   # 80
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
+                        <h3>1. Two Sum</h3>
+                    </div>
+                    <div class="question-txt">
                         <p>Given an array of integers nums and an integer target, return indices of the two numbers such
                             that they add up to target.</p>
                         <p>You may assume that each input would have exactly one solution, and you may not use the same
                             element twice.</p>
                         <p>You can return the answer in any order.</p>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
+                        <h3>1. 兩和</h3>
                     </div>
                     <div class="question-txt" style="color: #999999;">
                         <p>給定一個整數數組 nums 和一個整數 target，傳回兩個數字的索引，使相加為 target。</p>
@@ -726,7 +738,13 @@ print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
+                        <h3>9. Palindrome Number</h3>
+                    </div>
+                    <div class="question-txt">
                         <p>Given an integer x, return true if x is a palindrome, and false otherwise.</p>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
+                        <h3>9. 回文數</h3>
                     </div>
                     <div class="question-txt" style="color: #999999;">
                         <p>給定一個整數 x，true 如果 x 是一個則傳回回文，以及 false Other 情況。</p>
@@ -803,10 +821,16 @@ print(Solution().isPalindrome(-121))   # False
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
-                        <p>Roman to Integer</p>
+                        <h3>13. Roman to Integer</h3>
+                    </div>
+                    <div class="question-txt">
+                        <p>Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.</p>
                     </div>
                     <div class="question-txt" style="color: #999999;">
-                        <p>羅馬數字轉整數。</p>
+                        <h3>13. 羅馬數字轉整數</h3>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
+                        <p>羅馬數字以七個不同的符號表示： I、V、X、L、C、D 和 M</p>
                     </div>
                     <div class="article-table" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                         data-aos-delay="150" data-aos-duration="1000">
@@ -947,6 +971,9 @@ print(Solution().romanToInt("MCMXCIV"))   # 1994
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
+                        <h3>26. Remove Duplicates from Sorted Array</h3>
+                    </div>
+                    <div class="question-txt">
                         <p>Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such
                             that each unique element appears only once. The relative order of the elements should be kept
                             the same. Then return the number of unique elements in nums.</p>
@@ -994,6 +1021,9 @@ It does not matter what you leave beyond the returned k (hence they are undersco
                         <p><i class="fa-regular fa-note-sticky"></i>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></p>
                         <p><i class="fa-regular fa-note-sticky"></i>-100 &lt;= nums[i] &lt;= 100</p>
                         <p><i class="fa-regular fa-note-sticky"></i>nums is sorted in non-decreasing order.</p>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
+                        <h3>26. 從排序數組中刪除重複項</h3>
                     </div>
                     <div class="question-txt" style="color: #999999;">
                         <p>給定一個以非遞減順序排序的整數陣列 nums，原地移除重複的元素，使得每個獨特的元素僅出現一次。元素的相對順序應保持不變。然後返回 nums 中獨特元素的數量。</p>
@@ -1125,6 +1155,9 @@ class Solution:
                 </div>
                 <div class="question-content">
                     <div class="question-txt">
+                        <h3>56. Merge Intervals</h3>
+                    </div>
+                    <div class="question-txt">
                         <p>Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals,
                             and return an array of the non-overlapping intervals that cover all the intervals in the input.
                         </p>
@@ -1136,6 +1169,9 @@ class Solution:
                         <p>Input: intervals = [[1,4],[4,5]]</p>
                         <p>Output: [[1,5]]</p>
                         <p>Explanation: Intervals [1,4] and [4,5] are considered overlapping.</p>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
+                        <h3>56. 合併區間</h3>
                     </div>
                     <div class="question-txt" style="color: #999999;">
                         <p>給定一個數組 intervals where ，合併所有重疊間隔，並傳回覆蓋輸入 中所有間隔的非重疊間隔數組。intervals[i] = [starti, endi]</p>
@@ -1508,6 +1544,108 @@ for (let i = 0; i &lt;= 3; i++) {
                         <p>Undefined(未定義)：代表變數已經被宣告，但目前尚未賦予任何值，或者表示對象屬性不存在的情況</p>
                         <p>Undeclared(未宣告)：代表變數尚未被宣告，意即嘗試使用一個還未宣告的變數</p>
                         <p>Null(空值)：代表變數已經被宣告，但被賦值為 null，表示值為空或不存</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all LeetCode question-block" :class="{ modifyHeight: heightActive }" @click="transform(23)">
+                <div class="question-title">
+                    <h2>LeetCode <span style="color: #00B8A3;">(Easy)</span></h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-txt">
+                        <h3>14. Longest Common Prefix</h3>
+                    </div>
+                    <div class="question-txt">
+                        <p>Write a function to find the longest common prefix string amongst an array of strings.</p>
+                        <p>If there is no common prefix, return an empty string "".</p>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
+                        <h3>14. 最長公共前綴</h3>
+                    </div>
+                    <div class="question-txt" style="color: #999999;">
+                        <p>編寫一個函數來尋找字串陣列中最長的公共前綴字串。</p>
+                        <p>如果沒有公共前綴，則傳回空字串 ""。</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-coding">
+                        <pre>
+// JavaScript
+
+const longestCommonPrefix = function(strs) {
+    let prefix = strs[0];
+    for (let i = 1; i &lt; strs.length; i++) {
+        while (strs[i].indexOf(prefix) !== 0) {
+            prefix = prefix.substring(0, prefix.length - 1);
+        }
+    }
+    return prefix; 
+};
+
+console.log(longestCommonPrefix(["flower", "flow", "flight"]));   // fl
+console.log(longestCommonPrefix(["dog", "racecar", "car"]));   // ""
+</pre>
+                    </div>
+                    <div class="question-coding">
+                        <pre>
+# Python
+
+def longestCommonPrefix(strs):
+    if not strs:
+        return ""
+    
+    prefix = strs[0]
+    for i in range(1, len(strs)):
+        while strs[i].find(prefix) != 0:
+            prefix = prefix[:-1]
+            if not prefix:
+                return ""
+    return prefix
+
+print(longestCommonPrefix(["flower","flow","flight"]))   # fl
+print(longestCommonPrefix(["dog", "racecar", "car"]))   # 
+</pre>
+                    </div>
+                    <div class="question-coding">
+                        <pre>
+# Python
+
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: str
+        """
+        if not strs:
+            return ""
+        prefix = strs[0]
+        for i in range(1, len(strs)):
+            while strs[i].find(prefix) != 0:
+                prefix = prefix[:-1]
+                if not prefix:
+                    return ""
+        return prefix
+</pre>
+                    </div>
+                    <div class="question-coding">
+                        <pre>
+# Python3
+
+from typing import List
+
+class Solution:
+    def longestCommonPrefix(self, strs: List[str]) -> str:
+        if not strs:
+            return ""
+        prefix = strs[0]
+        for i in range(1, len(strs)):
+            while strs[i].find(prefix) != 0:
+                prefix = prefix[:-1]
+                if not prefix:
+                    return ""
+        return prefix
+</pre>
                     </div>
                 </div>
             </section>
