@@ -261,6 +261,23 @@
                 <p>前端、表演、穿搭、美食</p>
             </section>
         </div>
+        <!-- <p>{{ locationName }}</p> -->
+        <section class="wall-weather">
+            <div v-cloak>
+                <h2>天氣查詢</h2>
+                <select class="select-area" v-model="locationName">
+                    <option value="" selected disabled>選擇區域</option>
+                    <option v-for="weatherData of weatherDatas" :key="weatherData.locationName" :value="weatherData.locationName">{{ weatherData.locationName }}</option>
+                </select>
+                <div class="showWeather" v-for="weatherData of weatherDatas" :key="weatherData.locationName"
+                    v-show="locationName === weatherData.locationName">
+                    <p>天氣狀況：{{ weatherData.weatherElement[0].time[0].parameter.parameterName }}</p>
+                    <p>最高溫度：{{ weatherData.weatherElement[4].time[0].parameter.parameterName }} ℃</p>
+                    <p>最低溫度：{{ weatherData.weatherElement[2].time[0].parameter.parameterName }} ℃</p>
+                    <p>降雨機率：{{ weatherData.weatherElement[1].time[0].parameter.parameterName }} ％</p>
+                </div>
+            </div>
+        </section>
         <section class="wall-wtRecord">
             <a href="Weight-Record">
                 體重追蹤紀錄
@@ -304,23 +321,6 @@
                         LocalStorage</a></div>
             </section>
         </div>
-        <!-- <p>{{ locationName }}</p> -->
-        <section class="wall-weather">
-            <div v-cloak>
-                <h2>天氣查詢</h2>
-                <select class="select-area" v-model="locationName">
-                    <option value="" selected disabled>選擇區域</option>
-                    <option v-for="weatherData of weatherDatas" :key="weatherData.locationName" :value="weatherData.locationName">{{ weatherData.locationName }}</option>
-                </select>
-                <div class="showWeather" v-for="weatherData of weatherDatas" :key="weatherData.locationName"
-                    v-show="locationName === weatherData.locationName">
-                    <p>天氣狀況：{{ weatherData.weatherElement[0].time[0].parameter.parameterName }}</p>
-                    <p>最高溫度：{{ weatherData.weatherElement[4].time[0].parameter.parameterName }} ℃</p>
-                    <p>最低溫度：{{ weatherData.weatherElement[2].time[0].parameter.parameterName }} ℃</p>
-                    <p>降雨機率：{{ weatherData.weatherElement[1].time[0].parameter.parameterName }} ％</p>
-                </div>
-            </div>
-        </section>
         <section class="wall-recommendedFood">
             <div>
                 <p>建議吃什麼：{{ recommendedFood }}</p>
