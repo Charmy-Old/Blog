@@ -93,12 +93,15 @@
 }
 
 .select-area {
+    border-radius: 5px; /* Add rounded corners */
+
     font-weight: 900;
     width: 100%;
-    color: #222223;
-    background-color: #FFFAFA;
+    color: #FFFAFA;
+    background-color: #222223;
     text-align: center;
     margin: 0.5rem 0 0.75rem;
+    padding: 0.25rem 0;
     border: none;
     outline: none;
     cursor: pointer;
@@ -302,15 +305,12 @@
             </section>
         </div>
         <!-- <p>{{ locationName }}</p> -->
-        <!-- <section class="wall-weather">
+        <section class="wall-weather">
             <div v-cloak>
                 <h2>天氣查詢</h2>
                 <select class="select-area" v-model="locationName">
                     <option value="" selected disabled>選擇區域</option>
-                    <option v-for="weatherData of weatherDatas" :key="weatherData.locationName"
-                        :value="weatherData.locationName">
-                        {{ weatherData.locationName }}
-                    </option>
+                    <option v-for="weatherData of weatherDatas" :key="weatherData.locationName" :value="weatherData.locationName">{{ weatherData.locationName }}</option>
                 </select>
                 <div class="showWeather" v-for="weatherData of weatherDatas" :key="weatherData.locationName"
                     v-show="locationName === weatherData.locationName">
@@ -320,7 +320,7 @@
                     <p>降雨機率：{{ weatherData.weatherElement[1].time[0].parameter.parameterName }} ％</p>
                 </div>
             </div>
-        </section> -->
+        </section>
         <section class="wall-recommendedFood">
             <div>
                 <p>建議吃什麼：{{ recommendedFood }}</p>
@@ -482,21 +482,21 @@ const CountfoodArticle = () => {
 };
 
 // 天氣 api
-// const weatherDatas = ref([]);
-// const locationName = ref("");
-// const getWeather = () => {
-//     fetch("https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-AB74CE7B-2CF2-4D40-A61C-6F5D05C0DEB6&format=JSON&sort=time")
-//         .then((res) => res.json())
-//         .then((json) => {
-//             weatherDatas.value = json.records.location;
-//         })
-//         .catch((error) => {
-//             alert("系統異常，請稍後再試");
-//         });
-// };
-// onMounted(() => {
-//     getWeather();
-// });
+const weatherDatas = ref([]);
+const locationName = ref("");
+const getWeather = () => {
+    fetch("https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWA-B938E508-D7A8-4F61-9813-E25201BA4FCC&format=JSON")
+        .then((res) => res.json())
+        .then((json) => {
+            weatherDatas.value = json.records.location;
+        })
+        .catch((error) => {
+            alert("系統異常，請稍後再試");
+        });
+};
+onMounted(() => {
+    getWeather();
+});
 
 // 推薦食物
 const foodList = ref(["自己煮", "便當", "健康餐", "壽司", "拉麵", "牛肉麵", "烏龍麵", "烤雞", "炸雞", "水餃", "煎餃", "蒸餃", "蛋包飯", "烤肉飯", "炒飯", "燉飯", "Pizza", "義大利麵", "烤肉"]);
