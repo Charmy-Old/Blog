@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL ALGORITHM">
+        <div class="article-title">什麼是 柯里化(Currying)和反柯里化(Uncurrying)？</div>
+    </section>
+
     <section class="ALL CHAT">
         <div class="article-title">什麼是 豐田式管理？</div>
     </section>
@@ -289,10 +293,6 @@
     </section>
 
     <section class="ALL JS">
-        <div class="article-title">Cookie V.S. LocalStorage V.S. SessionStorage</div>
-    </section>
-
-    <section class="ALL JS">
         <div class="article-title">map() V.S. forEach()</div>
     </section>
 
@@ -302,6 +302,10 @@
 
     <section class="ALL VUE">
         <div class="article-title">元件的生命週期與更新機制</div>
+    </section>
+
+    <section class="ALL WEB">
+        <div class="article-title">Cookie V.S. LocalStorage V.S. SessionStorage</div>
     </section>
 
     <section class="ALL WEB">
@@ -396,6 +400,13 @@ const softwareArticleCount = ref(0);
 const CountsoftwareArticle = () => {
     const Countsoftware = document.querySelectorAll(".SOFTWARE");
     softwareArticleCount.value = Countsoftware.length;
+};
+
+// 算 algorithm 文章
+const algorithmArticleCount = ref(0);
+const CountalgorithmArticle = () => {
+    const Countalgorithm = document.querySelectorAll(".ALGORITHM");
+    algorithmArticleCount.value = Countalgorithm.length;
 };
 
 // 算 雜談 文章

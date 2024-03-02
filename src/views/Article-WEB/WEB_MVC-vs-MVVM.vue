@@ -157,7 +157,7 @@ window.onload = C.handleOnload;
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
                         data-aos-duration="1000">
                         <h4>結論</h4>
-                        <p>MVVM的主要優點是它使View和Model之間實現了完全的分離，同時也減少了Controller的覆雜性。ViewModel的引入使得界面邏輯可以獨立於View進行測試和維護，同時也提高了代碼的重用性。
+                        <p>MVVM的主要優點是它使View和Model之間實現了完全的分離，同時也減少了Controller的覆雜性。ViewModel的引入使得界面邏輯可以獨立於View進行測試和維護，同時也提高了程式碼的重用性。
                         </p>
                         <p>MVVM在許多現代前端框架中被廣泛使用，例如Angular和Vue.js。它們提供了強大的數據綁定和響應式特性，使開發人員能夠更輕松地管理界面狀態和交互。</p>
                     </div>

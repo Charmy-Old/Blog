@@ -295,6 +295,7 @@
             <div class="wall-tag"><a href="Article-Database">Database ({{ databaseArticleCount }})</a></div>
             <div class="wall-tag"><a href="Article-Python">Python ({{ pythonArticleCount }})</a></div>
             <div class="wall-tag"><a href="Article-Software">Software ({{ softwareArticleCount }})</a></div>
+            <div class="wall-tag"><a href="Article-Algorithm">演算法 ({{ algorithmArticleCount }})</a></div>
             <div class="wall-tag"><a href="Article-Chat">雜談 ({{ chatArticleCount }})</a></div>
             <div class="wall-tag"><a href="Article-Food">美食札記 ({{ foodArticleCount }})</a></div>
         </section>
@@ -456,6 +457,19 @@ const CountsoftwareArticle = () => {
     softwareArticleCount.value = Countsoftware.length;
     sharedData.softwareArticleCount = softwareArticleCount.value;
 };
+
+// 算 algorithm 文章
+const algorithmArticleCount = ref(0);
+onMounted(() => {
+    CountalgorithmArticle();
+});
+
+const CountalgorithmArticle = () => {
+    const Countalgorithm = document.querySelectorAll(".ALGORITHM");
+    algorithmArticleCount.value = Countalgorithm.length;
+    sharedData.algorithmArticleCount = algorithmArticleCount.value;
+};
+
 
 // 算 雜談 文章
 const chatArticleCount = ref(0);

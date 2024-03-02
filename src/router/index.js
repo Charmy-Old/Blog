@@ -124,6 +124,11 @@ const routes = [
         component: () => import('../views/Article/Article-Software.vue')
     },
     {
+        path: '/Article-Algorithm',
+        name: 'Article-Algorithm',
+        component: () => import('../views/Article/Article-Algorithm.vue')
+    },
+    {
         path: '/Article-Chat',
         name: 'Article-Chat',
         component: () => import('../views/Article/Article-Chat.vue')
@@ -163,6 +168,11 @@ const routes = [
         path: '/WEB_api-introduce',
         name: 'WEB_api-introduce',
         component: () => import('../views/Article-WEB/WEB_api-introduce.vue')
+    },
+    {
+        path: '/WEB_Cookie-vs-LocalStorage-vs-SessionStorage',
+        name: 'WEB_Cookie-vs-LocalStorage-vs-SessionStorage',
+        component: () => import('../views/Article-WEB/WEB_Cookie-vs-LocalStorage-vs-SessionStorage.vue')
     },
     {
         path: '/WEB_MVC-vs-MVVM',
@@ -254,11 +264,6 @@ const routes = [
         path: '/JS_map-vs-forEach',
         name: 'JS_map-vs-forEach',
         component: () => import('../views/Article-JavaScript/JS_map-vs-forEach.vue')
-    },
-    {
-        path: '/JS_Cookie-vs-LocalStorage-vs-SessionStorage',
-        name: 'JS_Cookie-vs-LocalStorage-vs-SessionStorage',
-        component: () => import('../views/Article-JavaScript/JS_Cookie-vs-LocalStorage-vs-SessionStorage.vue')
     },
     {
         path: '/JS_var-vs-let-vs-const',
@@ -469,6 +474,13 @@ const routes = [
         path: '/Software_ORM-introduce',
         name: 'Software_ORM-introduce',
         component: () => import('../views/Article-Software/Software_ORM-introduce.vue')
+    },
+
+    // Algorithm 文章
+    {
+        path: '/Algorithm_Curry',
+        name: 'Algorithm_Curry',
+        component: () => import('../views/Article-Algorithm/Algorithm_Curry.vue')
     },
 
     // 雜談 文章

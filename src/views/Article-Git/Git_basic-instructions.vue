@@ -16,25 +16,25 @@
                     <div class="article-detailLine"></div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
                         data-aos-duration="1000">
-                        <p>Git 是一種分散式版本控制系統，被廣泛用於軟體開發領域。主要目的是幫助開發人員有效地協同工作，追蹤代碼變更，並確保代碼的版本歷史得以妥善管理。相較於傳統的集中式版本控制系統，如
+                        <p>Git 是一種分散式版本控制系統，被廣泛用於軟體開發領域。主要目的是幫助開發人員有效地協同工作，追蹤程式碼變更，並確保程式碼的版本歷史得以妥善管理。相較於傳統的集中式版本控制系統，如
                             Subversion，Git 具有更大的靈活性和強大的分支管理功能。</p>
                     </div>
                     <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
                         data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-regular fa-note-sticky"></i>儲存庫(Repository)：Git
-                                儲存庫是存儲代碼和相關元數據的地方。它包含了代碼的完整歷史記錄，包括提交（Commits）、分支（Branches）、標籤（Tags）等。每個開發者可以複製儲存庫到本地進行工作，並在完成後將更改推送回主儲存庫
+                                儲存庫是存儲程式碼和相關元數據的地方。它包含了程式碼的完整歷史記錄，包括提交（Commits）、分支（Branches）、標籤（Tags）等。每個開發者可以複製儲存庫到本地進行工作，並在完成後將更改推送回主儲存庫
                             </li>
                             <li><i class="fa-regular fa-note-sticky"></i>提交(Commit)：提交是 Git
-                                中最重要的概念之一。每次提交都代表了代碼庫中的一個特定狀態。提交記錄了代碼的變更，包括新增、修改和刪除的操作。提交還包含了作者、提交時間等元數據，這些元數據有助於跟蹤代碼的變化
+                                中最重要的概念之一。每次提交都代表了程式碼庫中的一個特定狀態。提交記錄了程式碼的變更，包括新增、修改和刪除的操作。提交還包含了作者、提交時間等元數據，這些元數據有助於跟蹤程式碼的變化
                             </li>
-                            <li><i class="fa-regular fa-note-sticky"></i>分支(Branch)：分支是代碼庫中獨立的開發線。通常，主分支(通常是 master 或
-                                main)是主要的開發線，但開發人員可以基於主分支創建其他分支，以便並行進行不同功能的開發。分支讓開發人員可以在不影響主要代碼庫的情況下進行實驗和修改</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>分支(Branch)：分支是程式碼庫中獨立的開發線。通常，主分支(通常是 master 或
+                                main)是主要的開發線，但開發人員可以基於主分支創建其他分支，以便並行進行不同功能的開發。分支讓開發人員可以在不影響主要程式碼庫的情況下進行實驗和修改</li>
                             <li><i
                                     class="fa-regular fa-note-sticky"></i>合併(Merge)：合併是將不同分支的更改結合成一個新的提交的過程。當開發人員完成了在分支上的工作，並希望將其合併回主分支時，可以使用合併操作。Git
                                 會嘗試自動合併更改，但如果有衝突，則需要手動解決</li>
                             <li><i
-                                    class="fa-regular fa-note-sticky"></i>標籤(Tag)：標籤是對特定提交的有名稱的引用點。標籤通常用於標記軟體的版本號，以便開發者和用戶可以快速找到特定版本的代碼。標籤不像分支，它們不能移動，並且在提交後保持不變。
+                                    class="fa-regular fa-note-sticky"></i>標籤(Tag)：標籤是對特定提交的有名稱的引用點。標籤通常用於標記軟體的版本號，以便開發者和用戶可以快速找到特定版本的程式碼。標籤不像分支，它們不能移動，並且在提交後保持不變。
                             </li>
                         </ul>
                     </div>

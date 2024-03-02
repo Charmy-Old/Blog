@@ -99,7 +99,7 @@ axios.interceptors.response.use(
 </pre>
                     </div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p>攔截器可以按照註冊的順序連續調用，因此可以設置多個攔截器來執行不同的操作。攔截器允許在整個應用程序中實現一致的行為，同時減少代碼的冗余。可以使用攔截器來處理身份驗證、錯誤處理、日誌記錄等任務，以確保應用程序的一致性和可維護性。</p>
+                        <p>攔截器可以按照註冊的順序連續調用，因此可以設置多個攔截器來執行不同的操作。攔截器允許在整個應用程序中實現一致的行為，同時減少程式碼的冗余。可以使用攔截器來處理身份驗證、錯誤處理、日誌記錄等任務，以確保應用程序的一致性和可維護性。</p>
                     </div>
                 </div>
             </section>

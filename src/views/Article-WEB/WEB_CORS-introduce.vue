@@ -29,7 +29,7 @@
                     </div>
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>說明如何在後端伺服器上設置 CORS 以允許特定來源請求的簡單範例：</p>
-                        <p>假設有一個前端網頁應用程式位於 http://frontend.example，並嘗試從後端 API http://backend.example/api/data 請求資料。以下是後端使用 Node.js 和 Express 框架的範例代碼：</p>
+                        <p>假設有一個前端網頁應用程式位於 http://frontend.example，並嘗試從後端 API http://backend.example/api/data 請求資料。以下是後端使用 Node.js 和 Express 框架的範例程式碼：</p>
                     </div>
                     <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
 <pre>

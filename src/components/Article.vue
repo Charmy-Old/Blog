@@ -51,6 +51,23 @@
         </a>
     </section>
 
+    <section class="all others">
+        <a href="Algorithm_Curry" class="article">
+            <div class="article-icon">
+                <i class="fa-regular fa-pen-to-square"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 柯里化(Currying)和反柯里化(Uncurrying)？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>演算法<i
+                        class="fa-sharp fa-solid fa-calendar-days"></i>2024-03-02</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>柯里化(Currying)和反柯里化(Uncurrying)是兩種常見的程式設計技巧，它們起源於計算機科學和數學領域，用於函數的處理和轉換。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all chat">
         <a href="Chat_TPS" class="article">
             <div class="article-icon">
@@ -522,7 +539,7 @@
                 <div class="article-underline"></div>
                 <div class="article-content">
                     <p>Pandas 套件則是其中一種常用的資料分析處理工具，是基於 Python 程式語言建立的，非常容易使用且強大，主要應用於單維度(Series)與二維度(DataFrame)的資料處理。</p>
-                    <p>Pandas Series 適用於處理單維度或單一欄位的資料，，就像是 Excel 中的某一欄，在開始使用 Pandas 套件需先進行安裝，在終端機(Terminal)中輸入以下代碼：</p>
+                    <p>Pandas Series 適用於處理單維度或單一欄位的資料，，就像是 Excel 中的某一欄，在開始使用 Pandas 套件需先進行安裝，在終端機(Terminal)中輸入以下程式碼：</p>
                 </div>
             </div>
         </a>
@@ -624,7 +641,7 @@
                 <div class="article-tag"><i class="fa-solid fa-tag"></i>Git<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-08-15</div>
                 <div class="article-underline"></div>
                 <div class="article-content">
-                    <p>Git 是一種分散式版本控制系統，被廣泛用於軟體開發領域。主要目的是幫助開發人員有效地協同工作，追蹤代碼變更，並確保代碼的版本歷史得以妥善管理。相較於傳統的集中式版本控制系統，如
+                    <p>Git 是一種分散式版本控制系統，被廣泛用於軟體開發領域。主要目的是幫助開發人員有效地協同工作，追蹤程式碼變更，並確保程式碼的版本歷史得以妥善管理。相較於傳統的集中式版本控制系統，如
                         Subversion，Git 具有更大的靈活性和強大的分支管理功能。</p>
                 </div>
             </div>
@@ -1279,25 +1296,6 @@
     </section>
 
     <section class="all javascript">
-        <a href="JS_Cookie-vs-LocalStorage-vs-SessionStorage" class="article">
-            <div class="article-icon">
-                <i class="fa-brands fa-square-js"></i>
-            </div>
-            <div class="article-text">
-                <div class="article-title">Cookie V.S. LocalStorage V.S. SessionStorage</div>
-                <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</div>
-                <div class="article-underline"></div>
-                <div class="article-content">
-                    <p>Cookie、LocalStorage、SessionStorage 差異</p>
-                    <p>Cookie：可設定失效時間。 預設是關閉瀏覽器後失效</p>
-                    <p>LocalStorage：不會過期，除非手動清除</p>
-                    <p>SessionStorage：每次分頁或瀏覽器關掉後就會清除</p>
-                </div>
-            </div>
-        </a>
-    </section>
-
-    <section class="all javascript">
         <a href="JS_map-vs-forEach" class="article">
             <div class="article-icon">
                 <i class="fa-brands fa-square-js"></i>
@@ -1346,6 +1344,25 @@
                 <div class="article-content">
                     <p>如同生物一般， Vue 的實體物件從建立、掛載、更新，到銷毀移除，這一連串的過程，我們將它稱作生命週期。在這個過程中， Vue.js 提供了開發者在這些週期階段做對應處理的 callback
                         function，這些 callback function 我們就稱它叫生命週期的 Hooks function。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all web">
+        <a href="WEB_Cookie-vs-LocalStorage-vs-SessionStorage" class="article">
+            <div class="article-icon">
+                <i class="fa-sharp fa-solid fa-desktop"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">Cookie V.S. LocalStorage V.S. SessionStorage</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>Cookie、LocalStorage、SessionStorage 差異</p>
+                    <p>Cookie：可設定失效時間。 預設是關閉瀏覽器後失效</p>
+                    <p>LocalStorage：不會過期，除非手動清除</p>
+                    <p>SessionStorage：每次分頁或瀏覽器關掉後就會清除</p>
                 </div>
             </div>
         </a>

@@ -242,7 +242,7 @@ fetchData()
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
                         data-aos-duration="1000">
                         <h4>async/await 是一種處理非同步操作的語法糖，它是建立在 Promise 基礎之上的。</h4>
-                        <p>async/await 使得編寫和組織非同步代碼更加簡單和可讀。它允許你以同步的方式編寫非同步代碼，而無需顯式地處理 Promise 鏈或回調函數。</p>
+                        <p>async/await 使得編寫和組織非同步程式碼更加簡單和可讀。它允許你以同步的方式編寫非同步程式碼，而無需顯式地處理 Promise 鏈或回調函數。</p>
                         <p>在使用 async/await 時，需要在一個函數前面添加 async 關鍵字來定義一個非同步函數。在非同步函數內部，你可以使用 await 關鍵字來等待一個 Promise
                             對象的解決。這樣做會暫停當前函數的執行，直到Promise被解決（resolved）並返回結果。</p>
                         <p>async/await 基本範例：</p>
