@@ -15,6 +15,23 @@
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
                 data-aos-duration="1000">
+                <a href="JS_IIFE" class="article">
+                    <div class="article-icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 IIFE？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>JavaScript<i class="fa-sharp fa-solid fa-calendar-days"></i>2024-03-10</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>IIFE 是「Immediately Invoked Function Expression」的縮寫，中文是「立即調用函式表達式」，指的是一種在宣告的當下就會馬上被執行的函數，通常用於創建一個局部作用域，避免全局污染。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
+                data-aos-duration="1000">
                 <a href="JS_sort-vs-toSorted" class="article">
                     <div class="article-icon">
                         <i class="fa-brands fa-square-js"></i>

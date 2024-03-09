@@ -390,6 +390,11 @@ const routes = [
         name: 'JS_sort-vs-toSorted',
         component: () => import('../views/Article-JavaScript/JS_sort-vs-toSorted.vue')
     },
+    {
+        path: '/JS_IIFE',
+        name: 'JS_IIFE',
+        component: () => import('../views/Article-JavaScript/JS_IIFE.vue')
+    },
 
     // Vue 文章
     {

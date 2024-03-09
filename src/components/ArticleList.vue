@@ -4,6 +4,10 @@
         <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 
+    <section class="ALL JS">
+        <div class="article-title">什麼是 IIFE？</div>
+    </section>
+
     <section class="ALL ALGORITHM">
         <div class="article-title">什麼是 柯里化(Currying)和反柯里化(Uncurrying)？</div>
     </section>
