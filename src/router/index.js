@@ -487,6 +487,11 @@ const routes = [
         name: 'Algorithm_Curry',
         component: () => import('../views/Article-Algorithm/Algorithm_Curry.vue')
     },
+    {
+        path: '/Algorithm_DFS-vs-BFS',
+        name: 'Algorithm_DFS-vs-BFS',
+        component: () => import('../views/Article-Algorithm/Algorithm_DFS-vs-BFS.vue')
+    },
 
     // 雜談 文章
     {
