@@ -18,7 +18,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- 迴圈(Loop) -->
             <section>
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -37,7 +36,6 @@ for (let i = 1; i &lt;= 5; i++) {
                     </div>
                 </div>
             </section>
-
             <!-- 迭代(Iteration) -->
             <section>
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -48,7 +46,6 @@ for (let i = 1; i &lt;= 5; i++) {
                     </div>
                 </div>
             </section>
-
             <!-- 遍歷(Traversal) -->
             <section>
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -68,7 +65,6 @@ array.forEach(item => {
                     </div>
                 </div>
             </section>
-
             <!-- 遞迴(Recursion) -->
             <section>
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">

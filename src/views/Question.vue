@@ -39,16 +39,13 @@
                             <li><i class="fa-regular fa-note-sticky"></i>專案的時程會很趕嗎？當工程師遇到困難時，會如何協助解決？</li>
                             <li><i class="fa-regular fa-note-sticky"></i>通常是怎麼處理 CSS 檔？是否依元件或頁面開檔案放置？樣式需要有命名規則？有導入 SCSS 嗎？</li>
                             <li><i class="fa-regular fa-note-sticky"></i>是否有遇過常改規格的情境？工程師會需要如何應對？</li>
-
                             <li><i class="fa-regular fa-note-sticky"></i>專案中有用到哪些設計模式？</li>
                             <li><i class="fa-regular fa-note-sticky"></i>會在什麼時候決定將共用邏輯抽取出來成為 function 或是常數？</li>
                             <li><i class="fa-regular fa-note-sticky"></i>如果有十幾個需求同時開發或是需要轉換框架函式庫，會怎麼進行？</li>
-
                             <li><i class="fa-regular fa-note-sticky"></i>您的工作一天大概是怎麼過的？</li>
                             <li><i class="fa-regular fa-note-sticky"></i>最喜歡和最不喜歡這個團隊或公司的地方是什麼？</li>
                             <li><i class="fa-regular fa-note-sticky"></i>請問您通常都是怎麼帶領團隊？</li>
                             <li><i class="fa-regular fa-note-sticky"></i>這個團隊接下來的目標是什麼？</li>
-
                         </ul>
                     </div>
                 </div>

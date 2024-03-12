@@ -1,7 +1,7 @@
 <style>
-    .all:nth-child(n+12) {
-        display: none;
-    }
+.all:nth-child(n+12) {
+    display: none;
+}
 </style>
 
 <template>

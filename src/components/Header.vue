@@ -583,7 +583,6 @@ onMounted(() => {
 const state = reactive({
     searchInput: "",
     divContentList: [
-        { text: "【程式入門】該如何開始自學寫程式", url: "Programming-Language" },
         { text: "什麼是 DFS 和 BFS？", url: "Algorithm_DFS-vs-BFS" },
         { text: "什麼是 IIFE？", url: "JS_IIFE" },
         { text: "什麼是 柯里化和反柯里化？", url: "Algorithm_Curry" },
@@ -666,6 +665,7 @@ const state = reactive({
         { text: "什麼是 CDN？| CDN 的工作原理是什麼？", url: "/WEB_cdn-introduce" },
         { text: "HTML <code> 顯示程式碼內容", url: "/HTML_codeTag" },
         { text: "HTML 表格 (table)", url: "/HTML_tableTag" },
+        { text: "【程式入門】該如何開始自學寫程式", url: "Programming-Language" },
     ],
 });
 

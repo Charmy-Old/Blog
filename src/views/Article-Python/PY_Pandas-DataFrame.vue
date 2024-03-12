@@ -10,43 +10,34 @@
             </section>
 
             <section>
-                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                    data-aos-duration="1000">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>Pandas DataFrame 簡介</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
-                        <p>有關 Pandas 和單維度資料處理的簡介，可以到 →<a href="https://charmying-blog.onrender.com/PY_Pandas-Series"
-                                target="_blank">【Pandas】Pandas Series處理單維度資料方法</a>← 觀看</p>
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <p>有關 Pandas 和單維度資料處理的簡介，可以到 →<a href="https://charmying-blog.onrender.com/PY_Pandas-Series" target="_blank">【Pandas】Pandas Series處理單維度資料方法</a>← 觀看</p>
                         <p>DataFrame 主要用來處理雙維度的資料，也就是具有列(row)與欄(column)的表格式資料集，所以經常應用於讀取 CSV 檔案、網頁表格或資料庫等，來進行其中的資料分析或處理。</p>
-                        <p>在相較於 Pandas Series 處理單維度或單一欄位的資料的部分，Pandas DataFrame 可以處理雙維度或多欄位的資料，就像是 Excel
-                            的表格(Table)，具有資料索引(列)及欄位標題(欄)</p>
+                        <p>在相較於 Pandas Series 處理單維度或單一欄位的資料的部分，Pandas DataFrame 可以處理雙維度或多欄位的資料，就像是 Excel 的表格(Table)，具有資料索引(列)及欄位標題(欄)</p>
                     </div>
                 </div>
             </section>
 
             <section>
-                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                    data-aos-duration="1000">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>建立和觀察 Pandas DataFrame 物件</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>要利 Pandas DataFrame 來儲存單維度的資料，就需要先建立 Pandas DataFrame 物件，語法如下：</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
 dataframe = pandas.DataFrame(字典或陣列資料)
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>範例：</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
 import pandas as pd   # 引入 pandas 套件
 
 data = {
@@ -75,13 +66,11 @@ print("使用陣列來建立 DataFrame：")
 print(array_df)
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>執行結果：</p>
                     </div>
-                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
 使用字典來建立 DataFrame：
   name  salary seniority
 0  Aaa   30000    1 year
@@ -97,15 +86,12 @@ print(array_df)
 3    John  86  70
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
-                        <p>從執行結果可以看到，相同的資料內容，使用 Python 字典(Dictionary)來進行指定的話，鍵值(Key)就是 Pandas DataFrame
-                            的欄位名稱，值(Value)則是該欄位的資料內容。而使用陣列來指定的話，就是單純的每一筆資料內容。</p>
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <p>從執行結果可以看到，相同的資料內容，使用 Python 字典(Dictionary)來進行指定的話，鍵值(Key)就是 Pandas DataFrame 的欄位名稱，值(Value)則是該欄位的資料內容。而使用陣列來指定的話，就是單純的每一筆資料內容。</p>
                         <p>如果想要客製化 Pandas DataFrame 的資料索引及欄位名稱，可以分別利用 index 及 columns 屬性(Attribute)來達成：</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
 import pandas as pd   # 引入 pandas 套件
 
 data = {
@@ -120,13 +106,11 @@ df.columns = ["name", "salary", "senioritye"]   # 自訂欄位名稱
 print(df)
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>執行結果：</p>
                     </div>
-                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
      name  salary senioritye
 NO.1  Aaa   30000     1 year
 NO.2  Bbb   60000     5 year
@@ -134,13 +118,11 @@ NO.3  Ccc   45000     2 year
 NO.4  Ddd   50000   3.5 year
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>如果想要觀察資料的型態、數量等等，可以使用以下語法：</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
 import pandas as pd   # 引入 pandas 套件
 
 data = {
@@ -158,13 +140,11 @@ print("資料形狀(列、欄)：", df.shape)
 print("資料索引：", df.index)
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>執行結果：</p>
                     </div>
-                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
      name  salary senioritye
 NO.1  Aaa   30000     1 year
 NO.2  Bbb   60000     5 year
@@ -179,17 +159,13 @@ NO.4  Ddd   50000   3.5 year
             </section>
 
             <section>
-                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                    data-aos-duration="1000">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>取得 Pandas DataFrame 資料</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
-                            <li><i class="fa-regular fa-note-sticky"></i>head()：取得最前面的 n 筆資料，並且會回傳一個新的 Pandas DataFrame 資料集
-                            </li>
-                            <li><i class="fa-regular fa-note-sticky"></i>tail()：取得最後面的 n 筆資料，並且會回傳一個新的 Pandas DataFrame 資料集
-                            </li>
+                            <li><i class="fa-regular fa-note-sticky"></i>head()：取得最前面的 n 筆資料，並且會回傳一個新的 Pandas DataFrame 資料集</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>tail()：取得最後面的 n 筆資料，並且會回傳一個新的 Pandas DataFrame 資料集</li>
                             <li><i class="fa-regular fa-note-sticky"></i>中括號[]：在中括號中指定「欄位名稱」或「資料索引值」，來取得所需的資料集</li>
                             <li><i class="fa-regular fa-note-sticky"></i>at[資料索引值,欄位名稱]：利用資料索引值及欄位名稱來取得「單一值」</li>
                             <li><i class="fa-regular fa-note-sticky"></i>iat[資料索引值,欄位順序]：利用資料索引值及欄位順序來取得「單一值」</li>
@@ -197,9 +173,8 @@ NO.4  Ddd   50000   3.5 year
                             <li><i class="fa-regular fa-note-sticky"></i>iloc[資料索引值,欄位順序]：利用資料索引值及欄位順序來取得「資料集」</li>
                         </ul>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
 import pandas as pd   # 引入 pandas 套件
 
 data = {
@@ -247,13 +222,11 @@ print(df.iloc[[1, 3], [0, 2]])料：")
 print(df[0:3])
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>執行結果：</p>
                     </div>
-                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
     name  salary seniority
 0  Aaa   30000    1 year
 1  Bbb   60000    5 year
@@ -319,24 +292,18 @@ Bbb
             </section>
 
             <section>
-                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                    data-aos-duration="1000">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>新增 Pandas DataFrame 資料</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
                             <li><i class="fa-regular fa-note-sticky"></i>insert()：在指定的欄位位置新增欄位資料</li>
-                            <li><i
-                                    class="fa-regular fa-note-sticky"></i>append()：新增一筆或一列的資料，透過傳入字典(Dictionary)來指定各欄位的值，並且會回傳一個新的Pandas
-                                DataFrame資料集</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>concat()：利用合併多個Pandas
-                                DataFrame的方式來新增資料，並且會回傳一個新的Pandas DataFrame資料集</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>append()：新增一筆或一列的資料，透過傳入字典(Dictionary)來指定各欄位的值，並且會回傳一個新的Pandas DataFrame資料集</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>concat()：利用合併多個Pandas DataFrame的方式來新增資料，並且會回傳一個新的Pandas DataFrame資料集</li>
                         </ul>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
 import pandas as pd   # 引入 pandas 套件
 
 data = {
@@ -377,13 +344,11 @@ print("合併 DataFrame 來新增資料：")
 print(new_df)
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>執行結果：</p>
                     </div>
-                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
   name  salary seniority
 0  Aaa   30000    1 year
 1  Bbb   60000    5 year
@@ -419,17 +384,14 @@ print(new_df)
             </section>
 
             <section>
-                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                    data-aos-duration="1000">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>修改 Pandas DataFrame 資料</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>利用 Pandas DataFrame 的 at[] 及 iat[] 取得所要修改的單一值後，來進行資料內容的修改</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
 import pandas as pd   # 引入 pandas 套件
 
 data = {
@@ -448,13 +410,11 @@ print("修改後的 DataFrame：")
 print(df)
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>執行結果：</p>
                     </div>
-                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
     name  salary seniority
 0  Aaa   30000    1 year
 1  Bbb   60000    5 year
@@ -472,26 +432,19 @@ print(df)
             </section>
 
             <section>
-                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                    data-aos-duration="1000">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>刪除 Pandas DataFrame 資料</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
-                            <li><i class="fa-regular fa-note-sticky"></i>drop(欄位名稱串列,axis = 1)：刪除指定欄位名稱的欄位，並且會回傳一個新的Pandas
-                                DataFrame資料集</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>drop(資料索引串列,axis = 0)：刪除指定資料索引的資料，並且會回傳一個新的Pandas
-                                DataFrame資料集</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>dropna()：刪除含有NaN或空值的資料，並且會回傳一個新的Pandas
-                                DataFrame資料集，在進行資料清理的時候非常實用</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>drop_duplicates()：刪除重複的資料，並且會回傳一個新的Pandas
-                                DataFrame資料集，同樣最常應用在資料清理的時候</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>drop(欄位名稱串列,axis = 1)：刪除指定欄位名稱的欄位，並且會回傳一個新的Pandas DataFrame資料集</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>drop(資料索引串列,axis = 0)：刪除指定資料索引的資料，並且會回傳一個新的Pandas DataFrame資料集</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>dropna()：刪除含有NaN或空值的資料，並且會回傳一個新的Pandas DataFrame資料集，在進行資料清理的時候非常實用</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>drop_duplicates()：刪除重複的資料，並且會回傳一個新的Pandas DataFrame資料集，同樣最常應用在資料清理的時候</li>
                         </ul>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
 import pandas as pd   # 引入 pandas 套件
 import numpy as np   # 引入 numpy 套件
 
@@ -525,13 +478,11 @@ print("刪除重複值後的 DataFrame：")
 print(drop_duplicates_df)
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>執行結果：</p>
                     </div>
-                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
   name   salary seniority
 0  Aaa  30000.0    1 year
 1  Bbb  60000.0    5 year
@@ -582,17 +533,14 @@ print(drop_duplicates_df)
             </section>
 
             <section>
-                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                    data-aos-duration="1000">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>篩選 Pandas DataFrame 資料</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>通常在處理大量的資料集時，有很高的機率會需要利用條件式來篩選所需的資料，這時候就可以利用中括號[]存取欄位來進行資料篩選：</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
 import pandas as pd   # 引入 pandas 套件
 
 data = {
@@ -608,13 +556,11 @@ print("篩選 salary 大於 47500 的資料集：")
 print(df[df["salary"] > 47500])
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>執行結果：</p>
                     </div>
-                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
   name  salary seniority
 0  Aaa   30000    1 year
 1  Bbb   60000    5 year
@@ -628,13 +574,11 @@ print(df[df["salary"] > 47500])
 3  Ddd   50000  3.5 year
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>另一個最常見的資料篩選情境，就是找出包含特定值的資料集，這時候可以利用Pandas DataFrame的isin()方法(Method)來達成：</p>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
 import pandas as pd   # 引入 pandas 套件
 
 data = {
@@ -650,13 +594,11 @@ print("篩選 name 欄位包含 Eee 的資料集：")
 print(df[df["name"].isin(["Eee"])])
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>執行結果：</p>
                     </div>
-                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
   name  salary seniority
 0  Aaa   30000    1 year
 1  Bbb   60000    5 year
@@ -673,22 +615,17 @@ print(df[df["name"].isin(["Eee"])])
             </section>
 
             <section>
-                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                    data-aos-duration="1000">
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>排序 Pandas DataFrame 資料</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-list" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <ul>
-                            <li><i class="fa-regular fa-note-sticky"></i>sort_index()：依照索引值來進行排序，並且會回傳一個新的Pandas
-                                DataFrame資料集</li>
-                            <li><i class="fa-regular fa-note-sticky"></i>sort_values()：依照欄位內容來進行排序，並且會回傳一個新的Pandas
-                                DataFrame資料集</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>sort_index()：依照索引值來進行排序，並且會回傳一個新的Pandas DataFrame資料集</li>
+                            <li><i class="fa-regular fa-note-sticky"></i>sort_values()：依照欄位內容來進行排序，並且會回傳一個新的Pandas DataFrame資料集</li>
                         </ul>
                     </div>
-                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-coding" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
 import pandas as pd   # 引入 pandas 套件
 
 data = {
@@ -720,13 +657,11 @@ print("遞減排序")
 print(new_df)
 </pre>
                     </div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                        data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>執行結果：</p>
                     </div>
-                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-delay="150" data-aos-duration="1000">
-                        <pre>
+                    <div class="article-codeNote" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+<pre>
      name  salary seniority
 NO.6  Aaa   30000    1 year
 NO.3  Bbb   60000    5 year
@@ -769,33 +704,26 @@ NO.6  Aaa   30000    1 year
 NO.2  Fff   25250   30 year
 NO.5  Eee   22000   40 year
 </pre>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section>
-            <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                data-aos-duration="1000">
-                <h3>參考資料</h3>
-                <div class="article-detailLine"></div>
-                <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                    data-aos-duration="1000">
-                    <a class="article-reference"
-                        href="https://www.youtube.com/playlist?list=PL-g0fdC5RMboYEyt6QS2iLb_1m7QcgfHk"
-                        target="_blank"><i class="fa-solid fa-pen-to-square"></i>彭彭的課程 - Python 入門教學課程</a>
-                    <a class="article-reference"
-                        href="https://www.learncodewithmike.com/2020/11/python-pandas-dataframe-tutorial.html"
-                        target="_blank"><i class="fa-solid fa-pen-to-square"></i>[Pandas教學]資料分析必懂的Pandas
-                        DataFrame處理雙維度資料方法</a>
+            <section>
+                <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                    <h3>參考資料</h3>
+                    <div class="article-detailLine"></div>
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <a class="article-reference" href="https://www.youtube.com/playlist?list=PL-g0fdC5RMboYEyt6QS2iLb_1m7QcgfHk" target="_blank"><i class="fa-solid fa-pen-to-square"></i>彭彭的課程 - Python 入門教學課程</a>
+                        <a class="article-reference" href="https://www.learncodewithmike.com/2020/11/python-pandas-dataframe-tutorial.html" target="_blank"><i class="fa-solid fa-pen-to-square"></i>[Pandas教學]資料分析必懂的Pandas DataFrame處理雙維度資料方法</a>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-    </main>
-    <Wall />
-</div>
-<pageRate />
-<BackToTop /></template>
+            </section>
+        </main>
+        <Wall />
+    </div>
+    <pageRate />
+    <BackToTop />
+</template>
 
 <script setup>
 import Header from "@/components/Header.vue";

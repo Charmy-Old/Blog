@@ -42,7 +42,6 @@
 }
 </pre>
                     </div>
-
                     <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p><i class="fa-regular fa-note-sticky"></i>語法解說：</p>
                         <p><i class="fa-regular fa-note-sticky"></i>overflow:hidden; ：將超過的部分進行隱藏</p>

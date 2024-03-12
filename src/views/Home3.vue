@@ -1,7 +1,7 @@
 <style>
-    .all:not(:nth-child(n+22):nth-child(-n+31)) {
-        display: none;
-    }
+.all:not(:nth-child(n+22):nth-child(-n+31)) {
+    display: none;
+}
 </style>
 
 <template>

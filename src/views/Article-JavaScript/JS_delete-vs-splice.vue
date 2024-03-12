@@ -73,7 +73,8 @@ console.log(arr.length);   // 3
         <Wall />
     </div>
     <pageRate />
-<BackToTop /></template>
+    <BackToTop />
+</template>
 
 <script setup>
 import Header from "@/components/Header.vue";

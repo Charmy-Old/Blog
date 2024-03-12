@@ -139,7 +139,6 @@ module2.module2Function();   // module 2
                 </div>
             </section>
 
-
             <section>
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>參考資料</h3>
@@ -149,7 +148,6 @@ module2.module2Function();   // module 2
                     </div>
                 </div>
             </section>
-
         </main>
         <Wall />
     </div>

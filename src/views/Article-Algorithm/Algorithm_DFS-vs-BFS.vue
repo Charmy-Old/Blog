@@ -441,7 +441,6 @@ print(BFS(graph,'A'))   # ['A', 'B', 'D', 'E', 'C', 'F']
                     </div>
                 </div>
             </section>
-
         </main>
         <Wall />
     </div>

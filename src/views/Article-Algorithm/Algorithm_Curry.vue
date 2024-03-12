@@ -163,7 +163,6 @@ console.log(uncurriedAdd(5, 6));   // 11
                     </div>
                 </div>
             </section>
-
         </main>
         <Wall />
     </div>

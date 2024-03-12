@@ -576,7 +576,6 @@ dog.breed; // "金毛"
                     </div>
                 </div>
             </section>
-
         </main>
         <Wall />
     </div>

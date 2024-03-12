@@ -196,16 +196,14 @@
                 </a>
             </section>
 
-            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"
-                data-aos-duration="1000">
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="WEB_Cookie-vs-LocalStorage-vs-SessionStorage" class="article">
                     <div class="article-icon">
                         <i class="fa-sharp fa-solid fa-desktop"></i>
                     </div>
                     <div class="article-text">
                         <div class="article-title">Cookie V.S. LocalStorage V.S. SessionStorage</div>
-                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i
-                                class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Web<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</div>
                         <div class="article-underline"></div>
                         <div class="article-content">
                             <p>Cookie、LocalStorage、SessionStorage 差異</p>

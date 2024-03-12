@@ -8,7 +8,6 @@
                     <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-08</p>
                 </div>
             </section>
-
             <!-- SSL -->
             <section>
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -33,7 +32,6 @@
                     </div>
                 </div>
             </section>
-            
             <!-- TLS -->
             <section>
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">

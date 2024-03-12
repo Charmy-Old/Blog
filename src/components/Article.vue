@@ -33,24 +33,6 @@
         </div>
     </section>
 
-    <!-- 置頂貼文 -->
-    <section class="all">
-        <a href="Programming-Language" class="article">
-            <div class="article-icon">
-                <i class="fa-solid fa-code"></i>
-            </div>
-            <div class="article-text">
-                <div class="article-title"><i class="fa-sharp fa-solid fa-thumbtack"></i>【程式入門】該如何開始自學寫程式</div>
-                <div class="article-tag"><i class="fa-solid fa-tag"></i>Programming Language<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</div>
-                <div class="article-underline"></div>
-                <div class="article-content">
-                    <p>雖然程式語言學習的領域是學無止境的，但是若不先找到目標而先專攻一個方向，很難培養出自己的一套學習方式及方向的！</p>
-                    <p>如果清楚了學習的目的及方向，接著我們就要選擇學習哪一種程式語言；以下是簡單的整理，讓新手、入門的程式語言自學者，能快速有個方向：</p>
-                </div>
-            </div>
-        </a>
-    </section>
-
     <section class="all others">
         <a href="Algorithm_DFS-vs-BFS" class="article">
             <div class="article-icon">
@@ -1486,6 +1468,23 @@
                     <p>HTML &lt;table&gt; 標籤 (tag) 用來建立表格，也就是用來呈現二維的資料表資訊。</p>
                     <p>&lt;table&gt; 標籤做為表格的容器 (container)，裡面有不同用途的標籤像是 &lt;tr&gt;, &lt;td&gt; 組成一個完整的表格。</p>
                     <p>&lt;table&gt;中的標籤按照以下順序，組成一個表格：</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="all">
+        <a href="Programming-Language" class="article">
+            <div class="article-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title"><i class="fa-sharp fa-solid fa-thumbtack"></i>【程式入門】該如何開始自學寫程式</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Programming Language<i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>雖然程式語言學習的領域是學無止境的，但是若不先找到目標而先專攻一個方向，很難培養出自己的一套學習方式及方向的！</p>
+                    <p>如果清楚了學習的目的及方向，接著我們就要選擇學習哪一種程式語言；以下是簡單的整理，讓新手、入門的程式語言自學者，能快速有個方向：</p>
                 </div>
             </div>
         </a>

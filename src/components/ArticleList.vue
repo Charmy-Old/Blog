@@ -1,9 +1,4 @@
 <template>
-    <!-- 置頂貼文 -->
-    <section class="ALL">
-        <div class="article-title">【程式入門】該如何開始自學寫程式</div>
-    </section>
-
     <section class="ALL ALGORITHM">
         <div class="article-title">什麼是 DFS 和 BFS？</div>
     </section>
@@ -334,6 +329,10 @@
 
     <section class="ALL HTML">
         <div class="article-title">HTML 表格 (table)</div>
+    </section>
+    
+    <section class="ALL">
+        <div class="article-title">【程式入門】該如何開始自學寫程式</div>
     </section>
 </template>
 

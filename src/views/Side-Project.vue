@@ -9,7 +9,6 @@
                     <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</p>
                 </div>
             </section>
-
             <!-- BLOG -->
             <div class="sideProject-projectBlock">
                 <div class="sideProject-projectText">
@@ -20,9 +19,7 @@
                         <p><i class="fa-solid fa-tag"></i>CSS</p>
                         <p><i class="fa-solid fa-tag"></i>JavaScript</p>
                         <p><i class="fa-solid fa-tag"></i>Vue</p>
-                        <span>
-                            <i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06~進行中
-                        </span>
+                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06~進行中</span>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -51,9 +48,7 @@
                         <p><i class="fa-solid fa-tag"></i>Vue</p>
                         <p><i class="fa-solid fa-tag"></i>PHP</p>
                         <p><i class="fa-solid fa-tag"></i>PostgreSQL</p>
-                        <span>
-                            <i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06~進行中
-                        </span>
+                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06~進行中</span>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -80,9 +75,7 @@
                         <p><i class="fa-solid fa-tag"></i>HTML</p>
                         <p><i class="fa-solid fa-tag"></i>CSS</p>
                         <p><i class="fa-solid fa-tag"></i>Vue composition api</p>
-                        <span>
-                            <i class="fa-sharp fa-solid fa-calendar-days"></i>2023/05~2023/06
-                        </span>
+                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/05~2023/06</span>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -111,9 +104,7 @@
                         <p><i class="fa-solid fa-tag"></i>HTML</p>
                         <p><i class="fa-solid fa-tag"></i>CSS</p>
                         <p><i class="fa-solid fa-tag"></i>JavaScript</p>
-                        <span>
-                            <i class="fa-sharp fa-solid fa-calendar-days"></i>2023/01~2023/01
-                        </span>
+                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/01~2023/01</span>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -131,7 +122,6 @@
                         <a href="https://charmying.github.io/Todo-List/" target="_blank">前往網站</a>
                         <p>→</p>
                     </div>
-                    
                 </div>
             </div>
             <!-- 緯育團專 -->
@@ -146,9 +136,7 @@
                         <p><i class="fa-solid fa-tag"></i>Vue-CLI</p>
                         <p><i class="fa-solid fa-tag"></i>PHP</p>
                         <p><i class="fa-solid fa-tag"></i>MySQL</p>
-                        <span>
-                            <i class="fa-sharp fa-solid fa-calendar-days"></i>2022/11~2023/01
-                        </span>
+                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/11~2023/01</span>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -180,9 +168,7 @@
                         <p><i class="fa-solid fa-tag"></i>CSS</p>
                         <p><i class="fa-solid fa-tag"></i>JavaScript</p>
                         <p><i class="fa-solid fa-tag"></i>jQuery</p>
-                        <span>
-                            <i class="fa-sharp fa-solid fa-calendar-days"></i>2022/09~2022/10
-                        </span>
+                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/09~2022/10</span>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
