@@ -86,7 +86,7 @@
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>Nash 均衡</h3>
                     <div class="article-detailLine"></div>
-                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150"data-aos-duration="1000">
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>Nash均衡(Nash equilibrium)是賽局理論中一個很重要的概念。如果某一組策略是Nash均衡，任何一個參賽者單獨改變自己的策略並不會使自己的報酬提高。也就是說，如果別人都玩Nash均衡策略時，我會發現這個均衡策略會是我的最佳的選擇(也就是最適回應，best response)。當所有人都玩這一個Nash均衡策略時，沒有人會想要悖離(deviate)。</p>
                         <p>換言之，只要有任何參賽者能因為偏離(deviate)目前所採用的策略而獲利(better off)，則此策略組合並非Nash均衡。</p>
                         <p>Nash均衡是基於某些對人的行為的假設。例如，所有參賽人皆清楚的了解對手有哪些行動，並且就所有可能的行動中選出一個最適的反應。而這些都是所有人的共同知識(common knowledge)。</p>
