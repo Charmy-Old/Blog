@@ -175,7 +175,7 @@
             }
         
         }
-        */
+    */
 
     @keyframes hb-line-2 {
         0% {
@@ -583,6 +583,7 @@ onMounted(() => {
 const state = reactive({
     searchInput: "",
     divContentList: [
+        { text: "什麼是 Agile、Scrum 和 Kanban？", url: "Chat_Agile-vs-Scrum-vs-Kanban" },
         { text: "什麼是 DFS 和 BFS？", url: "Algorithm_DFS-vs-BFS" },
         { text: "什麼是 IIFE？", url: "JS_IIFE" },
         { text: "什麼是 柯里化和反柯里化？", url: "Algorithm_Curry" },

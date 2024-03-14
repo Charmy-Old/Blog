@@ -524,6 +524,11 @@ const routes = [
         name: 'Chat_TPS',
         component: () => import('../views/Article-Chat/Chat_TPS.vue')
     },
+    {
+        path: '/Chat_Agile-vs-Scrum-vs-Kanban',
+        name: 'Chat_Agile-vs-Scrum-vs-Kanban',
+        component: () => import('../views/Article-Chat/Chat_Agile-vs-Scrum-vs-Kanban.vue')
+    },
 
     // 美食札記 文章
     {

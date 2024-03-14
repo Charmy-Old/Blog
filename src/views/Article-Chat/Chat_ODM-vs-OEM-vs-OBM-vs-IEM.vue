@@ -86,19 +86,20 @@
 
             <section>
                 <div class="article-detail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                <h3>參考資料</h3>
-                <div class="article-detailLine"></div>
-                <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                    <a class="article-reference" href="https://www.techchickensoup.com/product/odm-and-oem/" target="_blank"><i class="fa-solid fa-pen-to-square"></i>什麼是ODM、OEM？ODM與OEM有什麼差別？</a>
-                    <a class="article-reference" href="https://hikaru092024.pixnet.net/blog/post/102949294" target="_blank"><i class="fa-solid fa-pen-to-square"></i>什麼是 OEM、ODM、OBM、IDM？</a>
+                    <h3>參考資料</h3>
+                    <div class="article-detailLine"></div>
+                    <div class="article-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <a class="article-reference" href="https://www.techchickensoup.com/product/odm-and-oem/" target="_blank"><i class="fa-solid fa-pen-to-square"></i>什麼是ODM、OEM？ODM與OEM有什麼差別？</a>
+                        <a class="article-reference" href="https://hikaru092024.pixnet.net/blog/post/102949294" target="_blank"><i class="fa-solid fa-pen-to-square"></i>什麼是 OEM、ODM、OBM、IDM？</a>
+                    </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    <Wall />
-</div>
-<pageRate />
-<BackToTop /></template>
+            </section>
+        </main>
+        <Wall />
+    </div>
+    <pageRate />
+    <BackToTop />
+</template>
 
 <script setup>
 import Header from "@/components/Header.vue";

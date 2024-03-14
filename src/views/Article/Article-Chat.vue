@@ -14,6 +14,22 @@
             </section>
 
             <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                <a href="Chat_Agile-vs-Scrum-vs-Kanban" class="article">
+                    <div class="article-icon">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                    </div>
+                    <div class="article-text">
+                        <div class="article-title">什麼是 Agile、Scrum 和 Kanban？</div>
+                        <div class="article-tag"><i class="fa-solid fa-tag"></i>Chat<i class="fa-sharp fa-solid fa-calendar-days"></i>2024-03-14</div>
+                        <div class="article-underline"></div>
+                        <div class="article-content">
+                            <p>Scrum、Kanban和 Agile 都是軟體開發中常用的敏捷開發方法論，旨在提高團隊的生產力和產品品質。</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                 <a href="Chat_TPS" class="article">
                     <div class="article-icon">
                         <i class="fa-solid fa-book-open-reader"></i>
