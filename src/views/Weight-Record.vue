@@ -168,12 +168,12 @@ setup() {
     const heightValue = ref(localStorage.getItem("savedHeightValue") || "");
 
     const addHeightValue = () => {
-        if(inputHeightValue.value > 0) {
+        if (inputHeightValue.value > 0) {
             heightValue.value = inputHeightValue.value;
             localStorage.setItem("savedHeightValue", inputHeightValue.value);
-        } else if(inputHeightValue.value == 0) {
+        } else if (inputHeightValue.value == 0) {
             alert("身高不得為 0")
-        } else if(inputHeightValue.value < 0) {
+        } else if (inputHeightValue.value < 0) {
             alert("身高不會是負的欸")
         }
     };

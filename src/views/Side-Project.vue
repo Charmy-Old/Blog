@@ -11,6 +11,9 @@
             </section>
             <!-- BLOG -->
             <div class="sideProject-projectBlock">
+                <div class="sideProject-projectPic">
+                    <img src="../assets/images/project/blog.webp" alt="">
+                </div>
                 <div class="sideProject-projectText">
                     <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">部落格</div>
                     <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -38,8 +41,41 @@
                     </div>
                 </div>
             </div>
+            <!-- 串接 Riot API -->
+            <div class="sideProject-projectBlock">
+                <div class="sideProject-projectPic">
+                    <img src="../assets/images/project/riot-api-lol.webp" alt="">
+                </div>
+                <div class="sideProject-projectText">
+                    <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">緯育TiBaMe前端工程師就業養成班團體專題：KOALA+</div>
+                    <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <p>使用技術：</p>
+                        <p><i class="fa-solid fa-tag"></i>HTML</p>
+                        <p><i class="fa-solid fa-tag"></i>CSS</p>
+                        <p><i class="fa-solid fa-tag"></i>JavaScript</p>
+                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2024/03 ~ 進行中</span>
+                    </div>
+                    <div class="article-underline"></div>
+                    <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <p>因為剛好在玩英雄聯盟，所以想做一個戰績的查詢系統，使用 HTML、CSS 和 原生 JavaScript 撰寫。其中在 Riot 官網取得 API Key，使用 fetch 語法串接 Riot API，取得資料進行整理後將其呈現，戰績的部分則是使用 for 迴圈處理，可以自由決定想要呈現幾場內的資料。</p>
+                        <p>排版部分稍微參考 OP.GG 後進行簡易切版，目前還在持續進行中，也在思考加入戰績統計資料。</p>
+                        <p>Riot 的 API Key 需要 24 小時更新一次，所以有可能來不及更新，敬請見諒。</p>
+                    </div>
+                    <div class="sideProject-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <a href="https://github.com/Charmying/Riot-API-LOL" target="_blank">GitHub</a>
+                        <p>→</p>
+                    </div>
+                    <div class="sideProject-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <a href="https://charmying.github.io/Riot-API-LOL/" target="_blank">前往網站</a>
+                        <p>→</p>
+                    </div>
+                </div>
+            </div>
             <!-- Engineering-Calculator 工程計算機 -->
             <div class="sideProject-projectBlock">
+                <div class="sideProject-projectPic">
+                    <img src="../assets/images/project/engineering-calculator.webp" alt="">
+                </div>
                 <div class="sideProject-projectText">
                     <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">工程計算機 Engineering-Calculator</div>
                     <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -70,6 +106,9 @@
             </div>
             <!-- 備忘錄 Todo-List-->
             <div class="sideProject-projectBlock">
+                <div class="sideProject-projectPic">
+                    <img src="../assets/images/project/todo-list.webp" alt="">
+                </div>
                 <div class="sideProject-projectText">
                     <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">備忘錄 Todo-List</div>
                     <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -136,6 +175,9 @@
             </div>
             <!-- 緯育個專 -->
             <div class="sideProject-projectBlock">
+                <div class="sideProject-projectPic">
+                    <img src="../assets/images/project/pangolin-phonecase.webp" alt="">
+                </div>
                 <div class="sideProject-projectText">
                     <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">緯育 TiBaMe 前端工程師就業養成班個人專題：PANGOLIN 手機殼販售</div>
                     <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
