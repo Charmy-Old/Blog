@@ -33,6 +33,22 @@
         </div>
     </section>
 
+    <section class="all vue">
+        <a href="VUE_slot" class="article">
+            <div class="article-icon">
+                <i class="fa-brands fa-vuejs"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 slot？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>Vue<i class="fa-sharp fa-solid fa-calendar-days"></i>2024-03-29</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>在 Vue.js 中，slot 是一種特殊的標記，用於向組件中傳遞內容，從而實現組件的可重用性和靈活性。slot 允許在父組件中插入子組件特定的 HTML 內容，這樣就可以在同一個組件的不同場景中呈現不同的內容，而不需要修改組件本身的結構。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all chat">
         <a href="Chat_Agile-vs-Scrum-vs-Kanban" class="article">
             <div class="article-icon">
