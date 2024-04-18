@@ -583,6 +583,7 @@ onMounted(() => {
 const state = reactive({
     searchInput: "",
     divContentList: [
+        { text: "什麼是 Binary Tree(二元樹)？", url: "Algorithm_Tree-and-BinaryTree" },
         { text: "什麼是 slot？", url: "VUE_slot" },
         { text: "什麼是 Agile、Scrum 和 Kanban？", url: "Chat_Agile-vs-Scrum-vs-Kanban" },
         { text: "什麼是 DFS 和 BFS？", url: "Algorithm_DFS-vs-BFS" },

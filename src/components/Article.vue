@@ -33,6 +33,22 @@
         </div>
     </section>
 
+    <section class="all others">
+        <a href="Algorithm_Tree-and-BinaryTree" class="article">
+            <div class="article-icon">
+                <i class="fa-regular fa-pen-to-square"></i>
+            </div>
+            <div class="article-text">
+                <div class="article-title">什麼是 Binary Tree(二元樹)？</div>
+                <div class="article-tag"><i class="fa-solid fa-tag"></i>演算法<i class="fa-sharp fa-solid fa-calendar-days"></i>2024-04-18</div>
+                <div class="article-underline"></div>
+                <div class="article-content">
+                    <p>Binary Tree 與 Tree 兩者名稱相近，但是概念是不相近的，用途更是天差地遠，兩者其實是可以分別學習的，但是在認識 Binary Tree 之前還是先簡單認識一下 Tree 這種資料結構。</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
     <section class="all vue">
         <a href="VUE_slot" class="article">
             <div class="article-icon">

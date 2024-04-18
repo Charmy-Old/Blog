@@ -1,4 +1,8 @@
 <template>
+    <section class="ALL ALGORITHM">
+        <div class="article-title">什麼是 Binary Tree(二元樹)？</div>
+    </section>
+
     <section class="ALL CHAT">
         <div class="article-title">什麼是 Agile、Scrum 和 Kanban？</div>
     </section>

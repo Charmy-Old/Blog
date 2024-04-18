@@ -497,6 +497,11 @@ const routes = [
         name: 'Algorithm_DFS-vs-BFS',
         component: () => import('../views/Article-Algorithm/Algorithm_DFS-vs-BFS.vue')
     },
+    {
+        path: '/Algorithm_Tree-and-BinaryTree',
+        name: 'Algorithm_Tree-and-BinaryTree',
+        component: () => import('../views/Article-Algorithm/Algorithm_Tree-and-BinaryTree.vue')
+    },
 
     // 雜談 文章
     {
