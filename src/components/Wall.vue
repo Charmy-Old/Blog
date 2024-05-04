@@ -259,6 +259,7 @@
                 <p>中原大學土木系畢業</p>
                 <p>緯育 TiBaMe 前端工程師就業養成班結業</p>
                 <p>前端、表演、穿搭、美食</p>
+                <p>現職：網際威信 前端工程師</p>
             </section>
         </div>
         <!-- <p>{{ locationName }}</p> -->
@@ -278,11 +279,9 @@
                 </div>
             </div>
         </section>
-        <section class="wall-wtRecord">
-            <a href="Weight-Record">
-                體重追蹤紀錄
-            </a>
-        </section>
+        <!-- <section class="wall-wtRecord">
+            <a href="Weight-Record">體重追蹤紀錄</a>
+        </section> -->
         <section class="wall-article">
             <div class="wall-tag"><a href="Article"><i class="fa-solid fa-tag"></i>All Tags ({{ allArticleCount }})</a>
             </div>

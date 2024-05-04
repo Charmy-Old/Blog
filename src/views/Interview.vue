@@ -95,7 +95,7 @@
                         <h4>請問以下 console.log 會顯示出什麼</h4>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 let a = 1;
 let b = a;
 b = 2;
@@ -1007,7 +1007,7 @@ console.log(({}) == {});   // false
                         </ul>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 // 普通 function 中的 this
 function foo() {
     console.log(this);   // 全域物件
@@ -1118,7 +1118,7 @@ arrowFn.apply(obj, []);   // 輸出：obj
                         <p>請問以下 console.log 會顯示出什麼</p>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 for (var i = 0; i &lt; 3; i++) {
     setTimeout(function () {
         console.log(i);
@@ -1221,14 +1221,14 @@ for (let i = 0; i &lt;= 3; i++) {
                         <p>1、Flexbox</p>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 .parent {
     display: flex;
     justify-content: center;   /* 水平置中 */   
     align-items: center;   /* 垂直置中 */
 }
 </pre>
-                        <pre>
+<pre>
 .parent {
     display: flex;
     justify-content: center;   /* 水平置中 */   
@@ -1241,7 +1241,7 @@ for (let i = 0; i &lt;= 3; i++) {
                         <p>2、相對定位 + transform</p>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 .child {
     position: relative;
     top: 50%;  
@@ -1254,7 +1254,7 @@ for (let i = 0; i &lt;= 3; i++) {
                         <p>3、絕對定位</p>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 .parent {
     position: relative;
 }
@@ -1365,7 +1365,7 @@ for (let i = 0; i &lt;= 3; i++) {
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 profit=int(input("利潤值："))
 list_profit=[0,100000,200000,400000,600000,1000000]
@@ -1395,7 +1395,7 @@ print(bonus)
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 for x in range(2,85,2):

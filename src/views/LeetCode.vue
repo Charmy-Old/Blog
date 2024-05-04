@@ -28,7 +28,7 @@
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 // JavaScript
 
 const twoSum = function(nums, target) {
@@ -46,7 +46,7 @@ console.log(twoSum([2, 7, 11, 15], 22));   // [1, 3]
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 def twoSum(nums, target):
@@ -59,7 +59,7 @@ print(twoSum([2, 7, 11, 15], 22))   # [1, 3]
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 class Solution(object):
@@ -78,7 +78,7 @@ print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python3
 
 class Solution:
@@ -114,7 +114,7 @@ print(Solution().twoSum([2, 7, 11, 15], 22))   # [1, 3]
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 // JavaScript
 
 const isPalindrome = function(x) {
@@ -126,7 +126,7 @@ console.log(isPalindrome(-121));   // false
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 def isPalindrome(x):
@@ -140,7 +140,7 @@ print(isPalindrome(-121))   # False
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 class Solution(object):
@@ -163,7 +163,7 @@ print(Solution().isPalindrome(-121))   # False
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python3
 
 class Solution:
@@ -237,7 +237,7 @@ print(Solution().isPalindrome(-121))   # False
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 // JavaScript
 
 const romanToInt = function(s) {
@@ -265,7 +265,7 @@ console.log(romanToInt("MCMXCIV"));   // 1994
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 def roman_to_int(s):
@@ -283,7 +283,7 @@ print(roman_to_int('MCMXCIV'))   # 1994
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 class Solution(object):
@@ -305,7 +305,7 @@ print(Solution().romanToInt("MCMXCIV"))   # 1994
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python3
 
 class Solution:
@@ -348,7 +348,7 @@ print(Solution().romanToInt("MCMXCIV"))   # 1994
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 // JavaScript
 
 const longestCommonPrefix = function(strs) {
@@ -366,7 +366,7 @@ console.log(longestCommonPrefix(["dog", "racecar", "car"]));   // ""
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 def longestCommonPrefix(strs):
@@ -386,7 +386,7 @@ print(longestCommonPrefix(["dog", "racecar", "car"]))   #
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 class Solution(object):
@@ -407,7 +407,7 @@ class Solution(object):
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python3
 
 from typing import List
@@ -537,7 +537,7 @@ Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 // JavaScript
 
 const removeDuplicates = function(nums) {
@@ -554,7 +554,7 @@ console.log(removeDuplicates([1, 1, 2, 2, 3, 3, 4, 4, 5, 5]));   // 6
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 def removeDuplicates(nums):
@@ -575,7 +575,7 @@ print(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]))   # 5
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 class Solution(object):
@@ -594,7 +594,7 @@ class Solution(object):
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python3
 
 class Solution:
@@ -650,7 +650,7 @@ class Solution:
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 // JavaScript
 
 const merge = function (intervals) {
@@ -672,7 +672,7 @@ console.log(merge([[1, 4], [4, 5]]));   // [[1, 5]]
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 def merge(intervals):
@@ -689,7 +689,7 @@ print(merge([[1, 3],[2, 6],[8, 10],[15, 18]]))   # [[1, 6], [8, 10], [15, 18]]
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 class Solution(object):
@@ -712,7 +712,7 @@ print(solution.merge([[1, 3],[2, 6],[8, 10],[15, 18]]))   # [[1, 6], [8, 10], [1
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python3
 
 from typing import List
@@ -755,7 +755,7 @@ print(Solution().merge([[1, 3],[2, 6],[8, 10],[15, 18]]))   # [[1, 6], [8, 10], 
                     </div>
                     <div class="question-detailLine"></div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 // JavaScript
 
 const maxProduct = function(nums) {
@@ -772,7 +772,7 @@ console.log(maxProduct([8, 9, 1 , 11]));   // 80
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 def maxProduct(nums):
@@ -783,7 +783,7 @@ print(maxProduct([8, 9, 1 , 11]))   # 80
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python
 
 class Solution(object):
@@ -799,7 +799,7 @@ print(Solution().maxProduct([8, 9, 1 , 11]))   # 80
 </pre>
                     </div>
                     <div class="question-coding">
-                        <pre>
+<pre>
 # Python3
 
 class Solution:
