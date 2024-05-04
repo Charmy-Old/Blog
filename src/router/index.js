@@ -67,6 +67,16 @@ const routes = [
         component: () => import('../views/Question.vue')
     },
     {
+        path: '/LeetCode',
+        name: 'LeetCode',
+        component: () => import('../views/LeetCode.vue')
+    },
+    {
+        path: '/Interview',
+        name: 'Interview',
+        component: () => import('../views/Interview.vue')
+    },
+    {
         path: '/Weight-Record',
         name: 'Weight-Record',
         component: () => import('../views/Weight-Record.vue')

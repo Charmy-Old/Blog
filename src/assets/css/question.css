@@ -29,11 +29,26 @@
     margin: -1.25rem 0 0;
 }
 
+.question-intro {
+    width: 100%;
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+    padding: 0 0.5rem;
+    transition: all 0.3s linear;
+}
+
 .question-txt {
+    width: 100%;
     line-height: 2;
     margin: 1.5rem 0;
     padding: 0 0.5rem;
     transition: all 0.3s linear;
+}
+
+.question-txt h3 {
+    margin: 0 1rem 0 0;
 }
 
 .question-txt i {
@@ -43,10 +58,16 @@
 
 .question-list {
     line-height: 2;
-    margin: 1.5rem 0;
+    /* margin: 1.5rem 0; */
+}
+
+.question-list h4 {
+    font-size: 20px;
+    margin: 0.5rem 0;
 }
 
 .question-list li {
+    font-size: 16px;
     margin: 0.5rem 0;
 }
 
@@ -56,10 +77,69 @@
     color: #FFFFFF;
     background-color: #000000;
     border-radius: 15px;
-    margin: 1.5rem 0 0.5rem;
+    margin: 1.5rem 0;
     padding: 1rem;
 }
 
 .modifyHeight {
     max-height: fit-content;
+}
+
+.question-examination {
+    font-size: 16px;
+    line-height: 2.5;
+    margin: 0 0 3rem 0;
+    /* margin: 1.5rem 0;
+    padding: 0 0.5rem; */
+    transition: all 0.3s linear;
+}
+
+.question-examination h4 {
+    font-size: 20px;
+}
+
+.question-examination-ask {
+    font-size: 20px;
+    color: blanchedalmond;
+    margin: 0 0 1rem 0;
+    transition: all 0.3s linear;
+}
+
+.question-examination-ans {
+    font-size: 16px;
+    margin: 0 0 1rem 0;
+    transition: all 0.3s linear;
+}
+
+.question-examination-ans p {
+    margin: 1.5rem 0;
+}
+
+.question-table {
+    color: blanchedalmond;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+}
+
+.question-table table {
+    width: 100%;
+}
+
+.question-table table th,
+.question-table table td {
+    border: 2px blanchedalmond solid;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 499px) {
+    .question-table table th,
+    .question-table table td {
+        width: calc(100% / 3);
+        border: 2px blanchedalmond solid;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0.1rem;
+    }
 }

@@ -220,7 +220,7 @@
 
     .article-table table th,
     .article-table table td {
-        width: calc(100%/3);
+        width: calc(100% / 3);
         border: 2px #26273B solid;
         text-align: center;
         vertical-align: middle;

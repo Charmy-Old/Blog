@@ -501,18 +501,30 @@
                             </a>
                             <span class="header-underline"></span>
                         </li>
-                        <li class="header-list">
+                        <!-- <li class="header-list">
                             <a href="Side-Project">
                                 <p>Side Project</p>
                             </a>
                             <span class="header-underline"></span>
+                        </li> -->
+                        <li class="header-list">
+                            <a href="LeetCode">
+                                <p>LeetCode</p>
+                            </a>
+                            <span class="header-underline"></span>
                         </li>
                         <li class="header-list">
+                            <a href="Interview">
+                                <p>Interview</p>
+                            </a>
+                            <span class="header-underline"></span>
+                        </li>
+                        <!-- <li class="header-list">
                             <a href="Question">
                                 <p>LeetCode & Interview</p>
                             </a>
                             <span class="header-underline"></span>
-                        </li>
+                        </li> -->
                         <li class="header-list">
                             <a href="Article">
                                 <p>Article</p>
@@ -521,16 +533,13 @@
                         </li>
                         <li class="header-list">
                             <div v-if="!showLightbox" class="header-search">
-                                <input class="header-search-input" v-model="state.searchInput" type="text"
-                                    placeholder="Search Article">
+                                <input class="header-search-input" v-model="state.searchInput" type="text" placeholder="Search Article">
                                 <button class="header-search-button" @click="search, showLightbox = true">Search</button>
                             </div>
                             <div v-if="showLightbox" class="header-search-lightbox">
                                 <div class="header-search-lightboxSearch">
-                                    <button class="header-search-lightboxButton" @click="closeLightbox"><i
-                                            class="fa-solid fa-x"></i></button>
-                                    <input class="header-search-lightboxInput" v-model="state.searchInput" type="text"
-                                        placeholder="Search Article">
+                                    <button class="header-search-lightboxButton" @click="closeLightbox"><i class="fa-solid fa-x"></i></button>
+                                    <input class="header-search-lightboxInput" v-model="state.searchInput" type="text" placeholder="Search Article">
                                 </div>
                                 <div v-for="content in filteredDivContentList" :key="content">
                                     <a :href="content.url">{{ content.text }}</a>
@@ -540,12 +549,6 @@
                         </li>
                         <li class="header-list d-none">
                             <a href="Reference">
-                                <p>Reference</p>
-                            </a>
-                            <span class="header-underline"></span>
-                        </li>
-                        <li class="header-list d-none">
-                            <a href="Record">
                                 <p>Reference</p>
                             </a>
                             <span class="header-underline"></span>
