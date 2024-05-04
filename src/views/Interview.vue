@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     <div class="question-examination-ask">
-                        <h4>邏輯題</h4>
+                        <h4>邏輯題：</h4>
                         <p>總共有5個人，其中兩個人不會說謊，是個老實人，剩下的三個人會說謊，是個騙子，請依據下面的提示推測，到底誰在說謊</p>
                         <p>1. A 說 B 是騙子。</p>
                         <p>2. B 說 C 是騙子。</p>
@@ -92,7 +92,14 @@
                         <p>5. E 說 B、C 是老實人。</p>
                     </div>
                     <div class="question-examination-ask">
-                        <h4>請問以下 console.log 會顯示出什麼</h4>
+                        <h4>1. CSS flex、grid 簡單實戰題</h4>
+                    </div>
+                    
+                    <div class="question-examination-ask">
+                        <h4>2. CSS 選取器：空格、>、+、~</h4>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>3. 請問以下 console.log 會顯示出什麼</h4>
                     </div>
                     <div class="question-coding">
 <pre>
@@ -114,136 +121,98 @@ console.log(n);
                         <p>console.log(m);   // [3, 2]</p>
                         <p>console.log(n);   // [3, 2]</p>
                     </div>
-
-
                     <div class="question-examination-ask">
-                        <h4>3. 人事表及組織表如下所示，請依需求寫出 SQL 語法</h4>
-                        <p>3.1 請列出陳姓員工的基本資料及所在組織資訊</p>
-                        <p>3.2 請列出各組織的人數統計表及年齡平均值</p>
-                        <p>3.3 請列出所有員工的第一筆及最後一筆刷卡紀錄</p>
+                        <h4>4. 根據以下程式碼</h4>
+                        <p>4.1 如何呈現 aaa 的資料</p>
+                        <p>4.2 如何照數字由小到大重新排列</p>
                     </div>
-                    <div class="question-table">
-                        <p style="display: flex; justify-content: center;">人事表 Emp</p>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>EmpNo</th>
-                                    <th>Name</th>
-                                    <th>UnitId</th>
-                                    <th>Age</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>劉小青</td>
-                                    <td>U0001</td>
-                                    <td>23</td>
-                                </tr>
-                                <tr>
-                                    <td>0002</td>
-                                    <td>吳小明</td>
-                                    <td>U0002</td>
-                                    <td>33</td>
-                                </tr>
-                                <tr>
-                                    <td>0003</td>
-                                    <td>陳小天</td>
-                                    <td>U0003</td>
-                                    <td>21</td>
-                                </tr>
-                                <tr>
-                                    <td>0004</td>
-                                    <td>陳大大</td>
-                                    <td>U0002</td>
-                                    <td>20</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="question-coding">
+<pre>
+const qqq = [{
+    "aaa": 26;
+	"bbb": 30;
+	"ccc": 18;
+	"aaa": 32;
+	"aaa": 22;
+	"ccc": 36;
+}]
+</pre>
                     </div>
-                    <div class="question-table">
-                        <p style="display: flex; justify-content: center;">組織表 Org</p>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>UnitId</th>
-                                    <th>Name</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>U0001</td>
-                                    <td>人資部</td>
-                                </tr>
-                                <tr>
-                                    <td>U0002</td>
-                                    <td>資訊部</td>
-                                </tr>
-                                <tr>
-                                    <td>U0003</td>
-                                    <td>財務部</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="question-examination-ask">
+                        <h4>5. 假設這是你的陣列，每個物件都有一個 value 屬性，自定義排序函式，根據物件的 value 屬性進行由小到大的排序</h4>
                     </div>
-                    <div class="question-table">
-                        <p style="display: flex; justify-content: center;">刷卡資料表 ClockRec</p>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>EmpNo</th>
-                                    <th>Date</th>
-                                    <th>Time</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>2023-09-01</td>
-                                    <td>07:00</td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>2023-09-01</td>
-                                    <td>08:00</td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>2023-09-01</td>
-                                    <td>15:00</td>
-                                </tr>
-                                <tr>
-                                    <td>0001</td>
-                                    <td>2023-09-01</td>
-                                    <td>20:00</td>
-                                </tr>
-                                <tr>
-                                    <td>0002</td>
-                                    <td>2023-09-01</td>
-                                    <td>07:10</td>
-                                </tr>
-                                <tr>
-                                    <td>0002</td>
-                                    <td>2023-09-01</td>
-                                    <td>08:10</td>
-                                </tr>
-                                <tr>
-                                    <td>0002</td>
-                                    <td>2023-09-01</td>
-                                    <td>15:10</td>
-                                </tr>
-                                <tr>
-                                    <td>0003</td>
-                                    <td>2023-09-01</td>
-                                    <td>10:00</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="question-coding">
+<pre>
+const data = [
+    { value: 8 },
+    { value: 3 },
+    { value: 12 },
+    { value: 1 },
+    // ...
+];
+</pre>
+                    </div>
+                    <div class="question-coding">
+<pre>
+// 面試時的答案
+function sortByValue(a, b) {
+    return a.value - b.value;
+}
+data.sort(sortByValue);
+console.log(data);
+</pre>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>6. 請完成以下程式碼</h4>
+                    </div>
+                    <div class="question-coding">
+<pre>
+const sum = (2)(5);
+const sum2 = (2, 5);
+.
+.
+.
+console.log(sum);   //如何弄出 sum 是 7
+console.log(sum2);   //如何弄出 sum2 是 7
+</pre>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>7. Cookie LocalStorage SessionStorage 的差別</h4>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>8. Vue 生命週期什麼時候可以抓 DOM</h4>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>9. Vue 如何父層子層傳遞資料</h4>
                     </div>
                     <div class="question-examination-ans">
-                        <p>3.1 <br> SELECT EmpNo, UnitId, Age <br> From Emp <br> WHERE Lastname Like '陳%';</p>
-                        <p>3.2 <br> SELECT Org.UnitId Count (Emp.UnitId) AS 人數, AVG (Emp.Age) AS 平均年齡 <br> From Org <br> JOIN Emp ON Org.UnitId=Emp.UnitId <br> GROUP BY Org.UnitId;</p>
-                        <p>3.3 <br> SELECT EmpNo <br> &nbsp;&nbsp;&nbsp;&nbsp; MIN(Date) AS FirstDate <br> &nbsp;&nbsp;&nbsp;&nbsp; MIN(Time) AS FirstTime <br> &nbsp;&nbsp;&nbsp;&nbsp; MAX(Date) AS LastDate <br> &nbsp;&nbsp;&nbsp;&nbsp; MAX(Time) AS LastTime <br> FROM ClockRec <br> GROUP BY EmpNo;</p>
+                        <p>假設 div class="box" 裡面包 p</p>
+                        <p>.box p ： 選到box裡面全部的p(不管box裡面的p有沒有再被包)</p>
+                        <p>.box > p ： 選到box裡面全部的p(如果box裡面的p有被包起來就不會選)</p>
+                        <p>div + p ： 會影響到後方同層級的第一個元素</p>
+                        <p>div ~ p ：影響到後方同層級的全部元素</p>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>10. 忘記考題 好像是：</h4>
+                    </div>
+                    <div class="question-coding">
+<pre>
+let name;
+function x(name) {
+    console.log(name);   // undefined
+    name = "aaa";
+}
+x();
+
+name = "bbb";
+function y(name) {
+    console.log(name);   // undefined
+}
+
+y();
+console.log(name)   // bbb
+name = "ccc";
+</pre>
                     </div>
                 </div>
             </section>
