@@ -279,8 +279,358 @@ name = "ccc";
                 </div>
             </section>
 
-            <!-- 橙的電子股份有限公司 -->
+            <!-- 三宏科技股份有限公司 -->
             <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(4)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-intro">
+                        <h3>三宏科技股份有限公司</h3>
+                        <p>2023.11.15</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-examination">
+                        <h4>公司環境 & 工作內容：</h4>
+                        <p>104 投遞履歷後寄一份面試題目，回覆後就沒有下文了。</p>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>1. 請依據設計稿轉成網頁，並將結果以 CodeSandbox 或 CodePen 連結方式貼於下方答案欄位。</h4>
+                        <p><a href="https://www.figma.com/file/OtXrcuXF11jaD81p7k3BrO/%E7%AD%86%E8%A9%A6%E9%A1%8C-(Public)?type=design&node-id=0-1&mode=design">設計稿</a></p>
+                        <p>可使用任意的 HTML / CSS / JavaScript Framework</p>
+                        <p>Logo 僅限使用 CSS 撰寫</p>
+                        <p>需有 RWD，breakpoint 可以自行設定</p>
+                        <p>選單的選項要能被選擇，需做出 selected 的效果</p>
+                        <p>漢堡選單按鈕只在 mobile 版顯示，預設折疊，並且能折疊/展開選單</p>
+                        <p>(optional) 可以此設計為基礎，額外添加自己的設計</p>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <a href="https://codepen.io/Charmy_ing/pen/dyaRjzd">CodePen</a>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>2. 有一段 API 回應如下。請寫出一段程式，找出 airportId 為 TPE 的 city，並印出它的 cityName</h4>
+                    </div>
+                    <div class="question-coding">
+<pre>
+"response": {
+    "status": "success",
+    "message": "",
+    "data": [
+        {
+            "cityId": "4442",
+            "cityName": "Singapore",
+            "airports": [
+                {
+                    "airportId": "SIN",
+                    "airportName": "Singapore Changi", 
+                    "longitude": 103.99,
+                    "latitude": 1.35
+                },
+                {
+                    "airportId": "XSP",
+                    "airportName": "Seletar Airport",
+                    "longitude": 103.87,
+                    "latitude": 1.42
+                }
+            ]
+        },
+        {
+            "cityId": "4869",
+            "cityName": "Taipei",
+            "airports": [
+                {
+                    "airportId": "TPE",
+                    "airportName": "Taiwan Taoyuan Intl",
+                    "longitude": 121.232822,
+                    "latitude": 25.077731
+                }
+            ]
+        }
+    ]
+}
+</pre>
+                    </div>
+                    <!-- <div class="question-coding">
+<pre>
+// 面試時的答案
+const data = {
+    "response": {
+        "status": "success",
+        "message": "",
+        "data": [
+            {
+                "cityId": "4442",
+                "cityName": "Singapore",
+                "airports": [
+                    {
+                        "airportId": "SIN",
+                        "airportName": "Singapore Changi",
+                        "longitude": 103.99,
+                        "latitude": 1.35
+                    },
+                    {
+                        "airportId": "XSP",
+                        "airportName": "Seletar Airport",
+                        "longitude": 103.87,
+                        "latitude": 1.42
+                    }
+                ]
+            },
+            {
+                "cityId": "4869",
+                "cityName": "Taipei",
+                "airports": [
+                    {
+                        "airportId": "TPE",
+                        "airportName": "Taiwan Taoyuan Intl",
+                        "longitude": 121.232822,
+                        "latitude": 25.077731
+                    }
+                ]
+            }
+        ]
+    }
+};
+
+const ans = data.response.data.find(city => city.airports.find(airport => airport.airportId === "TPE"))
+console.log(ans.cityName);
+</pre>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>3. 什麼是 arrow function ？它對 this 有什麼影響？請寫下自己的理解。</h4>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <p>arrow function(箭頭函式)是 ES6 後才有的寫法。</p>
+                        <p>箭頭函式與一般函式有以下的主要差異：</p>
+                        <p>1. arrow function 的語法比一般的函式簡潔，使用 => 符號代替 function 關鍵字。</p>
+                        <p>2. arrow function 沒有自己的 this，是使用定義箭頭函式時的 this。</p>
+                        <p>3. arrow function 沒有 arguments 物件。</p>
+                        <p>4. arrow function 不能用作建構函式。</p>
+                        <p>arrow function 與 this 的關係在於 arrow function 沒有自己的 this，而是繼承外圍作用域的 this。</p>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>4. call by value 與 call by reference 的差別是什麼？請寫下自己的理解。</h4>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <p>By Value 和 By Reference 是 JavaScript 中的兩種不同傳遞參數的方法，兩者之間的主要差異在於傳遞參數時，參數的值或引用如何被複製和傳遞的。</p>
+                        <p>By Value(按值傳遞)：函式會複製傳遞給它的實際參數的值，而不會影響原始值。在函式內部對參數進行修改不會影響到函式外部的原始值。</p>
+                        <p>By Reference(按引用傳遞)：函式會傳遞參數的引用(記憶體位址)，而不是參數的實際值。這表示在函式內部對參數進行修改將直接影響原始值。</p>
+                        <p>總而言之，JavaScript 中的基本資料型別（例如數字、字串、布林值等）是 By Value(按值傳遞)的，而物件、陣列等複雜資料型別則是 By Reference(按引用傳遞)的。但嚴格來說，在 JavaScript 中並不存在真正的按引用傳遞。實際上，按引用傳遞是透過共享傳遞(pass-by-sharing)來實現的。這意味著傳遞給函式的引用(記憶體位址)是被複製的，但是函式內部操作的是同一個物件(或陣列)的引用，因此對物件或陣列的修改在函式外部也會被反映出來。</p>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>5. 什麼是 async / await ？請寫下自己的理解。</h4>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <p>JavaScript 中 async / await 是一種處理非同步操作的語法糖，用於簡化非同步程式碼。此寫法可以以類似同步程式碼的方式來寫非同步程式碼，從而提高程式的可讀性和可維護性。</p>
+                        <p>async / await 的核心原理是使用 Promise 來表示非同步操作。async 函式會返回一個 Promise，await 表達式會等待該 Promise 的狀態變為 resolved 或 rejected。</p>
+                        <p>簡單來說，使用 async/await 時，需要在一個函數前面添加 async 關鍵字來定義一個非同步函式。在非同步函式內部可以使用 await 關鍵字來等待一個 Promise 對象的解決。</p>
+                        <p>這樣做會暫停當前函數的執行，直到Promise被解決（resolved）並返回結果。</p>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>6. 什麼是 Closure (閉包)？請寫下自己的理解，並舉一個應用的例子。</h4>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <p>Closure (閉包)是指當一個函式可以訪問其外部函式的變數，即使外部函式已經結束執行，這些變數仍然存在並且保留在內存中。換句話說，內部函式捕捉了外部函式的作用域，形成了一個閉包，這樣就可以在以後的執行中使用這些變數。</p>
+                        <p>範例：計數器</p>
+                        <p>閉包可以用來實現一個簡單的計數器，以保持計數的狀態。</p>
+                    </div> -->
+                    <!-- <div class="question-coding">
+<pre>
+// 面試時的答案
+function createCounter() {
+    let count = 0;
+    function increment() {
+        count++;
+        console.log(count);
+    }
+    return increment;
+}
+const counter = createCounter();
+counter();   // 1
+counter();   // 2
+counter();   // 3
+</pre>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>7. 什麼是 AJAX ？他的使用時機為何？請寫下自己的理解。</h4>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <p>AJAX(Asynchronous JavaScript and XML)的中文意思為非同步 JavaScript 和 XML，是一套綜合了多項技術的瀏覽器端網頁開發技術，允許網頁在不需要重新整理整個頁面的情況下，與伺服器進行資料交換，從而實現動態更新網頁內容的效果。</p>
+                        <p>使用 AJAX 的使用時機包括：</p>
+                        <p>1. 非同步載入數據： 需要在不中斷用戶瀏覽體驗的情況下，從伺服器獲取或傳送數據時，可以使用 AJAX。</p>
+                        <p>2. 動態更新內容： AJAX 可用於動態更新網頁上的部分內容，而無需重新載入整個頁面。這使得在不刷新整個頁面的情況下，能夠即時更新網頁上的特定區域。</p>
+                        <p>3. 表單驗證和提交：當需要對用戶輸入的數據進行實時驗證或提交表單而不刷新整個頁面時，可以使用 AJAX。此方法提高用戶體驗，因為不需要等待整個頁面重新載入。</p>
+                        <p>4. 實時數據： 需要實現實時數據更新(即時聊天或股票報價等)的功能中。AJAX 可以通過週期性地向伺服器發送請求，使其可以保持與伺服器的通信。</p>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>8. 請解釋 Browser rendering 中 layout、painting、compositing 分別在做什麼？會如何影響效能？該如何避免？請寫下自己的理解。</h4>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <p>AJAX(Asynchronous JavaScript and XML)的中文意思為非同步 JavaScript 和 XML，是一套綜合了多項技術的瀏覽器端網頁開發技術，允許網頁在不需要重新整理整個頁面的情況下，與伺服器進行資料交換，從而實現動態更新網頁內容的效果。</p>
+                        <p>使用 AJAX 的使用時機包括：</p>
+                        <p>瀏覽器渲染過程中，有三個主要階段：layout、painting 和 compositing。</p>
+                        <p>layout 簡介：是指瀏覽器將 HTML 元素按照 CSS 樣式進行排列，計算出每個元素的尺寸、位置和外觀。layout 會影響頁面中所有元素的位置和大小，因此是渲染過程中耗時最長的步驟之一。</p>
+                        <p>painting 簡介：是指瀏覽器將 layout 計算出的結果繪製到屏幕上。painting 會影響頁面中的像素，因此也是渲染過程中耗時較多的步驟之一。</p>
+                        <p>compositing 簡介：是指瀏覽器將多個元素的繪製結果合成在一起。compositing 可以提高渲染效率，因為它可以避免重複繪製相同的像素。</p>
+                        <p>layout 如何影響效能：layout 會影響頁面中所有元素的位置和大小，因此它會影響頁面渲染的總時間。如果 layout 計算量過大，會導致渲染速度變慢。同時當頁面變動時，需要重新計算並重新繪製，也可能導致性能下降。</p>
+                        <p>painting 如何影響效能：painting 會影響頁面中的像素，因此會影響頁面渲染的總時間。如果 painting 量過大，會導致渲染速度變慢。</p>
+                        <p>compositing 如何影響效能：compositing 通常是相對較快的操作，因為僅僅是將位圖合併，但仍然可能受到大型或複雜層次結構的影響。</p>
+                        <p>layout 如何避免影響效能：使用 CSS 的 display、position、float 等屬性來控制元素的位置和大小，盡可能避免 JavaScript 動態修改元素樣式；使用 CSS 的 min-width、min-height、max-width、max-height 等屬性來限制元素的大小，避免瀏覽器重新計算 layout；使用 CSS 的 flexbox、grid 等布局模型，可以減少 layout 計算量。</p>
+                        <p>painting 如何避免影響效能：使用 CSS 的 background-image、color、font-size 等屬性來控制元素的樣式，盡可能避免 JavaScript 動態修改元素的樣式；使用 CSS 的 background-repeat、background-position、border-radius 等屬性來減少繪製的像素數量；使用 CSS 的 filter、transform 等屬性來優化繪製效果，減少繪製的次數。</p>
+                        <p>compositing 如何避免影響效能：使用 CSS 的 will-change 屬性來告訴瀏覽器哪些元素可能會發生變化，瀏覽器可以提前將這些元素合成在一起；使用 CSS 的 z-index 屬性來控制元素的堆疊順序，避免不必要的合成。</p>
+                        <p>總而言之，通過合理使用 CSS 樣式來避免這些步驟的影響，提高渲染效率</p>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>9. 請說明 XSS 攻擊如何進行？該如何防禦？請寫下自己的理解。</h4>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <p>XSS 是一種常見的網路安全漏洞，攻擊者利用這種漏洞在受害者的網站上注入惡意腳本，當其他用戶訪問該網站時，這些腳本就會在他們的瀏覽器上執行。XSS 攻擊的攻擊方式主要分為三種：反射型 XSS、存儲型 XSS、DOM 型 XSS。</p>
+                        <p>XSS 攻擊舉例：攻擊者在一個網站的輸入框中輸入 &lt;script> alert('XSS攻擊成功！'); &lt;/script>，這樣在訪問包含此程式碼的頁面時，瀏覽器將執行此程式碼，顯示一個彈出式警告框。</p>
+                        <p>XSS 攻擊防禦措施：</p>
+                        <p>輸入驗證與過濾：在接收和處理用戶輸入的地方進行驗證和過濾。</p>
+                        <p>輸出轉譯：在將用戶輸入顯示在網頁上之前，對輸出進行適當的轉譯，將特殊字符轉換為 HTML 實體。</p>
+                        <p>HTTP Only 標誌： 在設定 cookie 時，使用 HTTP Only 標誌，這樣這些 cookie 就無法通過 JavaScript 來訪問，減少了攻擊者竊取會話令牌的風險。</p>
+                        <p>Content Security Policy (CSP)： 使用 CSP 標頭來限制網頁的資源載入來源。</p>
+                        <p>更新和監視： 定期更新並監視應用程式，包括第三方庫和框架，以確保軟體版本沒有已知的安全漏洞。</p>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>10. 平常使用什麼編輯器與瀏覽器？還有哪些輔助開發的工具？</h4>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <p>編輯器為 VS Code，瀏覽器大部分使用 Google Chrome。</p>
+                        <p>在輔助開發工具上主要使用：</p>
+                        <p>1. Git 做版本控制，之前有用過 sourcetree</p>
+                        <p>2. 用 npm 安裝和管理前端專案所需的依賴項。</p>
+                        <p>3. Webpack 打包工具。</p>
+                        <p>4. 如果後端是 PHP 則會使用 IIS。</p>
+                        <p>5. 資料庫使用 MySQL，並使用 PHPMyAdmin。</p>
+                        <p>6. 使用 Postman 測試 API 。</p>
+                        <p>7. 會使用 ChatGPT 和 Bard 進行輔助，如果是算法類型問題等會使用 Amazon CodeWhisperer。</p>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>11. 請寫下你使用版本控制系統的經驗。</h4>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <p>在緯育 TiBaMe 的團專時期，使用 sourcetree 進行版控，在自己的分支 commit 和 push 後 merge 到 dev，也有用 pull 將 dev 版本拉到自己分支。</p>
+                        <p>其餘只有在自己的分支 commit 和 push 後 merge 到 master，但大概知道一些git flow。</p>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>12. 使用過哪些 web 相關的 framework？對於開發時使用 framework 有什麼想法？</h4>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <p>前端框架最主要是使用 vue，近期準備開始接觸 React。</p>
+                        <p>HTML 方面使用過 pug，css 方面使用過 scss 。</p>
+                        <p>JavaScript 方面使用過 jQuery、aos、chart.js、email.js 以及用 Node.js 構建伺服器端應用程式。</p>
+                        <p>UI 框架方面使用過 BootStrap、Tailwind、ant design。</p>
+                        <p>Vue 方面主要是使用 Vue-CLI，能夠快速建構一個專案，並且在 v-if、v-for、生命週期等特性能夠較輕鬆完成想完成的目標。</p>
+                        <p>JavaScript 中的套件都非常強大，但是要先花時間先閱讀說明，並且要特別注意套件是否有在持續更新。</p>
+                        <p>UI 框架中，BootStrap 在面對客製化頁面時用起來會有些綁手綁腳，手切速度會相對較快。BootStrap 中的 css 會有 !imporpant，在複寫時會相對困難，並且 BootStrap 中的 js 是使用 jQuery，但  jQuery 有不能向後相容、和多個外掛衝突等問題，而且jQuery 所有動作是以 DOM 操作出發，所以在沒有 DOM 的環境中，基本上無法使用(例如： node.js)；BootStrap Tailwind、ant design 在需要快速找到 demo 並改寫時可以參考看看。</p>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>13. 是否有做過 Unit Test 或 E2E Test？若有請分享你使用的工具及經驗。</h4>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <p>我沒有用 Unit Test 或 E2E Test 的經驗。但是有聽聞 Unit Test 是用來測試單一函數或模組是否正常運作的測試。E2E Test 是用來測試整個應用程式是否正常運作的測試。並且有在 youtube 上看過相關影片。</p>
+                    </div> -->
+                    <div class="question-examination-ask">
+                        <h4>14. 覺得這份試題的難度如何？有什麼想對出題者說的話嗎？</h4>
+                    </div>
+                    <!-- <div class="question-examination-ans">
+                        <p>要純用 css 切出 logo 的難度相對較大。</p>
+                    </div> -->
+                </div>
+            </section>
+
+            <!-- 泰瑞醫股份有限公司 -->
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(5)">
+                <div class="question-title">
+                    <h2>Front-End Interview</h2>
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                </div>
+                <div class="question-content">
+                    <div class="question-intro">
+                        <h3>泰瑞醫股份有限公司</h3>
+                        <p>2023.11.28</p>
+                    </div>
+                    <div class="question-detailLine"></div>
+                    <div class="question-examination">
+                        <h4>公司環境 & 工作內容：</h4>
+                        <p>104 投遞履歷後寄一份面試題目，回覆後就沒有下文了。</p>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>1. Vue2 與 Vue3 從各個方面來看有什麼差異？</h4>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>2. Vue 做了哪些事情來提高程式執行的效率呢？</h4>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>3. 如何在 Vue SFC 模式下，進行 window 事件的偵聽呢？請以 resize 事件為例，撰寫一份簡單的程式碼。</h4>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>4. 請以 Vue SFC 來說明實作時，如何遵循 S.O.L.I.D. 原則。</h4>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>5. 如果有一個陣列的異步函式，需要”接續“同步被執行，你會如何實作？請寫一段程式碼</h4>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>6. 在宣告變數時，可使用 var、let 和 const，通常你都如何使用這些方式來宣告變數？</h4>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>7. 請說明 Vue 中 computed 和 watch的功能與差別？並提供簡單範例。</h4>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>8. 目前有一組父子組件，請問資料要如何在兩組件之間互相傳遞？請分別敘述父->子和子->父的傳遞方式。</h4>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>9. 請寫出以下程式碼執行結果，並說出你對結果的看法</h4>
+                    </div>
+                    <div class="question-coding">
+<pre>
+const promise = new Promise((resolve, reject) => {
+      console.log(1)
+      resolve()
+      console.log(2)
+})
+promise.then(() => {
+      console.log(3)
+})
+console.log(4)
+</pre>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>10. 請寫出以下程式碼執行結果，並說出你對結果的看法</h4>
+                    </div>
+                    <div class="question-coding">
+<pre>
+var a = '123'
+var b = { a }
+var c = { b }
+
+a = '456'
+b = { a: '789' }
+
+console.log('a:', a)
+console.log('b:', b)
+console.log('c:', c)
+// output: 
+// a: ?
+// b: ?
+// c: ?
+</pre>
+                    </div>
+                    <div class="question-examination-ask">
+                        <h4>11. 請寫出以下情境的Git指令：</h4>
+                        <p>如何從git repo將程式碼下載到本地端：</p>
+                        <p>從本地端將程式推送到Git Repository：</p>
+                        <p>請問合併程式時，若發生衝突，應該如何解決？（此題不用指令作答，請用文字敘述）</p>
+                        <p>如何取消本次不要的commit</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 橙的電子股份有限公司 -->
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(6)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -315,7 +665,7 @@ name = "ccc";
             </section>
 
             <!-- 喬山健康科技股份有限公司 -->
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(5)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(7)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -515,7 +865,7 @@ for (let i = 0; i &lt; 10; i++) {
             </section>
 
             <!-- 創創數位科技股份有限公司 -->
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(6)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(8)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -545,7 +895,7 @@ for (let i = 0; i &lt; 10; i++) {
             </section>
 
             <!-- 快思股份有限公司 -->
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(7)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(9)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -577,7 +927,7 @@ for (let i = 0; i &lt; 10; i++) {
             </section>
 
             <!-- 凱柏精密機械股份有限公司 -->
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(8)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(10)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -607,7 +957,7 @@ for (let i = 0; i &lt; 10; i++) {
             </section>
 
             <!-- 米洛科技有限公司 -->
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(9)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(11)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -639,7 +989,7 @@ for (let i = 0; i &lt; 10; i++) {
             </section>
 
             <!-- 新加坡商冕創有限公司 -->
-            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(10)">
+            <section class="all Interview question-block" :class="{ modifyHeight: heightActive }" @click="transform(12)">
                 <div class="question-title">
                     <h2>Front-End Interview</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -668,7 +1018,7 @@ for (let i = 0; i &lt; 10; i++) {
                 </div>
             </section>
 
-            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(11)">
+            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(13)">
                 <div class="question-title">
                     <h2>Front-End Question</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -855,7 +1205,7 @@ console.log(arr.constructor);   // function Array() { [native code] }
                 </div>
             </section>
 
-            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(12)">
+            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(14)">
                 <div class="question-title">
                     <h2>Front-End Question</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -944,7 +1294,7 @@ console.log(({}) == {});   // false
                 </div>
             </section>
 
-            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(13)">
+            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(15)">
                 <div class="question-title">
                     <h2>Front-End Question</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1028,7 +1378,7 @@ arrowFn.apply(obj, []);   // 輸出：obj
                 </div>
             </section>
 
-            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(14)">
+            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(16)">
                 <div class="question-title">
                     <h2>Front-End Question</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1072,7 +1422,7 @@ arrowFn.apply(obj, []);   // 輸出：obj
                 </div>
             </section>
 
-            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(15)">
+            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(17)">
                 <div class="question-title">
                     <h2>Front-End Question</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1120,7 +1470,7 @@ for (let i = 0; i &lt;= 3; i++) {
                 </div>
             </section>
 
-            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(16)">
+            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(18)">
                 <div class="question-title">
                     <h2>Front-End Question</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1148,7 +1498,7 @@ for (let i = 0; i &lt;= 3; i++) {
                 </div>
             </section>
 
-            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(17)">
+            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(19)">
                 <div class="question-title">
                     <h2>Front-End Question</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1175,7 +1525,7 @@ for (let i = 0; i &lt;= 3; i++) {
                 </div>
             </section>
 
-            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(18)">
+            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(20)">
                 <div class="question-title">
                     <h2>Front-End Question</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1241,7 +1591,7 @@ for (let i = 0; i &lt;= 3; i++) {
                 </div>
             </section>
 
-            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(19)">
+            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(21)">
                 <div class="question-title">
                     <h2>Front-End Question</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1261,7 +1611,7 @@ for (let i = 0; i &lt;= 3; i++) {
                 </div>
             </section>
 
-            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(20)">
+            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(22)">
                 <div class="question-title">
                     <h2>Front-End Question</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1281,7 +1631,7 @@ for (let i = 0; i &lt;= 3; i++) {
                 </div>
             </section>
 
-            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(21)">
+            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(23)">
                 <div class="question-title">
                     <h2>Front-End Question</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1299,7 +1649,7 @@ for (let i = 0; i &lt;= 3; i++) {
                 </div>
             </section>
 
-            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(22)">
+            <section class="all Question question-block" :class="{ modifyHeight: heightActive }" @click="transform(24)">
                 <div class="question-title">
                     <h2>Front-End Question</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1318,7 +1668,7 @@ for (let i = 0; i &lt;= 3; i++) {
                 </div>
             </section>
 
-            <section class="all Other question-block" :class="{ modifyHeight: heightActive }" @click="transform(23)">
+            <section class="all Other question-block" :class="{ modifyHeight: heightActive }" @click="transform(25)">
                 <div class="question-title">
                     <h2>Other</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
@@ -1353,7 +1703,7 @@ print(bonus)
                 </div>
             </section>
 
-            <section class="all Other question-block" :class="{ modifyHeight: heightActive }" @click="transform(24)">
+            <section class="all Other question-block" :class="{ modifyHeight: heightActive }" @click="transform(26)">
                 <div class="question-title">
                     <h2>Other</h2>
                     <!-- <i class="fa-solid fa-caret-down"></i> -->
