@@ -69,12 +69,12 @@
 }
 
 .sideProject-projectTag {
-    font-size: 15px;
+    font-size: 14px;
     color: #C0C0C0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0.5rem 0.5rem 0.5rem 0;
+    margin: 1rem 0.5rem 1rem 0;
     gap: 1%;
     transition: all 0.3s linear;
 }
@@ -83,17 +83,21 @@
     color: #FFFAFA;
 }
 
-.sideProject-projectTag span {
+/* .sideProject-projectTag span {
     margin: 0 0 0 auto;
+} */
+
+.sideProject-projectTag p {
+    margin: 0 0.5rem;
 }
 
 .sideProject-projectTag p i {
-    margin: 0 0.75rem;
+    margin: 0 0.5rem 0 0;
 }
 
-.sideProject-projectTag span i {
+/* .sideProject-projectTag span i {
     margin: 0 0.75rem;
-}
+} */
 
 .sideProject-projectContent {
     margin: 1.25rem 0;

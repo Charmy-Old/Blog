@@ -6,7 +6,7 @@
             <section>
                 <div class="sideProject sideProject-title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h2>Side Project</h2> 
-                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023-07-01</p>
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2024-05-05</p>
                 </div>
             </section>
             <!-- BLOG -->
@@ -17,19 +17,21 @@
                 <div class="sideProject-projectText">
                     <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">部落格</div>
                     <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p>使用技術：</p>
                         <p><i class="fa-solid fa-tag"></i>HTML</p>
                         <p><i class="fa-solid fa-tag"></i>CSS</p>
-                        <p><i class="fa-solid fa-tag"></i>JavaScript</p>
-                        <p><i class="fa-solid fa-tag"></i>Vue</p>
-                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06 ~ 進行中</span>
+                        <p><i class="fa-solid fa-tag"></i>Vue-CLI</p>
+                        <p><i class="fa-solid fa-tag"></i>Vue Composition API</p>
+                        <p><i class="fa-solid fa-tag"></i>Axios 串接政府天氣資料</p>
+                    </div>
+                    <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06 ~ 進行中</p>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <p>原本是想記錄一些接觸到前端技術和當作客製化履歷，但是也希望可以記錄一些生活與所見所聞並分享，所以創立了部落格。</p>
                         <p>從最一開始參考許多前端前輩部落格的風格與設計開始思考自己想要呈現的樣式。</p>
                         <p>部落格主要是使用 Vue-CLI ，其中使用 Vue composition api 方式撰寫，部屬至 GitHub 後使用 render 取得網址。</p>
-                        <p>除了自我介紹外，也有放入 CodePen 連結。部落格內有使用 Axios 串接政府單位的 API 可以查詢台灣各地區的天氣預報功能，也有增加體重和 BMI 記錄在 localStorage 並用圖表呈現的功能，除此之外還會整理一些前端文章和其他自己的所見所聞，並持續思考該如何使網站更加豐富。</p>
+                        <p>除了自我介紹外，也有放入 CodePen 連結。部落格內有使用 Axios 串接政府單位的 API 可以查詢台灣各地區的天氣預報功能，除此之外還會整理一些前端文章和其他自己的所見所聞，並持續思考該如何使網站更加豐富。</p>
                     </div>
                     <div class="sideProject-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <a href="https://github.com/Charmying/blog" target="_blank">GitHub</a>
@@ -47,18 +49,19 @@
                     <img src="../assets/images/project/riot-api-lol.webp" alt="">
                 </div>
                 <div class="sideProject-projectText">
-                    <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">緯育TiBaMe前端工程師就業養成班團體專題：KOALA+</div>
+                    <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">英雄聯盟韓服戰績查詢</div>
                     <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p>使用技術：</p>
-                        <p><i class="fa-solid fa-tag"></i>HTML</p>
-                        <p><i class="fa-solid fa-tag"></i>CSS</p>
                         <p><i class="fa-solid fa-tag"></i>JavaScript</p>
-                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2024/03 ~ 進行中</span>
+                        <p><i class="fa-solid fa-tag"></i>Fetch 語法串接 Riot API</p>
+                    </div>
+                    <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2024/03 ~ 2024/04</p>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p>因為剛好在玩英雄聯盟，所以想做一個戰績的查詢系統，使用 HTML、CSS 和 原生 JavaScript 撰寫。其中在 Riot 官網取得 API Key，使用 fetch 語法串接 Riot API，取得資料進行整理後將其呈現，戰績的部分則是使用 for 迴圈處理，可以自由決定想要呈現幾場內的資料。</p>
+                        <p>最近重新開始接觸英雄聯盟，所以想做一個戰績的查詢系統，使用 HTML、CSS 和 原生 JavaScript 撰寫。其中在 Riot 官網取得 API Key，使用 fetch 語法串接 Riot API，取得資料進行整理後將其呈現，戰績的部分則是使用 for 迴圈處理，因為 Riot 官方目前沒有提供台服 API 資料，所以先製作韓服的戰績查詢。</p>
                         <p>排版部分稍微參考 OP.GG 後進行簡易切版，目前還在持續進行中，也在思考加入戰績統計資料。</p>
+                        <p>有提供一些韓國職業選手 ID 參考查詢，可以直接點擊頭像查詢。</p>
                         <p>Riot 的 API Key 需要 24 小時更新一次，所以有可能來不及更新，敬請見諒。</p>
                     </div>
                     <div class="sideProject-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -79,11 +82,10 @@
                 <div class="sideProject-projectText">
                     <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">工程計算機 Engineering-Calculator</div>
                     <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p>使用技術：</p>
-                        <p><i class="fa-solid fa-tag"></i>HTML</p>
-                        <p><i class="fa-solid fa-tag"></i>CSS</p>
                         <p><i class="fa-solid fa-tag"></i>Vue composition api</p>
-                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/05 ~ 2023/06</span>
+                    </div>
+                    <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/05 ~ 2023/06</p>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -112,11 +114,12 @@
                 <div class="sideProject-projectText">
                     <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">備忘錄 Todo-List</div>
                     <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p>使用技術：</p>
                         <p><i class="fa-solid fa-tag"></i>HTML</p>
                         <p><i class="fa-solid fa-tag"></i>CSS</p>
                         <p><i class="fa-solid fa-tag"></i>JavaScript</p>
-                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/01 ~ 2023/01</span>
+                    </div>
+                    <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/01 ~ 2023/01</p>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -144,11 +147,16 @@
                 <div class="sideProject-projectText">
                     <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">緯育TiBaMe前端工程師就業養成班團體專題：KOALA+</div>
                     <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p>使用技術：</p>
+                        <p><i class="fa-solid fa-tag"></i>Figma</p>
+                        <p><i class="fa-solid fa-tag"></i>HTML</p>
+                        <p><i class="fa-solid fa-tag"></i>CSS</p>
                         <p><i class="fa-solid fa-tag"></i>Vue-CLI</p>
+                        <p><i class="fa-solid fa-tag"></i>Vue2 option api</p>
                         <p><i class="fa-solid fa-tag"></i>PHP</p>
                         <p><i class="fa-solid fa-tag"></i>MySQL</p>
-                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/11 ~ 2023/01</span>
+                    </div>
+                    <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/11 ~ 2023/01</p>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -181,12 +189,14 @@
                 <div class="sideProject-projectText">
                     <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">緯育 TiBaMe 前端工程師就業養成班個人專題：PANGOLIN 手機殼販售</div>
                     <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p>使用技術：</p>
+                        <p><i class="fa-solid fa-tag"></i>Figma</p>
                         <p><i class="fa-solid fa-tag"></i>HTML</p>
                         <p><i class="fa-solid fa-tag"></i>CSS</p>
                         <p><i class="fa-solid fa-tag"></i>JavaScript</p>
                         <p><i class="fa-solid fa-tag"></i>jQuery</p>
-                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/09 ~ 2022/10</span>
+                    </div>
+                    <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/09 ~ 2022/10</p>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -207,14 +217,15 @@
                 <div class="sideProject-projectText">
                     <div class="sideProject-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">Pangolin Clothing 網站練習</div>
                     <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <p>使用技術：</p>
                         <p><i class="fa-solid fa-tag"></i>HTML</p>
                         <p><i class="fa-solid fa-tag"></i>CSS</p>
                         <p><i class="fa-solid fa-tag"></i>JavaScript</p>
                         <p><i class="fa-solid fa-tag"></i>Vue</p>
                         <p><i class="fa-solid fa-tag"></i>PHP</p>
                         <p><i class="fa-solid fa-tag"></i>PostgreSQL</p>
-                        <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06 ~ 進行中</span>
+                    </div>
+                    <div class="sideProject-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                        <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06 ~ 進行中</p>
                     </div>
                     <div class="article-underline"></div>
                     <div class="sideProject-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">

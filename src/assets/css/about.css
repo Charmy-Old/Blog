@@ -112,12 +112,12 @@
 }
 
 .about-projectTag {
-    font-size: 15px;
-    color: #FFFAFA;
+    font-size: 14px;
+    color: #C0C0C0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0.5rem 0.5rem 0.5rem 0;
+    margin: 1rem 0.5rem 1rem 0;
     gap: 1%;
     transition: all 0.3s linear;
 }
@@ -130,13 +130,17 @@
     margin: 0 0 0 auto;
 }
 
-.about-projectTag p i {
-    margin: 0 0.75rem;
+.about-projectTag p {
+    margin: 0 0.5rem 0 0;
 }
 
-.about-projectTag span i {
-    margin: 0.75rem;
+.about-projectTag p i {
+    margin: 0 0.5rem 0 0;
 }
+
+/* .about-projectTag span i {
+    margin: 0.75rem;
+} */
 
 .about-projectContent {
     margin: 1.25rem 0;
@@ -228,6 +232,7 @@
 }
 
 .about-jobContent {
+    line-height: 2;
     margin: 1.75rem 0;
 }
 

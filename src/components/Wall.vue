@@ -257,7 +257,7 @@
             </section>
             <section class="resumeIntroduce">
                 <p>中原大學土木系畢業</p>
-                <p>緯育 TiBaMe 前端工程師就業養成班結業</p>
+                <p>緯育 TibaMe 前端工程師就業養成班結業</p>
                 <p>前端、表演、穿搭、美食</p>
                 <p>現職：網際威信 前端工程師</p>
             </section>
@@ -301,7 +301,7 @@
         <div class="wall-typeSetting">
             <section class="wall-project">
                 <div class="wall-tag"><a href="Side-Project"><i class="fa-solid fa-tag"></i>最新作品</a></div>
-                <div class="wall-tag"><a href="https://pangolin-clothing.onrender.com/">Pangolin Clothing</a></div>
+                <!-- <div class="wall-tag"><a href="https://pangolin-clothing.onrender.com/">Pangolin Clothing</a></div> -->
                 <div class="wall-tag"><a href="https://charmying.github.io/Riot-API-LOL/">英雄聯盟韓服戰績查詢</a></div>
                 <div class="wall-tag"><a href="https://charmying.github.io/Engineering-Calculator/">Engineering-Calculator</a></div>
                 <div class="wall-tag"><a href="https://charmying.github.io/Todo-List/">Todo-List</a></div>
@@ -309,7 +309,7 @@
                 <div class="wall-tag"><a href="https://charmying.github.io/Pangolin-Phonecase/">緯育個人專題</a></div>
             </section>
             <section class="wall-project">
-                <div class="wall-tag"><i class="fa-solid fa-tag"></i>CodePen</div>
+                <div class="wall-tag"><a href="https://codepen.io/Charmy_ing"><i class="fa-solid fa-tag"></i>CodePen</a></div>
                 <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/qBgEyMQ" target="_blank">會員登入 顯示密碼</a></div>
                 <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/WNYyeOv" target="_blank">JS for迴圈九九乘法</a></div>
                 <div class="wall-tag"><a href="https://codepen.io/Charmy_ing/pen/mdQMbZQ" target="_blank">限制內容字寬行數</a></div>

@@ -6,7 +6,7 @@
             <section>
                 <div class="about about-title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h2>About</h2>
-                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2024-03-25</p>
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2024-05-05</p>
                 </div>
             </section>
             <!-- 簡介 -->
@@ -14,19 +14,19 @@
                 <div class="about about-introduce" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>簡介</h3>
                     <div class="about-underline"></div>
-                    <p>嗨，大家好！我是曾韋翰，一位對程式充滿熱情的前端工程師。</p>
+                    <p>嗨！我是 Charmy，中原土木畢業，在讀土木前讀過中原環工，畢業後轉職到前端的平凡人。</p>
                     <br>
-                    <p>我的程式之旅開始於 YouTube 上觀看 Python 程式相關的影片，從那時起便踏入了這個領域。起初我開始在 Udemy 上自學 HTML、CSS、JavaScript 相關內容，並在摸索的過程中發現了緯育 Tibame 教育機構。進而參加了前端工程師就業養成班，鞏固 HTML、CSS、JavaScript 的基礎外也學到了 UI/UX、Vue2 option api、PHP 和 MySQL，最後成功地完成了課程。</p>
+                    <p>在轉職前接觸了一些 Python，之後到緯育 TibaMe 學了 UI / UX、HTML、CSS、JavaScript、Vue、PHP、MySQL ...</p>
                     <br>
-                    <p>前段時間接觸了 Vue3 composition api，希望自己有一個可以記錄接觸到的技術筆記，但也希望可以記錄一些自己的生活，所以建立了這個部落格。</p>
+                    <p>轉職後自學了 Vue3 composition api，希望有一個可以記錄接觸到的技術筆記，也希望可以記錄一些自己的生活，所以建立了這個部落格。</p>
                     <br>
-                    <p>除了參加課程外，在我的額外時間裡也不斷地學習和精進自己各方面的技術和觀念，以保持自己的競爭力。</p>
+                    <p>最近接觸了 React 和 TypeScript，也在整理 GitHub Repositories，工作上則是使用 Angular。</p>
                     <br>
                     <p>如果想更深入了解我的專案，可以透過以下連結查看：</p>
                     <br>
-                    <p>GitHub → <a href="https://github.com/Charmying">https://github.com/Charmying</a></p>
+                    <p>GitHub → <a href="https://github.com/Charmying" target="_blank">https://github.com/Charmying</a></p>
                     <br>
-                    <p>CodePen → <a href="https://codepen.io/Charmy_ing">https://codepen.io/Charmy_ing</a></p>
+                    <p>CodePen → <a href="https://codepen.io/Charmy_ing" target="_blank">https://codepen.io/Charmy_ing</a></p>
                     <br>
                     <p>歡迎隨時與我聯繫或查看我的作品！</p>
                     <br>
@@ -40,7 +40,7 @@
                 <div class="about about-education" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>學歷</h3>
                     <div class="about-underline"></div>
-                    <p>緯育TiBaMe的前端工程師就業養成班 結業<span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/01</span></p>
+                    <p>緯育 TiBaMe 的前端工程師就業養成班 結業<span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/01</span></p>
                     <p>中原大學土木工程學系 畢業<span><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/05</span></p>
                 </div>
             </section>
@@ -49,20 +49,19 @@
                 <div class="about about-expertise">
                     <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">專長</h3>
                     <div class="about-underline"></div>
-                    <p class="about-expertiseTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">網頁前端技術</p>
+                    <p class="about-expertiseTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">前端技術</p>
                     <p class="about-expertiseDetail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                        <span><i class="fa-solid fa-keyboard"></i>HTML5</span>
-                        <span><i class="fa-solid fa-keyboard"></i>CSS3</span>
-                        <span><i class="fa-solid fa-keyboard"></i>CSS3 Animation</span>
-                        <span><i class="fa-solid fa-keyboard"></i>JavaScript</span>
+                        <span><i class="fa-solid fa-keyboard"></i>HTML</span>
+                        <span><i class="fa-solid fa-keyboard"></i>CSS</span>
                         <span><i class="fa-solid fa-keyboard"></i>RWD</span>
-                        <span><i class="fa-solid fa-keyboard"></i>jQuery</span>
+                        <span><i class="fa-solid fa-keyboard"></i>JavaScript</span>
+                        <span><i class="fa-solid fa-keyboard"></i>TypeScript</span>
                         <span><i class="fa-solid fa-keyboard"></i>AJAX</span>
                         <span><i class="fa-solid fa-keyboard"></i>Web APIs</span>
-                        <span><i class="fa-solid fa-keyboard"></i>Pug</span>
-                        <span><i class="fa-solid fa-keyboard"></i>SCSS</span>
+                        <span><i class="fa-solid fa-keyboard"></i>Vue</span>
+                        <span><i class="fa-solid fa-keyboard"></i>React</span>
+                        <span><i class="fa-solid fa-keyboard"></i>Angular</span>
                         <span><i class="fa-solid fa-keyboard"></i>Webpack</span>
-                        <span><i class="fa-solid fa-keyboard"></i>Vue.js</span>
                     </p>
                     <div class="about-underline"></div>
                     <p class="about-expertiseTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">UI/UX 使用者介面設計</p>
@@ -77,7 +76,7 @@
                     <p class="about-expertiseTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">網站程式系統與資料庫</p>
                     <p class="about-expertiseDetail" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                         <span><i class="fa-solid fa-keyboard"></i>PHP</span>
-                        <span><i class="fa-solid fa-keyboard"></i>My SQL</span>
+                        <span><i class="fa-solid fa-keyboard"></i>MySQL</span>
                         <span><i class="fa-solid fa-keyboard"></i>Git</span>
                         <span><i class="fa-solid fa-keyboard"></i>Sourcetree</span>
                         <span><i class="fa-solid fa-keyboard"></i>系統分析(敏捷式開發)</span>
@@ -89,12 +88,26 @@
                 <div class="about about-experience">
                     <h3>經歷</h3>
                     <div class="about-underline"></div>
+                    <!-- 華苓科技 -->
+                    <div class="about-job">
+                        <div class="about-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <h4>前端工程師</h4>
+                            <h5>華苓科技股份有限公司（電腦軟體服務業 100 ~ 500人）</h5>
+                            <p class="about-jobDescribe">前端<span>｜</span>正職<span>｜</span>新竹市</p>
+                            <p class="about-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2023/09 ~ 2023/10</span></p>
+                        </div>
+                        <div class="about-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <p>1. 替公司修正新人入職測驗題目</p>
+                            <p>2. 帶新人</p>
+                        </div>
+                    </div>
+                    <div class="about-underline"></div>
                     <!-- 雲端數位 -->
                     <div class="about-job">
                         <div class="about-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                             <h4>前端工程師</h4>
-                            <h5>雲端數位科技有限公司（網際網路相關業 30~100人）</h5>
-                            <p class="about-jobDescribe">Internet程式設計師<span>｜</span>正職<span>｜</span>台中市北屯區</p>
+                            <h5>雲端數位科技有限公司（網際網路相關業 30 ~ 100人）</h5>
+                            <p class="about-jobDescribe">前端<span>｜</span>正職<span>｜</span>台中市北屯區</p>
                             <p class="about-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2023/02 ~ 2023/08</span></p>
                         </div>
                         <div class="about-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -233,19 +246,21 @@
                         <div class="about-projectText">
                             <div class="about-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">部落格</div>
                             <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                                <p>使用技術：</p>
                                 <p><i class="fa-solid fa-tag"></i>HTML</p>
                                 <p><i class="fa-solid fa-tag"></i>CSS</p>
-                                <p><i class="fa-solid fa-tag"></i>JavaScript</p>
-                                <p><i class="fa-solid fa-tag"></i>Vue</p>
-                                <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06 ~ 進行中</span>
+                                <p><i class="fa-solid fa-tag"></i>Vue-CLI</p>
+                                <p><i class="fa-solid fa-tag"></i>Vue Composition API</p>
+                                <p><i class="fa-solid fa-tag"></i>Axios 串接政府天氣資料</p>
+                            </div>
+                            <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                                <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06 ~ 進行中</p>
                             </div>
                             <div class="article-underline"></div>
                             <div class="about-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <p>原本是想記錄一些接觸到前端技術和當作客製化履歷，但是也希望可以記錄一些生活與所見所聞並分享，所以創立了部落格。</p>
                                 <p>從最一開始參考許多前端前輩部落格的風格與設計開始思考自己想要呈現的樣式。</p>
                                 <p>部落格主要是使用 Vue-CLI ，其中使用 Vue composition api 方式撰寫，部屬至 GitHub 後使用 render 取得網址。</p>
-                                <p>除了自我介紹外，也有放入 CodePen 連結。部落格內有使用 Axios 串接政府單位的 API 可以查詢台灣各地區的天氣預報功能，也有增加體重和 BMI 記錄在 localStorage 並用圖表呈現的功能，除此之外還會整理一些前端文章和其他自己的所見所聞，並持續思考該如何使網站更加豐富。</p>
+                                <p>除了自我介紹外，也有放入 CodePen 連結。部落格內有使用 Axios 串接政府單位的 API 可以查詢台灣各地區的天氣預報功能，除此之外還會整理一些前端文章和其他自己的所見所聞，並持續思考該如何使網站更加豐富。</p>
                             </div>
                             <div class="about-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                                 <a href="https://github.com/Charmying/blog" target="_blank">GitHub</a>
@@ -266,16 +281,17 @@
                         <div class="about-projectText">
                             <div class="about-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">英雄聯盟韓服戰績查詢</div>
                             <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                                <p>使用技術：</p>
-                                <p><i class="fa-solid fa-tag"></i>HTML</p>
-                                <p><i class="fa-solid fa-tag"></i>CSS</p>
                                 <p><i class="fa-solid fa-tag"></i>JavaScript</p>
-                                <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2024/03 ~ 進行中</span>
+                                <p><i class="fa-solid fa-tag"></i>Fetch 語法串接 Riot API</p>
+                            </div>
+                            <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                                <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2024/03 ~ 2024/04</p>
                             </div>
                             <div class="article-underline"></div>
                             <div class="about-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                                <p>因為剛好在玩英雄聯盟，所以想做一個戰績的查詢系統，使用 HTML、CSS 和 原生 JavaScript 撰寫。其中在 Riot 官網取得 API Key，使用 fetch 語法串接 Riot API，取得資料進行整理後將其呈現，戰績的部分則是使用 for 迴圈處理，可以自由決定想要呈現幾場內的資料。</p>
+                                <p>最近重新開始接觸英雄聯盟，所以想做一個戰績的查詢系統，使用 HTML、CSS 和 原生 JavaScript 撰寫。其中在 Riot 官網取得 API Key，使用 fetch 語法串接 Riot API，取得資料進行整理後將其呈現，戰績的部分則是使用 for 迴圈處理，因為 Riot 官方目前沒有提供台服 API 資料，所以先製作韓服的戰績查詢。</p>
                                 <p>排版部分稍微參考 OP.GG 後進行簡易切版，目前還在持續進行中，也在思考加入戰績統計資料。</p>
+                                <p>有提供一些韓國職業選手 ID 參考查詢，可以直接點擊頭像查詢。</p>
                                 <p>Riot 的 API Key 需要 24 小時更新一次，所以有可能來不及更新，敬請見諒。</p>
                             </div>
                             <div class="about-projectLink" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -297,11 +313,10 @@
                         <div class="about-projectText">
                             <div class="about-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">工程計算機 Engineering-Calculator</div>
                             <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                                <p>使用技術：</p>
-                                <p><i class="fa-solid fa-tag"></i>HTML</p>
-                                <p><i class="fa-solid fa-tag"></i>CSS</p>
-                                <p><i class="fa-solid fa-tag"></i>Vue</p>
-                                <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/05 ~ 2023/06</span>
+                                <p><i class="fa-solid fa-tag"></i>Vue composition api</p>
+                            </div>
+                            <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                                <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/05 ~ 2023/06</p>
                             </div>
                             <div class="article-underline"></div>
                             <div class="about-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -331,11 +346,12 @@
                         <div class="about-projectText">
                             <div class="about-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">備忘錄 Todo-List</div>
                             <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                                <p>使用技術：</p>
                                 <p><i class="fa-solid fa-tag"></i>HTML</p>
                                 <p><i class="fa-solid fa-tag"></i>CSS</p>
                                 <p><i class="fa-solid fa-tag"></i>JavaScript</p>
-                                <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/01 ~ 2023/01</span>
+                            </div>
+                            <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                                <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/01 ~ 2023/01</p>
                             </div>
                             <div class="article-underline"></div>
                             <div class="about-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -364,11 +380,16 @@
                         <div class="about-projectText">
                             <div class="about-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">緯育 TiBaMe 前端工程師就業養成班團體專題：KOALA+</div>
                             <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                                <p>使用技術：</p>
+                                <p><i class="fa-solid fa-tag"></i>Figma</p>
+                                <p><i class="fa-solid fa-tag"></i>HTML</p>
+                                <p><i class="fa-solid fa-tag"></i>CSS</p>
                                 <p><i class="fa-solid fa-tag"></i>Vue-CLI</p>
+                                <p><i class="fa-solid fa-tag"></i>Vue2 option api</p>
                                 <p><i class="fa-solid fa-tag"></i>PHP</p>
                                 <p><i class="fa-solid fa-tag"></i>MySQL</p>
-                                <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/11 ~ 2023/01</span>
+                            </div>
+                            <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                                <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/11 ~ 2023/01</p>
                             </div>
                             <div class="article-underline"></div>
                             <div class="about-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -402,12 +423,14 @@
                         <div class="about-projectText">
                             <div class="about-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">緯育 TiBaMe 前端工程師就業養成班個人專題：PANGOLIN 手機殼販售</div>
                             <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                                <p>使用技術：</p>
+                                <p><i class="fa-solid fa-tag"></i>Figma</p>
                                 <p><i class="fa-solid fa-tag"></i>HTML</p>
                                 <p><i class="fa-solid fa-tag"></i>CSS</p>
                                 <p><i class="fa-solid fa-tag"></i>JavaScript</p>
                                 <p><i class="fa-solid fa-tag"></i>jQuery</p>
-                                <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/09 ~ 2022/10</span>
+                            </div>
+                            <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                                <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2022/09 ~ 2022/10</p>
                             </div>
                             <div class="article-underline"></div>
                             <div class="about-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
@@ -430,14 +453,15 @@
                         <div class="about-projectText">
                             <div class="about-projectTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">Pangolin Clothing 網站練習</div>
                             <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                                <p>使用技術：</p>
                                 <p><i class="fa-solid fa-tag"></i>HTML</p>
                                 <p><i class="fa-solid fa-tag"></i>CSS</p>
                                 <p><i class="fa-solid fa-tag"></i>JavaScript</p>
                                 <p><i class="fa-solid fa-tag"></i>Vue</p>
                                 <p><i class="fa-solid fa-tag"></i>PHP</p>
                                 <p><i class="fa-solid fa-tag"></i>PostgreSQL</p>
-                                <span><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06 ~ 進行中</span>
+                            </div>
+                            <div class="about-projectTag" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                                <p><i class="fa-sharp fa-solid fa-calendar-days"></i>2023/06 ~ 進行中</p>
                             </div>
                             <div class="article-underline"></div>
                             <div class="about-projectContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
