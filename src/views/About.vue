@@ -14,13 +14,11 @@
                 <div class="about about-introduce" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
                     <h3>簡介</h3>
                     <div class="about-underline"></div>
-                    <p>嗨！我是 Charmy，中原土木畢業，在讀土木前讀過中原環工，畢業後轉職到前端的平凡人。</p>
+                    <p>嗨！我是 Charmy，中原土木畢業，讀土木前讀過中原環工，畢業後轉職到前端的平凡人。</p>
                     <br>
                     <p>在轉職前接觸了一些 Python，之後到緯育 TibaMe 學了 UI / UX、HTML、CSS、JavaScript、Vue、PHP、MySQL ...</p>
                     <br>
                     <p>轉職後自學了 Vue3 composition api，希望有一個可以記錄接觸到的技術筆記，也希望可以記錄一些自己的生活，所以建立了這個部落格。</p>
-                    <br>
-                    <p>最近接觸了 React 和 TypeScript，也在整理 GitHub Repositories，工作上則是使用 Angular。</p>
                     <br>
                     <p>如果想更深入了解我的專案，可以透過以下連結查看：</p>
                     <br>
@@ -78,6 +76,7 @@
                         <span><i class="fa-solid fa-keyboard"></i>PHP</span>
                         <span><i class="fa-solid fa-keyboard"></i>MySQL</span>
                         <span><i class="fa-solid fa-keyboard"></i>Git</span>
+                        <span><i class="fa-solid fa-keyboard"></i>Fork</span>
                         <span><i class="fa-solid fa-keyboard"></i>Sourcetree</span>
                         <span><i class="fa-solid fa-keyboard"></i>系統分析(敏捷式開發)</span>
                     </p>
@@ -88,10 +87,24 @@
                 <div class="about about-experience">
                     <h3>經歷</h3>
                     <div class="about-underline"></div>
+                    <!-- 網際威信 -->
+                    <div class="about-job">
+                        <div class="about-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <h4>Angular前端工程師</h4>
+                            <h5>網際威信股份有限公司（電腦系統整合服務業 100~500人）</h5>
+                            <p class="about-jobDescribe">前端<span>｜</span>正職<span>｜</span>台北市內湖區 & 台中市南屯區</p>
+                            <p class="about-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2023/05 ~ 在職中</span></p>
+                        </div>
+                        <div class="about-jobContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
+                            <p>1. 凱基 B2E B2C 串測</p>
+                            <p>2. 上海 APP 資料修改</p>
+                        </div>
+                    </div>
+                    <div class="about-underline"></div>
                     <!-- 華苓科技 -->
                     <div class="about-job">
                         <div class="about-jobTitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="150" data-aos-duration="1000">
-                            <h4>前端工程師</h4>
+                            <h4>Vue前端工程師</h4>
                             <h5>華苓科技股份有限公司（電腦軟體服務業 100 ~ 500人）</h5>
                             <p class="about-jobDescribe">前端<span>｜</span>正職<span>｜</span>新竹市</p>
                             <p class="about-jobTime"><i class="fa-sharp fa-solid fa-calendar-days"></i><span>2023/09 ~ 2023/10</span></p>
@@ -131,7 +144,7 @@
                                     <p>→</p>
                                 </div>
                             </div>
-                            <div class="about-jobProject">
+                            <!-- <div class="about-jobProject">
                                 <p>寶鋪建設股份有限公司</p>
                                 <p>負責頁面：地圖檢視</p>
                                 <div class="about-jobLink">
@@ -142,7 +155,7 @@
                                     <a href="https://www.baopu.com.tw/maps" target="_blank">正式網站</a>
                                     <p>→</p>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="about-jobProject">
                                 <p>凱薩衛浴股份有限公司</p>
                                 <p>負責頁面：經銷商招募</p>
@@ -156,7 +169,7 @@
                                 </div>
                             </div>
                             <div class="about-jobProject">
-                                <p>還有幫穎崴科技、建準吊扇等上市上櫃公司進行網頁的調整處理。</p>
+                                <p>還有幫寶鋪建設、穎崴科技建準吊扇等上市上櫃公司進行網頁的調整處理。</p>
                             </div>
                         </div>
                     </div>
